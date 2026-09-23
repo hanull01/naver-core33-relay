@@ -117,6 +117,15 @@ def previous_weekday(day):
     return day
 
 
+def detect_market_session(current):
+    clock = current.time()
+    if clock < dtime(9): return 'PRE'
+    if clock < dtime(15, 30): return 'REGULAR'
+    if clock < dtime(16): return 'REGULAR_CLOSED'
+    if clock < dtime(20): return 'AFTER'
+    return 'CLOSED'
+
+
 def quote_freshness(traded, current, market, delay):
     age = (current - traded).total_seconds()
     if age < -60:
@@ -125,16 +134,22 @@ def quote_freshness(traded, current, market, delay):
         return False, 'delayed_or_unknown_delay'
     if current.weekday() > 4:
         return False, 'non_weekday'
-    if current.time() < dtime(9):
+    session = detect_market_session(current)
+    if session == 'PRE':
         valid = (traded.date() == previous_weekday(current.date())
                  and traded.time() >= dtime(15, 30) and market == 'CLOSE')
         return valid, 'previous_close' if valid else 'stale_or_unconfirmed_close'
-    if current.time() < dtime(15, 30):
+    if session == 'REGULAR':
         valid = traded.date() == current.date() and -60 <= age <= 600 and market == 'OPEN'
         return valid, 'live' if valid else 'stale_or_not_open'
-    valid = (traded.date() == current.date() and traded.time() >= dtime(15, 30)
-             and market == 'CLOSE')
-    return valid, 'closing_snapshot' if valid else 'stale_or_unconfirmed_close'
+    if session == 'REGULAR_CLOSED':
+        valid = traded.date() == current.date() and traded.time() >= dtime(15, 30)
+        return valid, 'regular_close' if valid else 'stale_or_unconfirmed_close'
+    if session == 'AFTER':
+        valid = traded.date() == current.date() and -60 <= age <= 600
+        return valid, 'after_live' if valid else 'stale_after'
+    valid = traded.date() == current.date() and traded.time() >= dtime(20)
+    return valid, 'final_after_close' if valid else 'stale_or_unconfirmed_final'
 
 
 def normalize_quote(row, current, sector=None):
@@ -164,7 +179,8 @@ def normalize_quote(row, current, sector=None):
                   localTradedAt=traded.isoformat(), marketStatus=row.get('marketStatus'),
                   delayTime=delay, stockExchangeType={'delayTime': delay},
                   ageSeconds=round((current - traded).total_seconds()), fresh=fresh,
-                  status='ok' if fresh else 'stale', freshnessReason=reason)
+                  status='ok' if fresh else 'stale', freshnessReason=reason,
+                  session=detect_market_session(current))
     return result
 
 

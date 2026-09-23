@@ -185,6 +185,26 @@ class RelayTests(unittest.TestCase):
         self.assertTrue(relay.quote_freshness(friday, monday, 'CLOSE', 0)[0])
         self.assertFalse(relay.quote_freshness(friday, monday, 'OPEN', 0)[0])
 
+    def test_2026_market_sessions_and_freshness(self):
+        day = datetime(2026, 9, 23, tzinfo=relay.KST)
+        cases = [(14, 0, 13, 55, 'REGULAR', True), (15, 40, 15, 30, 'REGULAR_CLOSED', True),
+                 (16, 40, 16, 35, 'AFTER', True), (19, 40, 19, 35, 'AFTER', True),
+                 (20, 40, 20, 0, 'CLOSED', True), (14, 0, 13, 40, 'REGULAR', False),
+                 (16, 40, 16, 20, 'AFTER', False)]
+        for hour, minute, source_hour, source_minute, session, fresh in cases:
+            current = day.replace(hour=hour, minute=minute)
+            traded = day.replace(hour=source_hour, minute=source_minute)
+            self.assertEqual(relay.detect_market_session(current), session)
+            self.assertEqual(relay.quote_freshness(traded, current, 'OPEN', 0)[0], fresh)
+        self.assertFalse(relay.quote_freshness(day.replace(hour=19, minute=59), day.replace(hour=20, minute=40), 'OPEN', 0)[0])
+        self.assertFalse(relay.quote_freshness(day.replace(day=22, hour=15, minute=30), day.replace(hour=15, minute=40), 'OPEN', 0)[0])
+        self.assertFalse(relay.quote_freshness(day.replace(hour=14, minute=5), day.replace(hour=14), 'OPEN', 0)[0])
+
+    def test_quote_json_includes_session(self):
+        current = datetime(2026, 9, 23, 16, 40, tzinfo=relay.KST)
+        row = dict(itemCode='005930', stockName='삼성전자', localTradedAt=current.isoformat(), marketStatus='OPEN', stockExchangeType={'delayTime': 0}, closePrice='1', compareToPreviousClosePrice='0', compareToPreviousPrice={}, fluctuationsRatio='0', openPrice='1', highPrice='1', lowPrice='1', accumulatedTradingVolume='1', accumulatedTradingValue='1')
+        self.assertEqual(relay.normalize_quote(row, current)['session'], 'AFTER')
+
     def test_numeric_units_and_direction(self):
         current = datetime(2026, 9, 23, 10, 35, tzinfo=relay.KST)
         row = dict(itemCode='005930', stockName='삼성전자', localTradedAt=current.isoformat(),
