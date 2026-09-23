@@ -116,6 +116,16 @@ def run(args):
             if 'enabled' in stock: target['enabled'] = bool(stock['enabled'])
         for kind, key in (('sector','sectors'), ('theme','themes'), ('watchlist','watchlists')):
             for group_name in request.get(key, []): add_to(data, kind, group_name, item_code, bool(request.get('createGroups')))
+    elif cmd == 'rename-stock':
+        require_stock(data, args.item_code)
+        name = args.stock_name.strip()
+        if not name: raise ValueError('stockName is required')
+        stock = next(stock for stock in data['stocks'] if stock['itemCode'] == args.item_code)
+        if stock['stockName'] == name:
+            print(f'UNCHANGED\n{args.item_code} {name}')
+            return
+        previous = stock['stockName']; stock['stockName'] = name
+        print(f'Renamed:\n{args.item_code} {previous} -> {name}')
     elif cmd == 'remove-stock':
         require_stock(data, args.item_code)
         data['stocks'] = [s for s in data['stocks'] if s['itemCode'] != args.item_code]
@@ -155,6 +165,7 @@ def parser():
     def item(command): command.add_argument('item_code', type=code)
     q = sub.add_parser('add-stock'); item(q); q.add_argument('stock_name', nargs='?'); q.add_argument('--name'); state=q.add_mutually_exclusive_group(); state.add_argument('--enabled', action='store_const', const=True, default=None); state.add_argument('--disabled', action='store_true'); q.add_argument('--sector', action='append', default=[]); q.add_argument('--theme', action='append', default=[]); q.add_argument('--watchlist', action='append', default=[]); q.add_argument('--create-groups', action='store_true')
     q = sub.add_parser('apply'); q.add_argument('payload'); q.add_argument('--dry-run', action='store_true', default=argparse.SUPPRESS)
+    q = sub.add_parser('rename-stock'); item(q); q.add_argument('stock_name')
     for name in ('remove-stock', 'enable-stock', 'disable-stock'):
         q = sub.add_parser(name); item(q)
     for name in ('add-sector', 'add-theme', 'add-watchlist'):

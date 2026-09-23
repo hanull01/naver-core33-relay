@@ -342,6 +342,17 @@ class UniverseCliTests(unittest.TestCase):
             self.run_cli('add-stock', '272211', '테스트', '--publish', '--dry-run')
             self.assertFalse(publish.called)
 
+    def test_rename_stock_preserves_memberships_and_enabled(self):
+        before = self.universe()
+        self.run_cli('rename-stock', '000001', '새이름')
+        after = self.universe()
+        self.assertEqual(after['stocks'][0]['stockName'], '새이름')
+        self.assertEqual(after['stocks'][0]['enabled'], before['stocks'][0]['enabled'])
+        self.assertEqual(after['sectors'], before['sectors'])
+        self.assertEqual(after['themes'], before['themes'])
+        self.assertEqual(after['watchlists'], before['watchlists'])
+        self.assertEqual(after['leaders'], before['leaders'])
+
     def test_chat_friendly_add_stock_creates_multiple_groups(self):
         self.run_cli('add-stock', '272210', '한화시스템', '--enabled', '--sector', '방산',
                      '--theme', '우주항공', '--theme', '방산전자', '--watchlist', '관심종목', '--create-groups')
