@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T00:34:43.377330+09:00",
+  "generatedAt": "2026-09-24T00:36:33.457563+09:00",
   "source": "NAVER",
   "status": "OK",
   "rankings": [
@@ -89,8 +89,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.75+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.75+09:00"
           },
           "volume": 19385053,
           "tradingValue": 5504265000000,
@@ -179,8 +179,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:39.716+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:39.716+09:00"
           },
           "volume": 2886116,
           "tradingValue": 5365203000000,
@@ -269,8 +269,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.773+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.773+09:00"
           },
           "volume": 5763244,
           "tradingValue": 1262725000000,
@@ -359,8 +359,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:55.792+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:55.792+09:00"
           },
           "volume": 640292,
           "tradingValue": 753032000000,
@@ -449,8 +449,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:50.884+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:50.884+09:00"
           },
           "volume": 496091,
           "tradingValue": 743457000000,
@@ -539,8 +539,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:52.783+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:52.783+09:00"
           },
           "volume": 222728,
           "tradingValue": 78686000000,
@@ -629,8 +629,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.067+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.067+09:00"
           },
           "volume": 550575,
           "tradingValue": 195710000000,
@@ -719,8 +719,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.197+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.197+09:00"
           },
           "volume": 37490,
           "tradingValue": 51409000000,
@@ -809,8 +809,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:22.963+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:22.963+09:00"
           },
           "volume": 679189,
           "tradingValue": 118050000000,
@@ -899,8 +899,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:03.084+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:03.084+09:00"
           },
           "volume": 275715,
           "tradingValue": 102096000000,
@@ -989,8 +989,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:04.097+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:04.097+09:00"
           },
           "volume": 223073,
           "tradingValue": 65745000000,
@@ -1079,8 +1079,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:54.56+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:54.56+09:00"
           },
           "volume": 129794,
           "tradingValue": 133310000000,
@@ -1169,8 +1169,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:05.148+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:05.148+09:00"
           },
           "volume": 4585876,
           "tradingValue": 377610000000,
@@ -1259,8 +1259,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.196+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.196+09:00"
           },
           "volume": 895919,
           "tradingValue": 98782000000,
@@ -1349,8 +1349,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:48.235+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:48.235+09:00"
           },
           "volume": 190465,
           "tradingValue": 84247000000,
@@ -1439,8 +1439,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:39.107+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:39.107+09:00"
           },
           "volume": 798446,
           "tradingValue": 92692000000,
@@ -1529,8 +1529,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:05.308+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:05.308+09:00"
           },
           "volume": 129962,
           "tradingValue": 78403000000,
@@ -1619,8 +1619,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:48.328+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:48.328+09:00"
           },
           "volume": 376430,
           "tradingValue": 195422000000,
@@ -1709,8 +1709,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:15.139+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:15.139+09:00"
           },
           "volume": 294934,
           "tradingValue": 52420000000,
@@ -1799,8 +1799,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:18.597+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:18.597+09:00"
           },
           "volume": 633745,
           "tradingValue": 84458000000,
@@ -5513,8 +5513,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.686+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.686+09:00",
+            "inav": null
           },
           "volume": 5043256,
           "tradingValue": 13838000000,
@@ -5603,8 +5603,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:40.614+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:40.614+09:00",
+            "inav": null
           },
           "volume": 2701358,
           "tradingValue": 6993269000,
@@ -5693,8 +5693,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.033+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:12.033+09:00",
+            "inav": null
           },
           "volume": 669484,
           "tradingValue": 1031283000,
@@ -5783,8 +5783,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.767+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.767+09:00",
+            "inav": null
           },
           "volume": 7056070,
           "tradingValue": 14817978000,
@@ -5873,8 +5873,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:07.663+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:07.663+09:00",
+            "inav": null
           },
           "volume": 717194,
           "tradingValue": 1876940000,
@@ -5963,8 +5963,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:46.309+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:46.309+09:00",
+            "inav": null
           },
           "volume": 2952412,
           "tradingValue": 916608000,
@@ -6053,8 +6053,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:45.678+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:45.678+09:00",
+            "inav": null
           },
           "volume": 743750,
           "tradingValue": 4287000000,
@@ -6143,8 +6143,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:30.23+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:30.23+09:00",
+            "inav": null
           },
           "volume": 106915,
           "tradingValue": 219469000,
@@ -6233,8 +6233,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:37.252+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:37.252+09:00",
+            "inav": null
           },
           "volume": 111036,
           "tradingValue": 297385000,
@@ -6323,8 +6323,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:13.2+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:13.2+09:00",
+            "inav": null
           },
           "volume": 172511,
           "tradingValue": 469176000,
@@ -6413,8 +6413,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:08.475+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:08.475+09:00",
+            "inav": null
           },
           "volume": 951709,
           "tradingValue": 16755115000,
@@ -6503,8 +6503,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:58.512+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:58.512+09:00",
+            "inav": null
           },
           "volume": 1695384,
           "tradingValue": 7672630000,
@@ -6593,8 +6593,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:54.395+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:54.395+09:00",
+            "inav": null
           },
           "volume": 7782429,
           "tradingValue": 143559536000,
@@ -6683,8 +6683,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:03:00.411+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:03:00.411+09:00",
+            "inav": null
           },
           "volume": 276255,
           "tradingValue": 2423364000,
@@ -6773,8 +6773,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.306+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.306+09:00",
+            "inav": null
           },
           "volume": 513815,
           "tradingValue": 1473999000,
@@ -6863,8 +6863,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:16.069+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:16.069+09:00",
+            "inav": null
           },
           "volume": 11884891,
           "tradingValue": 176368464000,
@@ -6953,8 +6953,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:57.13+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:57.13+09:00",
+            "inav": null
           },
           "volume": 113397,
           "tradingValue": 2899491000,
@@ -7043,8 +7043,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:24.564+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:24.564+09:00",
+            "inav": null
           },
           "volume": 572469,
           "tradingValue": 8324228000,
@@ -7133,8 +7133,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:28.297+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:28.297+09:00",
+            "inav": null
           },
           "volume": 812632,
           "tradingValue": 3069183000,
@@ -7223,8 +7223,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:24.226+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:24.226+09:00",
+            "inav": null
           },
           "volume": 7090222,
           "tradingValue": 79614736000,
@@ -7321,8 +7321,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:40.631+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:40.631+09:00"
           },
           "volume": 26080671,
           "tradingValue": 1108909285000,
@@ -7411,8 +7411,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:23.469+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:23.469+09:00"
           },
           "volume": 898662,
           "tradingValue": 9423872000,
@@ -7501,8 +7501,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:29.141+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:29.141+09:00"
           },
           "volume": 925696,
           "tradingValue": 27126742000,
@@ -7591,8 +7591,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:03:00.579+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:03:00.579+09:00"
           },
           "volume": 3520445,
           "tradingValue": 38921530000,
@@ -7681,8 +7681,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:20.252+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:20.252+09:00"
           },
           "volume": 1152464,
           "tradingValue": 49798031000,
@@ -7771,8 +7771,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:53.054+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:53.054+09:00"
           },
           "volume": 76009,
           "tradingValue": 6272000000,
@@ -7861,8 +7861,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:38.976+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:38.976+09:00"
           },
           "volume": 637243,
           "tradingValue": 11511043000,
@@ -7951,8 +7951,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:11.704+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:11.704+09:00"
           },
           "volume": 128505,
           "tradingValue": 9493761000,
@@ -8041,8 +8041,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:21.354+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:21.354+09:00"
           },
           "volume": 260298,
           "tradingValue": 15588447000,
@@ -8131,8 +8131,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.206+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.206+09:00"
           },
           "volume": 2975,
           "tradingValue": 168000000,
@@ -8221,8 +8221,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:44.218+09:00",
-            "inav": null
+            "inav": null,
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:44.218+09:00"
           },
           "volume": 4154511,
           "tradingValue": 130982000000,
@@ -10127,8 +10127,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:32.077+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:32.077+09:00",
+            "inav": null
           },
           "volume": 3277513,
           "tradingValue": 1072665000,
@@ -10217,8 +10217,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:16.857+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:16.857+09:00",
+            "inav": null
           },
           "volume": 165306,
           "tradingValue": 468639000,
@@ -10307,8 +10307,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:56.898+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:56.898+09:00",
+            "inav": null
           },
           "volume": 8433669,
           "tradingValue": 227405616000,
@@ -10397,8 +10397,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:41.271+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:41.271+09:00",
+            "inav": null
           },
           "volume": 1717544,
           "tradingValue": 3400429000,
@@ -10487,8 +10487,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:10.479+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:10.479+09:00",
+            "inav": null
           },
           "volume": 251358,
           "tradingValue": 186685000,
@@ -10577,8 +10577,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:50.966+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:50.966+09:00",
+            "inav": null
           },
           "volume": 3661310,
           "tradingValue": 3426000000,
@@ -10667,8 +10667,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.953+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:47.953+09:00",
+            "inav": null
           },
           "volume": 151848,
           "tradingValue": 548688000,
@@ -10757,8 +10757,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:54.32+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:54.32+09:00",
+            "inav": null
           },
           "volume": 3032328,
           "tradingValue": 10065000000,
@@ -10847,8 +10847,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.69+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:02.69+09:00",
+            "inav": null
           },
           "volume": 1677028,
           "tradingValue": 4016705000,
@@ -10937,8 +10937,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:59.638+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:59.638+09:00",
+            "inav": null
           },
           "volume": 1839482,
           "tradingValue": 5070323000,
@@ -11027,8 +11027,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:38.509+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:38.509+09:00",
+            "inav": null
           },
           "volume": 101693,
           "tradingValue": 90520000,
@@ -11117,8 +11117,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:59.781+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:59.781+09:00",
+            "inav": null
           },
           "volume": 6464570,
           "tradingValue": 12412244000,
@@ -11207,8 +11207,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:45.198+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:45.198+09:00",
+            "inav": null
           },
           "volume": 6347495,
           "tradingValue": 9145459000,
@@ -11297,8 +11297,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:13.2+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:13.2+09:00",
+            "inav": null
           },
           "volume": 172511,
           "tradingValue": 469176000,
@@ -11387,8 +11387,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:49.027+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:49.027+09:00",
+            "inav": null
           },
           "volume": 17350,
           "tradingValue": 78808000,
@@ -11477,8 +11477,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:17.188+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:17.188+09:00",
+            "inav": null
           },
           "volume": 135966,
           "tradingValue": 166624000,
@@ -11567,8 +11567,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:49.678+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:49.678+09:00",
+            "inav": null
           },
           "volume": 680803,
           "tradingValue": 2703256000,
@@ -11657,8 +11657,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:01:44.934+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:01:44.934+09:00",
+            "inav": null
           },
           "volume": 1259436,
           "tradingValue": 41324000000,
@@ -11747,8 +11747,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.288+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:33.288+09:00",
+            "inav": null
           },
           "volume": 268403,
           "tradingValue": 219668000,
@@ -11837,8 +11837,8 @@
             "totalNetAssets": null,
             "totalFee": null,
             "issuerNameKo": null,
-            "inav": null,
-            "tradableStatusUpdatedAt": "2026-09-23T08:02:45.238+09:00"
+            "tradableStatusUpdatedAt": "2026-09-23T08:02:45.238+09:00",
+            "inav": null
           },
           "volume": 7834941,
           "tradingValue": 23978768000,
