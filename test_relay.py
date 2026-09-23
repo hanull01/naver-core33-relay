@@ -313,6 +313,26 @@ class UniverseCliTests(unittest.TestCase):
     def test_validate(self):
         self.run_cli('validate')
 
+    def test_chat_friendly_add_stock_creates_multiple_groups(self):
+        self.run_cli('add-stock', '272210', '한화시스템', '--enabled', '--sector', '방산',
+                     '--theme', '우주항공', '--theme', '방산전자', '--watchlist', '관심종목', '--create-groups')
+        data = self.universe()
+        self.assertIn('272210', data['sectors']['방산'])
+        self.assertIn('272210', data['themes']['우주항공'])
+        self.assertIn('272210', data['themes']['방산전자'])
+
+    def test_add_stock_requires_existing_group_without_create_flag(self):
+        with self.assertRaises(ValueError):
+            self.run_cli('add-stock', '272210', '한화시스템', '--theme', '우주항공')
+
+    def test_apply_is_atomic_and_dry_run_is_unchanged(self):
+        before = self.path.read_text(encoding='utf-8')
+        payload = '{"stock":{"itemCode":"272210","stockName":"한화시스템","enabled":true},"themes":["우주항공"],"createGroups":true}'
+        self.run_cli('apply', payload, '--dry-run')
+        self.assertEqual(self.path.read_text(encoding='utf-8'), before)
+        self.run_cli('apply', payload)
+        self.assertIn('272210', [s['itemCode'] for s in self.universe()['stocks']])
+
 
 if __name__ == '__main__':
     unittest.main()

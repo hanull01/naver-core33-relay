@@ -46,9 +46,13 @@ def require_stock(data, item_code):
         raise ValueError(f'존재하지 않는 종목: {item_code}')
 
 
-def add_to(data, kind, name, item_code):
+def add_to(data, kind, name, item_code, create=False):
     require_stock(data, item_code)
-    group = groups(data, kind).setdefault(name, [])
+    collection = groups(data, kind)
+    if name not in collection:
+        if not create: raise ValueError(f'존재하지 않는 {kind}: {name} (--create-groups 사용)')
+        collection[name] = []
+    group = collection[name]
     if item_code not in group:
         group.append(item_code)
 
@@ -61,11 +65,27 @@ def run(args):
     if cmd == 'validate':
         validate_universe(data); print('유효합니다'); return
     if cmd == 'add-stock':
+        name = args.stock_name or args.name
+        if not name: raise ValueError('stockName is required')
         require_new = {s['itemCode'] for s in data['stocks']}
-        if args.item_code in require_new: raise ValueError(f'중복 종목: {args.item_code}')
-        data['stocks'].append({'itemCode': args.item_code, 'stockName': args.name, 'enabled': args.enabled})
+        if args.item_code not in require_new:
+            data['stocks'].append({'itemCode': args.item_code, 'stockName': name, 'enabled': args.enabled})
+        elif args.enabled:
+            next(stock for stock in data['stocks'] if stock['itemCode'] == args.item_code)['enabled'] = True
         for kind, names in (('sector', args.sector), ('theme', args.theme), ('watchlist', args.watchlist)):
-            for name in names: add_to(data, kind, name, args.item_code)
+            for group_name in names: add_to(data, kind, group_name, args.item_code, args.create_groups)
+    elif cmd == 'apply':
+        request = json.loads(args.payload); stock = request.get('stock', {})
+        item_code = code(stock.get('itemCode', ''))
+        name = stock.get('stockName')
+        if not isinstance(name, str) or not name: raise ValueError('stock.stockName is required')
+        existing = {s['itemCode'] for s in data['stocks']}
+        if item_code not in existing: data['stocks'].append({'itemCode': item_code, 'stockName': name, 'enabled': bool(stock.get('enabled', False))})
+        else:
+            target = next(s for s in data['stocks'] if s['itemCode'] == item_code)
+            if 'enabled' in stock: target['enabled'] = bool(stock['enabled'])
+        for kind, key in (('sector','sectors'), ('theme','themes'), ('watchlist','watchlists')):
+            for group_name in request.get(key, []): add_to(data, kind, group_name, item_code, bool(request.get('createGroups')))
     elif cmd == 'remove-stock':
         require_stock(data, args.item_code)
         data['stocks'] = [s for s in data['stocks'] if s['itemCode'] != args.item_code]
@@ -80,8 +100,8 @@ def run(args):
             if stock['itemCode'] == args.item_code:
                 stock['enabled'] = cmd == 'enable-stock'; break
         else: require_stock(data, args.item_code)
-    elif cmd in ('add-sector', 'add-theme', 'add-watchlist'):
-        kind = cmd.removeprefix('add-')
+    elif cmd in ('add-sector', 'add-theme', 'add-watchlist', 'add-group'):
+        kind = args.kind if cmd == 'add-group' else cmd.removeprefix('add-')
         if args.name in groups(data, kind): raise ValueError(f'이미 존재하는 {kind}: {args.name}')
         groups(data, kind)[args.name] = []
     elif cmd in ('add-to-sector', 'add-to-theme', 'add-to-watchlist'):
@@ -101,11 +121,13 @@ def parser():
     p = argparse.ArgumentParser(); p.add_argument('--dry-run', action='store_true')
     sub = p.add_subparsers(dest='command', required=True)
     def item(command): command.add_argument('item_code', type=code)
-    q = sub.add_parser('add-stock'); item(q); q.add_argument('--name', required=True); q.add_argument('--enabled', action='store_true'); q.add_argument('--sector', action='append', default=[]); q.add_argument('--theme', action='append', default=[]); q.add_argument('--watchlist', action='append', default=[])
+    q = sub.add_parser('add-stock'); item(q); q.add_argument('stock_name', nargs='?'); q.add_argument('--name'); q.add_argument('--enabled', action='store_true'); q.add_argument('--sector', action='append', default=[]); q.add_argument('--theme', action='append', default=[]); q.add_argument('--watchlist', action='append', default=[]); q.add_argument('--create-groups', action='store_true')
+    q = sub.add_parser('apply'); q.add_argument('payload'); q.add_argument('--dry-run', action='store_true')
     for name in ('remove-stock', 'enable-stock', 'disable-stock'):
         q = sub.add_parser(name); item(q)
     for name in ('add-sector', 'add-theme', 'add-watchlist'):
         sub.add_parser(name).add_argument('name')
+    q = sub.add_parser('add-group'); q.add_argument('kind', choices=('sector','theme','watchlist')); q.add_argument('name')
     for name in ('add-to-sector', 'add-to-theme', 'add-to-watchlist'):
         q = sub.add_parser(name); q.add_argument('name'); item(q)
     q = sub.add_parser('remove-from-group'); q.add_argument('kind', choices=('sector','theme','watchlist')); q.add_argument('name'); item(q)
