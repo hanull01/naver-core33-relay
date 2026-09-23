@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "079550",
-  "generatedAt": "2026-09-23T13:41:14.259103+09:00",
+  "generatedAt": "2026-09-23T14:39:55.368249+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/079550/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 704000,
       "high": 713000,
       "low": 688000,
-      "close": 693000,
-      "volume": 38879,
+      "close": 692000,
+      "volume": 47974,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false

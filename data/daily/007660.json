@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "007660",
-  "generatedAt": "2026-09-23T13:41:10.843579+09:00",
+  "generatedAt": "2026-09-23T14:39:52.208417+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/007660/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 117100,
       "high": 119700,
       "low": 114000,
-      "close": 119600,
-      "volume": 688960,
+      "close": 118300,
+      "volume": 792766,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false
