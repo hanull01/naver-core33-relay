@@ -11,23 +11,64 @@ from zoneinfo import ZoneInfo
 
 KST = ZoneInfo('Asia/Seoul')
 ROOT = Path(__file__).resolve().parent
-SECTORS = [
-    ('반도체', '005930 000660 042700'),
-    ('반도체 소부장', '240810 036930 058470'),
-    ('AI·IT하드웨어', '009150 007660 353200'),
-    ('전력기기', '267260 010120 298040'),
-    ('조선', '329180 042660 010140'),
-    ('방산', '012450 064350 079550'),
-    ('자동차', '005380 000270 012330'),
-    ('금융', '105560 086790 055550'),
-    ('바이오', '207940 068270 196170'),
-    ('2차전지', '373220 006400 096770'),
-    ('원전', '034020 052690 051600'),
-]
-CODES = [code for _, group in SECTORS for code in group.split()]
-SECTOR = {code: sector for sector, group in SECTORS for code in group.split()}
+UNIVERSE_PATH = ROOT / 'config/universe.json'
 QUOTE_URL = 'https://polling.finance.naver.com/api/realtime/domestic/stock/'
 DAILY_URL = 'https://api.stock.naver.com/chart/domestic/item/{code}/day'
+
+
+def validate_universe(universe):
+    stocks = universe.get('stocks')
+    if not isinstance(stocks, list):
+        raise ValueError('stocks must be an array')
+    codes = []
+    for stock in stocks:
+        code = stock.get('itemCode') if isinstance(stock, dict) else None
+        if not isinstance(code, str) or not re.fullmatch(r'\d{6}', code):
+            raise ValueError('stock itemCode must be six digits')
+        if not isinstance(stock.get('stockName'), str) or not stock['stockName']:
+            raise ValueError(f'{code}: stockName is required')
+        if not isinstance(stock.get('enabled'), bool):
+            raise ValueError(f'{code}: enabled must be boolean')
+        codes.append(code)
+    if len(codes) != len(set(codes)):
+        raise ValueError('duplicate stock itemCode')
+    known = set(codes)
+    for kind in ('sectors', 'themes', 'watchlists'):
+        groups = universe.get(kind, {})
+        if not isinstance(groups, dict):
+            raise ValueError(f'{kind} must be an object')
+        for name, members in groups.items():
+            if not isinstance(name, str) or not isinstance(members, list):
+                raise ValueError(f'invalid {kind} group')
+            if len(members) != len(set(members)) or any(code not in known for code in members):
+                raise ValueError(f'{kind}/{name} has invalid member')
+    for kind, groups in universe.get('leaders', {}).items():
+        if kind not in ('sector', 'theme', 'watchlist') or not isinstance(groups, dict):
+            raise ValueError('invalid leaders')
+        source = universe.get(kind + 's', {}) if kind != 'watchlist' else universe.get('watchlists', {})
+        for name, members in groups.items():
+            if name not in source or not isinstance(members, list) or any(code not in known for code in members):
+                raise ValueError(f'leaders/{kind}/{name} has invalid member')
+    return universe
+
+
+def load_universe(path=UNIVERSE_PATH):
+    return validate_universe(json.loads(Path(path).read_text(encoding='utf-8')))
+
+
+def universe_codes(universe, enabled_only=True):
+    return [s['itemCode'] for s in universe['stocks'] if not enabled_only or s['enabled']]
+
+
+def universe_state():
+    universe = load_universe()
+    codes = universe_codes(universe)
+    legacy = [c for c in universe['watchlists'].get('legacy33', []) if c in set(codes)]
+    sector = {}
+    for name, members in universe['sectors'].items():
+        for code in members:
+            sector.setdefault(code, name)
+    return universe, codes, legacy, sector
 
 
 def now():
@@ -48,12 +89,14 @@ def fetch(url):
             time.sleep(attempt + 1)
 
 
-def save(path, payload):
+def save(path, payload, compact=False):
     target = ROOT / path
     target.parent.mkdir(parents=True, exist_ok=True)
     temp = target.with_suffix('.tmp')
-    temp.write_text(json.dumps(payload, ensure_ascii=False, indent=2,
-                               allow_nan=False) + '\n', encoding='utf-8')
+    content = json.dumps(payload, ensure_ascii=False, allow_nan=False,
+                         separators=(',', ':') if compact else None,
+                         indent=None if compact else 2)
+    temp.write_text(content + '\n', encoding='utf-8')
     temp.replace(target)
 
 
@@ -94,13 +137,15 @@ def quote_freshness(traded, current, market, delay):
     return valid, 'closing_snapshot' if valid else 'stale_or_unconfirmed_close'
 
 
-def normalize_quote(row, current):
+def normalize_quote(row, current, sector=None):
     code = row['itemCode']
     traded = datetime.fromisoformat(row['localTradedAt'])
     if traded.tzinfo is None:
         traded = traded.replace(tzinfo=KST)
     traded = traded.astimezone(KST)
-    result = {'itemCode': code, 'stockName': row['stockName'], 'sector': SECTOR[code]}
+    result = {'itemCode': code, 'stockName': row['stockName']}
+    if sector:
+        result['sector'] = sector
     fields = ['closePrice', 'compareToPreviousClosePrice', 'fluctuationsRatio',
               'openPrice', 'highPrice', 'lowPrice', 'accumulatedTradingVolume',
               'accumulatedTradingValue']
@@ -123,7 +168,35 @@ def normalize_quote(row, current):
     return result
 
 
+LITE_FIELDS = ('itemCode', 'stockName', 'closePrice', 'fluctuationsRatio',
+               'accumulatedTradingVolume', 'sourceTime', 'marketStatus', 'delayTime',
+               'fresh', 'status')
+
+
+def lite_payload(payload):
+    keys = ('generatedAt', 'expectedCount', 'count', 'freshCount', 'missingCodes', 'status', 'fresh')
+    result = {key: payload[key] for key in keys}
+    result['datas'] = [{key: row.get(key) for key in LITE_FIELDS} for row in payload['datas']]
+    return result
+
+
+def quote_payload(rows, codes, expected, errors, started):
+    missing = [c for c in codes if c not in rows]
+    fresh_count = sum(rows[c]['fresh'] for c in codes if c in rows)
+    status = 'error' if not rows else 'partial' if missing else 'ok' if fresh_count == expected else 'stale'
+    times = [row['sourceTime'] for row in rows.values()]
+    return {'schemaVersion': 1, 'generatedAt': now().isoformat(),
+            'collectionStartedAt': started.isoformat(), 'source': 'NAVER_KRX',
+            'count': len([c for c in codes if c in rows]), 'expectedCount': expected,
+            'freshCount': fresh_count, 'status': status, 'fresh': status == 'ok', 'errors': errors,
+            'missingCodes': missing, 'sourceTime': min(times) if times else None,
+            'sourceTimeLatest': max(times) if times else None,
+            'freshnessPolicy': '600 seconds intraday; conservative weekday close check; consumer must verify KRX trading calendar and final close',
+            'datas': [rows[c] for c in codes if c in rows]}
+
+
 def collect_quotes():
+    universe, codes, legacy_codes, sectors = universe_state()
     current = now()
     rows, errors = {}, []
 
@@ -137,37 +210,52 @@ def collect_quotes():
                 if code not in codes:
                     continue
                 try:
-                    rows[code] = normalize_quote(row, now())
+                    normalized = normalize_quote(row, now())
+                    if sectors.get(code):
+                        normalized['sector'] = sectors[code]
+                    rows[code] = normalized
                 except Exception as exc:
                     errors.append({'stage': stage, 'code': code, 'error': str(exc)})
         except Exception as exc:
             errors.append({'stage': stage, 'codes': codes, 'error': str(exc)})
 
-    batch(CODES, 'all_batch')
-    for _, group in SECTORS:
-        missing = [c for c in group.split() if c not in rows]
+    batch(codes, 'all_batch')
+    seen_groups = set()
+    for group in universe['sectors'].values():
+        missing = [c for c in group if c in codes and c not in rows and c not in seen_groups]
+        seen_groups.update(group)
         if missing:
             batch(missing, 'sector_batch')
-    for code in CODES:
+    for code in codes:
         if code not in rows:
             batch([code], 'individual')
-    missing = [c for c in CODES if c not in rows]
+    missing = [c for c in codes if c not in rows]
     for code in missing:
         errors.append({'code': code, 'error': 'no_valid_quote'})
-    fresh_count = sum(row['fresh'] for row in rows.values())
-    status = 'error' if not rows else 'partial' if missing else 'ok' if fresh_count == 33 else 'stale'
-    times = [row['sourceTime'] for row in rows.values()]
-    payload = {'schemaVersion': 1, 'generatedAt': now().isoformat(),
-               'collectionStartedAt': current.isoformat(), 'source': 'NAVER_KRX',
-               'count': len(rows), 'expectedCount': 33, 'freshCount': fresh_count,
-               'status': status, 'fresh': status == 'ok', 'errors': errors,
-               'missingCodes': missing, 'sourceTime': min(times) if times else None,
-               'sourceTimeLatest': max(times) if times else None,
-               'freshnessPolicy': '600 seconds intraday; conservative weekday close check; consumer must verify KRX trading calendar and final close',
-               'datas': [rows[c] for c in CODES if c in rows]}
-    save('data/core33.json', payload)
+    payload = quote_payload(rows, codes, len(codes), errors, current)
+    legacy = quote_payload(rows, legacy_codes, len(legacy_codes), errors, current)
+    save('data/quotes.json', payload)
+    save('data/quotes-lite.json', lite_payload(payload), compact=True)
+    save('data/core33.json', legacy)
+    save('data/core33-lite.json', lite_payload(legacy), compact=True)
+    write_group_files(universe, rows)
     print(json.dumps({k: payload[k] for k in ('count', 'freshCount', 'status', 'sourceTime')}))
     return payload
+
+
+def safe_group_name(name):
+    return re.sub(r'[^\w가-힣· .-]+', '_', name, flags=re.UNICODE).strip(' .') or 'group'
+
+
+def write_group_files(universe, rows):
+    for kind, label in (('sectors', 'sector'), ('themes', 'theme'), ('watchlists', 'watchlist')):
+        leaders = universe.get('leaders', {}).get(label, {})
+        for name, codes in universe.get(kind, {}).items():
+            datas = [{key: rows[c].get(key) for key in LITE_FIELDS} for c in codes if c in rows]
+            payload = {'generatedAt': now().isoformat(), 'groupType': label, 'groupName': name,
+                       'expectedCount': len(codes), 'count': len(datas), 'leaders': leaders.get(name, []),
+                       'datas': datas}
+            save(f'data/groups/{safe_group_name(name)}.json', payload, compact=True)
 
 
 def collect_daily(code):
@@ -223,8 +311,9 @@ def collect_daily(code):
 
 
 def collect_all_daily():
+    _, codes, _, _ = universe_state()
     with ThreadPoolExecutor(max_workers=4) as pool:
-        results = list(pool.map(collect_daily, CODES))
+        results = list(pool.map(collect_daily, codes))
     save('data/daily-status.json', {'generatedAt': now().isoformat(), 'results': results})
     print(json.dumps(results, ensure_ascii=False))
     return results
@@ -238,5 +327,7 @@ if __name__ == '__main__':
     if args.mode in ('daily', 'all'):
         failed |= any(r['status'] in ('error', 'insufficient') for r in collect_all_daily())
     if args.mode in ('quotes', 'all'):
-        failed |= collect_quotes()['count'] != 33
+        result = collect_quotes()
+        _, _, legacy_codes, _ = universe_state()
+        failed |= result['count'] != result['expectedCount'] or len(legacy_codes) != 33
     raise SystemExit(1 if failed else 0)

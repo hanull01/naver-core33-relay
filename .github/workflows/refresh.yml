@@ -7,6 +7,8 @@ on:
     paths:
       - "relay.py"
       - "test_relay.py"
+      - "config/universe.json"
+      - "universe_cli.py"
       - ".github/workflows/refresh.yml"
   schedule:
     # 08:35 KST, Monday-Friday

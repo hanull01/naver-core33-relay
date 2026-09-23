@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "itemCode": "042700",
-  "generatedAt": "2026-09-23T15:44:26.402406+09:00",
+  "generatedAt": "2026-09-23T17:54:13.748533+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/042700/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
   "fresh": true,
   "errors": [],
   "count": 369,
-  "completedCount": 368,
+  "completedCount": 369,
   "datas": [
     {
       "date": "2025-03-24",
@@ -4063,14 +4063,14 @@
       "open": 243500,
       "high": 243500,
       "low": 237000,
-      "close": 243500,
-      "volume": 356757,
+      "close": 242000,
+      "volume": 359225,
       "noTrading": false,
       "roundingMismatch": false,
-      "complete": false
+      "complete": true
     }
   ],
-  "sourceTime": "2026-09-22",
+  "sourceTime": "2026-09-23",
   "latestDate": "2026-09-23",
   "freshnessPolicy": "latest completed date must equal conservative expected weekday; consumer must verify actual KRX calendar"
 }
