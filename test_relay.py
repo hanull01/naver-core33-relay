@@ -94,6 +94,15 @@ class RelayTests(unittest.TestCase):
         self.assertEqual(result['count'], 3)
         self.assertEqual(save.call_args_list[-1].args[0], 'data/states-lite.json')
 
+    def test_diffusion_classification(self):
+        config={'groupBroadRatio':.67,'groupModerateRatio':.5}
+        base={'enabledMembers':3,'unknownCount':0,'upRatio':1,'downRatio':0,'aboveMA20CountRatio':1,'breakout20AttemptCount':0,'breakout20ConfirmedCount':0,'volumeSurgeCount':0,'leaderUpCount':0}
+        self.assertEqual(relay.classify_diffusion(base,config),'broad')
+        base.update(upRatio=.33,downRatio=.67,aboveMA20CountRatio=.33)
+        self.assertEqual(relay.classify_diffusion(base,config),'weak')
+        base.update(upRatio=.33,downRatio=.33,aboveMA20CountRatio=.33,breakout20AttemptCount=1)
+        self.assertEqual(relay.classify_diffusion(base,config),'narrow')
+
     @staticmethod
     def expanded_universe():
         return {
@@ -149,8 +158,8 @@ class RelayTests(unittest.TestCase):
 
     def test_universe_legacy_and_validation(self):
         universe = relay.load_universe()
-        self.assertEqual(len(universe['stocks']), 33)
-        self.assertEqual(len(relay.universe_codes(universe)), 33)
+        self.assertEqual(len(universe['watchlists']['legacy33']), 33)
+        self.assertGreaterEqual(len(relay.universe_codes(universe)), 33)
         self.assertEqual(universe['watchlists']['legacy33'][-1], '051600')
         broken = json.loads(json.dumps(universe))
         broken['leaders']['sector']['원전'] = ['999999']
@@ -232,10 +241,9 @@ class RelayTests(unittest.TestCase):
             return dict(itemCode=row['itemCode'], fresh=True, sourceTime=current.isoformat())
         with patch.object(relay, 'fetch', fetch), patch.object(relay, 'normalize_quote', normalize), patch.object(relay, 'save') as save:
             result = relay.collect_quotes()
-        self.assertEqual(result['count'], 33)
-        self.assertEqual(len(set(r['itemCode'] for r in result['datas'])), 33)
-        self.assertEqual(len(calls[0]), 33)
-        self.assertEqual(len(calls), 1 + 11 + 33)
+        self.assertEqual(result['count'], result['expectedCount'])
+        self.assertEqual(len(set(r['itemCode'] for r in result['datas'])), result['expectedCount'])
+        self.assertEqual(len(calls[0]), result['expectedCount'])
         written = {call.args[0]: call.args[1] for call in save.call_args_list}
         self.assertEqual(written['data/core33-lite.json']['count'], 33)
         self.assertEqual(written['data/core33-lite.json']['datas'][-1]['itemCode'], '051600')
@@ -273,10 +281,17 @@ class UniverseCliTests(unittest.TestCase):
         return json.loads(self.path.read_text(encoding='utf-8'))
 
     def test_add_stock(self):
-        self.run_cli('add-stock', '000005', '--name', '신규', '--enabled', '--theme', '테마A')
+        self.run_cli('add-stock', '000005', '--name', '신규', '--theme', '테마A')
         data = self.universe()
         self.assertIn('000005', [stock['itemCode'] for stock in data['stocks']])
         self.assertIn('000005', data['themes']['테마A'])
+        self.assertTrue(next(stock for stock in data['stocks'] if stock['itemCode'] == '000005')['enabled'])
+
+    def test_add_stock_disabled_and_existing_state_preserved(self):
+        self.run_cli('add-stock', '000005', '비활성', '--disabled')
+        self.assertFalse(next(stock for stock in self.universe()['stocks'] if stock['itemCode'] == '000005')['enabled'])
+        self.run_cli('add-stock', '000005', '비활성', '--theme', '테마A')
+        self.assertFalse(next(stock for stock in self.universe()['stocks'] if stock['itemCode'] == '000005')['enabled'])
 
     def test_remove_stock(self):
         self.run_cli('remove-stock', '000001')

@@ -3,6 +3,7 @@ import argparse
 import json
 import re
 import time
+import statistics
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, time as dtime
 from pathlib import Path
@@ -473,6 +474,34 @@ def build_states(quote_payload=None, technical_payload=None):
     return payload
 
 
+def classify_diffusion(m, config):
+    if not m['enabledMembers'] or m['unknownCount'] == m['enabledMembers']: return 'unknown'
+    broad, moderate = config['groupBroadRatio'], config['groupModerateRatio']
+    if m['upRatio'] >= broad and m['aboveMA20CountRatio'] >= broad: return 'broad'
+    if m['upRatio'] >= moderate and m['aboveMA20CountRatio'] >= moderate: return 'moderate'
+    if m['downRatio'] >= broad and m['aboveMA20CountRatio'] < moderate: return 'weak'
+    if m['upRatio'] < moderate and (m['breakout20AttemptCount'] + m['breakout20ConfirmedCount'] or m['volumeSurgeCount'] or m['leaderUpCount']): return 'narrow'
+    return 'mixed'
+
+
+def calculate_group_state(kind, name, members, leaders, enabled, quotes, technicals, states, config):
+    codes = [c for c in members if c in enabled]; rows = [(c, quotes.get(c), technicals.get(c), states.get(c)) for c in codes]
+    changes = [q.get('fluctuationsRatio') for _, q, _, _ in rows if q and q.get('fluctuationsRatio') is not None]
+    up = sum(1 for x in changes if x > 0); down = sum(1 for x in changes if x < 0); flat = sum(1 for x in changes if x == 0); n=len(codes)
+    state_rows = [s for _,_,_,s in rows if s]; leader_rows=[r for r in rows if r[0] in leaders]
+    ratio=lambda x: round(x/n,2) if n else None
+    m={'groupType':kind,'groupName':name,'members':len(members),'enabledMembers':n,'upCount':up,'downCount':down,'flatCount':flat,'upRatio':ratio(up),'downRatio':ratio(down),'aboveMA20Count':sum(s.get('priceVsMA20')=='above' for s in state_rows),'aboveMA60Count':sum(s.get('priceVsMA60')=='above' for s in state_rows),'ma20AboveMa60Count':sum(s.get('maAlignment')=='ma20_above_ma60' for s in state_rows),'breakout20AttemptCount':sum(s.get('breakout20')=='attempt' for s in state_rows),'breakout20ConfirmedCount':sum(s.get('breakout20')=='confirmed' for s in state_rows),'breakout20FailedCount':sum(s.get('breakout20')=='failed' for s in state_rows),'volumeElevatedCount':sum(s.get('volumeState')=='elevated' for s in state_rows),'volumeSurgeCount':sum(s.get('volumeState')=='surge' for s in state_rows),'unknownCount':n-len(state_rows),'leaderCount':len(leader_rows),'leaderUpCount':sum(q and q.get('fluctuationsRatio',0)>0 for _,q,_,_ in leader_rows),'leaderAboveMA20Count':sum(s and s.get('priceVsMA20')=='above' for _,_,_,s in leader_rows),'leaderBreakoutCount':sum(s and s.get('breakout20') in ('attempt','confirmed') for _,_,_,s in leader_rows),'averageChangePct':round(sum(changes)/len(changes),2) if changes else None,'medianChangePct':round(statistics.median(changes),2) if changes else None,'maxChangePct':max(changes) if changes else None,'minChangePct':min(changes) if changes else None}
+    for key in ('aboveMA20Count','aboveMA60Count','ma20AboveMa60Count'): m[key+'Ratio']=ratio(m[key])
+    m['changeSpreadPct']=round(m['maxChangePct']-m['minChangePct'],2) if changes else None; m['diffusionState']=classify_diffusion(m,config); m['evidence']={'upRatio':m['upRatio'],'aboveMA20Ratio':m['aboveMA20CountRatio'],'breakout20Count':m['breakout20AttemptCount']+m['breakout20ConfirmedCount'],'volumeSurgeCount':m['volumeSurgeCount'],'leaderUpCount':m['leaderUpCount']}; m['status']='ok' if n else 'partial'; return m
+
+
+def build_group_states(quote_payload, technical_payload, state_payload):
+    universe,codes,_,_=universe_state(); config=load_analysis_config(); enabled=set(codes); q={x['itemCode']:x for x in quote_payload['datas']}; t={x['itemCode']:x for x in technical_payload['datas']}; s={x['itemCode']:x for x in state_payload['datas']}; groups=[]
+    for plural,kind in (('sectors','sector'),('themes','theme'),('watchlists','watchlist')):
+        for name,members in universe[plural].items(): groups.append(calculate_group_state(kind,name,members,universe.get('leaders',{}).get(kind,{}).get(name,[]),enabled,q,t,s,config))
+    payload={'generatedAt':now().isoformat(),'groupCount':len(groups),'status':'ok','groups':groups}; save('data/group-states.json',payload); fields=('groupType','groupName','enabledMembers','upRatio','aboveMA20CountRatio','aboveMA60CountRatio','breakout20AttemptCount','breakout20ConfirmedCount','volumeSurgeCount','leaderUpCount','averageChangePct','diffusionState','status'); save('data/group-states-lite.json',{**{k:payload[k] for k in ('generatedAt','groupCount','status')},'groups':[{k:g[k] for k in fields} for g in groups]},compact=True); return payload
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('mode', choices=['quotes', 'daily', 'all'], default='all', nargs='?')
@@ -484,6 +513,7 @@ if __name__ == '__main__':
         result = collect_quotes()
         _, _, legacy_codes, _ = universe_state()
         failed |= result['count'] != result['expectedCount'] or len(legacy_codes) != 33
-        failed |= build_technicals(result)['count'] != result['expectedCount']
-        failed |= build_states(result)['count'] != result['expectedCount']
+        technicals = build_technicals(result); failed |= technicals['count'] != result['expectedCount']
+        states = build_states(result, technicals); failed |= states['count'] != result['expectedCount']
+        build_group_states(result, technicals, states)
     raise SystemExit(1 if failed else 0)

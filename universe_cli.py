@@ -69,9 +69,10 @@ def run(args):
         if not name: raise ValueError('stockName is required')
         require_new = {s['itemCode'] for s in data['stocks']}
         if args.item_code not in require_new:
-            data['stocks'].append({'itemCode': args.item_code, 'stockName': name, 'enabled': args.enabled})
-        elif args.enabled:
-            next(stock for stock in data['stocks'] if stock['itemCode'] == args.item_code)['enabled'] = True
+            data['stocks'].append({'itemCode': args.item_code, 'stockName': name,
+                                   'enabled': False if args.disabled else True})
+        elif args.enabled is not None:
+            next(stock for stock in data['stocks'] if stock['itemCode'] == args.item_code)['enabled'] = args.enabled
         for kind, names in (('sector', args.sector), ('theme', args.theme), ('watchlist', args.watchlist)):
             for group_name in names: add_to(data, kind, group_name, args.item_code, args.create_groups)
     elif cmd == 'apply':
@@ -80,7 +81,7 @@ def run(args):
         name = stock.get('stockName')
         if not isinstance(name, str) or not name: raise ValueError('stock.stockName is required')
         existing = {s['itemCode'] for s in data['stocks']}
-        if item_code not in existing: data['stocks'].append({'itemCode': item_code, 'stockName': name, 'enabled': bool(stock.get('enabled', False))})
+        if item_code not in existing: data['stocks'].append({'itemCode': item_code, 'stockName': name, 'enabled': bool(stock.get('enabled', True))})
         else:
             target = next(s for s in data['stocks'] if s['itemCode'] == item_code)
             if 'enabled' in stock: target['enabled'] = bool(stock['enabled'])
@@ -121,7 +122,7 @@ def parser():
     p = argparse.ArgumentParser(); p.add_argument('--dry-run', action='store_true')
     sub = p.add_subparsers(dest='command', required=True)
     def item(command): command.add_argument('item_code', type=code)
-    q = sub.add_parser('add-stock'); item(q); q.add_argument('stock_name', nargs='?'); q.add_argument('--name'); q.add_argument('--enabled', action='store_true'); q.add_argument('--sector', action='append', default=[]); q.add_argument('--theme', action='append', default=[]); q.add_argument('--watchlist', action='append', default=[]); q.add_argument('--create-groups', action='store_true')
+    q = sub.add_parser('add-stock'); item(q); q.add_argument('stock_name', nargs='?'); q.add_argument('--name'); state=q.add_mutually_exclusive_group(); state.add_argument('--enabled', action='store_const', const=True, default=None); state.add_argument('--disabled', action='store_true'); q.add_argument('--sector', action='append', default=[]); q.add_argument('--theme', action='append', default=[]); q.add_argument('--watchlist', action='append', default=[]); q.add_argument('--create-groups', action='store_true')
     q = sub.add_parser('apply'); q.add_argument('payload'); q.add_argument('--dry-run', action='store_true')
     for name in ('remove-stock', 'enable-stock', 'disable-stock'):
         q = sub.add_parser(name); item(q)

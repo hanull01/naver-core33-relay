@@ -1,8 +1,9 @@
 # Universe CLI
 
 ```bash
-# A. 단순 종목 추가
+# A. 단순 종목 추가 (기본 enabled=true)
 python3 universe_cli.py add-stock 272210 한화시스템 --enabled
+python3 universe_cli.py add-stock 272210 한화시스템 --disabled
 # B. 그룹을 함께 추가
 python3 universe_cli.py add-stock 272210 한화시스템 --sector 방산 --theme 우주항공 --watchlist 관심종목 --create-groups --enabled
 # C. ChatGPT apply JSON
