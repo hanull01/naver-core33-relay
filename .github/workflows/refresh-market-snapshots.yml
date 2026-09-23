@@ -17,6 +17,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: market-data-write-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   refresh-market-snapshots:
     runs-on: ubuntu-latest
@@ -31,11 +35,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check KRX trading day
+        id: market_day
+        shell: bash
+        run: |
+          set +e
+          python krx_market_day.py
+          code=$?
+          if [ "$code" -eq 0 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping market snapshot collection (closed market or unverifiable KRX calendar)."
+          fi
+          exit 0
+
       - name: Test market collector
-        run: python -m unittest test_naver_market.py -v
+        if: steps.market_day.outputs.run == 'true'
+        run: python -m unittest test_naver_market.py test_krx_market_day.py -v
 
       - name: Collect market snapshots
         id: collect
+        if: steps.market_day.outputs.run == 'true'
         shell: bash
         run: |
           set +e
@@ -45,6 +66,7 @@ jobs:
           exit 0
 
       - name: Commit market snapshots
+        if: steps.market_day.outputs.run == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -58,7 +80,7 @@ jobs:
           fi
 
       - name: Fail after publishing error snapshots
-        if: steps.collect.outputs.exit_code != '0'
+        if: steps.market_day.outputs.run == 'true' && steps.collect.outputs.exit_code != '0'
         run: |
           echo "Market collector reported one or more failures."
           exit 1
