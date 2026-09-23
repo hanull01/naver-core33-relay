@@ -39,11 +39,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check KRX trading day
+        id: market_day
+        shell: bash
+        run: |
+          set +e
+          python krx_market_day.py
+          code=$?
+          if [ "$code" -eq 0 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping refresh (closed market or unverifiable KRX calendar)."
+          fi
+          exit 0
+
       - name: Run tests
+        if: steps.market_day.outputs.run == 'true'
         run: python -m unittest discover -s . -v
 
       - name: Collect NAVER data
         id: collect
+        if: steps.market_day.outputs.run == 'true'
         shell: bash
         run: |
           set +e
@@ -53,6 +70,7 @@ jobs:
           exit 0
 
       - name: Commit refreshed data
+        if: steps.market_day.outputs.run == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
@@ -68,7 +86,7 @@ jobs:
           fi
 
       - name: Fail after publishing error files
-        if: steps.collect.outputs.exit_code != '0'
+        if: steps.market_day.outputs.run == 'true' && steps.collect.outputs.exit_code != '0'
         run: |
           echo "Collector reported one or more failures."
           exit 1
