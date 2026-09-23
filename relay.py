@@ -319,6 +319,70 @@ def collect_all_daily():
     return results
 
 
+TECHNICAL_LITE_FIELDS = ('itemCode', 'ma5', 'ma20', 'ma60', 'high20', 'high60',
+                         'high52w', 'volumeRatio20', 'historyCount', 'status')
+
+
+def load_daily_for_technical(code):
+    try:
+        return json.loads((ROOT / f'data/daily/{code}.json').read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def technical_average(values):
+    return round(sum(values) / len(values), 2)
+
+
+def calculate_technicals(code, stock_name, daily, quote):
+    bars = [] if not daily else [bar for bar in daily.get('datas', [])
+                                 if bar.get('complete') is True and not bar.get('noTrading')]
+    history_count = len(bars)
+    closes = [bar['close'] for bar in bars]
+    highs = [bar['high'] for bar in bars]
+    volumes = [bar['volume'] for bar in bars]
+    enough20 = history_count >= 20
+    avg_volume20 = technical_average(volumes[-20:]) if enough20 else None
+    current_volume = quote.get('accumulatedTradingVolume') if quote else None
+    return {
+        'itemCode': code, 'stockName': stock_name, 'asOf': bars[-1]['date'] if bars else None,
+        'historyCount': history_count,
+        'ma5': technical_average(closes[-5:]) if history_count >= 5 else None,
+        'ma20': technical_average(closes[-20:]) if enough20 else None,
+        'ma60': technical_average(closes[-60:]) if history_count >= 60 else None,
+        'high20': max(highs[-20:]) if enough20 else None,
+        'high60': max(highs[-60:]) if history_count >= 60 else None,
+        'high52w': max(highs[-252:]) if highs else None,
+        'high52wComplete': history_count >= 252,
+        'avgVolume20': avg_volume20,
+        'volumeRatio20': round(current_volume / avg_volume20, 2)
+                         if avg_volume20 and current_volume is not None else None,
+        'status': 'error' if not daily else 'ok' if enough20 else 'insufficient_history',
+    }
+
+
+def build_technicals(quote_payload=None):
+    universe, codes, _, _ = universe_state()
+    if quote_payload is None:
+        try:
+            quote_payload = json.loads((ROOT / 'data/quotes.json').read_text(encoding='utf-8'))
+        except (OSError, json.JSONDecodeError):
+            quote_payload = {'datas': []}
+    quotes = {row['itemCode']: row for row in quote_payload.get('datas', [])}
+    names = {stock['itemCode']: stock['stockName'] for stock in universe['stocks']}
+    datas = [calculate_technicals(code, names[code], load_daily_for_technical(code), quotes.get(code))
+             for code in codes]
+    missing = [row['itemCode'] for row in datas if row['status'] == 'error']
+    payload = {'generatedAt': now().isoformat(), 'expectedCount': len(codes), 'count': len(datas),
+               'missingCodes': missing, 'status': 'error' if missing and len(missing) == len(codes)
+               else 'partial' if missing else 'ok', 'datas': datas}
+    save('data/technicals.json', payload)
+    lite = {key: payload[key] for key in ('generatedAt', 'expectedCount', 'count', 'missingCodes', 'status')}
+    lite['datas'] = [{key: row[key] for key in TECHNICAL_LITE_FIELDS} for row in datas]
+    save('data/technicals-lite.json', lite, compact=True)
+    return payload
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('mode', choices=['quotes', 'daily', 'all'], default='all', nargs='?')
@@ -330,4 +394,5 @@ if __name__ == '__main__':
         result = collect_quotes()
         _, _, legacy_codes, _ = universe_state()
         failed |= result['count'] != result['expectedCount'] or len(legacy_codes) != 33
+        failed |= build_technicals(result)['count'] != result['expectedCount']
     raise SystemExit(1 if failed else 0)

@@ -1,11 +1,121 @@
 import unittest
 import json
+import tempfile
 from datetime import datetime
+from pathlib import Path
 from unittest.mock import patch
 import relay
+import universe_cli
 
 
 class RelayTests(unittest.TestCase):
+    @staticmethod
+    def daily_fixture(count, incomplete=False, no_trading=False):
+        bars = [{'date': f'2026-01-{index:03d}', 'close': index, 'high': 100 + index,
+                 'volume': 1000 + index, 'complete': True, 'noTrading': False}
+                for index in range(1, count + 1)]
+        if incomplete:
+            bars.append({'date': '2026-12-30', 'close': 9999, 'high': 9999, 'volume': 9999,
+                         'complete': False, 'noTrading': False})
+        if no_trading:
+            bars.append({'date': '2026-12-31', 'close': 9998, 'high': 9998, 'volume': 9998,
+                         'complete': True, 'noTrading': True})
+        return {'datas': bars}
+
+    def test_technical_indicators_from_completed_bars(self):
+        result = relay.calculate_technicals('000001', 'A', self.daily_fixture(260),
+                                            {'accumulatedTradingVolume': 2501})
+        self.assertEqual(result['historyCount'], 260)
+        self.assertEqual(result['ma5'], 258)
+        self.assertEqual(result['ma20'], 250.5)
+        self.assertEqual(result['ma60'], 230.5)
+        self.assertEqual(result['high20'], 360)
+        self.assertEqual(result['high60'], 360)
+        self.assertEqual(result['high52w'], 360)
+        self.assertTrue(result['high52wComplete'])
+        self.assertEqual(result['avgVolume20'], 1250.5)
+        self.assertEqual(result['volumeRatio20'], 2)
+
+    def test_technical_excludes_incomplete_and_no_trading_and_handles_short_history(self):
+        result = relay.calculate_technicals('000001', 'A', self.daily_fixture(19, incomplete=True,
+                                            no_trading=True), {'accumulatedTradingVolume': 9999})
+        self.assertEqual(result['historyCount'], 19)
+        self.assertEqual(result['ma5'], 17)
+        self.assertIsNone(result['ma20'])
+        self.assertIsNone(result['high20'])
+        self.assertIsNone(result['avgVolume20'])
+        self.assertIsNone(result['volumeRatio20'])
+        self.assertEqual(result['high52w'], 119)
+        self.assertFalse(result['high52wComplete'])
+        self.assertEqual(result['status'], 'insufficient_history')
+
+    def test_build_technicals_uses_enabled_universe_only(self):
+        universe = self.expanded_universe()
+        codes = relay.universe_codes(universe)
+        quotes = {'datas': [{'itemCode': code, 'accumulatedTradingVolume': 1000} for code in codes]}
+        with patch.object(relay, 'universe_state', return_value=(universe, codes, codes, {})), \
+             patch.object(relay, 'load_daily_for_technical', return_value=self.daily_fixture(20)) as daily, \
+             patch.object(relay, 'save') as save:
+            result = relay.build_technicals(quotes)
+        self.assertEqual(result['count'], 3)
+        self.assertEqual([row['itemCode'] for row in result['datas']], codes)
+        self.assertEqual(daily.call_count, 3)
+        self.assertEqual([call.args[0] for call in save.call_args_list],
+                         ['data/technicals.json', 'data/technicals-lite.json'])
+
+    @staticmethod
+    def expanded_universe():
+        return {
+            'stocks': [
+                {'itemCode': '000001', 'stockName': 'A', 'enabled': True},
+                {'itemCode': '000002', 'stockName': 'B', 'enabled': True},
+                {'itemCode': '000003', 'stockName': 'C', 'enabled': True},
+                {'itemCode': '000004', 'stockName': 'Disabled', 'enabled': False},
+            ],
+            'sectors': {'대형섹터': ['000001', '000002', '000003']},
+            'themes': {'테마A': ['000001', '000002'], '테마B': ['000001']},
+            'watchlists': {'관심': ['000001', '000003'], 'legacy33': ['000001', '000002', '000003']},
+            'leaders': {'sector': {'대형섹터': ['000001', '000002']},
+                        'theme': {'테마A': ['000001', '000002', '000003', '000001', '000002']},
+                        'watchlist': {'관심': ['000001', '000002', '000003', '000001', '000002']}},
+        }
+
+    def test_expanded_universe_groups_and_quotes_are_deduplicated(self):
+        universe = self.expanded_universe()
+        _, codes, legacy, sectors = (universe, relay.universe_codes(universe),
+                                     universe['watchlists']['legacy33'],
+                                     {'000001': '대형섹터', '000002': '대형섹터', '000003': '대형섹터'})
+        calls = []
+        def fetch(url):
+            requested = url.rsplit('/', 1)[-1].split(',')
+            calls.append(requested)
+            return {'datas': [{'itemCode': item_code} for item_code in requested]}
+        def normalize(row, current):
+            return {'itemCode': row['itemCode'], 'stockName': row['itemCode'], 'fresh': True,
+                    'sourceTime': current.isoformat(), 'closePrice': 1, 'fluctuationsRatio': 0,
+                    'accumulatedTradingVolume': 1, 'marketStatus': 'OPEN', 'delayTime': 0,
+                    'status': 'ok'}
+        with patch.object(relay, 'universe_state', return_value=(universe, codes, legacy, sectors)), \
+             patch.object(relay, 'fetch', fetch), patch.object(relay, 'normalize_quote', normalize), \
+             patch.object(relay, 'save') as save:
+            result = relay.collect_quotes()
+        self.assertEqual(codes, ['000001', '000002', '000003'])
+        self.assertEqual(result['count'], 3)
+        self.assertEqual(calls, [['000001', '000002', '000003']])
+        written = {call.args[0]: call.args[1] for call in save.call_args_list}
+        self.assertIn('data/groups/테마A.json', written)
+        self.assertIn('data/groups/관심.json', written)
+        self.assertEqual([row['itemCode'] for row in written['data/groups/테마A.json']['datas']], ['000001', '000002'])
+
+    def test_expanded_universe_daily_is_deduplicated(self):
+        universe = self.expanded_universe()
+        codes = relay.universe_codes(universe)
+        with patch.object(relay, 'universe_state', return_value=(universe, codes, codes, {})), \
+             patch.object(relay, 'collect_daily', side_effect=lambda code: {'itemCode': code, 'status': 'ok', 'completedCount': 1}) as daily, \
+             patch.object(relay, 'save'):
+            relay.collect_all_daily()
+        self.assertEqual(sorted(call.args[0] for call in daily.call_args_list), codes)
+
     def test_universe_legacy_and_validation(self):
         universe = relay.load_universe()
         self.assertEqual(len(universe['stocks']), 33)
@@ -91,6 +201,66 @@ class RelayTests(unittest.TestCase):
         self.assertFalse(payload['fresh'])
         self.assertEqual(payload['datas'], [])
         self.assertTrue(payload['errors'])
+
+
+class UniverseCliTests(unittest.TestCase):
+    def setUp(self):
+        self.tempdir = tempfile.TemporaryDirectory()
+        self.path = Path(self.tempdir.name) / 'universe.json'
+        self.path.write_text(json.dumps(RelayTests.expanded_universe(), ensure_ascii=False), encoding='utf-8')
+        self.path_patch = patch.object(universe_cli, 'UNIVERSE_PATH', self.path)
+        self.path_patch.start()
+
+    def tearDown(self):
+        self.path_patch.stop()
+        self.tempdir.cleanup()
+
+    def run_cli(self, *args):
+        universe_cli.run(universe_cli.parser().parse_args(list(args)))
+
+    def universe(self):
+        return json.loads(self.path.read_text(encoding='utf-8'))
+
+    def test_add_stock(self):
+        self.run_cli('add-stock', '000005', '--name', '신규', '--enabled', '--theme', '테마A')
+        data = self.universe()
+        self.assertIn('000005', [stock['itemCode'] for stock in data['stocks']])
+        self.assertIn('000005', data['themes']['테마A'])
+
+    def test_remove_stock(self):
+        self.run_cli('remove-stock', '000001')
+        data = self.universe()
+        self.assertNotIn('000001', [stock['itemCode'] for stock in data['stocks']])
+        self.assertNotIn('000001', data['themes']['테마A'])
+
+    def test_disable_and_enable_stock(self):
+        self.run_cli('disable-stock', '000001')
+        self.assertFalse(self.universe()['stocks'][0]['enabled'])
+        self.run_cli('enable-stock', '000001')
+        self.assertTrue(self.universe()['stocks'][0]['enabled'])
+
+    def test_add_theme_and_add_to_theme(self):
+        self.run_cli('add-theme', '새테마')
+        self.run_cli('add-to-theme', '새테마', '000001')
+        self.assertEqual(self.universe()['themes']['새테마'], ['000001'])
+
+    def test_set_leaders_accepts_variable_lengths(self):
+        self.run_cli('set-leaders', 'sector', '대형섹터', '000001', '000002')
+        self.assertEqual(len(self.universe()['leaders']['sector']['대형섹터']), 2)
+        self.run_cli('set-leaders', 'theme', '테마A', '000001', '000002', '000003', '000001', '000002')
+        self.assertEqual(len(self.universe()['leaders']['theme']['테마A']), 5)
+
+    def test_set_leaders_rejects_unknown_stock(self):
+        with self.assertRaises(ValueError):
+            self.run_cli('set-leaders', 'theme', '테마A', '999999')
+
+    def test_dry_run_does_not_modify_file(self):
+        before = self.path.read_text(encoding='utf-8')
+        self.run_cli('--dry-run', 'add-theme', '저장안됨')
+        self.assertEqual(self.path.read_text(encoding='utf-8'), before)
+
+    def test_validate(self):
+        self.run_cli('validate')
 
 
 if __name__ == '__main__':

@@ -72,9 +72,9 @@ def run(args):
         for kind in ('sectors', 'themes', 'watchlists'):
             for members in data[kind].values():
                 if args.item_code in members: members.remove(args.item_code)
-        for kind in data.get('leaders', {}).values():
-            for members in kind.values():
-                if args.item_code in members: members.remove(args.item_code)
+        for leader_groups in data.get('leaders', {}).values():
+            for members in leader_groups.values():
+                members[:] = [code for code in members if code != args.item_code]
     elif cmd in ('enable-stock', 'disable-stock'):
         for stock in data['stocks']:
             if stock['itemCode'] == args.item_code:
