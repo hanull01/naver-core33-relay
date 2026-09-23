@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T20:14:10.061145+09:00",
-  "expectedCount": 34,
-  "count": 34,
+  "generatedAt": "2026-09-23T21:15:18.924353+09:00",
+  "expectedCount": 35,
+  "count": 35,
   "missingCodes": [],
   "status": "ok",
   "datas": [
@@ -547,6 +547,22 @@
       "high52wComplete": true,
       "avgVolume20": 536089.7,
       "volumeRatio20": 1.78,
+      "status": "ok"
+    },
+    {
+      "itemCode": "201490",
+      "stockName": "미투온",
+      "asOf": "2026-09-23",
+      "historyCount": 367,
+      "ma5": 4046.0,
+      "ma20": 3115.25,
+      "ma60": 2454.73,
+      "high20": 4800,
+      "high60": 4800,
+      "high52w": 6900,
+      "high52wComplete": true,
+      "avgVolume20": 8092777.0,
+      "volumeRatio20": 2.24,
       "status": "ok"
     }
   ]
