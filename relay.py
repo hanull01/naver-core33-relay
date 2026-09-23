@@ -250,7 +250,7 @@ def collect_quotes():
     for code in missing:
         errors.append({'code': code, 'error': 'no_valid_quote'})
     payload = quote_payload(rows, codes, len(codes), errors, current)
-    # core33 remains a legacy compatibility output; quotes is the Universe-wide source.
+    # Legacy 33-stock compatibility output; data/quotes*.json is the Universe-wide source.
     legacy = quote_payload(rows, legacy_codes, len(legacy_codes), errors, current)
     save('data/quotes.json', payload)
     save('data/quotes-lite.json', lite_payload(payload), compact=True)

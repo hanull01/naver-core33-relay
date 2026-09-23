@@ -1,5 +1,7 @@
 # Universe CLI
 
+`config/universe.json` is the operating source of truth. The `legacy33` watchlist preserves the original 33 stocks; `data/core33*.json` remains compatibility-only, and new stocks use Universe-wide `data/quotes*.json` and related outputs.
+
 ```bash
 # A. 단순 종목 추가 (기본 enabled=true)
 python3 universe_cli.py add-stock 272210 한화시스템 --enabled
@@ -13,6 +15,10 @@ python3 universe_cli.py apply '{"stock":{"itemCode":"272210","stockName":"한화
 python3 universe_cli.py validate
 python3 universe_cli.py disable-stock 272210
 python3 universe_cli.py remove-stock 272210
+
+# 종목명 변경: 코드·enabled·그룹 membership은 유지
+python3 universe_cli.py rename-stock 079550 LIG디펜스앤에어로스페이스
+python3 universe_cli.py rename-stock 079550 LIG디펜스앤에어로스페이스 --publish
 
 # GitHub publish (권장: 서브커맨드 뒤 옵션)
 python3 universe_cli.py add-stock 201490 미투온 --watchlist 관심종목 --publish
