@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-23T21:15:18.940724+09:00",
-  "expectedCount": 35,
-  "count": 35,
+  "generatedAt": "2026-09-23T21:19:41.356621+09:00",
+  "expectedCount": 36,
+  "count": 36,
   "missingCodes": [],
   "status": "ok",
   "datas": [
@@ -808,6 +808,29 @@
       "volumeRatio20": 2.24,
       "volumeState": "surge",
       "pullbackState": "none",
+      "status": "ok"
+    },
+    {
+      "itemCode": "039200",
+      "stockName": "오스코텍",
+      "sourceTime": "2026-09-23T20:00:00+09:00",
+      "price": 35800,
+      "ma20": 35687.5,
+      "ma60": 34297.5,
+      "priceVsMA20": "above",
+      "priceVsMA60": "above",
+      "maAlignment": "ma20_above_ma60",
+      "distanceMA20Pct": 0.32,
+      "distanceMA60Pct": 4.38,
+      "priorHigh20": 38150,
+      "priorHigh60": 40100,
+      "distancePriorHigh20Pct": -6.16,
+      "distancePriorHigh60Pct": -10.72,
+      "breakout20": "none",
+      "breakout60": "none",
+      "volumeRatio20": 0.67,
+      "volumeState": "normal",
+      "pullbackState": "near_ma20",
       "status": "ok"
     }
   ]
