@@ -169,6 +169,11 @@
       "itemCode": "272210",
       "stockName": "한화시스템",
       "enabled": true
+    },
+    {
+      "itemCode": "201490",
+      "stockName": "미투온",
+      "enabled": true
     }
   ],
   "sectors": {
@@ -271,7 +276,8 @@
       "051600"
     ],
     "관심종목": [
-      "272210"
+      "272210",
+      "201490"
     ]
   },
   "leaders": {

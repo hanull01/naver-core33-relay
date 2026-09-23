@@ -7,15 +7,16 @@ on:
     paths:
       - "relay.py"
       - "test_relay.py"
-      - "config/universe.json"
       - "universe_cli.py"
+      - "config/universe.json"
+      - "config/analysis.json"
       - ".github/workflows/refresh.yml"
   schedule:
-    # 08:35 KST, Monday-Friday
+    # 08:35 KST Mon-Fri = 23:35 UTC Sun-Thu
     - cron: "35 23 * * 0-4"
 
-    # 09:35-15:35 KST, Monday-Friday
-    - cron: "35 0-6 * * 1-5"
+    # 09:35-20:35 KST Mon-Fri = 00:35-11:35 UTC Mon-Fri
+    - cron: "35 0-11 * * 1-5"
 
 permissions:
   contents: write

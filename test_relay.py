@@ -328,6 +328,20 @@ class UniverseCliTests(unittest.TestCase):
     def test_validate(self):
         self.run_cli('validate')
 
+    def test_publish_prefix_and_postfix_parser_forms(self):
+        prefix = universe_cli.parser().parse_args(['--publish', 'add-stock', '272210', '한화시스템'])
+        postfix = universe_cli.parser().parse_args(['add-stock', '272210', '한화시스템', '--publish', '--message', 'custom'])
+        self.assertTrue(prefix.publish)
+        self.assertTrue(postfix.publish)
+        self.assertEqual(postfix.message, 'custom')
+
+    def test_local_only_does_not_publish_and_dry_run_publish_does_not_call(self):
+        with patch.object(universe_cli, 'publish_universe') as publish:
+            self.run_cli('add-stock', '272210', '한화시스템')
+            self.assertFalse(publish.called)
+            self.run_cli('add-stock', '272211', '테스트', '--publish', '--dry-run')
+            self.assertFalse(publish.called)
+
     def test_chat_friendly_add_stock_creates_multiple_groups(self):
         self.run_cli('add-stock', '272210', '한화시스템', '--enabled', '--sector', '방산',
                      '--theme', '우주항공', '--theme', '방산전자', '--watchlist', '관심종목', '--create-groups')
