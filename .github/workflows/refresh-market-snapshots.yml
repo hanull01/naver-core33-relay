@@ -1,0 +1,64 @@
+name: Refresh market snapshots
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "naver_market.py"
+      - "test_naver_market.py"
+      - ".github/workflows/refresh-market-snapshots.yml"
+  schedule:
+    # 09:05-14:50 KST, Mon-Fri = 00:05-05:50 UTC, Mon-Fri
+    - cron: "5,20,35,50 0-5 * * 1-5"
+    # 15:05, 15:20, 15:35 KST, Mon-Fri = 06:05, 06:20, 06:35 UTC, Mon-Fri
+    - cron: "5,20,35 6 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-market-snapshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test market collector
+        run: python -m unittest test_naver_market.py -v
+
+      - name: Collect market snapshots
+        id: collect
+        shell: bash
+        run: |
+          set +e
+          python naver_market.py all
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Commit market snapshots
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/market
+          if git diff --cached --quiet; then
+            echo "No market snapshot changes to commit"
+          else
+            git commit -m "Refresh NAVER market snapshots"
+            git push
+          fi
+
+      - name: Fail after publishing error snapshots
+        if: steps.collect.outputs.exit_code != '0'
+        run: |
+          echo "Market collector reported one or more failures."
+          exit 1
