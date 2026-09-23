@@ -37,7 +37,11 @@ python3 naver_market.py all
 python3 naver_market.py all --no-write
 ```
 
-`all` calls rankings, the industry list, and DAY investor flow only. It never collects all industry members and never calls theme APIs. Failed current runs write `ERROR`/`PARTIAL` results atomically rather than presenting a stale successful file as current.
+`all` preserves the existing DAY `investors` array and adds a backward-compatible `multiPeriod` object for WEEK, MONTH, and THREE_MONTH. Each period is fully paged and retains NAVER's `accTradeVolume` and `accTradeAmount` names; it does not calculate or label a net buy amount.
+
+`industry-membership --if-stale` writes `data/market/industry-membership.json` only when its successful cache is older than 24 hours. The 15-minute workflow invokes it, but normal runs make no membership API calls. A failed or partial refresh is written as current status rather than silently retaining an old success.
+
+Live contract probe (2026-09-24 KST): `trendForeignOrg` accepted both investor types and all three multi-period values. Each response had `sections.buyRankList`/`sellRankList`; both lists were 20 rows on `startIdx` 0–4 and empty on 5. Buy `accTradeAmount` values were positive and sell values negative; `bizdateFrom`/`bizdateTo` were present, while `toRankingAt` was null for the multi-period samples. `/upjong/list` returned 79 categories in 20/20/20/19/0 rows. `/upjong/{no}/stocklist` used the same zero-based page index and empty-array termination. Category 25 required 78 calls (1,542 rows), so the member cap is 100 rather than the category-list cap of 20. The complete membership pass made 344 requests (5 category-list + 339 member-list), returned 4,412 unique codes, and observed no multi-industry memberships. The alternative `/domestic/sector/item/list?...` returned HTTP 404 HTML and is excluded.
 
 ## External Integration Research Gate
 

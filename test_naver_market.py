@@ -123,6 +123,41 @@ class MarketTests(unittest.TestCase):
         self.assertEqual(payload['status'], 'PARTIAL')
         self.assertEqual(payload['investors'][0]['status'], 'ERROR')
 
+    def test_multi_period_contract_pagination_and_day_compatibility(self):
+        def fetch(path, params, expected):
+            page = params['startIdx']
+            if params['periodType'] == 'DAY':
+                return {'sections': {'buyRankList': [investor_row()], 'sellRankList': []}}
+            if page == 0:
+                return {'sections': {'buyRankList': [investor_row('000001')],
+                                     'sellRankList': [investor_row('000002', amount='-2')]}}
+            if page == 1:
+                return {'sections': {'buyRankList': [investor_row('000003')], 'sellRankList': []}}
+            return {'sections': {'buyRankList': [], 'sellRankList': []}}
+        day = market.collect_investors(fetch, self.CLOCK)
+        multi = market.collect_multi_period_investors(fetch, self.CLOCK)
+        self.assertEqual(day['periodType'], 'DAY')
+        self.assertEqual([x['investorType'] for x in day['investors']], list(market.INVESTOR_TYPES))
+        week = multi['periods']['WEEK']['investors'][0]
+        self.assertEqual(week['pagination']['endCondition'], 'EMPTY_ARRAY')
+        self.assertEqual(week['pagination']['pagesFetched'], 3)
+        self.assertEqual([x['code'] for x in week['buy']], ['000001', '000003'])
+        self.assertEqual(week['sell'][0]['accTradeAmount'], -2)
+        self.assertNotIn('netBuy', week['sell'][0])
+
+    def test_membership_aggregates_and_retains_partial_error(self):
+        def fetch(path, params, expected):
+            if path.endswith('/upjong/list'):
+                return [category(1), category(2)] if params['startIdx'] == 0 else []
+            category_id = path.split('/')[-2]
+            if category_id == '1':
+                return [stock('000001')] if params['startIdx'] == 0 else []
+            raise market.MarketApiError('temporary failure')
+        payload = market.collect_industry_membership(fetch, self.CLOCK)
+        self.assertEqual(payload['status'], 'PARTIAL')
+        self.assertEqual(payload['byCode']['000001'], [{'id': '1', 'name': '업종1'}])
+        self.assertEqual(payload['industries'][1]['status'], 'ERROR')
+
     def test_manifest_and_atomic_current_error_write(self):
         rankings = {'generatedAt': 'x', 'source': 'NAVER', 'status': 'ERROR', 'rankings': []}
         industries = {'generatedAt': 'x', 'source': 'NAVER', 'status': 'OK', 'industries': []}
@@ -153,6 +188,9 @@ class MarketTests(unittest.TestCase):
             self.assertEqual(result['manifest']['datasets']['themes']['status'], 'DISABLED_PENDING_RESEARCH_GATE')
             self.assertEqual(list(Path(directory).iterdir()), [])
         self.assertFalse(any('/theme/' in path for path in calls))
+        self.assertEqual(result['investors']['periodType'], 'DAY')
+        self.assertEqual(len(result['investors']['investors']), 2)
+        self.assertIn('multiPeriod', result['investors'])
 
     def test_fetch_json_rejects_non_json_and_wrong_root(self):
         class Response:

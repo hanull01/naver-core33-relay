@@ -7,6 +7,7 @@ on:
     paths:
       - "naver_market.py"
       - "test_naver_market.py"
+      - "docs/naver-market-data.md"
       - ".github/workflows/refresh-market-snapshots.yml"
   schedule:
     # 09:05-14:50 KST, Mon-Fri = 00:05-05:50 UTC, Mon-Fri
@@ -62,6 +63,10 @@ jobs:
           set +e
           python naver_market.py all
           code=$?
+          # Membership is a separate, low-frequency cache: the command only
+          # makes NAVER calls after its 24-hour TTL has expired.
+          python naver_market.py industry-membership --if-stale
+          if [ "$?" -ne 0 ]; then code=1; fi
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
           exit 0
 

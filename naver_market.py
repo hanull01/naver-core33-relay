@@ -24,6 +24,8 @@ TIMEOUT_SECONDS = 20
 MAX_RETRIES = 1
 PAGE_SIZE = 20
 MAX_CATEGORY_PAGES = 20
+MAX_MEMBER_PAGES = 100
+MEMBERSHIP_TTL_HOURS = 24
 
 RANKINGS = {
     'market_cap': 'marketSum',
@@ -260,7 +262,7 @@ def fetch_industry_info(category_no, fetcher=fetch_json):
 
 
 def collect_industry_members(category_no, fetcher=fetch_json, clock=generated_at,
-                             max_pages=MAX_CATEGORY_PAGES):
+                             max_pages=MAX_MEMBER_PAGES):
     members, seen_codes = [], set()
     error = None
     finished = False
@@ -289,14 +291,16 @@ def collect_industry_members(category_no, fetcher=fetch_json, clock=generated_at
                'status': 'OK' if finished else ('PARTIAL' if members else 'ERROR'),
                'categoryId': str(category_no), 'count': len(members),
                'pagination': {'type': 'PAGE_INDEX', 'parameter': 'startIdx',
-                              'endCondition': 'EMPTY_ARRAY' if finished else 'UNCONFIRMED'},
+                              'endCondition': 'EMPTY_ARRAY' if finished else 'UNCONFIRMED',
+                              'pagesFetched': (len(members) + PAGE_SIZE - 1) // PAGE_SIZE + 1 if finished else max_pages},
                'members': members}
     if error:
         payload['error'] = error
     return payload
 
 
-def collect_investors(fetcher=fetch_json, clock=generated_at, period_type='DAY'):
+def collect_investors(fetcher=fetch_json, clock=generated_at, period_type='DAY', paginate=False,
+                      max_pages=MAX_MEMBER_PAGES):
     if period_type not in PERIOD_TYPES:
         raise ValueError(f'unsupported periodType: {period_type}')
     entries = []
@@ -304,19 +308,46 @@ def collect_investors(fetcher=fetch_json, clock=generated_at, period_type='DAY')
         entry = {'investorType': investor_type, 'periodType': period_type,
                  'status': 'ERROR', 'buy': [], 'sell': []}
         try:
-            payload = fetcher('/api/domestic/market/trend/trendForeignOrg', {
-                'investorType': investor_type, 'tradeType': 'KRX', 'marketType': 'ALL',
-                'startIdx': 0, 'pageSize': PAGE_SIZE, 'periodType': period_type,
-            }, dict)
-            sections = validate_investor_response(payload)
-            entry.update(status='OK',
-                         buy=[normalize_stock(row, investor=True) for row in sections['buyRankList']],
-                         sell=[normalize_stock(row, investor=True) for row in sections['sellRankList']])
+            buy, sell, seen_buy, seen_sell, pages = [], [], set(), set(), 0
+            for page_index in range(max_pages):
+                payload = fetcher('/api/domestic/market/trend/trendForeignOrg', {
+                    'investorType': investor_type, 'tradeType': 'KRX', 'marketType': 'ALL',
+                    'startIdx': page_index, 'pageSize': PAGE_SIZE, 'periodType': period_type,
+                }, dict)
+                sections = validate_investor_response(payload); pages += 1
+                page_buy = [normalize_stock(row, investor=True) for row in sections['buyRankList']]
+                page_sell = [normalize_stock(row, investor=True) for row in sections['sellRankList']]
+                if not paginate or (not page_buy and not page_sell):
+                    if paginate and (page_buy or page_sell):
+                        raise MarketApiError('investor pagination did not terminate')
+                    break
+                for label, rows, seen in (('buy', page_buy, seen_buy), ('sell', page_sell, seen_sell)):
+                    codes = [row['code'] for row in rows]
+                    duplicate = seen.intersection(codes)
+                    if duplicate or len(codes) != len(set(codes)):
+                        raise MarketApiError(f'investor {label} duplicate itemcode: {sorted(duplicate or set(codes))[:3]}')
+                    seen.update(codes)
+                buy.extend(page_buy); sell.extend(page_sell)
+            else:
+                raise MarketApiError(f'investor max pages reached: {max_pages}')
+            entry.update(status='OK', buy=buy if paginate else page_buy,
+                         sell=sell if paginate else page_sell,
+                         pagination={'type': 'PAGE_INDEX', 'parameter': 'startIdx',
+                                     'endCondition': 'EMPTY_ARRAY' if paginate else 'NOT_REQUESTED',
+                                     'pagesFetched': pages})
         except Exception as exc:
             entry['error'] = error_payload(exc)
         entries.append(entry)
     return {'generatedAt': clock(), 'source': 'NAVER', 'status': status_from(entries),
             'periodType': period_type, 'investors': entries}
+
+
+def collect_multi_period_investors(fetcher=fetch_json, clock=generated_at):
+    periods = {}
+    for period_type in ('WEEK', 'MONTH', 'THREE_MONTH'):
+        periods[period_type] = collect_investors(fetcher, clock, period_type, paginate=True)
+    return {'status': status_from(periods.values()), 'supportedPeriodTypes': list(periods),
+            'periods': periods}
 
 
 def build_manifest(rankings, industries, investors, clock=generated_at):
@@ -353,10 +384,39 @@ def collect_all(fetcher=fetch_json, clock=generated_at, output_dir=MARKET_DIR, n
     rankings = collect_rankings(fetcher, clock)
     industries = collect_industries(fetcher, clock)
     investors = collect_investors(fetcher, clock)
+    investors['multiPeriod'] = collect_multi_period_investors(fetcher, clock)
+    investors['status'] = status_from([investors, investors['multiPeriod']])
     manifest = build_manifest(rankings, industries, investors, clock)
     if not no_write:
         manifest = write_all(rankings, industries, investors, output_dir, clock)
     return {'manifest': manifest, 'rankings': rankings, 'industries': industries, 'investors': investors}
+
+
+def collect_industry_membership(fetcher=fetch_json, clock=generated_at):
+    industries = collect_industries(fetcher, clock)
+    rows, by_code = [], {}
+    for industry in industries['industries']:
+        members = collect_industry_members(industry['id'], fetcher, clock)
+        rows.append({'id': industry['id'], 'name': industry['name'], 'status': members['status'],
+                     'memberCount': members['count'], 'pagination': members['pagination'],
+                     'members': [{'code': row['code'], 'name': row['name']} for row in members['members']]})
+        for member in members['members']:
+            by_code.setdefault(member['code'], []).append({'id': industry['id'], 'name': industry['name']})
+    status = status_from([industries] + rows)
+    return {'generatedAt': clock(), 'source': 'NAVER', 'status': status,
+            'cachePolicy': {'ttlHours': MEMBERSHIP_TTL_HOURS, 'refreshMode': 'IF_STALE'},
+            'industryCount': len(rows), 'membershipCount': sum(row['memberCount'] for row in rows),
+            'industries': rows, 'byCode': by_code}
+
+
+def membership_is_fresh(path, clock=generated_at):
+    try:
+        payload = json.loads(Path(path).read_text(encoding='utf-8'))
+        created = datetime.fromisoformat(payload['generatedAt'])
+        current = datetime.fromisoformat(clock())
+        return payload.get('status') == 'OK' and (current - created).total_seconds() < MEMBERSHIP_TTL_HOURS * 3600
+    except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+        return False
 
 
 def emit(payload, no_write=False):
@@ -378,6 +438,7 @@ def parse_args(argv=None):
     sub.add_parser('industries')
     sub.add_parser('investors')
     members = sub.add_parser('industry-members'); members.add_argument('category_no')
+    membership = sub.add_parser('industry-membership'); membership.add_argument('--if-stale', action='store_true')
     info = sub.add_parser('industry-info'); info.add_argument('category_no')
     sub.add_parser('all')
     return parser.parse_args(argv)
@@ -402,6 +463,14 @@ def main(argv=None):
         payload = collect_industry_members(args.category_no)
         if not args.no_write:
             atomic_write(MARKET_DIR / f'industry-members-{args.category_no}.json', payload)
+    elif args.command == 'industry-membership':
+        target = MARKET_DIR / 'industry-membership.json'
+        if args.if_stale and membership_is_fresh(target):
+            payload = json.loads(target.read_text(encoding='utf-8')); payload['cacheStatus'] = 'FRESH_REUSED'
+        else:
+            payload = collect_industry_membership()
+            if not args.no_write:
+                atomic_write(target, payload)
     elif args.command == 'industry-info':
         payload = {'generatedAt': generated_at(), 'source': 'NAVER', 'status': 'OK',
                    'categoryId': args.category_no, 'info': fetch_industry_info(args.category_no)}
