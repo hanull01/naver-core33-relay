@@ -174,6 +174,11 @@
       "itemCode": "201490",
       "stockName": "미투온",
       "enabled": true
+    },
+    {
+      "itemCode": "039200",
+      "stockName": "오스코텍",
+      "enabled": true
     }
   ],
   "sectors": {
@@ -277,7 +282,8 @@
     ],
     "관심종목": [
       "272210",
-      "201490"
+      "201490",
+      "039200"
     ]
   },
   "leaders": {
