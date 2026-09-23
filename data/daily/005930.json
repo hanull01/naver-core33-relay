@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "005930",
-  "generatedAt": "2026-09-23T21:34:22.184107+09:00",
+  "generatedAt": "2026-09-23T22:08:55.327648+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/005930/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",

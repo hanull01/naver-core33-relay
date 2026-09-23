@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T21:34:34.480620+09:00",
-  "collectionStartedAt": "2026-09-23T21:34:32.917962+09:00",
+  "generatedAt": "2026-09-23T22:09:03.936636+09:00",
+  "collectionStartedAt": "2026-09-23T22:09:02.875742+09:00",
   "source": "NAVER_KRX",
   "count": 36,
   "expectedCount": 36,
@@ -33,7 +33,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -59,7 +59,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -85,7 +85,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -111,7 +111,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -137,7 +137,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -163,7 +163,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -189,7 +189,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -215,7 +215,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -241,7 +241,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -267,7 +267,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -293,7 +293,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -319,7 +319,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -345,7 +345,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -371,7 +371,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -397,7 +397,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -423,7 +423,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -449,7 +449,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -475,7 +475,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -501,7 +501,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -527,7 +527,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -553,7 +553,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -579,7 +579,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -605,7 +605,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -631,7 +631,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -657,7 +657,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -683,7 +683,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -709,7 +709,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -735,7 +735,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -761,7 +761,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -787,7 +787,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -813,7 +813,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -839,7 +839,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -865,7 +865,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -891,7 +891,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -917,7 +917,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
@@ -942,7 +942,7 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 5674,
+      "ageSeconds": 7744,
       "fresh": true,
       "status": "ok",
       "freshnessReason": "final_after_close",
