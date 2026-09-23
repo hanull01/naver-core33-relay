@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-23T23:49:57.985649+09:00",
+  "source": "NAVER",
+  "status": "OK",
+  "datasets": {
+    "rankings": {
+      "status": "OK",
+      "path": "data/market/rankings.json"
+    },
+    "industries": {
+      "status": "OK",
+      "path": "data/market/industries.json"
+    },
+    "investorFlow": {
+      "status": "OK",
+      "path": "data/market/investor-flow.json"
+    },
+    "themes": {
+      "status": "DISABLED_PENDING_RESEARCH_GATE"
+    }
+  }
+}
