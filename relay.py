@@ -383,6 +383,79 @@ def build_technicals(quote_payload=None):
     return payload
 
 
+def load_analysis_config():
+    config = json.loads((ROOT / 'config/analysis.json').read_text(encoding='utf-8'))
+    keys = ('nearPct', 'volumeElevated', 'volumeSurge')
+    if any(not isinstance(config.get(key), (int, float)) for key in keys):
+        raise ValueError('invalid analysis config')
+    return config
+
+
+def prior_highs(daily):
+    bars = [] if not daily else [bar for bar in daily.get('datas', [])
+                                 if bar.get('complete') is True and not bar.get('noTrading')]
+    previous = bars[:-1]
+    return (max((bar['high'] for bar in previous[-20:]), default=None) if len(previous) >= 20 else None,
+            max((bar['high'] for bar in previous[-60:]), default=None) if len(previous) >= 60 else None)
+
+
+def compare(value, reference):
+    if value is None or reference is None:
+        return 'unknown'
+    return 'above' if value > reference else 'below' if value < reference else 'equal'
+
+
+def breakout(price, session_high, prior_high, final):
+    if prior_high is None or price is None or session_high is None:
+        return 'unknown'
+    if final:
+        return 'confirmed' if price > prior_high else 'failed' if session_high > prior_high else 'none'
+    return 'attempt' if session_high > prior_high else 'none'
+
+
+def volume_state(ratio, config):
+    if ratio is None: return 'unknown'
+    if ratio >= config['volumeSurge']: return 'surge'
+    if ratio >= config['volumeElevated']: return 'elevated'
+    return 'normal'
+
+
+def calculate_state(code, stock_name, technical, daily, quote, config):
+    prior20, prior60 = prior_highs(daily)
+    price = quote.get('closePrice') if quote else None
+    session_high = quote.get('highPrice') if quote else None
+    final = bool(quote and quote.get('marketStatus') == 'CLOSE')
+    ma20, ma60 = technical.get('ma20'), technical.get('ma60')
+    def distance(value): return round((price - value) / value * 100, 2) if price is not None and value else None
+    def near(value): return value is not None and price is not None and abs((price-value)/value*100) <= config['nearPct']
+    pullback = 'near_breakout20' if near(prior20) else 'near_breakout60' if near(prior60) else 'near_ma20' if near(ma20) else 'none' if price is not None else 'unknown'
+    return {'itemCode': code, 'stockName': stock_name, 'sourceTime': quote.get('sourceTime') if quote else None,
+            'price': price, 'ma20': ma20, 'ma60': ma60,
+            'priceVsMA20': compare(price, ma20), 'priceVsMA60': compare(price, ma60),
+            'maAlignment': 'unknown' if ma20 is None or ma60 is None else 'ma20_above_ma60' if ma20 > ma60 else 'ma20_below_ma60' if ma20 < ma60 else 'equal',
+            'distanceMA20Pct': distance(ma20), 'distanceMA60Pct': distance(ma60),
+            'priorHigh20': prior20, 'priorHigh60': prior60,
+            'distancePriorHigh20Pct': distance(prior20), 'distancePriorHigh60Pct': distance(prior60),
+            'breakout20': breakout(price, session_high, prior20, final), 'breakout60': breakout(price, session_high, prior60, final),
+            'volumeRatio20': technical.get('volumeRatio20'), 'volumeState': volume_state(technical.get('volumeRatio20'), config),
+            'pullbackState': pullback, 'status': 'ok' if technical.get('status') == 'ok' and quote else 'partial'}
+
+
+def build_states(quote_payload=None, technical_payload=None):
+    universe, codes, _, _ = universe_state(); config = load_analysis_config()
+    if quote_payload is None: quote_payload = json.loads((ROOT / 'data/quotes.json').read_text(encoding='utf-8'))
+    if technical_payload is None: technical_payload = json.loads((ROOT / 'data/technicals.json').read_text(encoding='utf-8'))
+    quotes = {row['itemCode']: row for row in quote_payload.get('datas', [])}; technicals = {row['itemCode']: row for row in technical_payload.get('datas', [])}
+    names = {stock['itemCode']: stock['stockName'] for stock in universe['stocks']}
+    datas = [calculate_state(code, names[code], technicals.get(code, {}), load_daily_for_technical(code), quotes.get(code), config) for code in codes]
+    missing = [row['itemCode'] for row in datas if row['status'] != 'ok']
+    payload = {'generatedAt': now().isoformat(), 'expectedCount': len(codes), 'count': len(datas), 'missingCodes': missing, 'status': 'ok' if not missing else 'partial', 'datas': datas}
+    save('data/states.json', payload)
+    fields = ('itemCode','price','priceVsMA20','priceVsMA60','maAlignment','priorHigh20','priorHigh60','breakout20','breakout60','volumeRatio20','volumeState','pullbackState','status')
+    save('data/states-lite.json', {**{key: payload[key] for key in ('generatedAt','expectedCount','count','missingCodes','status')}, 'datas': [{key: row[key] for key in fields} for row in datas]}, compact=True)
+    return payload
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('mode', choices=['quotes', 'daily', 'all'], default='all', nargs='?')
@@ -395,4 +468,5 @@ if __name__ == '__main__':
         _, _, legacy_codes, _ = universe_state()
         failed |= result['count'] != result['expectedCount'] or len(legacy_codes) != 33
         failed |= build_technicals(result)['count'] != result['expectedCount']
+        failed |= build_states(result)['count'] != result['expectedCount']
     raise SystemExit(1 if failed else 0)

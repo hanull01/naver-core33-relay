@@ -63,6 +63,37 @@ class RelayTests(unittest.TestCase):
         self.assertEqual([call.args[0] for call in save.call_args_list],
                          ['data/technicals.json', 'data/technicals-lite.json'])
 
+    def test_prior_highs_exclude_evaluation_bar_and_short_history(self):
+        daily = self.daily_fixture(61)
+        daily['datas'][-1]['high'] = 999
+        self.assertEqual(relay.prior_highs(daily), (160, 160))
+        self.assertEqual(relay.prior_highs(self.daily_fixture(20)), (None, None))
+
+    def test_breakout_states(self):
+        self.assertEqual(relay.breakout(103, 105, 100, False), 'attempt')
+        self.assertEqual(relay.breakout(103, 105, 100, True), 'confirmed')
+        self.assertEqual(relay.breakout(99, 105, 100, True), 'failed')
+        self.assertEqual(relay.breakout(99, 100, 100, True), 'none')
+
+    def test_state_volume_and_pullback(self):
+        config = {'nearPct': 2, 'volumeElevated': 1.2, 'volumeSurge': 1.5}
+        self.assertEqual(relay.volume_state(1.0, config), 'normal')
+        self.assertEqual(relay.volume_state(1.2, config), 'elevated')
+        self.assertEqual(relay.volume_state(1.5, config), 'surge')
+        daily = self.daily_fixture(21)
+        technical = {'ma20': 100, 'ma60': 90, 'volumeRatio20': 1.0, 'status': 'ok'}
+        quote = {'closePrice': 101, 'highPrice': 101, 'marketStatus': 'OPEN', 'sourceTime': 'now'}
+        self.assertEqual(relay.calculate_state('000001', 'A', technical, daily, quote, config)['pullbackState'], 'near_ma20')
+
+    def test_build_states_lite_and_enabled_only(self):
+        universe = self.expanded_universe(); codes = relay.universe_codes(universe)
+        tech = {'datas': [{'itemCode': code, 'ma20': 10, 'ma60': 9, 'volumeRatio20': 1.0, 'status': 'ok'} for code in codes]}
+        quotes = {'datas': [{'itemCode': code, 'closePrice': 10, 'highPrice': 10, 'marketStatus': 'OPEN'} for code in codes]}
+        with patch.object(relay, 'universe_state', return_value=(universe, codes, codes, {})), patch.object(relay, 'load_analysis_config', return_value={'nearPct': 2, 'volumeElevated': 1.2, 'volumeSurge': 1.5}), patch.object(relay, 'load_daily_for_technical', return_value=self.daily_fixture(21)), patch.object(relay, 'save') as save:
+            result = relay.build_states(quotes, tech)
+        self.assertEqual(result['count'], 3)
+        self.assertEqual(save.call_args_list[-1].args[0], 'data/states-lite.json')
+
     @staticmethod
     def expanded_universe():
         return {
