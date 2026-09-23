@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "240810",
-  "generatedAt": "2026-09-23T11:44:40.222866+09:00",
+  "generatedAt": "2026-09-23T12:41:18.642698+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/240810/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 133700,
       "high": 144100,
       "low": 131000,
-      "close": 132100,
-      "volume": 2057732,
+      "close": 132200,
+      "volume": 2136455,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false
