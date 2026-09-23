@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "051600",
-  "generatedAt": "2026-09-23T14:39:59.356804+09:00",
+  "generatedAt": "2026-09-23T15:44:36.180511+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/051600/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 46800,
       "high": 46850,
       "low": 45600,
-      "close": 45650,
-      "volume": 58027,
+      "close": 45750,
+      "volume": 68753,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false

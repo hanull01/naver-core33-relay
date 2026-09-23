@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "034020",
-  "generatedAt": "2026-09-23T14:39:58.379846+09:00",
+  "generatedAt": "2026-09-23T15:44:35.367146+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/034020/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 86100,
       "high": 86100,
       "low": 80500,
-      "close": 81000,
-      "volume": 3742392,
+      "close": 81700,
+      "volume": 4420615,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false

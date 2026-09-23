@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "itemCode": "006400",
-  "generatedAt": "2026-09-23T14:39:58.379223+09:00",
+  "generatedAt": "2026-09-23T15:44:35.020638+09:00",
   "source": "NAVER_KRX",
   "sourceUrl": "https://api.stock.naver.com/chart/domestic/item/006400/day?startDateTime=20250322&endDateTime=20260923",
   "status": "ok",
@@ -4063,8 +4063,8 @@
       "open": 529000,
       "high": 529000,
       "low": 510000,
-      "close": 519000,
-      "volume": 317538,
+      "close": 521000,
+      "volume": 362273,
       "noTrading": false,
       "roundingMismatch": false,
       "complete": false
