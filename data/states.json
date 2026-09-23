@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T21:19:41.356621+09:00",
+  "generatedAt": "2026-09-23T21:34:34.540109+09:00",
   "expectedCount": 36,
   "count": 36,
   "missingCodes": [],
@@ -398,7 +398,7 @@
     },
     {
       "itemCode": "079550",
-      "stockName": "LIG넥스원",
+      "stockName": "LIG디펜스앤에어로스페이스",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "price": 699000,
       "ma20": 690350.0,
