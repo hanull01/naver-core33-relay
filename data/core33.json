@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T22:09:03.936659+09:00",
-  "collectionStartedAt": "2026-09-23T22:09:02.875742+09:00",
+  "generatedAt": "2026-09-24T01:44:33.560425+09:00",
+  "collectionStartedAt": "2026-09-24T01:44:31.694389+09:00",
   "source": "NAVER_KRX",
   "count": 33,
   "expectedCount": 33,
@@ -33,11 +33,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체"
     },
     {
@@ -50,7 +50,7 @@
       "highPrice": 1900000,
       "lowPrice": 1836000,
       "accumulatedTradingVolume": 2886116,
-      "accumulatedTradingValue": 5365204000000,
+      "accumulatedTradingValue": 5365203000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -59,11 +59,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체"
     },
     {
@@ -76,7 +76,7 @@
       "highPrice": 243500,
       "lowPrice": 237000,
       "accumulatedTradingVolume": 369301,
-      "accumulatedTradingValue": 89110000000,
+      "accumulatedTradingValue": 89109000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -85,11 +85,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체"
     },
     {
@@ -111,11 +111,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체 소부장"
     },
     {
@@ -137,11 +137,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체 소부장"
     },
     {
@@ -163,11 +163,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "반도체 소부장"
     },
     {
@@ -180,7 +180,7 @@
       "highPrice": 1544000,
       "lowPrice": 1472000,
       "accumulatedTradingVolume": 496091,
-      "accumulatedTradingValue": 743458000000,
+      "accumulatedTradingValue": 743457000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -189,11 +189,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "AI·IT하드웨어"
     },
     {
@@ -206,7 +206,7 @@
       "highPrice": 119700,
       "lowPrice": 114000,
       "accumulatedTradingVolume": 929301,
-      "accumulatedTradingValue": 109462000000,
+      "accumulatedTradingValue": 109461000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -215,11 +215,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "AI·IT하드웨어"
     },
     {
@@ -241,11 +241,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "AI·IT하드웨어"
     },
     {
@@ -258,7 +258,7 @@
       "highPrice": 723000,
       "lowPrice": 701000,
       "accumulatedTradingVolume": 70829,
-      "accumulatedTradingValue": 50125000000,
+      "accumulatedTradingValue": 50124000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -267,11 +267,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "전력기기"
     },
     {
@@ -284,7 +284,7 @@
       "highPrice": 214500,
       "lowPrice": 203000,
       "accumulatedTradingVolume": 332290,
-      "accumulatedTradingValue": 68661000000,
+      "accumulatedTradingValue": 68660000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -293,11 +293,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "전력기기"
     },
     {
@@ -310,7 +310,7 @@
       "highPrice": 2950000,
       "lowPrice": 2828000,
       "accumulatedTradingVolume": 27462,
-      "accumulatedTradingValue": 78972000000,
+      "accumulatedTradingValue": 78971000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -319,11 +319,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "전력기기"
     },
     {
@@ -336,7 +336,7 @@
       "highPrice": 451500,
       "lowPrice": 438000,
       "accumulatedTradingVolume": 190465,
-      "accumulatedTradingValue": 84248000000,
+      "accumulatedTradingValue": 84247000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -345,11 +345,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "조선"
     },
     {
@@ -371,11 +371,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "조선"
     },
     {
@@ -397,11 +397,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "조선"
     },
     {
@@ -423,11 +423,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "방산"
     },
     {
@@ -449,11 +449,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "방산"
     },
     {
@@ -466,7 +466,7 @@
       "highPrice": 713000,
       "lowPrice": 687000,
       "accumulatedTradingVolume": 65278,
-      "accumulatedTradingValue": 45350000000,
+      "accumulatedTradingValue": 45349000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -475,11 +475,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "방산"
     },
     {
@@ -501,11 +501,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "자동차"
     },
     {
@@ -518,7 +518,7 @@
       "highPrice": 119800,
       "lowPrice": 115000,
       "accumulatedTradingVolume": 798446,
-      "accumulatedTradingValue": 92693000000,
+      "accumulatedTradingValue": 92692000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -527,11 +527,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "자동차"
     },
     {
@@ -553,11 +553,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "자동차"
     },
     {
@@ -579,11 +579,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "금융"
     },
     {
@@ -605,11 +605,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "금융"
     },
     {
@@ -622,7 +622,7 @@
       "highPrice": 113300,
       "lowPrice": 109100,
       "accumulatedTradingVolume": 895919,
-      "accumulatedTradingValue": 98783000000,
+      "accumulatedTradingValue": 98782000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -631,11 +631,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "금융"
     },
     {
@@ -648,7 +648,7 @@
       "highPrice": 1394000,
       "lowPrice": 1360000,
       "accumulatedTradingVolume": 37490,
-      "accumulatedTradingValue": 51410000000,
+      "accumulatedTradingValue": 51409000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -657,11 +657,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "바이오"
     },
     {
@@ -674,7 +674,7 @@
       "highPrice": 179700,
       "lowPrice": 176800,
       "accumulatedTradingVolume": 294934,
-      "accumulatedTradingValue": 52421000000,
+      "accumulatedTradingValue": 52420000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -683,11 +683,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "바이오"
     },
     {
@@ -709,11 +709,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "바이오"
     },
     {
@@ -735,11 +735,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "2차전지"
     },
     {
@@ -752,7 +752,7 @@
       "highPrice": 529000,
       "lowPrice": 510000,
       "accumulatedTradingVolume": 376430,
-      "accumulatedTradingValue": 195423000000,
+      "accumulatedTradingValue": 195422000000,
       "source": "NAVER_KRX",
       "sourceTime": "2026-09-23T20:00:00+09:00",
       "localTradedAt": "2026-09-23T20:00:00+09:00",
@@ -761,11 +761,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "2차전지"
     },
     {
@@ -787,11 +787,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "2차전지"
     },
     {
@@ -813,11 +813,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "원전"
     },
     {
@@ -839,11 +839,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "원전"
     },
     {
@@ -865,11 +865,11 @@
       "stockExchangeType": {
         "delayTime": 0
       },
-      "ageSeconds": 7744,
+      "ageSeconds": 20674,
       "fresh": true,
       "status": "ok",
-      "freshnessReason": "final_after_close",
-      "session": "CLOSED",
+      "freshnessReason": "previous_close",
+      "session": "PRE",
       "sector": "원전"
     }
   ]
