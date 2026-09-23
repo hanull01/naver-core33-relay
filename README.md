@@ -1,2 +1,50 @@
-# naver-core33-relay
-Public NAVER KRX quotes and daily OHLCV for 33 fixed stocks
+# NAVER core33 relay
+
+Public KRX quote snapshots and daily OHLCV for the fixed 33-stock monitoring universe.
+No accounts, order information, KIS keys, personal data, or custom secrets are used.
+
+## Public data
+
+- [Quotes](https://raw.githubusercontent.com/hanull01/naver-core33-relay/main/data/core33.json)
+- [Samsung daily OHLCV](https://raw.githubusercontent.com/hanull01/naver-core33-relay/main/data/daily/005930.json)
+- Replace `005930` with another fixed code for other daily files.
+
+`relay.py` uses Python 3.12+ standard libraries. Run `python relay.py all`.
+It collects daily data first and quotes last to minimize quote age at publication.
+Quotes try 33-code batch, then sector batches, then missing individual codes.
+Only validated rows are counted; missing codes are explicit, and stale quotes remain labeled stale.
+Trading value uses the exact `accumulatedTradingValueRaw` in KRW, not rounded Korean text.
+
+Daily endpoint: `https://api.stock.naver.com/chart/domestic/item/{code}/day?startDateTime=YYYYMMDD&endDateTime=YYYYMMDD`.
+The collector requests 550 calendar days. At least 60 completed trading sessions are required.
+Today's candle remains provisional until 16:30 KST; consumers must exclude incomplete candles.
+NAVER rows with zero open/high/low/volume and a carried close are retained with `noTrading: true`.
+They must not be treated as actual zero-price trades when computing highs/lows.
+One-KRW discrepancies in adjusted OHLC are preserved and marked `roundingMismatch`.
+Failed retrieval overwrites that file with explicit error status, never a newly timestamped old success.
+
+## Schedule and permissions
+
+- Monday–Friday 08:35 KST: Sunday–Thursday 23:35 UTC.
+- Monday–Friday 09:35–15:35 KST: Monday–Friday 00:35–06:35 UTC.
+- `workflow_dispatch` permits manual execution.
+- Only the refresh job receives `contents: write` using the built-in `GITHUB_TOKEN`.
+- Collection failures are committed as error files and then make the workflow fail.
+
+## Consumer validation and limitations
+
+Always check `generatedAt` against the current time (maximum 10 minutes, reject future timestamps),
+the exact 33-code set, `count`, `fresh`, `status`, `delayTime`, and each `sourceTime`.
+`sourceTime` is the original NAVER `localTradedAt`; root `sourceTime` is the oldest row.
+An old snapshot does not become current merely because its saved `fresh` flag is true.
+Daily files expose date-only `sourceTime`, `completedCount`, and per-candle `complete`.
+
+The collector uses conservative weekday checks, not a KRX holiday calendar. Holiday-adjacent
+closes may be marked stale. The report must independently verify actual KRX trading days and
+the requested previous/final close. A close snapshot alone cannot prove exchange finalization.
+Schedules attempt collection on weekdays, including holidays, and do not guarantee execution
+before the :40 report. GitHub Actions may delay or drop scheduled runs, and Raw caching or
+the ChatGPT web reader may return old content. Stale/failed rows require verified fallback.
+NAVER public endpoints may change without notice. No third-party market-data rights are granted.
+
+Tests: `python -m unittest discover -s . -v`.
