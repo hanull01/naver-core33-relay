@@ -179,6 +179,11 @@
       "itemCode": "039200",
       "stockName": "오스코텍",
       "enabled": true
+    },
+    {
+      "itemCode": "344820",
+      "stockName": "KCC글라스",
+      "enabled": true
     }
   ],
   "sectors": {
@@ -283,7 +288,8 @@
     "관심종목": [
       "272210",
       "201490",
-      "039200"
+      "039200",
+      "344820"
     ]
   },
   "leaders": {
