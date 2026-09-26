@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "168360",
+  "itemName": "펨트론",
+  "reportCount": 1,
+  "latestReportNid": "91188",
+  "latestWriteDate": "2026-04-02",
+  "latest": {
+    "nid": "91188",
+    "writeDate": "2026-04-02",
+    "brokerName": "한국IR협의회",
+    "title": "SMT에서 반도체로, 체질 개선 본격화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "수주": 3,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91188"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "353200",
+  "itemName": "대덕전자",
+  "reportCount": 19,
+  "latestReportNid": "95423",
+  "latestWriteDate": "2026-08-11",
+  "latest": {
+    "nid": "95423",
+    "writeDate": "2026-08-11",
+    "brokerName": "유안타증권",
+    "title": "순서대로 열리는 문, 순서대로 쌓이는 이익",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95423",
+    "95092",
+    "95005",
+    "95001",
+    "94986",
+    "94934",
+    "94294",
+    "94076",
+    "93987",
+    "93541",
+    "92274",
+    "92244",
+    "92243",
+    "92235",
+    "92228",
+    "92221",
+    "92194",
+    "91582",
+    "91318"
+  ]
+}

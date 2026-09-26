@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "012630",
+  "itemName": "HDC",
+  "reportCount": 2,
+  "latestReportNid": "96056",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96056",
+    "writeDate": "2026-09-09",
+    "brokerName": "한화투자증권",
+    "title": "나의 계절이 왔다",
+    "goalPrice": 34000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96056",
+    "91112"
+  ]
+}

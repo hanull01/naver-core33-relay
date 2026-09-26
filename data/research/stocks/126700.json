@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "126700",
+  "itemName": "하이비젼시스템",
+  "reportCount": 3,
+  "latestReportNid": "95697",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95697",
+    "writeDate": "2026-08-18",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 하반기 인도공장 가동 확대 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 21,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 16,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 11,
+        "배터리": 3,
+        "자동차": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95697",
+    "93546",
+    "93128"
+  ]
+}

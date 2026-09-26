@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095610",
+  "itemName": "테스",
+  "reportCount": 9,
+  "latestReportNid": "96196",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96196",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "메모리 투자 확대와 장비 포트폴리오 다변화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "수주": 2,
+        "중국": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96196",
+    "96069",
+    "95776",
+    "95599",
+    "94100",
+    "92917",
+    "92693",
+    "92080",
+    "91186"
+  ]
+}

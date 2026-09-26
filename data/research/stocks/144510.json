@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "144510",
+  "itemName": "지씨셀",
+  "reportCount": 2,
+  "latestReportNid": "93582",
+  "latestWriteDate": "2026-06-18",
+  "latest": {
+    "nid": "93582",
+    "writeDate": "2026-06-18",
+    "brokerName": "미래에셋증권",
+    "title": "NDR 후기: 세포치료제 포트폴리오 확대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93582",
+    "92094"
+  ]
+}

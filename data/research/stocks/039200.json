@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "039200",
+  "itemName": "오스코텍",
+  "reportCount": 5,
+  "latestReportNid": "95451",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95451",
+    "writeDate": "2026-08-12",
+    "brokerName": "IBK투자증권",
+    "title": "줄줄이 이어지는 기술이전, 계속 하락하는 주가, 맞나?",
+    "goalPrice": 67000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95451",
+    "93404",
+    "93400",
+    "93223",
+    "91528"
+  ]
+}

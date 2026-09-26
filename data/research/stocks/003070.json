@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003070",
+  "itemName": "코오롱글로벌",
+  "reportCount": 1,
+  "latestReportNid": "93309",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93309",
+    "writeDate": "2026-05-28",
+    "brokerName": "iM증권",
+    "title": "[NDR 후기] 빅배스 이후 실적 정상화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 4,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93309"
+  ]
+}

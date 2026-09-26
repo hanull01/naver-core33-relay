@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004990",
+  "itemName": "롯데지주",
+  "reportCount": 4,
+  "latestReportNid": "95982",
+  "latestWriteDate": "2026-09-03",
+  "latest": {
+    "nid": "95982",
+    "writeDate": "2026-09-03",
+    "brokerName": "SK증권",
+    "title": "관심 가져볼 만한 주가",
+    "goalPrice": 33000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95982",
+    "93880",
+    "93304",
+    "93137"
+  ]
+}

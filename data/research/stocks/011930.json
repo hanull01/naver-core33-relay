@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011930",
+  "itemName": "신성이엔지",
+  "reportCount": 3,
+  "latestReportNid": "95872",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95872",
+    "writeDate": "2026-08-26",
+    "brokerName": "키움증권",
+    "title": "하반기 이익률 개선 진행",
+    "goalPrice": 27000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95872",
+    "95801",
+    "93486"
+  ]
+}

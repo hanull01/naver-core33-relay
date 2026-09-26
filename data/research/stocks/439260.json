@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "439260",
+  "itemName": "대한조선",
+  "reportCount": 7,
+  "latestReportNid": "94988",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94988",
+    "writeDate": "2026-08-03",
+    "brokerName": "유안타증권",
+    "title": "2Q26 Re: 순풍에 돛을 달기 위해서는",
+    "goalPrice": 141000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94988",
+    "94797",
+    "93742",
+    "92280",
+    "92246",
+    "92205",
+    "91137"
+  ]
+}

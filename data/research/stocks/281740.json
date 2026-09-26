@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "281740",
+  "itemName": "레이크머티리얼즈",
+  "reportCount": 1,
+  "latestReportNid": "92216",
+  "latestWriteDate": "2026-04-30",
+  "latest": {
+    "nid": "92216",
+    "writeDate": "2026-04-30",
+    "brokerName": "한국IR협의회",
+    "title": "본업 회복에 더해지는 두 개의 업사이드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "미국": 1,
+        "배터리": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92216"
+  ]
+}

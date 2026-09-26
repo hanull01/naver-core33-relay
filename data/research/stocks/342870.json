@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "342870",
+  "itemName": "오아",
+  "reportCount": 1,
+  "latestReportNid": "93469",
+  "latestWriteDate": "2026-06-10",
+  "latest": {
+    "nid": "93469",
+    "writeDate": "2026-06-10",
+    "brokerName": "미래에셋증권",
+    "title": "소형가전의 대명사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93469"
+  ]
+}

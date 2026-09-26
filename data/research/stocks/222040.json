@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "222040",
+  "itemName": "코스맥스엔비티",
+  "reportCount": 5,
+  "latestReportNid": "96029",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96029",
+    "writeDate": "2026-09-07",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 강점이 부각 & 확대되는 시기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96029",
+    "95380",
+    "95375",
+    "93989",
+    "92639"
+  ]
+}

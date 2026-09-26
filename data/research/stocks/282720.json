@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "282720",
+  "itemName": "금양그린파워",
+  "reportCount": 2,
+  "latestReportNid": "96065",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96065",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 플랜트 전기공사와 재생에너지 EPC 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원전": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96065",
+    "93066"
+  ]
+}

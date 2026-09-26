@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "104040",
+  "itemName": "디에스엠",
+  "reportCount": 1,
+  "latestReportNid": "95908",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95908",
+    "writeDate": "2026-08-28",
+    "brokerName": "서울평가정보",
+    "title": "자동차부품 양산 기반 위에 체험형 콘텐츠와 글로벌 라이선싱 사업을 구축",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95908"
+  ]
+}

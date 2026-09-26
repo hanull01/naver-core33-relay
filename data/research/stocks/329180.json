@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "329180",
+  "itemName": "HD현대중공업",
+  "reportCount": 23,
+  "latestReportNid": "96300",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96300",
+    "writeDate": "2026-09-23",
+    "brokerName": "삼성증권",
+    "title": "기다려왔던 증설, 드디어 발표",
+    "goalPrice": 806000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "수주": 1,
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96300",
+    "96203",
+    "96143",
+    "96098",
+    "96094",
+    "94783",
+    "94766",
+    "94757",
+    "94741",
+    "94728",
+    "94185",
+    "94149",
+    "94053",
+    "92645",
+    "92641",
+    "92621",
+    "92613",
+    "92586",
+    "92569",
+    "91822",
+    "91705",
+    "91663",
+    "91152"
+  ]
+}

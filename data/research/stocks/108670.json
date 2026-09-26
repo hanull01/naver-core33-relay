@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "108670",
+  "itemName": "LX하우시스",
+  "reportCount": 4,
+  "latestReportNid": "94991",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94991",
+    "writeDate": "2026-08-03",
+    "brokerName": "하나증권",
+    "title": "좋았던 상반기 B2C, 하반기 지속 여부 확인 필요",
+    "goalPrice": 48000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 3,
+        "가격": 1,
+        "미국": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94991",
+    "94871",
+    "92394",
+    "92376"
+  ]
+}

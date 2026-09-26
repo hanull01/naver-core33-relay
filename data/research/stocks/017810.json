@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "017810",
+  "itemName": "풀무원",
+  "reportCount": 2,
+  "latestReportNid": "95842",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95842",
+    "writeDate": "2026-08-24",
+    "brokerName": "DS투자증권",
+    "title": "건강한 먹거리로 더 건강한 재무구조를 향해",
+    "goalPrice": 17000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 9
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 8,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "미국": 2,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95842",
+    "93505"
+  ]
+}

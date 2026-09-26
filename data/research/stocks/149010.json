@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "149010",
+  "itemName": "아이케이세미콘",
+  "reportCount": 1,
+  "latestReportNid": "93412",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93412",
+    "writeDate": "2026-06-05",
+    "brokerName": "서울평가정보",
+    "title": "자동차용 반도체로 성장축을 전환하는 고신뢰성 시스템 반도체 팹리스 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93412"
+  ]
+}

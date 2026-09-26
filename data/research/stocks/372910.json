@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "372910",
+  "itemName": "한컴라이프케어",
+  "reportCount": 2,
+  "latestReportNid": "94863",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94863",
+    "writeDate": "2026-07-31",
+    "brokerName": "유진투자증권",
+    "title": "2Q26P Review: 분기 최대 매출, 수익성 개선 성공",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 20,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 10,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 4,
+        "로봇": 2,
+        "자동차": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94863",
+    "93000"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "064350",
+  "itemName": "현대로템",
+  "reportCount": 22,
+  "latestReportNid": "94805",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94805",
+    "writeDate": "2026-07-31",
+    "brokerName": "키움증권",
+    "title": "인내의 시기",
+    "goalPrice": 295000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94805",
+    "94561",
+    "94526",
+    "94510",
+    "94500",
+    "94227",
+    "94192",
+    "94157",
+    "93737",
+    "93370",
+    "92522",
+    "92105",
+    "92023",
+    "92011",
+    "91995",
+    "91976",
+    "91973",
+    "91947",
+    "91646",
+    "91456",
+    "91297",
+    "91280"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290690",
+  "itemName": "소룩스",
+  "reportCount": 1,
+  "latestReportNid": "91401",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91401",
+    "writeDate": "2026-04-10",
+    "brokerName": "서울평가정보",
+    "title": "광학설계 기반 조명 사업을 중심으로 시공·헬스케어 응용을 확대중인 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91401"
+  ]
+}

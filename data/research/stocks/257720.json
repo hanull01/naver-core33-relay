@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "257720",
+  "itemName": "실리콘투",
+  "reportCount": 12,
+  "latestReportNid": "96024",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96024",
+    "writeDate": "2026-09-07",
+    "brokerName": "SK증권",
+    "title": "벤더사 역할이 중요해지는 구간",
+    "goalPrice": 62000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96024",
+    "95771",
+    "95704",
+    "95653",
+    "95642",
+    "95637",
+    "94281",
+    "94072",
+    "94037",
+    "93262",
+    "92915",
+    "91165"
+  ]
+}

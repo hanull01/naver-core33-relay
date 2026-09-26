@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "025540",
+  "itemName": "한국단자",
+  "reportCount": 2,
+  "latestReportNid": "95806",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95806",
+    "writeDate": "2026-08-21",
+    "brokerName": "하나증권",
+    "title": "숫자는 나빴고, 이유는 알았다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 9
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "자동차": 2,
+        "가격": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95806",
+    "91630"
+  ]
+}

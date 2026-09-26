@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "052400",
+  "itemName": "코나아이",
+  "reportCount": 3,
+  "latestReportNid": "95043",
+  "latestWriteDate": "2026-08-05",
+  "latest": {
+    "nid": "95043",
+    "writeDate": "2026-08-05",
+    "brokerName": "IBK투자증권",
+    "title": "K자형 성장의 최대 수혜주",
+    "goalPrice": 64000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95043",
+    "94856",
+    "93513"
+  ]
+}

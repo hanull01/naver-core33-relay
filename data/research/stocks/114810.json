@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "114810",
+  "itemName": "한솔아이원스",
+  "reportCount": 2,
+  "latestReportNid": "94635",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94635",
+    "writeDate": "2026-07-28",
+    "brokerName": "한화투자증권",
+    "title": "더 큰 성장을 위한 발판을 마련중",
+    "goalPrice": 15000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 8,
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94635",
+    "93209"
+  ]
+}

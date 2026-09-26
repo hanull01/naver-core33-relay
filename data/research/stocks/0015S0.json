@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0015S0",
+  "itemName": "페스카로",
+  "reportCount": 1,
+  "latestReportNid": "95914",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95914",
+    "writeDate": "2026-08-28",
+    "brokerName": "한국IR협의회",
+    "title": "자동차 보안 수직계열화 업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 4,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95914"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "900310",
+  "itemName": "컬러레이",
+  "reportCount": 1,
+  "latestReportNid": "94251",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94251",
+    "writeDate": "2026-07-20",
+    "brokerName": "서울평가정보",
+    "title": "화장품용 진주광택안료에서 산업용 광택소재로 응용 범위를 확장하는 기능성 소재 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94251"
+  ]
+}

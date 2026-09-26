@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "078930",
+  "itemName": "GS",
+  "reportCount": 2,
+  "latestReportNid": "95471",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95471",
+    "writeDate": "2026-08-12",
+    "brokerName": "유진투자증권",
+    "title": "땅, 물, 전력을 다 가진 AIDC 성장주",
+    "goalPrice": 138000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "AI": 7,
+        "자동차": 2,
+        "재고": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95471",
+    "92905"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "244880",
+  "itemName": "나눔테크",
+  "reportCount": 1,
+  "latestReportNid": "94386",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94386",
+    "writeDate": "2026-07-24",
+    "brokerName": "NICE평가정보",
+    "title": "인공지능 심전도 분석 기술로 생명을 살리는 국내 자동심장충격기 선도기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94386"
+  ]
+}

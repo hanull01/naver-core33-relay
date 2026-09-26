@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "065450",
+  "itemName": "빅텍",
+  "reportCount": 1,
+  "latestReportNid": "91294",
+  "latestWriteDate": "2026-04-07",
+  "latest": {
+    "nid": "91294",
+    "writeDate": "2026-04-07",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 전자전 & 신규 성장동력",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 2,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91294"
+  ]
+}

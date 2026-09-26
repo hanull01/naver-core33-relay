@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "098460",
+  "itemName": "고영",
+  "reportCount": 13,
+  "latestReportNid": "95777",
+  "latestWriteDate": "2026-08-20",
+  "latest": {
+    "nid": "95777",
+    "writeDate": "2026-08-20",
+    "brokerName": "IBK투자증권",
+    "title": "AI 혁명의 3D Frontier",
+    "goalPrice": 42000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95777",
+    "94952",
+    "94942",
+    "94681",
+    "94660",
+    "94647",
+    "93533",
+    "92063",
+    "91971",
+    "91890",
+    "91852",
+    "91847",
+    "91557"
+  ]
+}

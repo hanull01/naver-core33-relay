@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "069620",
+  "itemName": "대웅제약",
+  "reportCount": 10,
+  "latestReportNid": "94866",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94866",
+    "writeDate": "2026-07-31",
+    "brokerName": "SK증권",
+    "title": "2Q26 Re: 나보타 수출증가, 컨센 상회",
+    "goalPrice": 210000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94866",
+    "94857",
+    "94779",
+    "94743",
+    "94716",
+    "93233",
+    "92968",
+    "92846",
+    "92804",
+    "91276"
+  ]
+}

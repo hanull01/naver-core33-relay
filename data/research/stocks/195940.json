@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "195940",
+  "itemName": "HK이노엔",
+  "reportCount": 14,
+  "latestReportNid": "96086",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96086",
+    "writeDate": "2026-09-10",
+    "brokerName": "미래에셋증권",
+    "title": "여전히 주가의 원동력은 케이캡",
+    "goalPrice": 56000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96086",
+    "94862",
+    "94744",
+    "94717",
+    "94418",
+    "94390",
+    "94122",
+    "94088",
+    "92101",
+    "92098",
+    "91572",
+    "91431",
+    "91418",
+    "91408"
+  ]
+}

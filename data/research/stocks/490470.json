@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "490470",
+  "itemName": "세미파이브",
+  "reportCount": 1,
+  "latestReportNid": "95893",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95893",
+    "writeDate": "2026-08-27",
+    "brokerName": "신한투자증권",
+    "title": "양산으로 증명되는 경쟁력",
+    "goalPrice": 23000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 4
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95893"
+  ]
+}

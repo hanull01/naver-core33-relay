@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "146320",
+  "itemName": "비씨엔씨",
+  "reportCount": 1,
+  "latestReportNid": "94202",
+  "latestWriteDate": "2026-07-15",
+  "latest": {
+    "nid": "94202",
+    "writeDate": "2026-07-15",
+    "brokerName": "신한투자증권",
+    "title": "실적 체력 확인 구간",
+    "goalPrice": 15000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94202"
+  ]
+}

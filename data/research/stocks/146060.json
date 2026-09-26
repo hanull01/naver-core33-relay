@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "146060",
+  "itemName": "율촌",
+  "reportCount": 2,
+  "latestReportNid": "93779",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93779",
+    "writeDate": "2026-06-30",
+    "brokerName": "유안타증권",
+    "title": "실행력 검증이 중장기 수익성의 관건",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93779",
+    "92286"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "260970",
+  "itemName": "에스앤디",
+  "reportCount": 1,
+  "latestReportNid": "96269",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96269",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 기능성식품소재 개발·제조 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96269"
+  ]
+}

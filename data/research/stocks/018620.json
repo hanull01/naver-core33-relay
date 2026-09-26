@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "018620",
+  "itemName": "우진비앤지",
+  "reportCount": 1,
+  "latestReportNid": "91651",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91651",
+    "writeDate": "2026-04-17",
+    "brokerName": "NICE평가정보",
+    "title": "동물용 백신 및 의약품 기반 동물 헬스케어 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91651"
+  ]
+}

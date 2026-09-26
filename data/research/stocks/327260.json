@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "327260",
+  "itemName": "RF머트리얼즈",
+  "reportCount": 6,
+  "latestReportNid": "96073",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96073",
+    "writeDate": "2026-09-10",
+    "brokerName": "신한투자증권",
+    "title": "콥데이 후기: 루멘텀 솔벤더의 위엄",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96073",
+    "94630",
+    "93461",
+    "92525",
+    "92258",
+    "91228"
+  ]
+}

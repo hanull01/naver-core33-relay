@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "089590",
+  "itemName": "제주항공",
+  "reportCount": 5,
+  "latestReportNid": "95141",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95141",
+    "writeDate": "2026-08-06",
+    "brokerName": "iM증권",
+    "title": "영업환경 어렵지만 유연한 공급 조절로 수익성 방어",
+    "goalPrice": 7000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95141",
+    "93117",
+    "92741",
+    "92687",
+    "91821"
+  ]
+}

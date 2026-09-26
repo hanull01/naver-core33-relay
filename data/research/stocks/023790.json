@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "023790",
+  "itemName": "동일스틸럭스",
+  "reportCount": 1,
+  "latestReportNid": "94254",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94254",
+    "writeDate": "2026-07-20",
+    "brokerName": "NICE평가정보",
+    "title": "반세기 봉강 기술력으로 미래 모빌리티 소재까지 잇는 특수강 소재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94254"
+  ]
+}

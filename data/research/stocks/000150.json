@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000150",
+  "itemName": "두산",
+  "reportCount": 26,
+  "latestReportNid": "96253",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96253",
+    "writeDate": "2026-09-21",
+    "brokerName": "대신증권",
+    "title": "12%를 태우고 2배를 짓는다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96253",
+    "96229",
+    "96223",
+    "95093",
+    "94979",
+    "94638",
+    "94634",
+    "94632",
+    "94614",
+    "94599",
+    "94592",
+    "94572",
+    "93885",
+    "93741",
+    "93561",
+    "92653",
+    "92276",
+    "92275",
+    "92230",
+    "92220",
+    "92215",
+    "91881",
+    "91631",
+    "91473",
+    "91240",
+    "91197"
+  ]
+}

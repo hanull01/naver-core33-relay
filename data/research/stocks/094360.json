@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "094360",
+  "itemName": "칩스앤미디어",
+  "reportCount": 6,
+  "latestReportNid": "95040",
+  "latestWriteDate": "2026-08-04",
+  "latest": {
+    "nid": "95040",
+    "writeDate": "2026-08-04",
+    "brokerName": "한화투자증권",
+    "title": "안정적인 실적, 4분기 큰 성장 기대",
+    "goalPrice": 16800,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "반도체": 3,
+        "원가": 3,
+        "자동차": 2,
+        "로봇": 1,
+        "수요": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95040",
+    "94658",
+    "93347",
+    "92953",
+    "92133",
+    "91442"
+  ]
+}

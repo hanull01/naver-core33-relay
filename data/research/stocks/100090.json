@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "100090",
+  "itemName": "SK오션플랜트",
+  "reportCount": 9,
+  "latestReportNid": "95584",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95584",
+    "writeDate": "2026-08-13",
+    "brokerName": "교보증권",
+    "title": "2Q26 Review: 골짜기 앞에서 확인한 수주 체력",
+    "goalPrice": 25000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "환율": 3
+      }
+    }
+  },
+  "reportNids": [
+    "95584",
+    "95574",
+    "95571",
+    "95558",
+    "95516",
+    "92853",
+    "92835",
+    "92799",
+    "92796"
+  ]
+}

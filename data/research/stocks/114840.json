@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "114840",
+  "itemName": "아이패밀리에스씨",
+  "reportCount": 1,
+  "latestReportNid": "93198",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93198",
+    "writeDate": "2026-05-21",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 다작속에 히트작품 나온다!",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1,
+        "자동차": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93198"
+  ]
+}

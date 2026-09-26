@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "298040",
+  "itemName": "효성중공업",
+  "reportCount": 28,
+  "latestReportNid": "95820",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95820",
+    "writeDate": "2026-08-24",
+    "brokerName": "SK증권",
+    "title": "잘하는 송전을 더 잘하고 있다",
+    "goalPrice": 4000000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "미국": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95820",
+    "95340",
+    "95030",
+    "95002",
+    "94994",
+    "94985",
+    "94981",
+    "94972",
+    "94960",
+    "94945",
+    "94243",
+    "94225",
+    "94162",
+    "93497",
+    "93494",
+    "92130",
+    "92054",
+    "92015",
+    "92002",
+    "91994",
+    "91980",
+    "91959",
+    "91956",
+    "91674",
+    "91538",
+    "91480",
+    "91421",
+    "91290"
+  ]
+}

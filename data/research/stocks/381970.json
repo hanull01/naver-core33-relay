@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "381970",
+  "itemName": "케이카",
+  "reportCount": 3,
+  "latestReportNid": "93158",
+  "latestWriteDate": "2026-05-20",
+  "latest": {
+    "nid": "93158",
+    "writeDate": "2026-05-20",
+    "brokerName": "SK증권",
+    "title": "생태계 완성을 위한 퍼즐 한 조각",
+    "goalPrice": 20000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93158",
+    "92995",
+    "92046"
+  ]
+}

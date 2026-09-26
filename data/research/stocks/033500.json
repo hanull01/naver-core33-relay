@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "033500",
+  "itemName": "동성화인텍",
+  "reportCount": 5,
+  "latestReportNid": "95938",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95938",
+    "writeDate": "2026-08-31",
+    "brokerName": "신한투자증권",
+    "title": "이익 레벨업, 다음은 주가 정상화 차례",
+    "goalPrice": 29000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 5,
+        "가격": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95938",
+    "95726",
+    "93151",
+    "91133",
+    "91103"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "383310",
+  "itemName": "에코프로에이치엔",
+  "reportCount": 2,
+  "latestReportNid": "93932",
+  "latestWriteDate": "2026-07-07",
+  "latest": {
+    "nid": "93932",
+    "writeDate": "2026-07-07",
+    "brokerName": "대신증권",
+    "title": "반도체 투자 사이클에 올라탄 환경 솔루션",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "방산": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93932",
+    "93380"
+  ]
+}

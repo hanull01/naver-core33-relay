@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "443060",
+  "itemName": "HD현대마린솔루션",
+  "reportCount": 14,
+  "latestReportNid": "96205",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96205",
+    "writeDate": "2026-09-17",
+    "brokerName": "SK증권",
+    "title": "HiMSEN 캐파 증설의 최대 수혜주",
+    "goalPrice": 340000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "조선": 3
+      }
+    }
+  },
+  "reportNids": [
+    "96205",
+    "96133",
+    "94626",
+    "94609",
+    "94111",
+    "94052",
+    "93733",
+    "93487",
+    "92225",
+    "92187",
+    "92001",
+    "91997",
+    "91823",
+    "91515"
+  ]
+}

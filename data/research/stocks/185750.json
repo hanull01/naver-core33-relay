@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "185750",
+  "itemName": "종근당",
+  "reportCount": 6,
+  "latestReportNid": "95830",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95830",
+    "writeDate": "2026-08-24",
+    "brokerName": "미래에셋증권",
+    "title": "이익 개선 제한적이나 파이프라인 개발 순항",
+    "goalPrice": 110000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "환율": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95830",
+    "94291",
+    "94223",
+    "93271",
+    "91511",
+    "91138"
+  ]
+}

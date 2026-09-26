@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290270",
+  "itemName": "휴네시온",
+  "reportCount": 1,
+  "latestReportNid": "91975",
+  "latestWriteDate": "2026-04-27",
+  "latest": {
+    "nid": "91975",
+    "writeDate": "2026-04-27",
+    "brokerName": "한국IR협의회",
+    "title": "망연계 보안 솔루션 1위",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91975"
+  ]
+}

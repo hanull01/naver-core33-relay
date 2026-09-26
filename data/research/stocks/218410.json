@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "218410",
+  "itemName": "RFHIC",
+  "reportCount": 10,
+  "latestReportNid": "96176",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96176",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "쇼티지 발생 유력, 높은 Multiple 형성될 것",
+    "goalPrice": 150000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 1,
+        "방산": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96176",
+    "95978",
+    "94596",
+    "94372",
+    "93460",
+    "93432",
+    "92261",
+    "92055",
+    "91555",
+    "91142"
+  ]
+}

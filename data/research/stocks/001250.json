@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001250",
+  "itemName": "GS글로벌",
+  "reportCount": 1,
+  "latestReportNid": "93328",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93328",
+    "writeDate": "2026-05-28",
+    "brokerName": "DS투자증권",
+    "title": "올해는 상사가 주인공",
+    "goalPrice": 4300,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93328"
+  ]
+}

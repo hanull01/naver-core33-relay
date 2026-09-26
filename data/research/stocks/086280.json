@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086280",
+  "itemName": "현대글로비스",
+  "reportCount": 14,
+  "latestReportNid": "94480",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94480",
+    "writeDate": "2026-07-24",
+    "brokerName": "한화투자증권",
+    "title": "이익 감소는 일시적, 매출 고성장은 지속",
+    "goalPrice": 380000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94480",
+    "94452",
+    "94449",
+    "94440",
+    "94422",
+    "93891",
+    "93887",
+    "91912",
+    "91902",
+    "91901",
+    "91853",
+    "91850",
+    "91837",
+    "91518"
+  ]
+}

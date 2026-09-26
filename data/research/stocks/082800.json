@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "082800",
+  "itemName": "비보존 제약",
+  "reportCount": 1,
+  "latestReportNid": "91609",
+  "latestWriteDate": "2026-04-16",
+  "latest": {
+    "nid": "91609",
+    "writeDate": "2026-04-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전문의약품 및 일반의약품 제조 판매 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91609"
+  ]
+}

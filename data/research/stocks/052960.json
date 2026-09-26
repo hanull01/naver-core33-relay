@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "052960",
+  "itemName": "태양3C",
+  "reportCount": 1,
+  "latestReportNid": "92970",
+  "latestWriteDate": "2026-05-15",
+  "latest": {
+    "nid": "92970",
+    "writeDate": "2026-05-15",
+    "brokerName": "서울평가정보",
+    "title": "자동차 전장부품 유통 기반 차세대 카테터·내시경 모듈로 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92970"
+  ]
+}

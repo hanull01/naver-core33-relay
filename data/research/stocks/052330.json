@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "052330",
+  "itemName": "코텍",
+  "reportCount": 1,
+  "latestReportNid": "91556",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91556",
+    "writeDate": "2026-04-15",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 카지노용 디스플레이 전문 제조기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91556"
+  ]
+}

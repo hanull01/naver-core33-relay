@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000100",
+  "itemName": "유한양행",
+  "reportCount": 9,
+  "latestReportNid": "95751",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95751",
+    "writeDate": "2026-08-19",
+    "brokerName": "iM증권",
+    "title": "성장의 뿌리는 단단해지고 있다",
+    "goalPrice": 140000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수요": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95751",
+    "95039",
+    "94977",
+    "94869",
+    "94855",
+    "92549",
+    "92458",
+    "91692",
+    "91568"
+  ]
+}

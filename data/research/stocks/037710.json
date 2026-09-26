@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "037710",
+  "itemName": "광주신세계",
+  "reportCount": 1,
+  "latestReportNid": "91507",
+  "latestWriteDate": "2026-04-14",
+  "latest": {
+    "nid": "91507",
+    "writeDate": "2026-04-14",
+    "brokerName": "한국IR협의회",
+    "title": "적극적인 주주환원 정책이 가져다주는 편안함",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91507"
+  ]
+}

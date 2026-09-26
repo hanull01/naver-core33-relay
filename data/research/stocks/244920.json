@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "244920",
+  "itemName": "에이플러스에셋",
+  "reportCount": 1,
+  "latestReportNid": "96071",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96071",
+    "writeDate": "2026-09-10",
+    "brokerName": "iM증권",
+    "title": "설계사의 높은 생산성. 본업 외는 지켜봐야",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 5
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96071"
+  ]
+}

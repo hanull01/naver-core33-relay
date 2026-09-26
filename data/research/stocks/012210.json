@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "012210",
+  "itemName": "삼미금속",
+  "reportCount": 4,
+  "latestReportNid": "95129",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95129",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "발전용 선박 엔진 필수품부터 천무까지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 4,
+        "방산": 1,
+        "원전": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95129",
+    "95094",
+    "94002",
+    "93543"
+  ]
+}

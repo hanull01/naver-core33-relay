@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "060250",
+  "itemName": "NHN KCP",
+  "reportCount": 3,
+  "latestReportNid": "95800",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95800",
+    "writeDate": "2026-08-21",
+    "brokerName": "신한투자증권",
+    "title": "NDR 후기: PG를 넘어 AI 결제 인프라로",
+    "goalPrice": 22000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95800",
+    "95303",
+    "93435"
+  ]
+}

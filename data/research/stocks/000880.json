@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000880",
+  "itemName": "한화",
+  "reportCount": 17,
+  "latestReportNid": "96172",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96172",
+    "writeDate": "2026-09-16",
+    "brokerName": "SK증권",
+    "title": "쪼갠 후 증가한 시가총액",
+    "goalPrice": 170000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96172",
+    "95856",
+    "95832",
+    "95154",
+    "94799",
+    "94663",
+    "94514",
+    "94285",
+    "94018",
+    "93131",
+    "92531",
+    "92503",
+    "91596",
+    "91584",
+    "91567",
+    "91356",
+    "91200"
+  ]
+}

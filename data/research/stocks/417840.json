@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "417840",
+  "itemName": "저스템",
+  "reportCount": 7,
+  "latestReportNid": "96074",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96074",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "신제품으로 실적 레벨 업 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96074",
+    "95968",
+    "95772",
+    "95533",
+    "93346",
+    "92951",
+    "92236"
+  ]
+}

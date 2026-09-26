@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "278280",
+  "itemName": "천보",
+  "reportCount": 4,
+  "latestReportNid": "95888",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95888",
+    "writeDate": "2026-08-27",
+    "brokerName": "키움증권",
+    "title": "NDR 후기: 실적 바닥 통과 구간, 북미 OEM 서플라이 체인에 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 5,
+        "배터리": 3,
+        "가격": 2,
+        "수요": 2,
+        "AI": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95888",
+    "93851",
+    "93206",
+    "91449"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "102260",
+  "itemName": "동성케미컬",
+  "reportCount": 1,
+  "latestReportNid": "96089",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96089",
+    "writeDate": "2026-09-11",
+    "brokerName": "NICE평가정보",
+    "title": "67년 폴리우레탄 기술로 신발·산업용 소재의 미래를 여는 소재 과학 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96089"
+  ]
+}

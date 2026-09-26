@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "070590",
+  "itemName": "인티큐브",
+  "reportCount": 1,
+  "latestReportNid": "92555",
+  "latestWriteDate": "2026-05-08",
+  "latest": {
+    "nid": "92555",
+    "writeDate": "2026-05-08",
+    "brokerName": "NICE평가정보",
+    "title": "AI 기반 디지털 컨택센터 및 클라우드 커뮤니케이션 솔루션 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "92555"
+  ]
+}

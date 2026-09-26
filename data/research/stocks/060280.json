@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "060280",
+  "itemName": "큐렉소",
+  "reportCount": 2,
+  "latestReportNid": "96186",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96186",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 정형외과 수술로봇 및 재활로봇 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 13
+      }
+    }
+  },
+  "reportNids": [
+    "96186",
+    "91184"
+  ]
+}

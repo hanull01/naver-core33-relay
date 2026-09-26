@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204270",
+  "itemName": "제이앤티씨",
+  "reportCount": 4,
+  "latestReportNid": "95987",
+  "latestWriteDate": "2026-09-03",
+  "latest": {
+    "nid": "95987",
+    "writeDate": "2026-09-03",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 하반기 HDD사업 매출 가시화 기대",
+    "goalPrice": 26000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 16,
+        "negative": 9
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 7,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "반도체": 2,
+        "자동차": 2,
+        "미국": 1,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95987",
+    "95450",
+    "93314",
+    "91361"
+  ]
+}

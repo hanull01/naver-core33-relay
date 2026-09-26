@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010690",
+  "itemName": "화신",
+  "reportCount": 1,
+  "latestReportNid": "93756",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93756",
+    "writeDate": "2026-06-30",
+    "brokerName": "삼성증권",
+    "title": "두번째 피봇은 기회가 더 크다",
+    "goalPrice": 16000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 10,
+        "자동차": 7,
+        "가격": 1,
+        "미국": 1,
+        "수주": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93756"
+  ]
+}

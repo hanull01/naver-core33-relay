@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "323410",
+  "itemName": "카카오뱅크",
+  "reportCount": 11,
+  "latestReportNid": "95258",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95258",
+    "writeDate": "2026-08-07",
+    "brokerName": "대신증권",
+    "title": "순조로운 성장 중",
+    "goalPrice": 26000,
+    "normalizedOpinion": "MARKETPERFORM",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95258",
+    "95180",
+    "95179",
+    "95164",
+    "95130",
+    "94341",
+    "92552",
+    "92543",
+    "92532",
+    "92518",
+    "92500"
+  ]
+}

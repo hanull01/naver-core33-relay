@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "192440",
+  "itemName": "슈피겐코리아",
+  "reportCount": 1,
+  "latestReportNid": "92291",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92291",
+    "writeDate": "2026-05-04",
+    "brokerName": "서울평가정보",
+    "title": "글로벌 온라인 채널 기반의 모바일 보호 액세서리 브랜드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92291"
+  ]
+}

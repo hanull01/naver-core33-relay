@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "318160",
+  "itemName": "셀바이오휴먼텍",
+  "reportCount": 1,
+  "latestReportNid": "96083",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96083",
+    "writeDate": "2026-09-10",
+    "brokerName": "하나증권",
+    "title": "마스크팩 소재에서 제조까지 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 3
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "가격": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96083"
+  ]
+}

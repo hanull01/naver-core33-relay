@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000490",
+  "itemName": "대동",
+  "reportCount": 1,
+  "latestReportNid": "96047",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96047",
+    "writeDate": "2026-09-09",
+    "brokerName": "한국IR협의회",
+    "title": "농기계 제조에서 농업 AI 플랫폼기업으로 도약 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 5
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "로봇": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96047"
+  ]
+}

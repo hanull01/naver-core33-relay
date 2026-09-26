@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "199480",
+  "itemName": "뱅크웨어글로벌",
+  "reportCount": 1,
+  "latestReportNid": "93489",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93489",
+    "writeDate": "2026-06-11",
+    "brokerName": "미래에셋증권",
+    "title": "체질 개선 속 피어나는 AI·STO 모멘텀",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93489"
+  ]
+}

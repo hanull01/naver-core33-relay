@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "214450",
+  "itemName": "파마리서치",
+  "reportCount": 19,
+  "latestReportNid": "95700",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95700",
+    "writeDate": "2026-08-18",
+    "brokerName": "미래에셋증권",
+    "title": "아시아 견문록: 다각화의 힘은 더 강해질 것",
+    "goalPrice": 600000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95700",
+    "95388",
+    "95360",
+    "95345",
+    "95324",
+    "95314",
+    "95293",
+    "94242",
+    "94234",
+    "94221",
+    "93394",
+    "93238",
+    "92726",
+    "92703",
+    "92695",
+    "92690",
+    "92655",
+    "91667",
+    "91530"
+  ]
+}

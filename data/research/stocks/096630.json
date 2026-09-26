@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "096630",
+  "itemName": "에스코넥",
+  "reportCount": 1,
+  "latestReportNid": "93697",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93697",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "정밀 금속 구조부품 제조역량 기반으로 고사양 모바일 부품 시장 변화에 대응",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93697"
+  ]
+}

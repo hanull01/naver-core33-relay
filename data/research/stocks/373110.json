@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "373110",
+  "itemName": "엑셀세라퓨틱스",
+  "reportCount": 1,
+  "latestReportNid": "93675",
+  "latestWriteDate": "2026-06-24",
+  "latest": {
+    "nid": "93675",
+    "writeDate": "2026-06-24",
+    "brokerName": "대신증권",
+    "title": "세포배양배지의 구조적 성장 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93675"
+  ]
+}

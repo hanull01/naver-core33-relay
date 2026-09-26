@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "376300",
+  "itemName": "디어유",
+  "reportCount": 11,
+  "latestReportNid": "95441",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95441",
+    "writeDate": "2026-08-12",
+    "brokerName": "삼성증권",
+    "title": "성장의 무게 중심은 해외로",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "미국": 6,
+        "원가": 4,
+        "중국": 4,
+        "자동차": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95441",
+    "95110",
+    "95085",
+    "95059",
+    "93077",
+    "92962",
+    "92665",
+    "92526",
+    "92524",
+    "92048",
+    "92021"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "462870",
+  "itemName": "시프트업",
+  "reportCount": 14,
+  "latestReportNid": "95847",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95847",
+    "writeDate": "2026-08-25",
+    "brokerName": "키움증권",
+    "title": "캡콤 지향점을 위한 길",
+    "goalPrice": 65000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95847",
+    "95662",
+    "95476",
+    "95458",
+    "94128",
+    "93871",
+    "93788",
+    "93783",
+    "93530",
+    "92782",
+    "92773",
+    "92167",
+    "91725",
+    "91333"
+  ]
+}

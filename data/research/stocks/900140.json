@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "900140",
+  "itemName": "엘브이엠씨홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "95121",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95121",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "동남아시아 고성장 최대 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95121"
+  ]
+}

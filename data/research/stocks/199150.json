@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "199150",
+  "itemName": "데이터스트림즈",
+  "reportCount": 1,
+  "latestReportNid": "93516",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93516",
+    "writeDate": "2026-06-12",
+    "brokerName": "NICE평가정보",
+    "title": "데이터의 흐름에서 AI의 미래까지, 25년 국내 No.1 데이터 패브릭 플랫폼",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93516"
+  ]
+}

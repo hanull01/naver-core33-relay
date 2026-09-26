@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "389500",
+  "itemName": "에스비비테크",
+  "reportCount": 2,
+  "latestReportNid": "95813",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95813",
+    "writeDate": "2026-08-24",
+    "brokerName": "미래에셋증권",
+    "title": "하모닉 감속기 국산화 1호 기업",
+    "goalPrice": 47000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95813",
+    "93798"
+  ]
+}

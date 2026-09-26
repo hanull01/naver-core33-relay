@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "192080",
+  "itemName": "더블유게임즈",
+  "reportCount": 18,
+  "latestReportNid": "95570",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95570",
+    "writeDate": "2026-08-13",
+    "brokerName": "하나증권",
+    "title": "환율 대비 아쉬운 실적",
+    "goalPrice": 80000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95570",
+    "95564",
+    "95538",
+    "95529",
+    "94711",
+    "94301",
+    "94136",
+    "93999",
+    "93877",
+    "93870",
+    "93785",
+    "93224",
+    "92952",
+    "92928",
+    "92901",
+    "92165",
+    "92092",
+    "91670"
+  ]
+}

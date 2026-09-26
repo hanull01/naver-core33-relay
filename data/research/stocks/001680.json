@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001680",
+  "itemName": "대상",
+  "reportCount": 2,
+  "latestReportNid": "93426",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93426",
+    "writeDate": "2026-06-05",
+    "brokerName": "하나증권",
+    "title": "1Q26 Re: 2분기까지 전년 베이스 부담",
+    "goalPrice": 35000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 11
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93426",
+    "93379"
+  ]
+}

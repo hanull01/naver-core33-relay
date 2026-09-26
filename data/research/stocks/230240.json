@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "230240",
+  "itemName": "에치에프알",
+  "reportCount": 9,
+  "latestReportNid": "96178",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96178",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "2027년에는 내수와 수출 실적 모두 개선됩니다",
+    "goalPrice": 50000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96178",
+    "95834",
+    "94455",
+    "94241",
+    "93503",
+    "93401",
+    "93256",
+    "93167",
+    "92138"
+  ]
+}

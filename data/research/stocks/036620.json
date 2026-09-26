@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036620",
+  "itemName": "감성코퍼레이션",
+  "reportCount": 6,
+  "latestReportNid": "93980",
+  "latestWriteDate": "2026-07-08",
+  "latest": {
+    "nid": "93980",
+    "writeDate": "2026-07-08",
+    "brokerName": "유안타증권",
+    "title": "국가별 맞춤 매장 확대 전략",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 4,
+        "원가": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93980",
+    "93918",
+    "92913",
+    "91769",
+    "91640",
+    "91211"
+  ]
+}

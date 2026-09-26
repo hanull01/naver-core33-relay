@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "322000",
+  "itemName": "HD현대에너지솔루션",
+  "reportCount": 4,
+  "latestReportNid": "94558",
+  "latestWriteDate": "2026-07-27",
+  "latest": {
+    "nid": "94558",
+    "writeDate": "2026-07-27",
+    "brokerName": "DS투자증권",
+    "title": "가장 편안하고 확실한 선택지",
+    "goalPrice": 260000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94558",
+    "94557",
+    "92266",
+    "92252"
+  ]
+}

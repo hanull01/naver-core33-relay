@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "194700",
+  "itemName": "노바렉스",
+  "reportCount": 3,
+  "latestReportNid": "96110",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96110",
+    "writeDate": "2026-09-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 개별인정원료 국내 최다 건기식 ODM 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96110",
+    "95728",
+    "93115"
+  ]
+}

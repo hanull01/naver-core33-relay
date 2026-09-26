@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "271560",
+  "itemName": "오리온",
+  "reportCount": 23,
+  "latestReportNid": "96141",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96141",
+    "writeDate": "2026-09-14",
+    "brokerName": "DS투자증권",
+    "title": "실적 안정성과 주주 환원으로 리레이팅 기대",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 17,
+        "negative": 6
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 5,
+        "미국": 1,
+        "재고": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96141",
+    "96139",
+    "96135",
+    "96122",
+    "96115",
+    "95432",
+    "95430",
+    "95407",
+    "94316",
+    "94095",
+    "93736",
+    "93720",
+    "93665",
+    "93577",
+    "93573",
+    "93154",
+    "93147",
+    "93119",
+    "91795",
+    "91791",
+    "91594",
+    "91579",
+    "91168"
+  ]
+}

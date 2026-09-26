@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "495810",
+  "itemName": "유비씨",
+  "reportCount": 1,
+  "latestReportNid": "93699",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93699",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "AI 디지털 트윈 기술로 제조 현장의 자율화와 운영 최적화를 구현하는 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93699"
+  ]
+}

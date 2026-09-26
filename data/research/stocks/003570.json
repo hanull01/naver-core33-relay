@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003570",
+  "itemName": "SNT다이내믹스",
+  "reportCount": 2,
+  "latestReportNid": "95118",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95118",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "높아지는 배당 매력, 존재감 빛날 것",
+    "goalPrice": 77000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 4,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95118",
+    "93242"
+  ]
+}

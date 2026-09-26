@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "389680",
+  "itemName": "유디엠텍",
+  "reportCount": 1,
+  "latestReportNid": "93674",
+  "latestWriteDate": "2026-06-24",
+  "latest": {
+    "nid": "93674",
+    "writeDate": "2026-06-24",
+    "brokerName": "대신증권",
+    "title": "쌓이기 시작하는 레퍼런스, 관건은 수주의 반복성",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "방산": 2,
+        "배터리": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93674"
+  ]
+}

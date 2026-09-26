@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005830",
+  "itemName": "DB손해보험",
+  "reportCount": 19,
+  "latestReportNid": "96012",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96012",
+    "writeDate": "2026-09-04",
+    "brokerName": "대신증권",
+    "title": "새로운 밸류업 정책으로 확대되는 배당총액",
+    "goalPrice": 250000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96012",
+    "95990",
+    "95946",
+    "95943",
+    "95935",
+    "95928",
+    "95854",
+    "95763",
+    "95657",
+    "95612",
+    "95602",
+    "95597",
+    "94087",
+    "94067",
+    "93107",
+    "93082",
+    "93054",
+    "93046",
+    "93031"
+  ]
+}

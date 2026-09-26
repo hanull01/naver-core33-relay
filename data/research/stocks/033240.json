@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "033240",
+  "itemName": "자화전자",
+  "reportCount": 2,
+  "latestReportNid": "95080",
+  "latestWriteDate": "2026-08-05",
+  "latest": {
+    "nid": "95080",
+    "writeDate": "2026-08-05",
+    "brokerName": "교보증권",
+    "title": "탐방노트: 4배 증설 그리고 로봇핵심부품까지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95080",
+    "93039"
+  ]
+}

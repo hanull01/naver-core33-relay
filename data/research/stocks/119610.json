@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "119610",
+  "itemName": "인터로조",
+  "reportCount": 3,
+  "latestReportNid": "96092",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96092",
+    "writeDate": "2026-09-11",
+    "brokerName": "키움증권",
+    "title": "예쁜 눈을 사는 시대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96092",
+    "94646",
+    "92509"
+  ]
+}

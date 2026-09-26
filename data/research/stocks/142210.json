@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "142210",
+  "itemName": "유니트론텍",
+  "reportCount": 1,
+  "latestReportNid": "93384",
+  "latestWriteDate": "2026-06-02",
+  "latest": {
+    "nid": "93384",
+    "writeDate": "2026-06-02",
+    "brokerName": "키움증권",
+    "title": "이제 저평가 아닌 재평가(feat. Micron, AUO)",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "가격": 1,
+        "자동차": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93384"
+  ]
+}

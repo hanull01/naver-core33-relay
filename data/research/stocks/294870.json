@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "294870",
+  "itemName": "IPARK현대산업개발",
+  "reportCount": 22,
+  "latestReportNid": "96264",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96264",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "자체도 좋고 도급도 좋고, 외형 성장만 남았다!",
+    "goalPrice": 34000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96264",
+    "94554",
+    "94543",
+    "94516",
+    "94509",
+    "94508",
+    "94496",
+    "94486",
+    "94306",
+    "94286",
+    "94273",
+    "94250",
+    "94232",
+    "92079",
+    "92058",
+    "92047",
+    "92037",
+    "92035",
+    "92030",
+    "91766",
+    "91662",
+    "91552"
+  ]
+}

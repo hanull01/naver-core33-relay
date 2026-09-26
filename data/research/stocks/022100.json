@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "022100",
+  "itemName": "포스코DX",
+  "reportCount": 2,
+  "latestReportNid": "95892",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95892",
+    "writeDate": "2026-08-27",
+    "brokerName": "신한투자증권",
+    "title": "쇳물보다 먼저 달아오른 수주",
+    "goalPrice": 27000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수주": 2,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95892",
+    "95351"
+  ]
+}

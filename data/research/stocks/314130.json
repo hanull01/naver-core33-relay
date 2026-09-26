@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "314130",
+  "itemName": "지놈앤컴퍼니",
+  "reportCount": 1,
+  "latestReportNid": "93768",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93768",
+    "writeDate": "2026-06-30",
+    "brokerName": "한국IR협의회",
+    "title": "신규타깃 ADC로 체질 전환, 다음은 후속 L/O",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93768"
+  ]
+}

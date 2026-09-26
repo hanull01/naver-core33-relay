@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "466100",
+  "itemName": "클로봇",
+  "reportCount": 3,
+  "latestReportNid": "93583",
+  "latestWriteDate": "2026-06-18",
+  "latest": {
+    "nid": "93583",
+    "writeDate": "2026-06-18",
+    "brokerName": "미래에셋증권",
+    "title": "챕터 2의 서막",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 5
+      }
+    }
+  },
+  "reportNids": [
+    "93583",
+    "93480",
+    "91718"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "020150",
+  "itemName": "롯데에너지머티리얼즈",
+  "reportCount": 14,
+  "latestReportNid": "95875",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95875",
+    "writeDate": "2026-08-26",
+    "brokerName": "SK증권",
+    "title": "3분기 회로박 판가 인상, 4분기 전지박 기대",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95875",
+    "95280",
+    "95223",
+    "95212",
+    "95191",
+    "94012",
+    "92983",
+    "92786",
+    "92778",
+    "92767",
+    "92759",
+    "92755",
+    "91895",
+    "91768"
+  ]
+}

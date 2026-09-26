@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "448710",
+  "itemName": "코츠테크놀로지",
+  "reportCount": 2,
+  "latestReportNid": "91586",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91586",
+    "writeDate": "2026-04-15",
+    "brokerName": "유안타증권",
+    "title": "[탐방노트] #국산화 #방산수출 #ASP상승",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 14,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 8,
+        "가격": 2,
+        "수주": 2,
+        "AI": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91586",
+    "91317"
+  ]
+}

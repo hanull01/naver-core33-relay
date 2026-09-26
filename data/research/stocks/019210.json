@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "019210",
+  "itemName": "와이지-원",
+  "reportCount": 1,
+  "latestReportNid": "95769",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95769",
+    "writeDate": "2026-08-19",
+    "brokerName": "유안타증권",
+    "title": "2Q 실적의 내재적 의미",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95769"
+  ]
+}

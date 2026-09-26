@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "259630",
+  "itemName": "엠플러스",
+  "reportCount": 2,
+  "latestReportNid": "93308",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93308",
+    "writeDate": "2026-05-28",
+    "brokerName": "키움증권",
+    "title": "높아지는 경쟁력 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 4,
+        "미국": 1,
+        "배터리": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93308",
+    "91072"
+  ]
+}

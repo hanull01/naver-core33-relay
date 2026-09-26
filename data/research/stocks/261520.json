@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "261520",
+  "itemName": "이지스",
+  "reportCount": 1,
+  "latestReportNid": "95049",
+  "latestWriteDate": "2026-08-05",
+  "latest": {
+    "nid": "95049",
+    "writeDate": "2026-08-05",
+    "brokerName": "한국IR협의회",
+    "title": "디지털 트윈 플랫폼 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95049"
+  ]
+}

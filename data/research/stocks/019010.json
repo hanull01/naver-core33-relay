@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "019010",
+  "itemName": "베뉴지",
+  "reportCount": 1,
+  "latestReportNid": "92502",
+  "latestWriteDate": "2026-05-07",
+  "latest": {
+    "nid": "92502",
+    "writeDate": "2026-05-07",
+    "brokerName": "한국IR협의회",
+    "title": "네 우리가 들어본 그 웨딩홀 맞습니다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92502"
+  ]
+}

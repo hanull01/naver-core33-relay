@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005180",
+  "itemName": "빙그레",
+  "reportCount": 3,
+  "latestReportNid": "95733",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95733",
+    "writeDate": "2026-08-18",
+    "brokerName": "한화투자증권",
+    "title": "드러나기 시작한 체질 개선 효과",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95733",
+    "95729",
+    "91092"
+  ]
+}

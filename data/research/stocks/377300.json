@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "377300",
+  "itemName": "카카오페이",
+  "reportCount": 8,
+  "latestReportNid": "95814",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95814",
+    "writeDate": "2026-08-24",
+    "brokerName": "키움증권",
+    "title": "프런티어 업체 제휴 요구",
+    "goalPrice": 85000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 4
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95814",
+    "95082",
+    "95063",
+    "92548",
+    "92519",
+    "92506",
+    "92036",
+    "91962"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "108490",
+  "itemName": "로보티즈",
+  "reportCount": 2,
+  "latestReportNid": "95846",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95846",
+    "writeDate": "2026-08-24",
+    "brokerName": "한화투자증권",
+    "title": "업종 내 차별적 매출/수익 성장성 보유",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95846",
+    "95812"
+  ]
+}

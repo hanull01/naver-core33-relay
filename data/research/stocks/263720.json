@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "263720",
+  "itemName": "디앤씨미디어",
+  "reportCount": 2,
+  "latestReportNid": "95817",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95817",
+    "writeDate": "2026-08-24",
+    "brokerName": "신한투자증권",
+    "title": "27~28년 돌아올 <나혼렙> 극장판",
+    "goalPrice": 12000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95817",
+    "91661"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0010V0",
+  "itemName": "제이피아이헬스케어",
+  "reportCount": 1,
+  "latestReportNid": "93451",
+  "latestWriteDate": "2026-06-09",
+  "latest": {
+    "nid": "93451",
+    "writeDate": "2026-06-09",
+    "brokerName": "키움증권",
+    "title": "1분기 부진을 만회할 하반기 외형 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 2,
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93451"
+  ]
+}

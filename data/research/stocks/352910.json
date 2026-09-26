@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "352910",
+  "itemName": "오비고",
+  "reportCount": 1,
+  "latestReportNid": "91562",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91562",
+    "writeDate": "2026-04-15",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 차량용 소프트웨어 플랫폼 개발 및 공급 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91562"
+  ]
+}

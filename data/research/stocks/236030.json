@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "236030",
+  "itemName": "씨알푸드",
+  "reportCount": 1,
+  "latestReportNid": "93213",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93213",
+    "writeDate": "2026-05-22",
+    "brokerName": "서울평가정보",
+    "title": "건강지향 곡물 가공식품과 B2B 원료형 사업으로 확장 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93213"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "368970",
+  "itemName": "오에스피",
+  "reportCount": 1,
+  "latestReportNid": "92287",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92287",
+    "writeDate": "2026-05-04",
+    "brokerName": "NICE평가정보",
+    "title": "유기농 기반 프리미엄 펫푸드 ODM 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92287"
+  ]
+}

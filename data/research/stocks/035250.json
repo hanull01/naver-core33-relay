@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035250",
+  "itemName": "강원랜드",
+  "reportCount": 8,
+  "latestReportNid": "95109",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95109",
+    "writeDate": "2026-08-06",
+    "brokerName": "키움증권",
+    "title": "리노베이션 영향 본격화되며 컨센 하회",
+    "goalPrice": 18000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95109",
+    "95077",
+    "95065",
+    "94230",
+    "92397",
+    "92348",
+    "92306",
+    "91564"
+  ]
+}

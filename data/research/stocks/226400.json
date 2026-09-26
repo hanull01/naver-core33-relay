@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "226400",
+  "itemName": "오스테오닉",
+  "reportCount": 2,
+  "latestReportNid": "94970",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94970",
+    "writeDate": "2026-08-03",
+    "brokerName": "SK증권",
+    "title": "실적 성장에 더해질 주가 모멘텀",
+    "goalPrice": 10300,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94970",
+    "92064"
+  ]
+}

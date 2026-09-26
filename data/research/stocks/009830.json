@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "009830",
+  "itemName": "한화솔루션",
+  "reportCount": 26,
+  "latestReportNid": "94785",
+  "latestWriteDate": "2026-07-30",
+  "latest": {
+    "nid": "94785",
+    "writeDate": "2026-07-30",
+    "brokerName": "교보증권",
+    "title": "2Q26 Review: 믹스 개선",
+    "goalPrice": 43000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 3,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94785",
+    "94767",
+    "94754",
+    "94752",
+    "94739",
+    "94731",
+    "94718",
+    "94071",
+    "93376",
+    "92688",
+    "92160",
+    "92159",
+    "92140",
+    "92136",
+    "92134",
+    "92112",
+    "92103",
+    "92100",
+    "91830",
+    "91828",
+    "91798",
+    "91764",
+    "91102",
+    "91100",
+    "91097",
+    "91091"
+  ]
+}

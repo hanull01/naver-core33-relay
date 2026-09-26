@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "321550",
+  "itemName": "티움바이오",
+  "reportCount": 1,
+  "latestReportNid": "91466",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91466",
+    "writeDate": "2026-04-13",
+    "brokerName": "유진투자증권",
+    "title": "NDR 후기: 메리골릭스 유럽 기술 이전 기대감",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91466"
+  ]
+}

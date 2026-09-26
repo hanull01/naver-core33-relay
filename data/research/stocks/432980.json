@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "432980",
+  "itemName": "엠에프씨",
+  "reportCount": 1,
+  "latestReportNid": "93716",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93716",
+    "writeDate": "2026-06-26",
+    "brokerName": "하나증권",
+    "title": "IPO 주관사 업데이트: 고부가가치 품목 매출 확대 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93716"
+  ]
+}

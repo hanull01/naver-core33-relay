@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "493330",
+  "itemName": "지에프아이",
+  "reportCount": 2,
+  "latestReportNid": "95124",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95124",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "성장에 또 성장, 실적으로 증명하다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "가격": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95124",
+    "92448"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "356860",
+  "itemName": "티엘비",
+  "reportCount": 12,
+  "latestReportNid": "96052",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96052",
+    "writeDate": "2026-09-09",
+    "brokerName": "대신증권",
+    "title": "3Q실적 호조/소캠2 수혜, 숨은 강자~",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 20,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 9,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96052",
+    "95930",
+    "95873",
+    "95709",
+    "95667",
+    "94115",
+    "93988",
+    "93820",
+    "93369",
+    "92842",
+    "92819",
+    "91548"
+  ]
+}

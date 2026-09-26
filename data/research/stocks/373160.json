@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "373160",
+  "itemName": "데이원컴퍼니",
+  "reportCount": 2,
+  "latestReportNid": "96003",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96003",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "성인 온라인 교육 콘텐츠를 제작·유통하는 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96003",
+    "93488"
+  ]
+}

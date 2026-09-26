@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "170920",
+  "itemName": "엘티씨",
+  "reportCount": 4,
+  "latestReportNid": "95605",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95605",
+    "writeDate": "2026-08-14",
+    "brokerName": "신한투자증권",
+    "title": "2분기 연속 최대 실적 경신",
+    "goalPrice": 64000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95605",
+    "93387",
+    "91688",
+    "91079"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034020",
+  "itemName": "두산에너빌리티",
+  "reportCount": 21,
+  "latestReportNid": "94949",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94949",
+    "writeDate": "2026-08-03",
+    "brokerName": "iM증권",
+    "title": "하반기 원전 및 가스터빈 등 수주 모멘텀 가시화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 10,
+        "원전": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94949",
+    "94762",
+    "94698",
+    "94627",
+    "94623",
+    "94611",
+    "94607",
+    "94600",
+    "94583",
+    "94577",
+    "94340",
+    "92383",
+    "92334",
+    "92270",
+    "92259",
+    "92241",
+    "92229",
+    "92213",
+    "92189",
+    "92183",
+    "91505"
+  ]
+}

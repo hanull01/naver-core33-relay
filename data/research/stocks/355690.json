@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "355690",
+  "itemName": "에이텀",
+  "reportCount": 1,
+  "latestReportNid": "93415",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93415",
+    "writeDate": "2026-06-05",
+    "brokerName": "SK증권",
+    "title": "게임 체인저",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "자동차": 1,
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93415"
+  ]
+}

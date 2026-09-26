@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "079430",
+  "itemName": "현대리바트",
+  "reportCount": 2,
+  "latestReportNid": "95623",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95623",
+    "writeDate": "2026-08-14",
+    "brokerName": "IBK투자증권",
+    "title": "2Q26 NDR 후기: 외형 성장 필요",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1,
+        "원가": 1,
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95623",
+    "92719"
+  ]
+}

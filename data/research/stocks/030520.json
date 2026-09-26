@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "030520",
+  "itemName": "한컴",
+  "reportCount": 5,
+  "latestReportNid": "95867",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95867",
+    "writeDate": "2026-08-26",
+    "brokerName": "신한투자증권",
+    "title": "소버린AI Top-Pick",
+    "goalPrice": 25500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5
+      }
+    }
+  },
+  "reportNids": [
+    "95867",
+    "95395",
+    "94864",
+    "93646",
+    "93001"
+  ]
+}

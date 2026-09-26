@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "451760",
+  "itemName": "컨텍",
+  "reportCount": 2,
+  "latestReportNid": "96128",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96128",
+    "writeDate": "2026-09-14",
+    "brokerName": "대신증권",
+    "title": "지상국에서 국가단위 우주 인프라 사업자로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96128",
+    "92486"
+  ]
+}

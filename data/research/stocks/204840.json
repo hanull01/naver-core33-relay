@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204840",
+  "itemName": "지엘팜텍",
+  "reportCount": 1,
+  "latestReportNid": "91649",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91649",
+    "writeDate": "2026-04-17",
+    "brokerName": "서울평가정보",
+    "title": "제제기술 기반 개량신약 개발 중심의 의약품 연구개발 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91649"
+  ]
+}

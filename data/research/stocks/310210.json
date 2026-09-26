@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "310210",
+  "itemName": "보로노이",
+  "reportCount": 2,
+  "latestReportNid": "96211",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96211",
+    "writeDate": "2026-09-17",
+    "brokerName": "유안타증권",
+    "title": "축적되고 있는 임상 데이터",
+    "goalPrice": 450000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96211",
+    "91704"
+  ]
+}

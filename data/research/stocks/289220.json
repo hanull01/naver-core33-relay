@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "289220",
+  "itemName": "자이언트스텝",
+  "reportCount": 1,
+  "latestReportNid": "91443",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91443",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 실시간 3D 콘텐츠 및 AI 기반 버추얼 프로덕션 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "수요": 1,
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91443"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "282880",
+  "itemName": "코윈테크",
+  "reportCount": 4,
+  "latestReportNid": "95996",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "95996",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] AMR과 자동화시스템을 공급하는 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 8,
+        "배터리": 5,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95996",
+    "95698",
+    "93062",
+    "92477"
+  ]
+}

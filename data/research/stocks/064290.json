@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "064290",
+  "itemName": "인텍플러스",
+  "reportCount": 6,
+  "latestReportNid": "96242",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96242",
+    "writeDate": "2026-09-21",
+    "brokerName": "iM증권",
+    "title": "수주급증 믹스개선 비용감소 삼박자",
+    "goalPrice": 84000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96242",
+    "96057",
+    "95803",
+    "92608",
+    "91951",
+    "91575"
+  ]
+}

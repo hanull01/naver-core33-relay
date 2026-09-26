@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "236200",
+  "itemName": "슈프리마",
+  "reportCount": 3,
+  "latestReportNid": "95804",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95804",
+    "writeDate": "2026-08-21",
+    "brokerName": "유안타증권",
+    "title": "떨어지지 않는 성장 요인",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95804",
+    "95131",
+    "93472"
+  ]
+}

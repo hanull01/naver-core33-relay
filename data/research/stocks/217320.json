@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "217320",
+  "itemName": "썬테크",
+  "reportCount": 1,
+  "latestReportNid": "93515",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93515",
+    "writeDate": "2026-06-12",
+    "brokerName": "서울평가정보",
+    "title": "고신뢰 비상전원 수요에 대응하는 디젤엔진 비상발전기 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 3,
+        "방산": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93515"
+  ]
+}

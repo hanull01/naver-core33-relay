@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "069260",
+  "itemName": "TKG휴켐스",
+  "reportCount": 3,
+  "latestReportNid": "95910",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95910",
+    "writeDate": "2026-08-28",
+    "brokerName": "IBK투자증권",
+    "title": "2배의 EV/EBITDA가 정상화되기 위해 필요한 것",
+    "goalPrice": 24000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 19,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "자동차": 3,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95910",
+    "93575",
+    "92475"
+  ]
+}

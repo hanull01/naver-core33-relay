@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "189300",
+  "itemName": "인텔리안테크",
+  "reportCount": 12,
+  "latestReportNid": "96129",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96129",
+    "writeDate": "2026-09-14",
+    "brokerName": "대신증권",
+    "title": "LEO 인프라 투자 확대, Ground Segment 대장주로 부상",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96129",
+    "95762",
+    "95761",
+    "95672",
+    "94806",
+    "94413",
+    "94309",
+    "93055",
+    "92978",
+    "92669",
+    "92481",
+    "91395"
+  ]
+}

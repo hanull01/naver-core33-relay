@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "129920",
+  "itemName": "대성하이텍",
+  "reportCount": 2,
+  "latestReportNid": "95768",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95768",
+    "writeDate": "2026-08-19",
+    "brokerName": "유안타증권",
+    "title": "온탕과 냉탕, 다음은 온탕이다!",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 6,
+        "원가": 6,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95768",
+    "93355"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000080",
+  "itemName": "하이트진로",
+  "reportCount": 2,
+  "latestReportNid": "95608",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95608",
+    "writeDate": "2026-08-14",
+    "brokerName": "신한투자증권",
+    "title": "비용 절감은 우수, 판매량 회복은 과제",
+    "goalPrice": 22000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95608",
+    "93075"
+  ]
+}

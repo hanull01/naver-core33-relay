@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "020000",
+  "itemName": "한섬",
+  "reportCount": 15,
+  "latestReportNid": "96286",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96286",
+    "writeDate": "2026-09-22",
+    "brokerName": "한화투자증권",
+    "title": "26년 연말의 주식이 될 상인가?",
+    "goalPrice": 36000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96286",
+    "96284",
+    "96255",
+    "95054",
+    "95041",
+    "95031",
+    "94010",
+    "93894",
+    "93366",
+    "93091",
+    "92583",
+    "92116",
+    "91739",
+    "91710",
+    "91615"
+  ]
+}

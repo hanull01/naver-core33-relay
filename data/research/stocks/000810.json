@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000810",
+  "itemName": "삼성화재",
+  "reportCount": 16,
+  "latestReportNid": "95655",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95655",
+    "writeDate": "2026-08-14",
+    "brokerName": "교보증권",
+    "title": "2Q26 Review: 보험손익 및 투자손익 개선세 유지",
+    "goalPrice": 800000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 17,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95655",
+    "95650",
+    "95631",
+    "95616",
+    "95604",
+    "95596",
+    "95591",
+    "94236",
+    "94131",
+    "93111",
+    "93017",
+    "93011",
+    "92999",
+    "92984",
+    "92981",
+    "92972"
+  ]
+}

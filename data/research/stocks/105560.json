@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "105560",
+  "itemName": "KB금융",
+  "reportCount": 23,
+  "latestReportNid": "96136",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96136",
+    "writeDate": "2026-09-14",
+    "brokerName": "하나증권",
+    "title": "3분기도 매우 맑음",
+    "goalPrice": 235000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 7
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "원가": 2,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96136",
+    "94472",
+    "94469",
+    "94459",
+    "94446",
+    "94444",
+    "94435",
+    "94411",
+    "94408",
+    "93923",
+    "93814",
+    "93810",
+    "93524",
+    "92071",
+    "91934",
+    "91917",
+    "91911",
+    "91893",
+    "91884",
+    "91872",
+    "91862",
+    "91838",
+    "91589"
+  ]
+}

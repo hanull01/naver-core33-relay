@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "002900",
+  "itemName": "TYM",
+  "reportCount": 1,
+  "latestReportNid": "95103",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95103",
+    "writeDate": "2026-08-06",
+    "brokerName": "키움증권",
+    "title": "풍년의 기운이 느껴진다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95103"
+  ]
+}

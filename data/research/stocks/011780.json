@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011780",
+  "itemName": "금호석유화학",
+  "reportCount": 13,
+  "latestReportNid": "95370",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95370",
+    "writeDate": "2026-08-10",
+    "brokerName": "하나증권",
+    "title": "실적 변동성 크지만 사이클은 회복 국면",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 4,
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95370",
+    "95310",
+    "95304",
+    "95297",
+    "95287",
+    "94709",
+    "94169",
+    "92960",
+    "92692",
+    "92625",
+    "92605",
+    "92584",
+    "92188"
+  ]
+}

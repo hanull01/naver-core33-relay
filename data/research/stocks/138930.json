@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "138930",
+  "itemName": "BNK금융지주",
+  "reportCount": 18,
+  "latestReportNid": "94921",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94921",
+    "writeDate": "2026-07-31",
+    "brokerName": "교보증권",
+    "title": "2Q26 Review: 회계상 일시적 비용 제외 시, 양호한 실적",
+    "goalPrice": 22500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 19,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 4,
+        "금리": 3,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94921",
+    "94764",
+    "94702",
+    "94693",
+    "94672",
+    "94669",
+    "94654",
+    "94650",
+    "94113",
+    "93613",
+    "92432",
+    "92417",
+    "92401",
+    "92336",
+    "92310",
+    "92309",
+    "92292",
+    "91481"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "267260",
+  "itemName": "HD현대일렉트릭",
+  "reportCount": 24,
+  "latestReportNid": "95818",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95818",
+    "writeDate": "2026-08-24",
+    "brokerName": "SK증권",
+    "title": "수익성은 유틸리티, 성장은 증설이 만든다",
+    "goalPrice": 900000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "AI": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95818",
+    "94696",
+    "94688",
+    "94684",
+    "94675",
+    "94674",
+    "94666",
+    "94665",
+    "94652",
+    "94245",
+    "94161",
+    "94063",
+    "93949",
+    "93499",
+    "92150",
+    "92146",
+    "92135",
+    "92125",
+    "92123",
+    "92122",
+    "92121",
+    "91540",
+    "91478",
+    "91323"
+  ]
+}

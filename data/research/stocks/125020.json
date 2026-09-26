@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "125020",
+  "itemName": "티씨머티리얼즈",
+  "reportCount": 1,
+  "latestReportNid": "95979",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95979",
+    "writeDate": "2026-09-02",
+    "brokerName": "DS투자증권",
+    "title": "증설로 도약할 변압기 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95979"
+  ]
+}

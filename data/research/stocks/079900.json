@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "079900",
+  "itemName": "전진건설로봇",
+  "reportCount": 4,
+  "latestReportNid": "95822",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95822",
+    "writeDate": "2026-08-24",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 글로벌 인프라 및 재건 수요 기대",
+    "goalPrice": 48000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 22,
+        "negative": 14
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 6,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "수요": 4,
+        "자동차": 2,
+        "반도체": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95822",
+    "93361",
+    "93252",
+    "91282"
+  ]
+}

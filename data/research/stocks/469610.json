@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "469610",
+  "itemName": "이노테크",
+  "reportCount": 1,
+  "latestReportNid": "95907",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95907",
+    "writeDate": "2026-08-28",
+    "brokerName": "서울평가정보",
+    "title": "환경제어·복합구동·센서·소프트웨어 통합 역량 기반의 복합 신뢰성 시험장비 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95907"
+  ]
+}

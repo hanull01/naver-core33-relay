@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "098660",
+  "itemName": "에스티오",
+  "reportCount": 1,
+  "latestReportNid": "93695",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93695",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "복합 브랜드·온라인 채널·주주환원 정책을 강화하며 패션 플랫폼으로 전환 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93695"
+  ]
+}

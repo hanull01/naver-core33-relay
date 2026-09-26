@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "185190",
+  "itemName": "수프로",
+  "reportCount": 1,
+  "latestReportNid": "93410",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93410",
+    "writeDate": "2026-06-05",
+    "brokerName": "NICE평가정보",
+    "title": "수목에서 탄소까지, 국내를 넘어 세계를 녹이는 그린 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93410"
+  ]
+}

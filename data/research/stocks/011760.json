@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011760",
+  "itemName": "현대코퍼레이션",
+  "reportCount": 4,
+  "latestReportNid": "95230",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95230",
+    "writeDate": "2026-08-07",
+    "brokerName": "신한투자증권",
+    "title": "종합상사의 경쟁력이 증명되는 구간",
+    "goalPrice": 37000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95230",
+    "94905",
+    "92490",
+    "91697"
+  ]
+}

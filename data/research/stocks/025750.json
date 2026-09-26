@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "025750",
+  "itemName": "한솔홈데코",
+  "reportCount": 1,
+  "latestReportNid": "94255",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94255",
+    "writeDate": "2026-07-20",
+    "brokerName": "NICE평가정보",
+    "title": "목재 Value Chain 위에서 공간의 감각을 완성하는 인테리어 자재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94255"
+  ]
+}

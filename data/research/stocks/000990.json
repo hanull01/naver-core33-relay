@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000990",
+  "itemName": "DB하이텍",
+  "reportCount": 3,
+  "latestReportNid": "96055",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96055",
+    "writeDate": "2026-09-09",
+    "brokerName": "DS투자증권",
+    "title": "심상치 않은 분위기 (positive)",
+    "goalPrice": 210000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 3,
+        "수요": 3,
+        "수주": 2,
+        "환율": 2,
+        "AI": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96055",
+    "92785",
+    "91593"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "235980",
+  "itemName": "메드팩토",
+  "reportCount": 1,
+  "latestReportNid": "96087",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96087",
+    "writeDate": "2026-09-11",
+    "brokerName": "서울평가정보",
+    "title": "바이오마커 기반 맞춤형 혁신신약 개발기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96087"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "378340",
+  "itemName": "필에너지",
+  "reportCount": 1,
+  "latestReportNid": "93468",
+  "latestWriteDate": "2026-06-10",
+  "latest": {
+    "nid": "93468",
+    "writeDate": "2026-06-10",
+    "brokerName": "미래에셋증권",
+    "title": "보릿고개 끝자락, 수확이 다가오는 시기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 6,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 3,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93468"
+  ]
+}

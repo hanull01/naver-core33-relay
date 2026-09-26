@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010060",
+  "itemName": "OCI홀딩스",
+  "reportCount": 16,
+  "latestReportNid": "94707",
+  "latestWriteDate": "2026-07-30",
+  "latest": {
+    "nid": "94707",
+    "writeDate": "2026-07-30",
+    "brokerName": "삼성증권",
+    "title": "2Q26 review - 더 빨리, 더 크게 찾아온 장기 공급 계약",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "수요": 2,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94707",
+    "94473",
+    "94454",
+    "94427",
+    "94424",
+    "94417",
+    "94396",
+    "94119",
+    "94014",
+    "93269",
+    "91916",
+    "91894",
+    "91877",
+    "91848",
+    "91566",
+    "91549"
+  ]
+}

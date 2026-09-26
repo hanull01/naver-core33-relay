@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "389020",
+  "itemName": "자람테크놀로지",
+  "reportCount": 1,
+  "latestReportNid": "93259",
+  "latestWriteDate": "2026-05-26",
+  "latest": {
+    "nid": "93259",
+    "writeDate": "2026-05-26",
+    "brokerName": "미래에셋증권",
+    "title": "차세대 통신망의 핵심 제품 보유",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93259"
+  ]
+}

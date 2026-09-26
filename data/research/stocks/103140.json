@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "103140",
+  "itemName": "풍산",
+  "reportCount": 14,
+  "latestReportNid": "95444",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95444",
+    "writeDate": "2026-08-12",
+    "brokerName": "삼성증권",
+    "title": "Valuation 매력 부각 위해 management risk 완화 필요",
+    "goalPrice": 95000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 5,
+        "가격": 2,
+        "미국": 1,
+        "수주": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95444",
+    "95088",
+    "95016",
+    "94998",
+    "94962",
+    "94958",
+    "94321",
+    "94031",
+    "92433",
+    "92406",
+    "92307",
+    "92294",
+    "91597",
+    "91587"
+  ]
+}

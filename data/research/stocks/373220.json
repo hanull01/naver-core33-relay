@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "373220",
+  "itemName": "LG에너지솔루션",
+  "reportCount": 34,
+  "latestReportNid": "96252",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96252",
+    "writeDate": "2026-09-21",
+    "brokerName": "iM증권",
+    "title": "원-달러 환율 하락에도 실적 개선세 지속",
+    "goalPrice": 550000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 15,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 4,
+        "미국": 3,
+        "수요": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96252",
+    "96155",
+    "95066",
+    "94915",
+    "94891",
+    "94870",
+    "94836",
+    "94831",
+    "94822",
+    "94820",
+    "94817",
+    "93990",
+    "93972",
+    "93963",
+    "93959",
+    "93884",
+    "93763",
+    "92668",
+    "92466",
+    "92442",
+    "92425",
+    "92420",
+    "92390",
+    "92355",
+    "92346",
+    "92302",
+    "91349",
+    "91340",
+    "91319",
+    "91316",
+    "91315",
+    "91311",
+    "91189",
+    "91119"
+  ]
+}

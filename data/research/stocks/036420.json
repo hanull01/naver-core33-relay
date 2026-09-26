@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036420",
+  "itemName": "콘텐트리중앙",
+  "reportCount": 1,
+  "latestReportNid": "92715",
+  "latestWriteDate": "2026-05-11",
+  "latest": {
+    "nid": "92715",
+    "writeDate": "2026-05-11",
+    "brokerName": "대신증권",
+    "title": "열심히 노력하고 있습니다.",
+    "goalPrice": 10000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92715"
+  ]
+}

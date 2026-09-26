@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "481070",
+  "itemName": "에이유브랜즈",
+  "reportCount": 3,
+  "latestReportNid": "96058",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96058",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 락피쉬웨더웨어 브랜드를 운영하는 패션기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96058",
+    "91772",
+    "91604"
+  ]
+}

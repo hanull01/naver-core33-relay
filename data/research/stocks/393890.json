@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "393890",
+  "itemName": "더블유씨피",
+  "reportCount": 3,
+  "latestReportNid": "93604",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93604",
+    "writeDate": "2026-06-19",
+    "brokerName": "한국IR협의회",
+    "title": "고객사 및 제품 믹스 다각화로 턴어라운드 전망",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 2,
+        "중국": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93604",
+    "92751",
+    "91490"
+  ]
+}

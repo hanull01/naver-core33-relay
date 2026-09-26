@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "050860",
+  "itemName": "아세아텍",
+  "reportCount": 1,
+  "latestReportNid": "94040",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94040",
+    "writeDate": "2026-07-10",
+    "brokerName": "NICE평가정보",
+    "title": "다목적관리기 세계 판매 1위를 보유한 반세기 종합 농업기계 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94040"
+  ]
+}

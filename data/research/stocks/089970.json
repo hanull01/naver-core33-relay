@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "089970",
+  "itemName": "브이엠",
+  "reportCount": 3,
+  "latestReportNid": "93930",
+  "latestWriteDate": "2026-07-07",
+  "latest": {
+    "nid": "93930",
+    "writeDate": "2026-07-07",
+    "brokerName": "대신증권",
+    "title": "올해 끝, 내년 준비 중",
+    "goalPrice": 120000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93930",
+    "92357",
+    "91629"
+  ]
+}

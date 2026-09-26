@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "484870",
+  "itemName": "엠앤씨솔루션",
+  "reportCount": 1,
+  "latestReportNid": "91433",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91433",
+    "writeDate": "2026-04-10",
+    "brokerName": "한화투자증권",
+    "title": "매력적인 밸류에이션 구간 진입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91433"
+  ]
+}

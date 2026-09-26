@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "052900",
+  "itemName": "KX하이텍",
+  "reportCount": 1,
+  "latestReportNid": "93713",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93713",
+    "writeDate": "2026-06-26",
+    "brokerName": "유안타증권",
+    "title": "SSD 수요 확대 수혜",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93713"
+  ]
+}

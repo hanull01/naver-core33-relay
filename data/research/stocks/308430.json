@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "308430",
+  "itemName": "셀비온",
+  "reportCount": 1,
+  "latestReportNid": "96108",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96108",
+    "writeDate": "2026-09-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] PSMA 표적 방사성의약품 신약개발 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96108"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "418470",
+  "itemName": "KT밀리의서재",
+  "reportCount": 1,
+  "latestReportNid": "93179",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93179",
+    "writeDate": "2026-05-21",
+    "brokerName": "한국IR협의회",
+    "title": "시총 84%가 순현금, 전자책 구독 1위 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93179"
+  ]
+}

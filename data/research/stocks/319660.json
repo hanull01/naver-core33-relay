@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "319660",
+  "itemName": "피에스케이",
+  "reportCount": 5,
+  "latestReportNid": "95676",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95676",
+    "writeDate": "2026-08-18",
+    "brokerName": "신한투자증권",
+    "title": "CapEx Pulling 수혜 증명",
+    "goalPrice": 160000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "반도체": 1,
+        "수요": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95676",
+    "93427",
+    "93173",
+    "93037",
+    "91193"
+  ]
+}

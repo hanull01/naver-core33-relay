@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "049830",
+  "itemName": "승일",
+  "reportCount": 1,
+  "latestReportNid": "96002",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96002",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 에어졸관·일반관을 OEM 생산하는 제관업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96002"
+  ]
+}

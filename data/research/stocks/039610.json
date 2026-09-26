@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "039610",
+  "itemName": "화성밸브",
+  "reportCount": 1,
+  "latestReportNid": "94381",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94381",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "정밀 밀폐·완전용접 기술과 폭넓은 공급 기반을 통해 시장을 확장하는 밸브 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94381"
+  ]
+}

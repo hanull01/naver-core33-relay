@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "294570",
+  "itemName": "쿠콘",
+  "reportCount": 2,
+  "latestReportNid": "93196",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93196",
+    "writeDate": "2026-05-21",
+    "brokerName": "유진투자증권",
+    "title": "1Q26 Review: 7분기 연속 수익성 개선(YoY) 지속",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 20,
+        "negative": 11
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 9,
+      "earningsNegativeSignalCount": 9,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "AI": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93196",
+    "91274"
+  ]
+}

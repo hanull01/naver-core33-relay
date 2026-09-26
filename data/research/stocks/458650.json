@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "458650",
+  "itemName": "성우",
+  "reportCount": 1,
+  "latestReportNid": "93639",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93639",
+    "writeDate": "2026-06-23",
+    "brokerName": "한국IR협의회",
+    "title": "원통형 이차전지 안전장치 제조업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 3,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93639"
+  ]
+}

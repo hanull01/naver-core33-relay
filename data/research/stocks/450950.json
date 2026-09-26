@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "450950",
+  "itemName": "아스테라시스",
+  "reportCount": 1,
+  "latestReportNid": "96059",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96059",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] HIFU·RF 피부미용의료기기 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96059"
+  ]
+}

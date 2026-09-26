@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "090850",
+  "itemName": "현대이지웰",
+  "reportCount": 1,
+  "latestReportNid": "96197",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96197",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "국내 1위 선택적 복지 서비스 업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96197"
+  ]
+}

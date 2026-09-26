@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "475580",
+  "itemName": "에이럭스",
+  "reportCount": 1,
+  "latestReportNid": "93301",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93301",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 로봇 및 자동화 산업 내 매출 성장 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 6,
+        "미국": 2,
+        "AI": 1,
+        "수요": 1,
+        "원가": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93301"
+  ]
+}

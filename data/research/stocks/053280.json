@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053280",
+  "itemName": "예스24",
+  "reportCount": 1,
+  "latestReportNid": "93414",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93414",
+    "writeDate": "2026-06-05",
+    "brokerName": "한국IR협의회",
+    "title": "26년 예상 배당수익률 8.7%, 재평가 가능성",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93414"
+  ]
+}

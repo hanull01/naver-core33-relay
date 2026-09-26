@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "429270",
+  "itemName": "시지트로닉스",
+  "reportCount": 1,
+  "latestReportNid": "93776",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93776",
+    "writeDate": "2026-06-30",
+    "brokerName": "유안타증권",
+    "title": "하반기 Sensor 부문 성장성 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93776"
+  ]
+}

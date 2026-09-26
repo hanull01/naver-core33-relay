@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "054950",
+  "itemName": "제이브이엠",
+  "reportCount": 6,
+  "latestReportNid": "95958",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95958",
+    "writeDate": "2026-09-01",
+    "brokerName": "유안타증권",
+    "title": "[NDR] 지속적인 관심이 필요한 3가지 이유",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95958",
+    "94881",
+    "93981",
+    "93829",
+    "92343",
+    "92282"
+  ]
+}

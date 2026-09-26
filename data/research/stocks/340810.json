@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "340810",
+  "itemName": "시선AI",
+  "reportCount": 1,
+  "latestReportNid": "93548",
+  "latestWriteDate": "2026-06-16",
+  "latest": {
+    "nid": "93548",
+    "writeDate": "2026-06-16",
+    "brokerName": "신한투자증권",
+    "title": "원천 사업과 M&A를 통한 외형 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93548"
+  ]
+}

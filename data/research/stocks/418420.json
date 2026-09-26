@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "418420",
+  "itemName": "라온텍",
+  "reportCount": 1,
+  "latestReportNid": "91926",
+  "latestWriteDate": "2026-04-27",
+  "latest": {
+    "nid": "91926",
+    "writeDate": "2026-04-27",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 마이크로디스플레이 구동 반도체 설계 전문 팹리스 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 4,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91926"
+  ]
+}

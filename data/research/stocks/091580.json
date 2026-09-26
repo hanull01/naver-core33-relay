@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "091580",
+  "itemName": "상신이디피",
+  "reportCount": 2,
+  "latestReportNid": "95758",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95758",
+    "writeDate": "2026-08-19",
+    "brokerName": "유진투자증권",
+    "title": "BESS와 데이터센터용 BBU 수요 확대발 성장",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 21,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 10,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "수요": 5,
+        "미국": 4,
+        "자동차": 3,
+        "배터리": 2,
+        "중국": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95758",
+    "93027"
+  ]
+}

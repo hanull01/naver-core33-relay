@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "082920",
+  "itemName": "비츠로셀",
+  "reportCount": 7,
+  "latestReportNid": "96011",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96011",
+    "writeDate": "2026-09-04",
+    "brokerName": "신한투자증권",
+    "title": "Never Stop Rising",
+    "goalPrice": 45000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96011",
+    "95949",
+    "94327",
+    "93752",
+    "92812",
+    "91673",
+    "91360"
+  ]
+}

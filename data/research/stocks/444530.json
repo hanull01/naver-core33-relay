@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "444530",
+  "itemName": "심플랫폼",
+  "reportCount": 1,
+  "latestReportNid": "93311",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93311",
+    "writeDate": "2026-05-28",
+    "brokerName": "신한투자증권",
+    "title": "피지컬 AI의 숨겨진 진주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93311"
+  ]
+}

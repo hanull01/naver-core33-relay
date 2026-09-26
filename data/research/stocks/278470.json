@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "278470",
+  "itemName": "에이피알",
+  "reportCount": 29,
+  "latestReportNid": "96022",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96022",
+    "writeDate": "2026-09-07",
+    "brokerName": "SK증권",
+    "title": "상대적인 밸류에이션 매력도 상승",
+    "goalPrice": 560000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96022",
+    "95185",
+    "95184",
+    "95174",
+    "95157",
+    "95156",
+    "95117",
+    "95099",
+    "94146",
+    "94038",
+    "94036",
+    "94027",
+    "94015",
+    "94008",
+    "93739",
+    "93333",
+    "92644",
+    "92636",
+    "92607",
+    "92604",
+    "92598",
+    "92579",
+    "91998",
+    "91603",
+    "91527",
+    "91493",
+    "91415",
+    "91378",
+    "91351"
+  ]
+}

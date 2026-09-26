@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "023160",
+  "itemName": "태광",
+  "reportCount": 4,
+  "latestReportNid": "95619",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95619",
+    "writeDate": "2026-08-14",
+    "brokerName": "신한투자증권",
+    "title": "쉬어간 실적, 다시 차오르는 수주",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "수주": 1,
+        "원가": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95619",
+    "93237",
+    "91580",
+    "91173"
+  ]
+}

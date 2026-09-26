@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "067280",
+  "itemName": "멀티캠퍼스",
+  "reportCount": 1,
+  "latestReportNid": "95796",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95796",
+    "writeDate": "2026-08-21",
+    "brokerName": "한국IR협의회",
+    "title": "안정적인 캡티브를 기반으로 AX 성장 모멘텀 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95796"
+  ]
+}

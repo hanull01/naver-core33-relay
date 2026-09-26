@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005090",
+  "itemName": "SGC에너지",
+  "reportCount": 8,
+  "latestReportNid": "94476",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94476",
+    "writeDate": "2026-07-24",
+    "brokerName": "DS투자증권",
+    "title": "의심은 접어두고 매수로 대응할 시점",
+    "goalPrice": 83000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94476",
+    "94461",
+    "94412",
+    "93579",
+    "91849",
+    "91801",
+    "91793",
+    "91077"
+  ]
+}

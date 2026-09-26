@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "046390",
+  "itemName": "삼화네트웍스",
+  "reportCount": 1,
+  "latestReportNid": "91135",
+  "latestWriteDate": "2026-03-31",
+  "latest": {
+    "nid": "91135",
+    "writeDate": "2026-03-31",
+    "brokerName": "한국IR협의회",
+    "title": "실적 공백기, 현금이 버티고 편성이 기다린다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91135"
+  ]
+}

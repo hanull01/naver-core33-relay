@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "456010",
+  "itemName": "아이씨티케이",
+  "reportCount": 10,
+  "latestReportNid": "96227",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96227",
+    "writeDate": "2026-09-18",
+    "brokerName": "하나증권",
+    "title": "AI가 발전할수록 ICTK의 PUF가 필요합니다",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "배터리": 2,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96227",
+    "94212",
+    "93525",
+    "93288",
+    "93146",
+    "91744",
+    "91678",
+    "91591",
+    "91386",
+    "91374"
+  ]
+}

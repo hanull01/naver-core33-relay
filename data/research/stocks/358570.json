@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "358570",
+  "itemName": "지아이이노베이션",
+  "reportCount": 3,
+  "latestReportNid": "93996",
+  "latestWriteDate": "2026-07-08",
+  "latest": {
+    "nid": "93996",
+    "writeDate": "2026-07-08",
+    "brokerName": "교보증권",
+    "title": "반전의 시간",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93996",
+    "91242",
+    "91105"
+  ]
+}

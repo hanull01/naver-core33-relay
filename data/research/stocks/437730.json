@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "437730",
+  "itemName": "삼현",
+  "reportCount": 1,
+  "latestReportNid": "96173",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96173",
+    "writeDate": "2026-09-16",
+    "brokerName": "키움증권",
+    "title": "휴머노이드 장기 눈높이 상향에 따른 주가 급등 코멘트",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 6,
+        "수요": 4,
+        "가격": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96173"
+  ]
+}

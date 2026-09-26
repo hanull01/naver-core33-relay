@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "220100",
+  "itemName": "퓨쳐켐",
+  "reportCount": 2,
+  "latestReportNid": "96215",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96215",
+    "writeDate": "2026-09-17",
+    "brokerName": "교보증권",
+    "title": "NDR 후기; 10월 중순이 분수령",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 5,
+        "중국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96215",
+    "95995"
+  ]
+}

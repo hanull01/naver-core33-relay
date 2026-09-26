@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "078590",
+  "itemName": "휴림에이텍",
+  "reportCount": 1,
+  "latestReportNid": "93413",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93413",
+    "writeDate": "2026-06-05",
+    "brokerName": "NICE평가정보",
+    "title": "현대·기아차와 성장한 자동차 내외장재 전문기업, 친환경·자율주행 시대 선도",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93413"
+  ]
+}

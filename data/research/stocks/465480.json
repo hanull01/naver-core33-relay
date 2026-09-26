@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "465480",
+  "itemName": "인스피언",
+  "reportCount": 1,
+  "latestReportNid": "93796",
+  "latestWriteDate": "2026-07-01",
+  "latest": {
+    "nid": "93796",
+    "writeDate": "2026-07-01",
+    "brokerName": "한국IR협의회",
+    "title": "SAP ERP 중심 EAI 컨설팅, 보안에서 EDI까지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93796"
+  ]
+}

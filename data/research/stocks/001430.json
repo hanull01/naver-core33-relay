@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001430",
+  "itemName": "세아베스틸지주",
+  "reportCount": 13,
+  "latestReportNid": "94955",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94955",
+    "writeDate": "2026-08-03",
+    "brokerName": "신한투자증권",
+    "title": "보여줄 게 SST만 있는 건 아니다",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94955",
+    "94899",
+    "94823",
+    "94322",
+    "94228",
+    "94030",
+    "92256",
+    "92238",
+    "92211",
+    "92190",
+    "91636",
+    "91486",
+    "91406"
+  ]
+}

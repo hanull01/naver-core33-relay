@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "440110",
+  "itemName": "파두",
+  "reportCount": 2,
+  "latestReportNid": "96293",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96293",
+    "writeDate": "2026-09-23",
+    "brokerName": "유진투자증권",
+    "title": "뜨거워지는 시장",
+    "goalPrice": 110000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 27,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 12,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "AI": 6,
+        "수요": 6,
+        "환율": 5,
+        "반도체": 4,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96293",
+    "94235"
+  ]
+}

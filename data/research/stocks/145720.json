@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "145720",
+  "itemName": "덴티움",
+  "reportCount": 5,
+  "latestReportNid": "95621",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95621",
+    "writeDate": "2026-08-14",
+    "brokerName": "미래에셋증권",
+    "title": "2차 VBP 개시 카운트 다운 시작",
+    "goalPrice": 69000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95621",
+    "93812",
+    "93272",
+    "92878",
+    "92805"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "058610",
+  "itemName": "에스피지",
+  "reportCount": 2,
+  "latestReportNid": "95811",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95811",
+    "writeDate": "2026-08-24",
+    "brokerName": "미래에셋증권",
+    "title": "국내 유일 정밀감속기 3종 full 라인업 보유",
+    "goalPrice": 129000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95811",
+    "94256"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "049550",
+  "itemName": "잉크테크",
+  "reportCount": 1,
+  "latestReportNid": "91832",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91832",
+    "writeDate": "2026-04-24",
+    "brokerName": "NICE평가정보",
+    "title": "글로벌 산업용 잉크 및 기능성 소재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91832"
+  ]
+}

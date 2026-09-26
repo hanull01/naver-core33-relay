@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "483650",
+  "itemName": "달바글로벌",
+  "reportCount": 18,
+  "latestReportNid": "95652",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95652",
+    "writeDate": "2026-08-14",
+    "brokerName": "교보증권",
+    "title": "높아졌던 시장 눈높이",
+    "goalPrice": 310000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 18,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "자동차": 1,
+        "재고": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95652",
+    "95648",
+    "95636",
+    "95615",
+    "95590",
+    "94474",
+    "94028",
+    "93973",
+    "93864",
+    "93841",
+    "93790",
+    "93745",
+    "93263",
+    "92902",
+    "92849",
+    "92820",
+    "91302",
+    "91284"
+  ]
+}

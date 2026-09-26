@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "090460",
+  "itemName": "비에이치",
+  "reportCount": 24,
+  "latestReportNid": "96127",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96127",
+    "writeDate": "2026-09-14",
+    "brokerName": "대신증권",
+    "title": "로봇/휴머노이드, 미국 고객 확보, 27년 본격적인 성장",
+    "goalPrice": 41000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "로봇": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96127",
+    "95967",
+    "95948",
+    "95419",
+    "95104",
+    "95084",
+    "95083",
+    "95056",
+    "93934",
+    "93563",
+    "93438",
+    "93142",
+    "92495",
+    "92470",
+    "92468",
+    "92463",
+    "92070",
+    "91797",
+    "91702",
+    "91620",
+    "91425",
+    "91327",
+    "91206",
+    "91183"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "304360",
+  "itemName": "에스바이오메딕스",
+  "reportCount": 4,
+  "latestReportNid": "94066",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94066",
+    "writeDate": "2026-07-10",
+    "brokerName": "한국IR협의회",
+    "title": "파킨슨병 세포치료제, TED-A9의 글로벌 도전 시작",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94066",
+    "93554",
+    "93406",
+    "92278"
+  ]
+}

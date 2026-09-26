@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "102950",
+  "itemName": "아하",
+  "reportCount": 1,
+  "latestReportNid": "93660",
+  "latestWriteDate": "2026-06-24",
+  "latest": {
+    "nid": "93660",
+    "writeDate": "2026-06-24",
+    "brokerName": "한국IR협의회",
+    "title": "해외 생산거점과 신사업으로 성장 기반 강화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93660"
+  ]
+}

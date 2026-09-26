@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "222800",
+  "itemName": "심텍",
+  "reportCount": 21,
+  "latestReportNid": "96053",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96053",
+    "writeDate": "2026-09-09",
+    "brokerName": "대신증권",
+    "title": "3Q 실적 상향, 소캠2 매출은 예상 상회",
+    "goalPrice": 170000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "반도체": 3
+      }
+    }
+  },
+  "reportNids": [
+    "96053",
+    "95880",
+    "95876",
+    "95874",
+    "95420",
+    "95406",
+    "95178",
+    "95175",
+    "95132",
+    "95123",
+    "94077",
+    "93809",
+    "93562",
+    "93436",
+    "92545",
+    "92534",
+    "92516",
+    "92511",
+    "91952",
+    "91796",
+    "91237"
+  ]
+}

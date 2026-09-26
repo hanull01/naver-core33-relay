@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "402030",
+  "itemName": "코난테크놀로지",
+  "reportCount": 1,
+  "latestReportNid": "92143",
+  "latestWriteDate": "2026-04-29",
+  "latest": {
+    "nid": "92143",
+    "writeDate": "2026-04-29",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] AI 기반 자연어처리 및 빅데이터 분석 솔루션 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "92143"
+  ]
+}

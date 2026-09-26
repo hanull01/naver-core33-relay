@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "183300",
+  "itemName": "코미코",
+  "reportCount": 5,
+  "latestReportNid": "96246",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96246",
+    "writeDate": "2026-09-21",
+    "brokerName": "SK증권",
+    "title": "미코세라믹스도 성장 가속",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 2,
+        "AI": 1,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96246",
+    "93348",
+    "93253",
+    "92460",
+    "91114"
+  ]
+}

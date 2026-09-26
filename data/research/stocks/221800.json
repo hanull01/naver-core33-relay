@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "221800",
+  "itemName": "지구홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "93643",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93643",
+    "writeDate": "2026-06-23",
+    "brokerName": "신한투자증권",
+    "title": "지구력을 보유한 영구 투자 회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93643"
+  ]
+}

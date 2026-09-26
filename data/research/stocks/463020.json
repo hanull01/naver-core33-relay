@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "463020",
+  "itemName": "뉴엔AI",
+  "reportCount": 1,
+  "latestReportNid": "93156",
+  "latestWriteDate": "2026-05-20",
+  "latest": {
+    "nid": "93156",
+    "writeDate": "2026-05-20",
+    "brokerName": "한국IR협의회",
+    "title": "소셜 리스닝 서비스 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93156"
+  ]
+}

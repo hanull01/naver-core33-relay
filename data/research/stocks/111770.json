@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "111770",
+  "itemName": "영원무역",
+  "reportCount": 10,
+  "latestReportNid": "95764",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95764",
+    "writeDate": "2026-08-19",
+    "brokerName": "대신증권",
+    "title": "하반기 호실적, 매력적인 valuation, 높은 배당수익률 3박자",
+    "goalPrice": 140000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "환율": 2,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95764",
+    "95738",
+    "94361",
+    "93847",
+    "93247",
+    "93090",
+    "93069",
+    "93061",
+    "92996",
+    "91475"
+  ]
+}

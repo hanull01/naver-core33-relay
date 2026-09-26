@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "002230",
+  "itemName": "피에스텍",
+  "reportCount": 1,
+  "latestReportNid": "94932",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94932",
+    "writeDate": "2026-08-03",
+    "brokerName": "한국IR협의회",
+    "title": "현금성 금융자산이 시가총액을 상회하는 가치주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94932"
+  ]
+}

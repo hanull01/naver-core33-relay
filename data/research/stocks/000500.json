@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000500",
+  "itemName": "가온전선",
+  "reportCount": 2,
+  "latestReportNid": "95204",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95204",
+    "writeDate": "2026-08-07",
+    "brokerName": "키움증권",
+    "title": "기대를 뛰어넘는 성장세",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95204",
+    "93916"
+  ]
+}

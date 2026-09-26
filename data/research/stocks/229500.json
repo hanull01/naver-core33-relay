@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "229500",
+  "itemName": "노브메타파마",
+  "reportCount": 1,
+  "latestReportNid": "93433",
+  "latestWriteDate": "2026-06-08",
+  "latest": {
+    "nid": "93433",
+    "writeDate": "2026-06-08",
+    "brokerName": "한국IR협의회",
+    "title": "Cyclo-Z의 재발견, 검증된 내약성 위에 확장되는 적응증",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93433"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "111110",
+  "itemName": "호전실업",
+  "reportCount": 1,
+  "latestReportNid": "93157",
+  "latestWriteDate": "2026-05-20",
+  "latest": {
+    "nid": "93157",
+    "writeDate": "2026-05-20",
+    "brokerName": "SK증권",
+    "title": "의류 OEM 시장 판이 커진다",
+    "goalPrice": 9500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93157"
+  ]
+}

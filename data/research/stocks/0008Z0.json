@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0008Z0",
+  "itemName": "에스엔시스",
+  "reportCount": 2,
+  "latestReportNid": "93757",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93757",
+    "writeDate": "2026-06-30",
+    "brokerName": "한국IR협의회",
+    "title": "친환경 선박과 전력 인프라를 잇는 조선해양 전장 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 3,
+        "AI": 1,
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93757",
+    "91094"
+  ]
+}

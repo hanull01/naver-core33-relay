@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "050760",
+  "itemName": "에스폴리텍",
+  "reportCount": 1,
+  "latestReportNid": "95795",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95795",
+    "writeDate": "2026-08-21",
+    "brokerName": "NICE평가정보",
+    "title": "30년 이상 압출 기술로 보안·항공·친환경을 잇는 스페셜티 엔지니어링 플라스틱 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95795"
+  ]
+}

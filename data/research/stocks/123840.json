@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "123840",
+  "itemName": "뉴온",
+  "reportCount": 1,
+  "latestReportNid": "93856",
+  "latestWriteDate": "2026-07-03",
+  "latest": {
+    "nid": "93856",
+    "writeDate": "2026-07-03",
+    "brokerName": "서울평가정보",
+    "title": "건강기능식품 사업 고도화 및 생활용품·뷰티 브랜드 확장 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93856"
+  ]
+}

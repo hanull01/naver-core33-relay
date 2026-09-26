@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053980",
+  "itemName": "오상자이엘",
+  "reportCount": 1,
+  "latestReportNid": "96161",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96161",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] PLM·SI와 과일포장재를 영위하는 IT기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96161"
+  ]
+}

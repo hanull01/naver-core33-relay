@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "043650",
+  "itemName": "국순당",
+  "reportCount": 1,
+  "latestReportNid": "91437",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91437",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전통 발효 기술 기반의 주류 제조 및 판매 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91437"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "251370",
+  "itemName": "와이엠티",
+  "reportCount": 2,
+  "latestReportNid": "91974",
+  "latestWriteDate": "2026-04-27",
+  "latest": {
+    "nid": "91974",
+    "writeDate": "2026-04-27",
+    "brokerName": "유진투자증권",
+    "title": "NDR 후기: 여전한 Narrative와 늘어날 Number",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 18,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 11,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "AI": 1,
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91974",
+    "91307"
+  ]
+}

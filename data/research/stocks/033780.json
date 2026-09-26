@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "033780",
+  "itemName": "KT&G",
+  "reportCount": 25,
+  "latestReportNid": "96257",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96257",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "카자흐스탄 탐방: 현지화로 높아진 이익 체력",
+    "goalPrice": 250000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96257",
+    "96249",
+    "96247",
+    "96216",
+    "95279",
+    "95277",
+    "95275",
+    "95261",
+    "95224",
+    "95219",
+    "94317",
+    "94206",
+    "94057",
+    "94046",
+    "93943",
+    "93617",
+    "92649",
+    "92643",
+    "92612",
+    "92580",
+    "92571",
+    "91741",
+    "91482",
+    "91416",
+    "91342"
+  ]
+}

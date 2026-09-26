@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "126340",
+  "itemName": "비나텍",
+  "reportCount": 3,
+  "latestReportNid": "93825",
+  "latestWriteDate": "2026-07-01",
+  "latest": {
+    "nid": "93825",
+    "writeDate": "2026-07-01",
+    "brokerName": "DS투자증권",
+    "title": "시스템 공급, 끝이 아닌 시작",
+    "goalPrice": 177000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93825",
+    "93232",
+    "91158"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "018250",
+  "itemName": "애경산업",
+  "reportCount": 1,
+  "latestReportNid": "95449",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95449",
+    "writeDate": "2026-08-12",
+    "brokerName": "한국IR협의회",
+    "title": "대주주 변경, 새로운 성장전략의 시작",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95449"
+  ]
+}

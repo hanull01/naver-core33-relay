@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "127120",
+  "itemName": "제이에스링크",
+  "reportCount": 1,
+  "latestReportNid": "94147",
+  "latestWriteDate": "2026-07-14",
+  "latest": {
+    "nid": "94147",
+    "writeDate": "2026-07-14",
+    "brokerName": "SK증권",
+    "title": "높아지는 중희토류 가치",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3,
+        "방산": 2,
+        "수요": 2,
+        "재고": 2,
+        "중국": 2,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94147"
+  ]
+}

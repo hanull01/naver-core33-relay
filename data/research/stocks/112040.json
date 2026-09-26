@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "112040",
+  "itemName": "위메이드",
+  "reportCount": 1,
+  "latestReportNid": "92869",
+  "latestWriteDate": "2026-05-13",
+  "latest": {
+    "nid": "92869",
+    "writeDate": "2026-05-13",
+    "brokerName": "미래에셋증권",
+    "title": "신작 출시 이후를 기대",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92869"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035720",
+  "itemName": "카카오",
+  "reportCount": 29,
+  "latestReportNid": "96236",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96236",
+    "writeDate": "2026-09-21",
+    "brokerName": "IBK투자증권",
+    "title": "중요한 것은 탁월한 계획보다 완벽한 실행",
+    "goalPrice": 53000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 8
+      }
+    }
+  },
+  "reportNids": [
+    "96236",
+    "95843",
+    "95840",
+    "95836",
+    "95833",
+    "95824",
+    "95816",
+    "95348",
+    "95325",
+    "95273",
+    "95272",
+    "95270",
+    "95262",
+    "95237",
+    "95190",
+    "94171",
+    "94058",
+    "93948",
+    "93215",
+    "92967",
+    "92650",
+    "92637",
+    "92624",
+    "92610",
+    "92575",
+    "91551",
+    "91525",
+    "91358",
+    "91234"
+  ]
+}

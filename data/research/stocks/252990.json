@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "252990",
+  "itemName": "샘씨엔에스",
+  "reportCount": 3,
+  "latestReportNid": "92802",
+  "latestWriteDate": "2026-05-13",
+  "latest": {
+    "nid": "92802",
+    "writeDate": "2026-05-13",
+    "brokerName": "한국IR협의회",
+    "title": "DRAM과 함께 고마진으로 복귀",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 4
+      }
+    }
+  },
+  "reportNids": [
+    "92802",
+    "92455",
+    "91394"
+  ]
+}

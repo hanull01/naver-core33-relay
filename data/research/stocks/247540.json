@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "247540",
+  "itemName": "에코프로비엠",
+  "reportCount": 23,
+  "latestReportNid": "95363",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95363",
+    "writeDate": "2026-08-10",
+    "brokerName": "유안타증권",
+    "title": "[NDR 후기] 헝가리+니켈 내재화에 주목",
+    "goalPrice": 270000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 5
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "수요": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95363",
+    "95089",
+    "95011",
+    "94993",
+    "94971",
+    "94956",
+    "94946",
+    "94940",
+    "94644",
+    "93852",
+    "93826",
+    "93807",
+    "93806",
+    "92271",
+    "92255",
+    "92250",
+    "92233",
+    "92207",
+    "92191",
+    "92182",
+    "92177",
+    "92172",
+    "91267"
+  ]
+}

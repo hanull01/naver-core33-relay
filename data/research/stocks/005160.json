@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005160",
+  "itemName": "동국산업",
+  "reportCount": 1,
+  "latestReportNid": "93373",
+  "latestWriteDate": "2026-06-01",
+  "latest": {
+    "nid": "93373",
+    "writeDate": "2026-06-01",
+    "brokerName": "한국IR협의회",
+    "title": "2차전지 소재기업 부각 및 풍력시장 수혜 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 2,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93373"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001440",
+  "itemName": "대한전선",
+  "reportCount": 9,
+  "latestReportNid": "94904",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94904",
+    "writeDate": "2026-07-31",
+    "brokerName": "하나증권",
+    "title": "본질적인 성장이 지속되는 중",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "환율": 4,
+        "수주": 3,
+        "가격": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94904",
+    "94883",
+    "94246",
+    "94158",
+    "93501",
+    "92269",
+    "92245",
+    "92212",
+    "91543"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010780",
+  "itemName": "아이에스동서",
+  "reportCount": 3,
+  "latestReportNid": "95643",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95643",
+    "writeDate": "2026-08-14",
+    "brokerName": "하나증권",
+    "title": "아쉬운 지식산업센터, 긍정적인 콘크리트",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "가격": 1,
+        "배터리": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95643",
+    "93227",
+    "92930"
+  ]
+}

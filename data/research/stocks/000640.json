@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000640",
+  "itemName": "동아쏘시오홀딩스",
+  "reportCount": 4,
+  "latestReportNid": "94954",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94954",
+    "writeDate": "2026-08-03",
+    "brokerName": "iM증권",
+    "title": "실적증가, 배당확대 ⇒ 사업지주회사 밸류업",
+    "goalPrice": 140000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94954",
+    "94925",
+    "93317",
+    "91104"
+  ]
+}

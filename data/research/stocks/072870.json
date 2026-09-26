@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "072870",
+  "itemName": "메가스터디",
+  "reportCount": 1,
+  "latestReportNid": "93180",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93180",
+    "writeDate": "2026-05-21",
+    "brokerName": "한국IR협의회",
+    "title": "레저사업을 기반으로 적극적인 주주환원 정책 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93180"
+  ]
+}

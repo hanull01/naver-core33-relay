@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001820",
+  "itemName": "삼화콘덴서",
+  "reportCount": 1,
+  "latestReportNid": "95829",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95829",
+    "writeDate": "2026-08-24",
+    "brokerName": "iM증권",
+    "title": "낙수효과로 향후 가격 인상 기대: 실적 개선 가속화",
+    "goalPrice": 127000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95829"
+  ]
+}

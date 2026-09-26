@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "115440",
+  "itemName": "우리넷",
+  "reportCount": 2,
+  "latestReportNid": "96296",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96296",
+    "writeDate": "2026-09-23",
+    "brokerName": "하나증권",
+    "title": "양자암호 주도주로서 진가가 드러날 것입니다",
+    "goalPrice": 25000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96296",
+    "91547"
+  ]
+}

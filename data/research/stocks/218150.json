@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "218150",
+  "itemName": "미래생명자원",
+  "reportCount": 1,
+  "latestReportNid": "91554",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91554",
+    "writeDate": "2026-04-15",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 동물용 사료 및 사료 원료 제조·판매 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91554"
+  ]
+}

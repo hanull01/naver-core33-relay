@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "015260",
+  "itemName": "에이엔피",
+  "reportCount": 1,
+  "latestReportNid": "94379",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94379",
+    "writeDate": "2026-07-24",
+    "brokerName": "NICE평가정보",
+    "title": "자동차 전장 PCB 45년 노하우, 로봇·전기차 미래를 설계하다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 4,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94379"
+  ]
+}

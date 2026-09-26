@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "064260",
+  "itemName": "다날",
+  "reportCount": 1,
+  "latestReportNid": "92942",
+  "latestWriteDate": "2026-05-14",
+  "latest": {
+    "nid": "92942",
+    "writeDate": "2026-05-14",
+    "brokerName": "미래에셋증권",
+    "title": "결제는 다 날 통해",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92942"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "213420",
+  "itemName": "덕산네오룩스",
+  "reportCount": 8,
+  "latestReportNid": "95554",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95554",
+    "writeDate": "2026-08-13",
+    "brokerName": "신한투자증권",
+    "title": "신모델 사이클 진입(폴더블, IT OLED)",
+    "goalPrice": 55000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95554",
+    "95541",
+    "95214",
+    "94061",
+    "93477",
+    "93229",
+    "92827",
+    "92811"
+  ]
+}

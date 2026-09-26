@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "073490",
+  "itemName": "LIG아큐버",
+  "reportCount": 8,
+  "latestReportNid": "96175",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96175",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "재료 많은데 이 가격이라면 망설일 이유는 없다",
+    "goalPrice": 80000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96175",
+    "96131",
+    "94401",
+    "94213",
+    "93858",
+    "93260",
+    "93201",
+    "91743"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "357580",
+  "itemName": "아모센스",
+  "reportCount": 2,
+  "latestReportNid": "91621",
+  "latestWriteDate": "2026-04-16",
+  "latest": {
+    "nid": "91621",
+    "writeDate": "2026-04-16",
+    "brokerName": "한국IR협의회",
+    "title": "SOFC 세라믹 기판 블룸에너지 공급망 진입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "수요": 1,
+        "수주": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91621",
+    "91585"
+  ]
+}

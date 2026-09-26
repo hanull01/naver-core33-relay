@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "474170",
+  "itemName": "루미르",
+  "reportCount": 3,
+  "latestReportNid": "95134",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95134",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "우주 기술 경쟁력, 선박 엔진 부품까지 확산",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 3,
+        "AI": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95134",
+    "92488",
+    "91501"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "112610",
+  "itemName": "씨에스윈드",
+  "reportCount": 15,
+  "latestReportNid": "96103",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96103",
+    "writeDate": "2026-09-11",
+    "brokerName": "DS투자증권",
+    "title": "무관심에서 관심의 영역으로",
+    "goalPrice": 88000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "미국": 3,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96103",
+    "95393",
+    "95377",
+    "95367",
+    "95318",
+    "95294",
+    "95285",
+    "93629",
+    "92965",
+    "92642",
+    "92638",
+    "92622",
+    "92593",
+    "92565",
+    "92563"
+  ]
+}

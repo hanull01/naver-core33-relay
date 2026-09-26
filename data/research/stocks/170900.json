@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "170900",
+  "itemName": "동아에스티",
+  "reportCount": 3,
+  "latestReportNid": "94648",
+  "latestWriteDate": "2026-07-29",
+  "latest": {
+    "nid": "94648",
+    "writeDate": "2026-07-29",
+    "brokerName": "iM증권",
+    "title": "조금 더딜 뿐이다",
+    "goalPrice": 50000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94648",
+    "92077",
+    "91762"
+  ]
+}

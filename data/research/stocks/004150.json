@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004150",
+  "itemName": "한솔홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "93363",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93363",
+    "writeDate": "2026-05-29",
+    "brokerName": "DS투자증권",
+    "title": "극심한 저평가 해소 구간",
+    "goalPrice": 4600,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93363"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036890",
+  "itemName": "진성티이씨",
+  "reportCount": 1,
+  "latestReportNid": "96038",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96038",
+    "writeDate": "2026-09-08",
+    "brokerName": "신한투자증권",
+    "title": "콥데이 후기: 계속될 성장세",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96038"
+  ]
+}

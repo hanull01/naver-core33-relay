@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "382480",
+  "itemName": "지아이텍",
+  "reportCount": 1,
+  "latestReportNid": "91090",
+  "latestWriteDate": "2026-03-27",
+  "latest": {
+    "nid": "91090",
+    "writeDate": "2026-03-27",
+    "brokerName": "한국IR협의회",
+    "title": "2차전지 코팅 공정 부품 슬롯다이 제조업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91090"
+  ]
+}

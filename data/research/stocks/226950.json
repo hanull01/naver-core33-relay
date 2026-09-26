@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "226950",
+  "itemName": "올릭스",
+  "reportCount": 7,
+  "latestReportNid": "96214",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96214",
+    "writeDate": "2026-09-17",
+    "brokerName": "교보증권",
+    "title": "NDR 후기; 머지않은 수확기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96214",
+    "96202",
+    "95746",
+    "93647",
+    "93402",
+    "93392",
+    "93389"
+  ]
+}

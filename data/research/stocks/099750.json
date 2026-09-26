@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "099750",
+  "itemName": "이지케어텍",
+  "reportCount": 1,
+  "latestReportNid": "96184",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96184",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 대형병원 의료정보시스템(HIS) 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96184"
+  ]
+}

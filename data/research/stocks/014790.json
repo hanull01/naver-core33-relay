@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "014790",
+  "itemName": "HL D&I",
+  "reportCount": 3,
+  "latestReportNid": "93580",
+  "latestWriteDate": "2026-06-17",
+  "latest": {
+    "nid": "93580",
+    "writeDate": "2026-06-17",
+    "brokerName": "한화투자증권",
+    "title": "2분기에도 실적 순항 예상",
+    "goalPrice": 5500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93580",
+    "93225",
+    "91634"
+  ]
+}

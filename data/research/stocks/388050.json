@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "388050",
+  "itemName": "지투파워",
+  "reportCount": 1,
+  "latestReportNid": "95135",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95135",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "우리나라 AI 배전반 1위 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95135"
+  ]
+}

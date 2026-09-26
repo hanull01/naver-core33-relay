@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "166090",
+  "itemName": "하나머티리얼즈",
+  "reportCount": 4,
+  "latestReportNid": "95986",
+  "latestWriteDate": "2026-09-03",
+  "latest": {
+    "nid": "95986",
+    "writeDate": "2026-09-03",
+    "brokerName": "SK증권",
+    "title": "노이즈보다 다가올 호황에 조명",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95986",
+    "95881",
+    "94328",
+    "92067"
+  ]
+}

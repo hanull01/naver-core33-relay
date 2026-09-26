@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "031430",
+  "itemName": "신세계인터내셔날",
+  "reportCount": 12,
+  "latestReportNid": "95561",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95561",
+    "writeDate": "2026-08-13",
+    "brokerName": "유안타증권",
+    "title": "2Q26 흑자전환! 하반기 F/W 모멘텀 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 13,
+        "negative": 7
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "미국": 1,
+        "자동차": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95561",
+    "95502",
+    "94302",
+    "93903",
+    "93895",
+    "93535",
+    "93175",
+    "92910",
+    "92874",
+    "92833",
+    "91735",
+    "91508"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "241840",
+  "itemName": "에이스토리",
+  "reportCount": 1,
+  "latestReportNid": "91136",
+  "latestWriteDate": "2026-03-31",
+  "latest": {
+    "nid": "91136",
+    "writeDate": "2026-03-31",
+    "brokerName": "한국IR협의회",
+    "title": "편성이 돌아왔다, 이제는 IP가 증명할 차례",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91136"
+  ]
+}

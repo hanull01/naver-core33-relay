@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "071840",
+  "itemName": "롯데하이마트",
+  "reportCount": 2,
+  "latestReportNid": "92561",
+  "latestWriteDate": "2026-05-08",
+  "latest": {
+    "nid": "92561",
+    "writeDate": "2026-05-08",
+    "brokerName": "IBK투자증권",
+    "title": "전략과 실적 중 전략에 눈이 가는 이유",
+    "goalPrice": 10500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92561",
+    "92175"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "092600",
+  "itemName": "앤씨앤",
+  "reportCount": 1,
+  "latestReportNid": "94042",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94042",
+    "writeDate": "2026-07-10",
+    "brokerName": "서울평가정보",
+    "title": "AI·커넥티드 기반 고기능 블랙박스와 상용차 안전 솔루션으로 사업 재편 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94042"
+  ]
+}

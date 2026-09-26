@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "060480",
+  "itemName": "국일신동",
+  "reportCount": 1,
+  "latestReportNid": "92289",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92289",
+    "writeDate": "2026-05-04",
+    "brokerName": "NICE평가정보",
+    "title": "동합금 황동봉 제품 기반 비철금속 소재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92289"
+  ]
+}

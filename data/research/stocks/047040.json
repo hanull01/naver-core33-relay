@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "047040",
+  "itemName": "대우건설",
+  "reportCount": 19,
+  "latestReportNid": "96261",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96261",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "수익성과 수주, 두 마리 토끼를 다 잡다!",
+    "goalPrice": 24000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96261",
+    "95107",
+    "95079",
+    "95073",
+    "95071",
+    "95070",
+    "95062",
+    "95058",
+    "95051",
+    "94272",
+    "94181",
+    "94138",
+    "94133",
+    "94108",
+    "93558",
+    "92142",
+    "92139",
+    "92129",
+    "92111"
+  ]
+}

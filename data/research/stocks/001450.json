@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001450",
+  "itemName": "현대해상",
+  "reportCount": 15,
+  "latestReportNid": "95855",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95855",
+    "writeDate": "2026-08-25",
+    "brokerName": "iM증권",
+    "title": "잠재적인 가능성으로는 가장 높은 매력",
+    "goalPrice": 58000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "금리": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95855",
+    "95837",
+    "95766",
+    "95723",
+    "95718",
+    "95689",
+    "95666",
+    "95658",
+    "93456",
+    "93112",
+    "93084",
+    "93071",
+    "93056",
+    "93041",
+    "93030"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "338840",
+  "itemName": "와이바이오로직스",
+  "reportCount": 1,
+  "latestReportNid": "93523",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93523",
+    "writeDate": "2026-06-12",
+    "brokerName": "유안타증권",
+    "title": "차세대 면역 항암제 파이프라인 보유",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93523"
+  ]
+}

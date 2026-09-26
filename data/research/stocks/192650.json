@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "192650",
+  "itemName": "드림텍",
+  "reportCount": 3,
+  "latestReportNid": "93642",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93642",
+    "writeDate": "2026-06-23",
+    "brokerName": "신한투자증권",
+    "title": "하반기 기대되는 신성장 스토리",
+    "goalPrice": 8000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93642",
+    "93417",
+    "93203"
+  ]
+}

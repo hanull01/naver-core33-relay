@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "229640",
+  "itemName": "LS에코에너지",
+  "reportCount": 10,
+  "latestReportNid": "95669",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95669",
+    "writeDate": "2026-08-18",
+    "brokerName": "iM증권",
+    "title": "탈중국화 공급망 수혜 ⇒ 희토류 금속사업 성장성 가속화",
+    "goalPrice": 57000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 6,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95669",
+    "95484",
+    "95200",
+    "95148",
+    "95126",
+    "94179",
+    "93609",
+    "92061",
+    "91569",
+    "91177"
+  ]
+}

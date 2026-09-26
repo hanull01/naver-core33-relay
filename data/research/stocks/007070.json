@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "007070",
+  "itemName": "GS리테일",
+  "reportCount": 22,
+  "latestReportNid": "96130",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96130",
+    "writeDate": "2026-09-14",
+    "brokerName": "대신증권",
+    "title": "편의점, 슈퍼 모두 좋다",
+    "goalPrice": 33000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96130",
+    "95438",
+    "95396",
+    "95392",
+    "95376",
+    "95353",
+    "95342",
+    "95307",
+    "95301",
+    "94305",
+    "94080",
+    "94022",
+    "93875",
+    "93762",
+    "93654",
+    "93133",
+    "93102",
+    "92648",
+    "92602",
+    "92572",
+    "91270",
+    "91071"
+  ]
+}

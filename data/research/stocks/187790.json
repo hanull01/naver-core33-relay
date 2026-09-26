@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "187790",
+  "itemName": "나노",
+  "reportCount": 1,
+  "latestReportNid": "96168",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96168",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] SCR 탈질촉매 원료부터 재생까지 통합 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96168"
+  ]
+}

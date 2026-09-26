@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "043370",
+  "itemName": "피에이치에이",
+  "reportCount": 2,
+  "latestReportNid": "96099",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96099",
+    "writeDate": "2026-09-11",
+    "brokerName": "한국IR협의회",
+    "title": "Georgia On My Mind (feat. HMGMA)",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3,
+        "환율": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96099",
+    "95714"
+  ]
+}

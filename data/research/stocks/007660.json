@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "007660",
+  "itemName": "이수페타시스",
+  "reportCount": 10,
+  "latestReportNid": "96276",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96276",
+    "writeDate": "2026-09-22",
+    "brokerName": "신한투자증권",
+    "title": "반등이 보이는 이유",
+    "goalPrice": 170000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96276",
+    "95861",
+    "95774",
+    "95749",
+    "94428",
+    "93986",
+    "93152",
+    "93099",
+    "93081",
+    "93065"
+  ]
+}

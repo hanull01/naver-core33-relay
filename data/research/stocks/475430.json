@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "475430",
+  "itemName": "키스트론",
+  "reportCount": 1,
+  "latestReportNid": "93625",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93625",
+    "writeDate": "2026-06-22",
+    "brokerName": "신한투자증권",
+    "title": "체력 증명 성공",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93625"
+  ]
+}

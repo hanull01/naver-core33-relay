@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "012330",
+  "itemName": "현대모비스",
+  "reportCount": 33,
+  "latestReportNid": "94565",
+  "latestWriteDate": "2026-07-27",
+  "latest": {
+    "nid": "94565",
+    "writeDate": "2026-07-27",
+    "brokerName": "한화투자증권",
+    "title": "불리한 매크로 환경에도 구조적 수익성 개선 중",
+    "goalPrice": 810000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 3
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 3,
+        "가격": 1,
+        "원가": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94565",
+    "94564",
+    "94555",
+    "94542",
+    "94538",
+    "94534",
+    "94529",
+    "94518",
+    "94507",
+    "94503",
+    "94502",
+    "94164",
+    "94127",
+    "94125",
+    "94050",
+    "93831",
+    "93672",
+    "93581",
+    "93551",
+    "93312",
+    "92027",
+    "92020",
+    "92017",
+    "92003",
+    "91989",
+    "91987",
+    "91972",
+    "91970",
+    "91944",
+    "91497",
+    "91465",
+    "91413",
+    "91355"
+  ]
+}

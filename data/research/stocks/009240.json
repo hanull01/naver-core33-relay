@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "009240",
+  "itemName": "한샘",
+  "reportCount": 5,
+  "latestReportNid": "95670",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95670",
+    "writeDate": "2026-08-18",
+    "brokerName": "iM증권",
+    "title": "실적 회복 보다는 자사주 소각 기대 유효",
+    "goalPrice": 52000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95670",
+    "95480",
+    "95465",
+    "94618",
+    "92815"
+  ]
+}

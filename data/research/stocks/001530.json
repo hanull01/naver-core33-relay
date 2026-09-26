@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001530",
+  "itemName": "DI동일",
+  "reportCount": 3,
+  "latestReportNid": "95831",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95831",
+    "writeDate": "2026-08-24",
+    "brokerName": "유진투자증권",
+    "title": "LFP에 이어 소디움까지 알루미늄박 수요 고성장기",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "배터리": 9,
+        "수요": 2,
+        "중국": 2,
+        "미국": 1,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95831",
+    "93024",
+    "91966"
+  ]
+}

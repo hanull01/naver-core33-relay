@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "460870",
+  "itemName": "에스엠씨지",
+  "reportCount": 1,
+  "latestReportNid": "93680",
+  "latestWriteDate": "2026-06-25",
+  "latest": {
+    "nid": "93680",
+    "writeDate": "2026-06-25",
+    "brokerName": "키움증권",
+    "title": "실적으로 증명해 가는 유리용기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93680"
+  ]
+}

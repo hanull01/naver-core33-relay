@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "041830",
+  "itemName": "인바디",
+  "reportCount": 8,
+  "latestReportNid": "95884",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95884",
+    "writeDate": "2026-08-27",
+    "brokerName": "IBK투자증권",
+    "title": "한미약품의 동반자",
+    "goalPrice": 81000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95884",
+    "95205",
+    "95199",
+    "95111",
+    "93636",
+    "93491",
+    "93315",
+    "92592"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "138080",
+  "itemName": "오이솔루션",
+  "reportCount": 5,
+  "latestReportNid": "96179",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96179",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "이미 쇼티지는 시작됐다",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "가격": 1,
+        "미국": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96179",
+    "95785",
+    "93228",
+    "91464",
+    "91081"
+  ]
+}

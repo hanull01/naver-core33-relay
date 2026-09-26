@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "215000",
+  "itemName": "골프존",
+  "reportCount": 3,
+  "latestReportNid": "95245",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95245",
+    "writeDate": "2026-08-07",
+    "brokerName": "유진투자증권",
+    "title": "2Q26P Review: 6분기 연속 해외 매출 증가 지속",
+    "goalPrice": 70000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 15,
+        "negative": 21
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 9,
+      "earningsNegativeSignalCount": 12,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 2,
+        "수요": 2,
+        "자동차": 2,
+        "중국": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95245",
+    "92465",
+    "91851"
+  ]
+}

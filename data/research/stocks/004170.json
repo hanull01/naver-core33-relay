@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004170",
+  "itemName": "신세계",
+  "reportCount": 32,
+  "latestReportNid": "96093",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96093",
+    "writeDate": "2026-09-11",
+    "brokerName": "신한투자증권",
+    "title": "실적보다 앞서간 우려",
+    "goalPrice": 700000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96093",
+    "96037",
+    "95513",
+    "95504",
+    "95503",
+    "95483",
+    "95475",
+    "95462",
+    "95459",
+    "95447",
+    "93965",
+    "93794",
+    "93734",
+    "93591",
+    "93539",
+    "93526",
+    "93473",
+    "93467",
+    "92964",
+    "92871",
+    "92860",
+    "92851",
+    "92844",
+    "92824",
+    "92814",
+    "92806",
+    "92798",
+    "91600",
+    "91563",
+    "91345",
+    "91259",
+    "91190"
+  ]
+}

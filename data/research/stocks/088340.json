@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "088340",
+  "itemName": "유라클",
+  "reportCount": 2,
+  "latestReportNid": "93662",
+  "latestWriteDate": "2026-06-24",
+  "latest": {
+    "nid": "93662",
+    "writeDate": "2026-06-24",
+    "brokerName": "키움증권",
+    "title": "AI전환에 따른 하반기 실적 개선 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 4
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 9
+      }
+    }
+  },
+  "reportNids": [
+    "93662",
+    "91656"
+  ]
+}

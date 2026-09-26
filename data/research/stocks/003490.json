@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003490",
+  "itemName": "대한항공",
+  "reportCount": 18,
+  "latestReportNid": "96298",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96298",
+    "writeDate": "2026-09-23",
+    "brokerName": "하나증권",
+    "title": "3Q26 Pre:걱정 없이 보내는 2026년, 기대되는 2027년",
+    "goalPrice": 41000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96298",
+    "96250",
+    "96044",
+    "94205",
+    "94200",
+    "94195",
+    "94176",
+    "94168",
+    "93729",
+    "93655",
+    "93610",
+    "91553",
+    "91545",
+    "91537",
+    "91531",
+    "91526",
+    "91516",
+    "91101"
+  ]
+}

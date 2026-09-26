@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "460860",
+  "itemName": "동국제강",
+  "reportCount": 4,
+  "latestReportNid": "94550",
+  "latestWriteDate": "2026-07-27",
+  "latest": {
+    "nid": "94550",
+    "writeDate": "2026-07-27",
+    "brokerName": "하나증권",
+    "title": "2분기 영업실적 서프라이즈 기록!",
+    "goalPrice": 14000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "원가": 2,
+        "환율": 2,
+        "수주": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94550",
+    "94207",
+    "92007",
+    "91485"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "043260",
+  "itemName": "성호전자",
+  "reportCount": 4,
+  "latestReportNid": "96149",
+  "latestWriteDate": "2026-09-15",
+  "latest": {
+    "nid": "96149",
+    "writeDate": "2026-09-15",
+    "brokerName": "신한투자증권",
+    "title": "시선은 27년으로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96149",
+    "93686",
+    "93462",
+    "93250"
+  ]
+}

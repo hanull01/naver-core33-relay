@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "200710",
+  "itemName": "에이디테크놀로지",
+  "reportCount": 2,
+  "latestReportNid": "95799",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95799",
+    "writeDate": "2026-08-21",
+    "brokerName": "신한투자증권",
+    "title": "높아진 기대, 가이던스 유지",
+    "goalPrice": 44000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95799",
+    "93168"
+  ]
+}

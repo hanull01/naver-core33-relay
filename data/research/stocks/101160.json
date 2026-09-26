@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "101160",
+  "itemName": "월덱스",
+  "reportCount": 2,
+  "latestReportNid": "96188",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96188",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 반도체 식각공정용 실리콘·쿼츠 부품 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 7,
+        "미국": 1,
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96188",
+    "96008"
+  ]
+}

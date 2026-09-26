@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "018260",
+  "itemName": "삼성에스디에스",
+  "reportCount": 18,
+  "latestReportNid": "96233",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96233",
+    "writeDate": "2026-09-18",
+    "brokerName": "미래에셋증권",
+    "title": "AI DC 사업자 중 최선호",
+    "goalPrice": 300000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5,
+        "수요": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96233",
+    "96124",
+    "95349",
+    "94916",
+    "94897",
+    "94868",
+    "93993",
+    "93946",
+    "93939",
+    "93888",
+    "93217",
+    "91965",
+    "91924",
+    "91914",
+    "91913",
+    "91899",
+    "91599",
+    "91263"
+  ]
+}

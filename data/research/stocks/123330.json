@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "123330",
+  "itemName": "제닉",
+  "reportCount": 7,
+  "latestReportNid": "96007",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96007",
+    "writeDate": "2026-09-04",
+    "brokerName": "IBK투자증권",
+    "title": "탐방노트: 확인된 수요, 관건은 공급",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96007",
+    "95702",
+    "95641",
+    "93670",
+    "93428",
+    "92944",
+    "91352"
+  ]
+}

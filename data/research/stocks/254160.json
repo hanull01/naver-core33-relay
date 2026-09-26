@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "254160",
+  "itemName": "제이엠멀티",
+  "reportCount": 1,
+  "latestReportNid": "94385",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94385",
+    "writeDate": "2026-07-24",
+    "brokerName": "NICE평가정보",
+    "title": "천연목재 인프라와 첨단 헬스케어 기술을 잇는 토탈 라이프 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94385"
+  ]
+}

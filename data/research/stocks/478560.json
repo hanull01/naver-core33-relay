@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "478560",
+  "itemName": "블랙야크아이앤씨",
+  "reportCount": 1,
+  "latestReportNid": "93592",
+  "latestWriteDate": "2026-06-18",
+  "latest": {
+    "nid": "93592",
+    "writeDate": "2026-06-18",
+    "brokerName": "한국IR협의회",
+    "title": "소방사업 인수로 한층 넓어진 성장스토리",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93592"
+  ]
+}

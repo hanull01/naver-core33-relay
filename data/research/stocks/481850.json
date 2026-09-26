@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "481850",
+  "itemName": "신한글로벌액티브리츠",
+  "reportCount": 1,
+  "latestReportNid": "93650",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93650",
+    "writeDate": "2026-06-23",
+    "brokerName": "신한투자증권",
+    "title": "이제 펀더멘탈 회복만 기다리면 된다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93650"
+  ]
+}

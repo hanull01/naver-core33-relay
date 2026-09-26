@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036800",
+  "itemName": "나이스정보통신",
+  "reportCount": 1,
+  "latestReportNid": "93300",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93300",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전자결제 및 VAN 서비스 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93300"
+  ]
+}

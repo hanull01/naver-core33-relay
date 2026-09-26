@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "065500",
+  "itemName": "오리엔트정공",
+  "reportCount": 1,
+  "latestReportNid": "94380",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94380",
+    "writeDate": "2026-07-24",
+    "brokerName": "NICE평가정보",
+    "title": "현대·기아차 1차 협력 알루미늄 정밀부품 전문사, 친환경 미래차 부품으로 전환 선도",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94380"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "042510",
+  "itemName": "라온시큐어",
+  "reportCount": 4,
+  "latestReportNid": "95891",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95891",
+    "writeDate": "2026-08-27",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 양자내성암호 상용화 본격 확대 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 20,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 7,
+        "자동차": 2,
+        "로봇": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95891",
+    "93638",
+    "93057",
+    "91129"
+  ]
+}

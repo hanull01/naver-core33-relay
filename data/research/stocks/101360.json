@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "101360",
+  "itemName": "에코앤드림",
+  "reportCount": 1,
+  "latestReportNid": "91447",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91447",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 이차전지 양극재 핵심 원료 전구체 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 3,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91447"
+  ]
+}

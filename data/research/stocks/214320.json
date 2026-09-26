@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "214320",
+  "itemName": "이노션",
+  "reportCount": 8,
+  "latestReportNid": "95443",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95443",
+    "writeDate": "2026-08-12",
+    "brokerName": "삼성증권",
+    "title": "수익성은 높이고, 성장 영역은 넓히고",
+    "goalPrice": 25000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 25,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 10,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 8,
+        "수주": 2,
+        "미국": 1,
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95443",
+    "95139",
+    "94155",
+    "92891",
+    "92707",
+    "92684",
+    "91751",
+    "91701"
+  ]
+}

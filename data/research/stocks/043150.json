@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "043150",
+  "itemName": "바텍",
+  "reportCount": 4,
+  "latestReportNid": "95482",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95482",
+    "writeDate": "2026-08-12",
+    "brokerName": "대신증권",
+    "title": "미국서 보너스 받고, 유럽으로",
+    "goalPrice": 37000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95482",
+    "95454",
+    "92876",
+    "92852"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "049720",
+  "itemName": "고려신용정보",
+  "reportCount": 2,
+  "latestReportNid": "93386",
+  "latestWriteDate": "2026-06-02",
+  "latest": {
+    "nid": "93386",
+    "writeDate": "2026-06-02",
+    "brokerName": "iM증권",
+    "title": "어둠의 금융주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93386",
+    "92974"
+  ]
+}

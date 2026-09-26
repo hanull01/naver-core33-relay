@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "138610",
+  "itemName": "나이벡",
+  "reportCount": 1,
+  "latestReportNid": "96064",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96064",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 치과용 골이식재와 펩타이드 신약 개발기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96064"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "161390",
+  "itemName": "한국타이어앤테크놀로지",
+  "reportCount": 13,
+  "latestReportNid": "95512",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95512",
+    "writeDate": "2026-08-12",
+    "brokerName": "DS투자증권",
+    "title": "목전에 둔 상방 변곡점",
+    "goalPrice": 92000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "원가": 2,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95512",
+    "95505",
+    "95496",
+    "95463",
+    "95453",
+    "94320",
+    "93755",
+    "93174",
+    "92747",
+    "92739",
+    "92704",
+    "92680",
+    "92120"
+  ]
+}

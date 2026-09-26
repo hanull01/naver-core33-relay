@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0013V0",
+  "itemName": "삼진식품",
+  "reportCount": 1,
+  "latestReportNid": "93676",
+  "latestWriteDate": "2026-06-24",
+  "latest": {
+    "nid": "93676",
+    "writeDate": "2026-06-24",
+    "brokerName": "대신증권",
+    "title": "다음 목적지는 글로벌 K-푸드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93676"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "054210",
+  "itemName": "이랜텍",
+  "reportCount": 1,
+  "latestReportNid": "95282",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95282",
+    "writeDate": "2026-08-10",
+    "brokerName": "한국IR협의회",
+    "title": "실적 개선이 기대되는 IT부품 강소기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 5,
+        "로봇": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95282"
+  ]
+}

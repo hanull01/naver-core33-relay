@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "256940",
+  "itemName": "킵스파마",
+  "reportCount": 1,
+  "latestReportNid": "94383",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94383",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "표적항암제와 경구용 펩타이드 플랫폼 기반 제약·바이오 사업 전환",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94383"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010120",
+  "itemName": "LS ELECTRIC",
+  "reportCount": 23,
+  "latestReportNid": "95823",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95823",
+    "writeDate": "2026-08-24",
+    "brokerName": "SK증권",
+    "title": "전력은 속도가 생명, 단납기 생산이 강점",
+    "goalPrice": 310000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95823",
+    "94466",
+    "94462",
+    "94448",
+    "94442",
+    "94432",
+    "94425",
+    "94423",
+    "94420",
+    "94244",
+    "94163",
+    "94089",
+    "93512",
+    "91799",
+    "91792",
+    "91789",
+    "91787",
+    "91776",
+    "91770",
+    "91767",
+    "91671",
+    "91539",
+    "91201"
+  ]
+}

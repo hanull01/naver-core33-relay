@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "148930",
+  "itemName": "에이치와이티씨",
+  "reportCount": 1,
+  "latestReportNid": "91085",
+  "latestWriteDate": "2026-03-27",
+  "latest": {
+    "nid": "91085",
+    "writeDate": "2026-03-27",
+    "brokerName": "서울평가정보",
+    "title": "2차전지 공정의 수율과 품질을 좌우하는 초정밀 주요 부품 기술 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91085"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "264660",
+  "itemName": "씨앤지하이테크",
+  "reportCount": 1,
+  "latestReportNid": "94177",
+  "latestWriteDate": "2026-07-15",
+  "latest": {
+    "nid": "94177",
+    "writeDate": "2026-07-15",
+    "brokerName": "한국IR협의회",
+    "title": "2027년 성장을 준비하는 숨 고르기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94177"
+  ]
+}

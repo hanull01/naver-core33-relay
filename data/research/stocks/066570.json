@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "066570",
+  "itemName": "LG전자",
+  "reportCount": 31,
+  "latestReportNid": "95721",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95721",
+    "writeDate": "2026-08-18",
+    "brokerName": "교보증권",
+    "title": "AIDC, 10월 2.5조원의 수주 전망",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "수주": 4,
+        "로봇": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95721",
+    "95548",
+    "94923",
+    "94890",
+    "94877",
+    "94854",
+    "94837",
+    "94832",
+    "94348",
+    "94172",
+    "93992",
+    "93984",
+    "93975",
+    "93869",
+    "93656",
+    "92920",
+    "92753",
+    "92297",
+    "92279",
+    "92254",
+    "92231",
+    "92218",
+    "92201",
+    "92195",
+    "92192",
+    "91343",
+    "91341",
+    "91325",
+    "91321",
+    "91313",
+    "91171"
+  ]
+}

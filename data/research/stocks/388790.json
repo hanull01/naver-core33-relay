@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "388790",
+  "itemName": "라이콤",
+  "reportCount": 1,
+  "latestReportNid": "93418",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93418",
+    "writeDate": "2026-06-05",
+    "brokerName": "SK증권",
+    "title": "숨겨진 광통신 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "방산": 2,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93418"
+  ]
+}

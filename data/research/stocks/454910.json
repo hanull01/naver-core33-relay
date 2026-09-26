@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "454910",
+  "itemName": "두산로보틱스",
+  "reportCount": 3,
+  "latestReportNid": "93362",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93362",
+    "writeDate": "2026-05-29",
+    "brokerName": "DS투자증권",
+    "title": "펀더멘털과 내러티브의 작은 변화",
+    "goalPrice": 92000,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "로봇": 1,
+        "미국": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93362",
+    "92298",
+    "91805"
+  ]
+}

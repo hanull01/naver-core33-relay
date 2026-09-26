@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086790",
+  "itemName": "하나금융지주",
+  "reportCount": 21,
+  "latestReportNid": "95971",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95971",
+    "writeDate": "2026-09-02",
+    "brokerName": "신한투자증권",
+    "title": "낮아진 환율, 높아질 실적",
+    "goalPrice": 160000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95971",
+    "94569",
+    "94553",
+    "94548",
+    "94539",
+    "94535",
+    "94532",
+    "94515",
+    "94494",
+    "94492",
+    "94114",
+    "93938",
+    "93846",
+    "92028",
+    "92012",
+    "92009",
+    "91982",
+    "91958",
+    "91949",
+    "91937",
+    "91931"
+  ]
+}

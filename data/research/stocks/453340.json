@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "453340",
+  "itemName": "현대그린푸드",
+  "reportCount": 3,
+  "latestReportNid": "95046",
+  "latestWriteDate": "2026-08-05",
+  "latest": {
+    "nid": "95046",
+    "writeDate": "2026-08-05",
+    "brokerName": "IBK투자증권",
+    "title": "실적 성장과 적극적인 주주환원!",
+    "goalPrice": 25000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 29,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95046",
+    "93797",
+    "92512"
+  ]
+}

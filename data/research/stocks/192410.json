@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "192410",
+  "itemName": "오늘이엔엠",
+  "reportCount": 1,
+  "latestReportNid": "94283",
+  "latestWriteDate": "2026-07-21",
+  "latest": {
+    "nid": "94283",
+    "writeDate": "2026-07-21",
+    "brokerName": "한국IR협의회",
+    "title": "AT&T 내 스몰셀 안테나 점유율 1위 업체",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3
+      }
+    }
+  },
+  "reportNids": [
+    "94283"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "070960",
+  "itemName": "모나용평",
+  "reportCount": 1,
+  "latestReportNid": "93293",
+  "latestWriteDate": "2026-05-27",
+  "latest": {
+    "nid": "93293",
+    "writeDate": "2026-05-27",
+    "brokerName": "DS투자증권",
+    "title": "이어질 분양과 이에 따른 운영 매출 확대에 주목",
+    "goalPrice": 4600,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93293"
+  ]
+}

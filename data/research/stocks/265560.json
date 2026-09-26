@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "265560",
+  "itemName": "영화테크",
+  "reportCount": 1,
+  "latestReportNid": "93706",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93706",
+    "writeDate": "2026-06-26",
+    "brokerName": "한국IR협의회",
+    "title": "펀더멘털을 감안하면 매력적인 자동차 부품사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93706"
+  ]
+}

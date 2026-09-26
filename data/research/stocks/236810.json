@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "236810",
+  "itemName": "엔비티",
+  "reportCount": 1,
+  "latestReportNid": "91387",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91387",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 리워드 기반 모바일 광고 플랫폼 및 오퍼월 사업 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91387"
+  ]
+}

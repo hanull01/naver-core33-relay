@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "457600",
+  "itemName": "벡트",
+  "reportCount": 2,
+  "latestReportNid": "93644",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93644",
+    "writeDate": "2026-06-23",
+    "brokerName": "신한투자증권",
+    "title": "성장 동력 확보 노력",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93644",
+    "91391"
+  ]
+}

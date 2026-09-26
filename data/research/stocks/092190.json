@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "092190",
+  "itemName": "서울바이오시스",
+  "reportCount": 1,
+  "latestReportNid": "95936",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95936",
+    "writeDate": "2026-08-31",
+    "brokerName": "한국IR협의회",
+    "title": "MicroLED, 디스플레이를 넘어 데이터통신으로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "반도체": 2,
+        "원가": 1,
+        "자동차": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95936"
+  ]
+}

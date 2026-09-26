@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004590",
+  "itemName": "한국가구",
+  "reportCount": 1,
+  "latestReportNid": "91393",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91393",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 가구 제조 및 제과제빵원료 유통 사업 영위",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91393"
+  ]
+}

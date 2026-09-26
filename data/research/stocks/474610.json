@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "474610",
+  "itemName": "RF시스템즈",
+  "reportCount": 3,
+  "latestReportNid": "96194",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96194",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 딥 브레이징 기반 방산 시스템 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 7
+      }
+    }
+  },
+  "reportNids": [
+    "96194",
+    "93740",
+    "93527"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "107640",
+  "itemName": "한중엔시에스",
+  "reportCount": 1,
+  "latestReportNid": "95140",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95140",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "미국 시장 공략 속도, 사업 영역도 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95140"
+  ]
+}

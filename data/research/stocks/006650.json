@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006650",
+  "itemName": "대한유화",
+  "reportCount": 3,
+  "latestReportNid": "96285",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96285",
+    "writeDate": "2026-09-22",
+    "brokerName": "유안타증권",
+    "title": "2026년 말, 3가지 허들을 지나야 한다!",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 3
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96285",
+    "92251",
+    "91765"
+  ]
+}

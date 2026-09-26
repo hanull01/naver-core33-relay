@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "122450",
+  "itemName": "KX",
+  "reportCount": 2,
+  "latestReportNid": "93127",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93127",
+    "writeDate": "2026-05-19",
+    "brokerName": "유진투자증권",
+    "title": "1Q26 Review: 제조·레저 부문 실적 성장세 전환",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 33,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 18,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 6,
+        "수요": 2,
+        "자동차": 2,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93127",
+    "91109"
+  ]
+}

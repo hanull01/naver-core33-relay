@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "044490",
+  "itemName": "태웅",
+  "reportCount": 7,
+  "latestReportNid": "96067",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96067",
+    "writeDate": "2026-09-10",
+    "brokerName": "IBK투자증권",
+    "title": "오디세이, 20년 만의 귀환",
+    "goalPrice": 45000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "중국": 2,
+        "가격": 1,
+        "수요": 1,
+        "원전": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96067",
+    "95752",
+    "95329",
+    "93886",
+    "93246",
+    "91712",
+    "91565"
+  ]
+}

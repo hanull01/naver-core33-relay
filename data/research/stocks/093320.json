@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "093320",
+  "itemName": "케이아이엔엑스",
+  "reportCount": 1,
+  "latestReportNid": "92239",
+  "latestWriteDate": "2026-04-30",
+  "latest": {
+    "nid": "92239",
+    "writeDate": "2026-04-30",
+    "brokerName": "미래에셋증권",
+    "title": "아직 두 발 남았다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92239"
+  ]
+}

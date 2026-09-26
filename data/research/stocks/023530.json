@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "023530",
+  "itemName": "롯데쇼핑",
+  "reportCount": 22,
+  "latestReportNid": "96035",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96035",
+    "writeDate": "2026-09-08",
+    "brokerName": "키움증권",
+    "title": "연말로 갈수록 기대 요인이 늘어날 것",
+    "goalPrice": 190000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96035",
+    "95391",
+    "95341",
+    "95337",
+    "95308",
+    "95302",
+    "95281",
+    "93792",
+    "93590",
+    "93476",
+    "93463",
+    "93455",
+    "93448",
+    "92793",
+    "92787",
+    "92784",
+    "92774",
+    "92772",
+    "92758",
+    "92756",
+    "91601",
+    "91258"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "039570",
+  "itemName": "HDC랩스",
+  "reportCount": 1,
+  "latestReportNid": "93116",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93116",
+    "writeDate": "2026-05-19",
+    "brokerName": "IBK투자증권",
+    "title": "1Q26 Review: 일회성 요인 없는 수익성 개선",
+    "goalPrice": 10500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 3
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93116"
+  ]
+}

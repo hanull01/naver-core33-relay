@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "009780",
+  "itemName": "엠에스씨",
+  "reportCount": 1,
+  "latestReportNid": "91384",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91384",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 식품 신소재 전문기업의 유연생산시스템과 기술력",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91384"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "124560",
+  "itemName": "태웅로직스",
+  "reportCount": 1,
+  "latestReportNid": "92881",
+  "latestWriteDate": "2026-05-14",
+  "latest": {
+    "nid": "92881",
+    "writeDate": "2026-05-14",
+    "brokerName": "한국IR협의회",
+    "title": "주주환원 지속에도 불구 밸류업은 지연",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92881"
+  ]
+}

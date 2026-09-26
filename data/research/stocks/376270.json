@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "376270",
+  "itemName": "HEM파마",
+  "reportCount": 3,
+  "latestReportNid": "96113",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96113",
+    "writeDate": "2026-09-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 마이크로바이옴 기반 맞춤형 헬스케어 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96113",
+    "93585",
+    "91155"
+  ]
+}

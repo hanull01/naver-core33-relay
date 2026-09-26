@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "206650",
+  "itemName": "유바이오로직스",
+  "reportCount": 1,
+  "latestReportNid": "94004",
+  "latestWriteDate": "2026-07-09",
+  "latest": {
+    "nid": "94004",
+    "writeDate": "2026-07-09",
+    "brokerName": "한국IR협의회",
+    "title": "유비콜 이후를 준비하는 백신 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94004"
+  ]
+}

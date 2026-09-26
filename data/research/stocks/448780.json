@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "448780",
+  "itemName": "마이크로엔엑스",
+  "reportCount": 1,
+  "latestReportNid": "94043",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94043",
+    "writeDate": "2026-07-10",
+    "brokerName": "서울평가정보",
+    "title": "소형 정밀 모터 기술 기반으로 치과용 전동기기 시장의 전동화·정밀화 흐름에 대응",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94043"
+  ]
+}

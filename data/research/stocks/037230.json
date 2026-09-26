@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "037230",
+  "itemName": "한국팩키지",
+  "reportCount": 1,
+  "latestReportNid": "96104",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96104",
+    "writeDate": "2026-09-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 카톤팩과 골판지 포장재 제조 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96104"
+  ]
+}

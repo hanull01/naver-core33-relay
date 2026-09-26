@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "043360",
+  "itemName": "디지아이",
+  "reportCount": 1,
+  "latestReportNid": "91648",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91648",
+    "writeDate": "2026-04-17",
+    "brokerName": "NICE평가정보",
+    "title": "글로벌 산업용 잉크젯 프린팅 시장을 선도하는 디지털 프린팅 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91648"
+  ]
+}

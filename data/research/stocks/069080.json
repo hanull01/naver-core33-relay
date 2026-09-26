@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "069080",
+  "itemName": "웹젠",
+  "reportCount": 2,
+  "latestReportNid": "95235",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95235",
+    "writeDate": "2026-08-07",
+    "brokerName": "신한투자증권",
+    "title": "시간이 더 필요하다",
+    "goalPrice": null,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95235",
+    "94126"
+  ]
+}

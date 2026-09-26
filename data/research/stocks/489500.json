@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "489500",
+  "itemName": "엘케이켐",
+  "reportCount": 1,
+  "latestReportNid": "93188",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93188",
+    "writeDate": "2026-05-21",
+    "brokerName": "신한투자증권",
+    "title": "고성능 서버 칩의 대체불가 소재기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93188"
+  ]
+}

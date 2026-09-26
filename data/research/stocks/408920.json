@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "408920",
+  "itemName": "메쎄이상",
+  "reportCount": 2,
+  "latestReportNid": "95915",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95915",
+    "writeDate": "2026-08-28",
+    "brokerName": "한국IR협의회",
+    "title": "국내 전시산업의 독보적인 상장사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95915",
+    "93679"
+  ]
+}

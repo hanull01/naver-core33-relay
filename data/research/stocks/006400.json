@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006400",
+  "itemName": "삼성SDI",
+  "reportCount": 29,
+  "latestReportNid": "96241",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96241",
+    "writeDate": "2026-09-21",
+    "brokerName": "iM증권",
+    "title": "전력 인프라 업체로서의 밸류에이션 재평가",
+    "goalPrice": 800000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 15,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 13,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 3,
+        "미국": 2,
+        "환율": 2,
+        "AI": 1,
+        "반도체": 1,
+        "자동차": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96241",
+    "96154",
+    "95585",
+    "95494",
+    "95008",
+    "94886",
+    "94875",
+    "94867",
+    "94830",
+    "94821",
+    "94818",
+    "94815",
+    "94269",
+    "93764",
+    "93721",
+    "92671",
+    "92169",
+    "92166",
+    "92161",
+    "92156",
+    "92144",
+    "92137",
+    "92131",
+    "92110",
+    "92109",
+    "92104",
+    "91698",
+    "91176",
+    "91118"
+  ]
+}

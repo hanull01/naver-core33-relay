@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "206560",
+  "itemName": "덱스터",
+  "reportCount": 1,
+  "latestReportNid": "91559",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91559",
+    "writeDate": "2026-04-15",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 시각특수효과 및 콘텐츠 제작 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91559"
+  ]
+}

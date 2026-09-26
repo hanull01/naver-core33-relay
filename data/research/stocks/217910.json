@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "217910",
+  "itemName": "에스제이켐",
+  "reportCount": 1,
+  "latestReportNid": "93598",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93598",
+    "writeDate": "2026-06-19",
+    "brokerName": "서울평가정보",
+    "title": "수처리 응집제 제조기술과 품질관리를 기반으로 환경 규제 강화에 대응",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93598"
+  ]
+}

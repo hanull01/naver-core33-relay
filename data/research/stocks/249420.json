@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "249420",
+  "itemName": "일동제약",
+  "reportCount": 1,
+  "latestReportNid": "93326",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93326",
+    "writeDate": "2026-05-28",
+    "brokerName": "SK증권",
+    "title": "실적 반등 확인, 파이프라인 가치 재평가 기대",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93326"
+  ]
+}

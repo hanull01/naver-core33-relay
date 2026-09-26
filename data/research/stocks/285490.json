@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "285490",
+  "itemName": "노바텍",
+  "reportCount": 1,
+  "latestReportNid": "91647",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91647",
+    "writeDate": "2026-04-17",
+    "brokerName": "서울평가정보",
+    "title": "네오디뮴 자석 기술 기반 전자·전장용 자석부품 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91647"
+  ]
+}

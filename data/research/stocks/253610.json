@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "253610",
+  "itemName": "루트락",
+  "reportCount": 1,
+  "latestReportNid": "93212",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93212",
+    "writeDate": "2026-05-22",
+    "brokerName": "NICE평가정보",
+    "title": "한국인의 관절을 지키는 국산 정형외과 임플란트 선도기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93212"
+  ]
+}

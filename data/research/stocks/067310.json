@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "067310",
+  "itemName": "하나마이크론",
+  "reportCount": 1,
+  "latestReportNid": "93485",
+  "latestWriteDate": "2026-06-10",
+  "latest": {
+    "nid": "93485",
+    "writeDate": "2026-06-10",
+    "brokerName": "대신증권",
+    "title": "사업 효율성 제고",
+    "goalPrice": 57000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93485"
+  ]
+}

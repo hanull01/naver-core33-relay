@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "014950",
+  "itemName": "삼익제약",
+  "reportCount": 2,
+  "latestReportNid": "95587",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95587",
+    "writeDate": "2026-08-14",
+    "brokerName": "NICE평가정보",
+    "title": "재도약(Re)으로 더 높이 비상(Leap)하는 3대 만성질환·CMO 전문 헬스케어 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95587",
+    "93666"
+  ]
+}

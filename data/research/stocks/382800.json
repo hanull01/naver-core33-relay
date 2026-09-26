@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "382800",
+  "itemName": "지앤비에스 에코",
+  "reportCount": 2,
+  "latestReportNid": "91871",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91871",
+    "writeDate": "2026-04-24",
+    "brokerName": "SK증권",
+    "title": "초호황 국면 진입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 4,
+        "중국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91871",
+    "91512"
+  ]
+}

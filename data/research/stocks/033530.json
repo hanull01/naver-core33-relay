@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "033530",
+  "itemName": "SJG세종",
+  "reportCount": 3,
+  "latestReportNid": "95976",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95976",
+    "writeDate": "2026-09-02",
+    "brokerName": "하나증권",
+    "title": "P/E 2배 이하, 주가 재평가의 열쇠는 전동화 비중 확대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "자동차": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95976",
+    "95760",
+    "91182"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034120",
+  "itemName": "SBS",
+  "reportCount": 5,
+  "latestReportNid": "95713",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95713",
+    "writeDate": "2026-08-18",
+    "brokerName": "하나증권",
+    "title": "4년간 반 토막 난 TV광고의 바닥 가능성",
+    "goalPrice": 18000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95713",
+    "94267",
+    "93290",
+    "93100",
+    "93045"
+  ]
+}

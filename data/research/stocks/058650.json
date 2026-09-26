@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "058650",
+  "itemName": "세아홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "95798",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95798",
+    "writeDate": "2026-08-21",
+    "brokerName": "신한투자증권",
+    "title": "나도 실적 성장주, 나도 주주환원에 진심!",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95798"
+  ]
+}

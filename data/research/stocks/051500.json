@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "051500",
+  "itemName": "CJ프레시웨이",
+  "reportCount": 12,
+  "latestReportNid": "95243",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95243",
+    "writeDate": "2026-08-07",
+    "brokerName": "IBK투자증권",
+    "title": "높은 성벽이 쌓아지는 과정",
+    "goalPrice": 46000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 13,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95243",
+    "95213",
+    "94083",
+    "94068",
+    "93997",
+    "93640",
+    "93176",
+    "92748",
+    "92735",
+    "92658",
+    "91748",
+    "91338"
+  ]
+}

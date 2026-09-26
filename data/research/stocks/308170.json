@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "308170",
+  "itemName": "씨티알모빌리티",
+  "reportCount": 1,
+  "latestReportNid": "94041",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94041",
+    "writeDate": "2026-07-10",
+    "brokerName": "NICE평가정보",
+    "title": "전동화 부품 전환을 가속하는 구동·현가 핵심 부품 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94041"
+  ]
+}

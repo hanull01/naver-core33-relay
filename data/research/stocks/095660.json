@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095660",
+  "itemName": "네오위즈",
+  "reportCount": 9,
+  "latestReportNid": "95607",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95607",
+    "writeDate": "2026-08-14",
+    "brokerName": "유진투자증권",
+    "title": "신작 모멘텀 부재",
+    "goalPrice": 25000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 8
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95607",
+    "95528",
+    "94325",
+    "93786",
+    "93364",
+    "92779",
+    "92768",
+    "92722",
+    "91720"
+  ]
+}

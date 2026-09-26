@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "314140",
+  "itemName": "알피바이오",
+  "reportCount": 1,
+  "latestReportNid": "96001",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96001",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 연질캡슐 기반 의약품·건기식 위탁생산 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96001"
+  ]
+}

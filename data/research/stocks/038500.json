@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "038500",
+  "itemName": "삼표시멘트",
+  "reportCount": 1,
+  "latestReportNid": "95288",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95288",
+    "writeDate": "2026-08-10",
+    "brokerName": "한국IR협의회",
+    "title": "본업은 회복, 성수동 프리미엄은 경계",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 16,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 6,
+        "가격": 1,
+        "반도체": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95288"
+  ]
+}

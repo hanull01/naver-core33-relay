@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "286940",
+  "itemName": "롯데이노베이트",
+  "reportCount": 6,
+  "latestReportNid": "96221",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96221",
+    "writeDate": "2026-09-18",
+    "brokerName": "IBK투자증권",
+    "title": "한국 AI 데이터센터 르네상스의 대표 수혜주",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수주": 2,
+        "수요": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96221",
+    "96014",
+    "95161",
+    "93727",
+    "93291",
+    "91145"
+  ]
+}

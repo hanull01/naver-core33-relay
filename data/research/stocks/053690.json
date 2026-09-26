@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053690",
+  "itemName": "한미글로벌",
+  "reportCount": 4,
+  "latestReportNid": "94376",
+  "latestWriteDate": "2026-07-23",
+  "latest": {
+    "nid": "94376",
+    "writeDate": "2026-07-23",
+    "brokerName": "한화투자증권",
+    "title": "데이터센터와 원전을 품은 AI 인프라 PM",
+    "goalPrice": 36000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94376",
+    "91435",
+    "91126",
+    "91123"
+  ]
+}

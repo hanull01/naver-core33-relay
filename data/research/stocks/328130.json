@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "328130",
+  "itemName": "루닛",
+  "reportCount": 3,
+  "latestReportNid": "93276",
+  "latestWriteDate": "2026-05-27",
+  "latest": {
+    "nid": "93276",
+    "writeDate": "2026-05-27",
+    "brokerName": "미래에셋증권",
+    "title": "더 강해져 돌아왔다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 3
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93276",
+    "92884",
+    "91405"
+  ]
+}

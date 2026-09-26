@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "139480",
+  "itemName": "이마트",
+  "reportCount": 22,
+  "latestReportNid": "96068",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96068",
+    "writeDate": "2026-09-10",
+    "brokerName": "IBK투자증권",
+    "title": "스타벅스 부진과 본업의 호조",
+    "goalPrice": 100000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96068",
+    "95838",
+    "95793",
+    "95656",
+    "95649",
+    "95639",
+    "95609",
+    "95601",
+    "95593",
+    "94636",
+    "94001",
+    "93952",
+    "93669",
+    "93434",
+    "92950",
+    "92949",
+    "92888",
+    "92886",
+    "92880",
+    "91784",
+    "91690",
+    "91272"
+  ]
+}

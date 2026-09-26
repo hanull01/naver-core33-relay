@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "302430",
+  "itemName": "이노메트리",
+  "reportCount": 1,
+  "latestReportNid": "94789",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94789",
+    "writeDate": "2026-07-31",
+    "brokerName": "서울평가정보",
+    "title": "X-ray·CT와 AI 융합기술을 기반으로 2차전지에서 첨단산업까지 검사영역 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 3,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94789"
+  ]
+}

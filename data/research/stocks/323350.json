@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "323350",
+  "itemName": "다원넥스뷰",
+  "reportCount": 1,
+  "latestReportNid": "93645",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93645",
+    "writeDate": "2026-06-23",
+    "brokerName": "신한투자증권",
+    "title": "하반기 호실적 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93645"
+  ]
+}

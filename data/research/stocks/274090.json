@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "274090",
+  "itemName": "켄코아에어로스페이스",
+  "reportCount": 1,
+  "latestReportNid": "96187",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96187",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 한미 거점 기반 우주항공 부품·MRO 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 4,
+        "미국": 2,
+        "방산": 2,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96187"
+  ]
+}

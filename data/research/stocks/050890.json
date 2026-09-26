@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "050890",
+  "itemName": "쏠리드",
+  "reportCount": 5,
+  "latestReportNid": "96177",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96177",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "수급 정상화되면서 향후 1년간 주가 크게 오를 것",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96177",
+    "94456",
+    "93258",
+    "93166",
+    "91677"
+  ]
+}

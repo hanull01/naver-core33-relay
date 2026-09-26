@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "458870",
+  "itemName": "씨어스",
+  "reportCount": 10,
+  "latestReportNid": "96275",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96275",
+    "writeDate": "2026-09-22",
+    "brokerName": "IBK투자증권",
+    "title": "내수와 수출 동반성장 시기가 다가온다",
+    "goalPrice": 30000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96275",
+    "95782",
+    "95696",
+    "95247",
+    "93758",
+    "92865",
+    "92821",
+    "92501",
+    "91927",
+    "91826"
+  ]
+}

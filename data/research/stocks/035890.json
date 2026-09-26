@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035890",
+  "itemName": "서희건설",
+  "reportCount": 1,
+  "latestReportNid": "95195",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95195",
+    "writeDate": "2026-08-07",
+    "brokerName": "NICE평가정보",
+    "title": "지역주택조합 시장을 선도하는 탁월한 원가경쟁력의 중견 종합건설기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95195"
+  ]
+}

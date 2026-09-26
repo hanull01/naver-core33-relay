@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "046120",
+  "itemName": "오르비텍",
+  "reportCount": 1,
+  "latestReportNid": "92260",
+  "latestWriteDate": "2026-04-30",
+  "latest": {
+    "nid": "92260",
+    "writeDate": "2026-04-30",
+    "brokerName": "교보증권",
+    "title": "2026년 새로운 시작, 기대되는 그림",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원전": 3
+      }
+    }
+  },
+  "reportNids": [
+    "92260"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005850",
+  "itemName": "에스엘",
+  "reportCount": 4,
+  "latestReportNid": "95715",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95715",
+    "writeDate": "2026-08-18",
+    "brokerName": "하나증권",
+    "title": "램프가 쉬는 동안, 전동화가 뛰었다",
+    "goalPrice": 85000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "원가": 2,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95715",
+    "93103",
+    "93096",
+    "93092"
+  ]
+}

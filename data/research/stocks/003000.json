@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003000",
+  "itemName": "부광약품",
+  "reportCount": 1,
+  "latestReportNid": "93383",
+  "latestWriteDate": "2026-06-02",
+  "latest": {
+    "nid": "93383",
+    "writeDate": "2026-06-02",
+    "brokerName": "한국IR협의회",
+    "title": "본업 성장세 위에 RNA 플랫폼 재평가 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93383"
+  ]
+}

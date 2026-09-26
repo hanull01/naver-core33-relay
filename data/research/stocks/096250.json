@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "096250",
+  "itemName": "와이즈넛",
+  "reportCount": 1,
+  "latestReportNid": "93342",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93342",
+    "writeDate": "2026-05-29",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] AI 기반 검색 및 자연어처리 기술 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 11
+      }
+    }
+  },
+  "reportNids": [
+    "93342"
+  ]
+}

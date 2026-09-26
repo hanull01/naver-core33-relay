@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "232830",
+  "itemName": "아이티센피엔에스",
+  "reportCount": 1,
+  "latestReportNid": "93547",
+  "latestWriteDate": "2026-06-16",
+  "latest": {
+    "nid": "93547",
+    "writeDate": "2026-06-16",
+    "brokerName": "신한투자증권",
+    "title": "별도 매출의 성장세 확인",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93547"
+  ]
+}

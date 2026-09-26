@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011560",
+  "itemName": "세보엠이씨",
+  "reportCount": 1,
+  "latestReportNid": "95788",
+  "latestWriteDate": "2026-08-20",
+  "latest": {
+    "nid": "95788",
+    "writeDate": "2026-08-20",
+    "brokerName": "교보증권",
+    "title": "탐방노트: 예상했던 그림보다 시현되는 그림이 더 커지는 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95788"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005990",
+  "itemName": "매일홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "91607",
+  "latestWriteDate": "2026-04-16",
+  "latest": {
+    "nid": "91607",
+    "writeDate": "2026-04-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 유제품 및 식품 중심의 지주회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91607"
+  ]
+}

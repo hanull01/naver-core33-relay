@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "067370",
+  "itemName": "선바이오",
+  "reportCount": 1,
+  "latestReportNid": "91650",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91650",
+    "writeDate": "2026-04-17",
+    "brokerName": "NICE평가정보",
+    "title": "PEGylation 기술 기반 바이오의약품 및 약물전달 플랫폼 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91650"
+  ]
+}

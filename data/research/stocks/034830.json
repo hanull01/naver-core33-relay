@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034830",
+  "itemName": "한국토지신탁",
+  "reportCount": 3,
+  "latestReportNid": "95973",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95973",
+    "writeDate": "2026-09-02",
+    "brokerName": "신한투자증권",
+    "title": "상반기 보다 나을 하반기를 기대",
+    "goalPrice": 1800,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95973",
+    "95964",
+    "94011"
+  ]
+}

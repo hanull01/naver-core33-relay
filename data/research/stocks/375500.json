@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "375500",
+  "itemName": "DL이앤씨",
+  "reportCount": 39,
+  "latestReportNid": "96262",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96262",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "주택 호조, 그런데 이제 원전과 주주환원을 곁들인",
+    "goalPrice": 108000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 4
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96262",
+    "96121",
+    "94914",
+    "94894",
+    "94892",
+    "94872",
+    "94860",
+    "94844",
+    "94841",
+    "94834",
+    "94807",
+    "94214",
+    "94204",
+    "94184",
+    "94134",
+    "94093",
+    "93936",
+    "93913",
+    "93671",
+    "93667",
+    "93664",
+    "93663",
+    "93556",
+    "93545",
+    "93478",
+    "92435",
+    "92392",
+    "92375",
+    "92322",
+    "92312",
+    "92301",
+    "91950",
+    "91941",
+    "91571",
+    "91533",
+    "91426",
+    "91336",
+    "91310",
+    "91086"
+  ]
+}

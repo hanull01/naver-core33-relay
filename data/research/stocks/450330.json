@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "450330",
+  "itemName": "하스",
+  "reportCount": 1,
+  "latestReportNid": "91440",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91440",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 치과용 리튬 디실리케이트 및 지르코니아 소재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91440"
+  ]
+}

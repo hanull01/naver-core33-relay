@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "092730",
+  "itemName": "네오팜",
+  "reportCount": 3,
+  "latestReportNid": "96212",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96212",
+    "writeDate": "2026-09-17",
+    "brokerName": "하나증권",
+    "title": "더마 명가의 자부심, 제로이드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96212",
+    "93690",
+    "91928"
+  ]
+}

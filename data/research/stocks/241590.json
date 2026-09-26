@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "241590",
+  "itemName": "화승엔터프라이즈",
+  "reportCount": 2,
+  "latestReportNid": "93330",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93330",
+    "writeDate": "2026-05-28",
+    "brokerName": "DS투자증권",
+    "title": "가동률 턴어라운드 임박",
+    "goalPrice": 5000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93330",
+    "91476"
+  ]
+}

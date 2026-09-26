@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "459550",
+  "itemName": "알트",
+  "reportCount": 1,
+  "latestReportNid": "93620",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93620",
+    "writeDate": "2026-06-22",
+    "brokerName": "IBK투자증권",
+    "title": "디바이스 니치마켓 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93620"
+  ]
+}

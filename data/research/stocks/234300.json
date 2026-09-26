@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "234300",
+  "itemName": "에스트래픽",
+  "reportCount": 1,
+  "latestReportNid": "94219",
+  "latestWriteDate": "2026-07-16",
+  "latest": {
+    "nid": "94219",
+    "writeDate": "2026-07-16",
+    "brokerName": "한국IR협의회",
+    "title": "미국에서 증명한 기술력, 뉴욕 MTA 발주 임박",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94219"
+  ]
+}

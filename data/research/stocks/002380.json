@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "002380",
+  "itemName": "KCC",
+  "reportCount": 7,
+  "latestReportNid": "95954",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95954",
+    "writeDate": "2026-09-01",
+    "brokerName": "신한투자증권",
+    "title": "NDR 후기: 실리콘 회복, 주주환원까지",
+    "goalPrice": 750000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95954",
+    "95807",
+    "95794",
+    "95166",
+    "93683",
+    "92959",
+    "92544"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "403550",
+  "itemName": "쏘카",
+  "reportCount": 5,
+  "latestReportNid": "96273",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96273",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 국내 카셰어링 시장 과점 사업자",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96273",
+    "96195",
+    "93294",
+    "92407",
+    "92311"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "451220",
+  "itemName": "아이엠티",
+  "reportCount": 1,
+  "latestReportNid": "93777",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93777",
+    "writeDate": "2026-06-30",
+    "brokerName": "유안타증권",
+    "title": "2026년 예상 매출 성장률 51%",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93777"
+  ]
+}

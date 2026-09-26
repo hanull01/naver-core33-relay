@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "008830",
+  "itemName": "대동기어",
+  "reportCount": 1,
+  "latestReportNid": "96274",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96274",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "파워트레인에서 모빌리티∙로봇 부품회사로 진화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96274"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "122990",
+  "itemName": "와이솔",
+  "reportCount": 1,
+  "latestReportNid": "93693",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93693",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "5G 고도화와 전장·IoT 확산에 대응해 RF 솔루션 적용처 확대 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93693"
+  ]
+}

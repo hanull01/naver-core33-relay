@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "347700",
+  "itemName": "스피어",
+  "reportCount": 2,
+  "latestReportNid": "96146",
+  "latestWriteDate": "2026-09-15",
+  "latest": {
+    "nid": "96146",
+    "writeDate": "2026-09-15",
+    "brokerName": "신한투자증권",
+    "title": "유년기의 끝",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "환율": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96146",
+    "92483"
+  ]
+}

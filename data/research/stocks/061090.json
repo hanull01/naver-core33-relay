@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "061090",
+  "itemName": "세나테크놀로지",
+  "reportCount": 8,
+  "latestReportNid": "94284",
+  "latestWriteDate": "2026-07-21",
+  "latest": {
+    "nid": "94284",
+    "writeDate": "2026-07-21",
+    "brokerName": "한국IR협의회",
+    "title": "메시 통신의 확장, 레저에서 산업·로봇으로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 4,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94284",
+    "94116",
+    "94109",
+    "93422",
+    "93360",
+    "92630",
+    "92152",
+    "91223"
+  ]
+}

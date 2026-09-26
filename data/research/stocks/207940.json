@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "207940",
+  "itemName": "삼성바이오로직스",
+  "reportCount": 28,
+  "latestReportNid": "95945",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95945",
+    "writeDate": "2026-08-31",
+    "brokerName": "DS투자증권",
+    "title": "유상증자, 기존 주주 가치 희석 제한적",
+    "goalPrice": 1850000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95945",
+    "95944",
+    "95939",
+    "95934",
+    "94536",
+    "94482",
+    "94463",
+    "94460",
+    "94430",
+    "94410",
+    "94407",
+    "94402",
+    "94398",
+    "94307",
+    "94288",
+    "93803",
+    "93731",
+    "93165",
+    "92449",
+    "91827",
+    "91824",
+    "91819",
+    "91813",
+    "91808",
+    "91806",
+    "91205",
+    "91202",
+    "91175"
+  ]
+}

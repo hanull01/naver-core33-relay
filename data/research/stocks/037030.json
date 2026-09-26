@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "037030",
+  "itemName": "파워넷",
+  "reportCount": 1,
+  "latestReportNid": "92451",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92451",
+    "writeDate": "2026-05-06",
+    "brokerName": "SK증권",
+    "title": "EMS로 외형 성장, 800VDC PSU도 순항 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92451"
+  ]
+}

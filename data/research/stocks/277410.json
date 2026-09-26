@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "277410",
+  "itemName": "인산가",
+  "reportCount": 1,
+  "latestReportNid": "91716",
+  "latestWriteDate": "2026-04-21",
+  "latest": {
+    "nid": "91716",
+    "writeDate": "2026-04-21",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 죽염을 핵심 원료로 하는 식품 및 건강기능식품 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91716"
+  ]
+}

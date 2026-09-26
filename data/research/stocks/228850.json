@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "228850",
+  "itemName": "레이언스",
+  "reportCount": 2,
+  "latestReportNid": "95456",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95456",
+    "writeDate": "2026-08-12",
+    "brokerName": "유진투자증권",
+    "title": "2Q26P Review: 3분기 연속 큰 폭 매출 성장 성공",
+    "goalPrice": 7800,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 33,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 22,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "원가": 3,
+        "반도체": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95456",
+    "92843"
+  ]
+}

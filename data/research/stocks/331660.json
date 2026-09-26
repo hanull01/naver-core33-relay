@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "331660",
+  "itemName": "한국미라클피플사",
+  "reportCount": 1,
+  "latestReportNid": "93600",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93600",
+    "writeDate": "2026-06-19",
+    "brokerName": "NICE평가정보",
+    "title": "친환경 기술, 세제에서 뷰티까지 - K-Clean & K-Beauty의 통합 ODM 제조 플랫폼",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93600"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290550",
+  "itemName": "디케이티",
+  "reportCount": 4,
+  "latestReportNid": "96182",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96182",
+    "writeDate": "2026-09-16",
+    "brokerName": "교보증권",
+    "title": "탈중국 공급망이 선택한 Turn-key 양산 플랫폼",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96182",
+    "96020",
+    "93824",
+    "91632"
+  ]
+}

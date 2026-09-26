@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010140",
+  "itemName": "삼성중공업",
+  "reportCount": 23,
+  "latestReportNid": "96206",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96206",
+    "writeDate": "2026-09-17",
+    "brokerName": "SK증권",
+    "title": "부유식은 내가 잘해",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "미국": 3,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96206",
+    "96144",
+    "94559",
+    "94544",
+    "94511",
+    "94501",
+    "94490",
+    "94183",
+    "94110",
+    "94086",
+    "94021",
+    "93904",
+    "93691",
+    "93684",
+    "93267",
+    "92423",
+    "92399",
+    "92342",
+    "92324",
+    "92303",
+    "91709",
+    "91706",
+    "91665"
+  ]
+}

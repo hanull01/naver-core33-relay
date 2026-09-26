@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "245450",
+  "itemName": "씨앤에스링크",
+  "reportCount": 1,
+  "latestReportNid": "93339",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93339",
+    "writeDate": "2026-05-29",
+    "brokerName": "NICE평가정보",
+    "title": "통신·IoT 기술로 일상을 연결하는 ICT 전문 제조기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93339"
+  ]
+}

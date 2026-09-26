@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "234030",
+  "itemName": "싸이닉솔루션",
+  "reportCount": 1,
+  "latestReportNid": "95913",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95913",
+    "writeDate": "2026-08-28",
+    "brokerName": "한국IR협의회",
+    "title": "꾸준히 성장하는 시스템 반도체 디자인하우스",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95913"
+  ]
+}

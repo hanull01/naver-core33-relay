@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "066970",
+  "itemName": "엘앤에프",
+  "reportCount": 15,
+  "latestReportNid": "96231",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96231",
+    "writeDate": "2026-09-18",
+    "brokerName": "DS투자증권",
+    "title": "2026 Investor Day: 비중국 LFP First Mover",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 4,
+        "수요": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96231",
+    "95244",
+    "95239",
+    "95218",
+    "95215",
+    "92672",
+    "92491",
+    "92439",
+    "92426",
+    "92421",
+    "92370",
+    "92328",
+    "92317",
+    "91726",
+    "91265"
+  ]
+}

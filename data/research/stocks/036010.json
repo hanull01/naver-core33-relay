@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036010",
+  "itemName": "아비코전자",
+  "reportCount": 1,
+  "latestReportNid": "91655",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91655",
+    "writeDate": "2026-04-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 수동소자 제조 전문기업의 실적 턴어라운드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 6,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91655"
+  ]
+}

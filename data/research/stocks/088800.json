@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "088800",
+  "itemName": "에이스테크",
+  "reportCount": 1,
+  "latestReportNid": "95145",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95145",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "전장부터 방산까지, 수익성 개선 성과 보인다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 3
+      }
+    }
+  },
+  "reportNids": [
+    "95145"
+  ]
+}

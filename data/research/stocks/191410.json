@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "191410",
+  "itemName": "육일씨엔에쓰",
+  "reportCount": 1,
+  "latestReportNid": "91831",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91831",
+    "writeDate": "2026-04-24",
+    "brokerName": "서울평가정보",
+    "title": "에듀테크 성장을 중심으로 사업구조 전환을 추진하는 복합사업 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91831"
+  ]
+}

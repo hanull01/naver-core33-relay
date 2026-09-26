@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053210",
+  "itemName": "스카이라이프",
+  "reportCount": 1,
+  "latestReportNid": "92705",
+  "latestWriteDate": "2026-05-11",
+  "latest": {
+    "nid": "92705",
+    "writeDate": "2026-05-11",
+    "brokerName": "대신증권",
+    "title": "아직은 성장을 위한 투자 구간",
+    "goalPrice": 5600,
+    "normalizedOpinion": "MARKETPERFORM",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92705"
+  ]
+}

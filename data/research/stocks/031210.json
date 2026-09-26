@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "031210",
+  "itemName": "서울보증보험",
+  "reportCount": 1,
+  "latestReportNid": "93495",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93495",
+    "writeDate": "2026-06-11",
+    "brokerName": "iM증권",
+    "title": "경기에 민감한 방어주",
+    "goalPrice": 56000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93495"
+  ]
+}

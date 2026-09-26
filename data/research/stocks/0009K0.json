@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0009K0",
+  "itemName": "에임드바이오",
+  "reportCount": 1,
+  "latestReportNid": "93490",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93490",
+    "writeDate": "2026-06-11",
+    "brokerName": "미래에셋증권",
+    "title": "수익 창출형 바이오텍",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93490"
+  ]
+}

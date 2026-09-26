@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "112190",
+  "itemName": "KC산업",
+  "reportCount": 1,
+  "latestReportNid": "93211",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93211",
+    "writeDate": "2026-05-22",
+    "brokerName": "NICE평가정보",
+    "title": "콘크리트를 스마트하게, 설계부터 시공까지 - PC산업의 독보적 1위",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93211"
+  ]
+}

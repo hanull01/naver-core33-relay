@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "212710",
+  "itemName": "아이에스티이",
+  "reportCount": 4,
+  "latestReportNid": "95635",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95635",
+    "writeDate": "2026-08-14",
+    "brokerName": "유안타증권",
+    "title": "이어질 호실적 & 높아질 밸류에이션",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 8,
+        "반도체": 3,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95635",
+    "93982",
+    "93761",
+    "93208"
+  ]
+}

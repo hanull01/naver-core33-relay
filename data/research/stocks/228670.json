@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "228670",
+  "itemName": "레이",
+  "reportCount": 1,
+  "latestReportNid": "92975",
+  "latestWriteDate": "2026-05-15",
+  "latest": {
+    "nid": "92975",
+    "writeDate": "2026-05-15",
+    "brokerName": "키움증권",
+    "title": "팝콘 튀기는 제2차 덴탈 경영권 전쟁",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92975"
+  ]
+}

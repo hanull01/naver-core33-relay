@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "201490",
+  "itemName": "미투온",
+  "reportCount": 1,
+  "latestReportNid": "94377",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94377",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "소셜카지노와 캐주얼 게임 기반 위에 콘텐츠 사업을 결합해 포트폴리오 다변화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94377"
+  ]
+}

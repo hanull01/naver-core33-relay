@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000720",
+  "itemName": "현대건설",
+  "reportCount": 31,
+  "latestReportNid": "96259",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96259",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "독보적인 원전 올 콜렉터!",
+    "goalPrice": 205000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "수주": 2,
+        "원전": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96259",
+    "95959",
+    "95933",
+    "95622",
+    "95012",
+    "95003",
+    "94990",
+    "94978",
+    "94959",
+    "94953",
+    "94948",
+    "94941",
+    "94279",
+    "94271",
+    "94249",
+    "94237",
+    "93559",
+    "93479",
+    "92158",
+    "92153",
+    "92147",
+    "92141",
+    "92127",
+    "92119",
+    "92097",
+    "91696",
+    "91534",
+    "91377",
+    "91350",
+    "91332",
+    "91087"
+  ]
+}

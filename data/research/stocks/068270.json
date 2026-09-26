@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "068270",
+  "itemName": "셀트리온",
+  "reportCount": 24,
+  "latestReportNid": "96208",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96208",
+    "writeDate": "2026-09-17",
+    "brokerName": "대신증권",
+    "title": "유럽에서 확인한 Omlyclo의 Potential",
+    "goalPrice": 280000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96208",
+    "96183",
+    "94974",
+    "94641",
+    "94619",
+    "94613",
+    "94603",
+    "94598",
+    "94584",
+    "93889",
+    "93878",
+    "93281",
+    "93164",
+    "92991",
+    "92550",
+    "92538",
+    "92517",
+    "92507",
+    "91616",
+    "91419",
+    "91303",
+    "91295",
+    "91185",
+    "91108"
+  ]
+}

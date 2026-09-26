@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "094170",
+  "itemName": "동운아나텍",
+  "reportCount": 2,
+  "latestReportNid": "96167",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96167",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 스마트폰 카메라용 IC 팹리스 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96167",
+    "93730"
+  ]
+}

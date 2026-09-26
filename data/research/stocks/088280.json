@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "088280",
+  "itemName": "쏘닉스",
+  "reportCount": 1,
+  "latestReportNid": "93854",
+  "latestWriteDate": "2026-07-03",
+  "latest": {
+    "nid": "93854",
+    "writeDate": "2026-07-03",
+    "brokerName": "서울평가정보",
+    "title": "TF-SAW 기술 기반 RF 필터 파운드리 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93854"
+  ]
+}

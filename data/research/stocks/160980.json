@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "160980",
+  "itemName": "싸이맥스",
+  "reportCount": 3,
+  "latestReportNid": "96207",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96207",
+    "writeDate": "2026-09-17",
+    "brokerName": "SK증권",
+    "title": "실적 및 주가 회복 전망",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 9,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96207",
+    "93955",
+    "91178"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "058470",
+  "itemName": "리노공업",
+  "reportCount": 4,
+  "latestReportNid": "93222",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93222",
+    "writeDate": "2026-05-22",
+    "brokerName": "신한투자증권",
+    "title": "AI시대 소켓은 필수",
+    "goalPrice": 140000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 4,
+        "가격": 2,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93222",
+    "93181",
+    "91262",
+    "91125"
+  ]
+}

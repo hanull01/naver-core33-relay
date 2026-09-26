@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "031980",
+  "itemName": "피에스케이홀딩스",
+  "reportCount": 3,
+  "latestReportNid": "96101",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96101",
+    "writeDate": "2026-09-11",
+    "brokerName": "하나증권",
+    "title": "거침없는 실적",
+    "goalPrice": 220000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96101",
+    "96032",
+    "95683"
+  ]
+}

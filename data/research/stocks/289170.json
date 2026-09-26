@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "289170",
+  "itemName": "바이오텐",
+  "reportCount": 1,
+  "latestReportNid": "93407",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93407",
+    "writeDate": "2026-06-05",
+    "brokerName": "서울평가정보",
+    "title": "생체이용률 개선 수용화 소재 제품화 역량을 보유한 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93407"
+  ]
+}

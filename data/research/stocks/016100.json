@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "016100",
+  "itemName": "리더스코스메틱",
+  "reportCount": 1,
+  "latestReportNid": "94039",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94039",
+    "writeDate": "2026-07-10",
+    "brokerName": "NICE평가정보",
+    "title": "피부과학과 산업 인프라를 두 축으로, 뷰티·패키징·바이오를 잇는 복합 성장 플랫폼",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94039"
+  ]
+}

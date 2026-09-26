@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "475830",
+  "itemName": "오름테라퓨틱",
+  "reportCount": 4,
+  "latestReportNid": "96050",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96050",
+    "writeDate": "2026-09-09",
+    "brokerName": "신한투자증권",
+    "title": "오름차순: DAC로 빅파마 줄세우기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96050",
+    "96028",
+    "93813",
+    "93704"
+  ]
+}

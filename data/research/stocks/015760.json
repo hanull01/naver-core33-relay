@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "015760",
+  "itemName": "한국전력",
+  "reportCount": 18,
+  "latestReportNid": "96075",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96075",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "낮아진 기대치, 시작된 구조 변화",
+    "goalPrice": 47000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "원전": 9,
+        "수요": 3,
+        "원가": 3,
+        "AI": 2,
+        "반도체": 2,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96075",
+    "95577",
+    "95553",
+    "95542",
+    "95539",
+    "95527",
+    "94639",
+    "94231",
+    "94166",
+    "93149",
+    "92936",
+    "92927",
+    "92914",
+    "92909",
+    "92896",
+    "92895",
+    "91750",
+    "91588"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005670",
+  "itemName": "푸드웰",
+  "reportCount": 1,
+  "latestReportNid": "91396",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91396",
+    "writeDate": "2026-04-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 식품 제조 및 유통 기반의 사업 구조와 성장세",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 2,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91396"
+  ]
+}

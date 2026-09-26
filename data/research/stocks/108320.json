@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "108320",
+  "itemName": "LX세미콘",
+  "reportCount": 1,
+  "latestReportNid": "94582",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94582",
+    "writeDate": "2026-07-28",
+    "brokerName": "iM증권",
+    "title": "2026년 실적 역성장 불가피할 전망",
+    "goalPrice": 43000,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 5,
+        "환율": 2,
+        "가격": 1,
+        "반도체": 1,
+        "원가": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94582"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "105630",
+  "itemName": "한세실업",
+  "reportCount": 9,
+  "latestReportNid": "95765",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95765",
+    "writeDate": "2026-08-19",
+    "brokerName": "대신증권",
+    "title": "2분기 예상 밖 서프라이즈",
+    "goalPrice": 12000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "재고": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95765",
+    "95736",
+    "94303",
+    "93848",
+    "93286",
+    "93155",
+    "93072",
+    "93063",
+    "91474"
+  ]
+}

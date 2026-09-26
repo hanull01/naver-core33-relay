@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "322310",
+  "itemName": "오로스테크놀로지",
+  "reportCount": 1,
+  "latestReportNid": "91754",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91754",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 반도체 광학 계측 장비 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 6,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91754"
+  ]
+}

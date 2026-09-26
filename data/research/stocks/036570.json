@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036570",
+  "itemName": "NC",
+  "reportCount": 25,
+  "latestReportNid": "95845",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95845",
+    "writeDate": "2026-08-24",
+    "brokerName": "한화투자증권",
+    "title": "NDR 후기: 강력한 체질 개선 상황 재확인",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95845",
+    "95508",
+    "95498",
+    "95491",
+    "95468",
+    "95452",
+    "95448",
+    "94706",
+    "94415",
+    "94075",
+    "94034",
+    "93998",
+    "93780",
+    "92957",
+    "92945",
+    "92943",
+    "92926",
+    "92904",
+    "92890",
+    "92877",
+    "92327",
+    "91747",
+    "91619",
+    "91491",
+    "91296"
+  ]
+}

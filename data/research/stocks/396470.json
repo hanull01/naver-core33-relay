@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "396470",
+  "itemName": "워트",
+  "reportCount": 1,
+  "latestReportNid": "93641",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93641",
+    "writeDate": "2026-06-23",
+    "brokerName": "키움증권",
+    "title": "정상화를 넘어 성장 국면으로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93641"
+  ]
+}

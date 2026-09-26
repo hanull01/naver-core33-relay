@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204020",
+  "itemName": "그리티",
+  "reportCount": 1,
+  "latestReportNid": "91840",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91840",
+    "writeDate": "2026-04-24",
+    "brokerName": "한국IR협의회",
+    "title": "브랜드 포트폴리오 확장과 실적 반등 본격화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91840"
+  ]
+}

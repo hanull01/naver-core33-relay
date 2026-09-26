@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000120",
+  "itemName": "CJ대한통운",
+  "reportCount": 15,
+  "latestReportNid": "95492",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95492",
+    "writeDate": "2026-08-12",
+    "brokerName": "하나증권",
+    "title": "2Q26 Re: 바닥을 지나는 중",
+    "goalPrice": 120000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 8
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 8,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "가격": 1,
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95492",
+    "95487",
+    "95466",
+    "95464",
+    "95446",
+    "94453",
+    "94331",
+    "92922",
+    "92907",
+    "92889",
+    "92879",
+    "91794",
+    "91740",
+    "91719",
+    "91618"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "273060",
+  "itemName": "와이즈버즈",
+  "reportCount": 1,
+  "latestReportNid": "96160",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96160",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] RTB 매체 기반 온라인 광고 대행 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96160"
+  ]
+}

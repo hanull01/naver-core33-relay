@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "482630",
+  "itemName": "삼양엔씨켐",
+  "reportCount": 5,
+  "latestReportNid": "96100",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96100",
+    "writeDate": "2026-09-11",
+    "brokerName": "유안타증권",
+    "title": "27년에 더 높아질 성장률",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96100",
+    "95630",
+    "93632",
+    "92791",
+    "91583"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "089600",
+  "itemName": "KT나스미디어",
+  "reportCount": 3,
+  "latestReportNid": "96169",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96169",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 디지털 광고매체 판매 대행 미디어렙",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96169",
+    "95246",
+    "92594"
+  ]
+}

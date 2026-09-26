@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "488280",
+  "itemName": "에스투더블유",
+  "reportCount": 2,
+  "latestReportNid": "93711",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93711",
+    "writeDate": "2026-06-26",
+    "brokerName": "대신증권",
+    "title": "한국의 팔란티어가 될 수 있을까",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5
+      }
+    }
+  },
+  "reportNids": [
+    "93711",
+    "91366"
+  ]
+}

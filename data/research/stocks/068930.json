@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "068930",
+  "itemName": "디지털대성",
+  "reportCount": 3,
+  "latestReportNid": "96061",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96061",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 초중고 및 N수생 교육 콘텐츠 제공 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96061",
+    "95035",
+    "92723"
+  ]
+}

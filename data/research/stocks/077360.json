@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "077360",
+  "itemName": "덕산하이메탈",
+  "reportCount": 3,
+  "latestReportNid": "95848",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95848",
+    "writeDate": "2026-08-25",
+    "brokerName": "한국IR협의회",
+    "title": "MSB 확대와 자회사 개선, 이익 레벨업 본격화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "반도체": 1,
+        "방산": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95848",
+    "94604",
+    "91918"
+  ]
+}

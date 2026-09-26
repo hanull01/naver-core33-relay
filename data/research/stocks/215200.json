@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "215200",
+  "itemName": "메가스터디교육",
+  "reportCount": 1,
+  "latestReportNid": "93303",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93303",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "교육 시장 재편의 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93303"
+  ]
+}

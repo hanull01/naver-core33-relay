@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "014680",
+  "itemName": "한솔케미칼",
+  "reportCount": 3,
+  "latestReportNid": "93153",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93153",
+    "writeDate": "2026-05-19",
+    "brokerName": "DS투자증권",
+    "title": "1Q26 Re: QD 감소 아쉽지만 반도체 매출 증가가 이를 상쇄",
+    "goalPrice": 400000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "가격": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93153",
+    "91451",
+    "91076"
+  ]
+}

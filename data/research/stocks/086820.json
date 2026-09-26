@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086820",
+  "itemName": "바이오솔루션",
+  "reportCount": 1,
+  "latestReportNid": "96016",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96016",
+    "writeDate": "2026-09-07",
+    "brokerName": "한국IR협의회",
+    "title": "연골재생치료, 이제 시작일지도 모른다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 3,
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96016"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "311390",
+  "itemName": "네오크레마",
+  "reportCount": 1,
+  "latestReportNid": "91714",
+  "latestWriteDate": "2026-04-21",
+  "latest": {
+    "nid": "91714",
+    "writeDate": "2026-04-21",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 기능성 당류와 펩타이드 제품 제조 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91714"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "289930",
+  "itemName": "웨이비스",
+  "reportCount": 1,
+  "latestReportNid": "95998",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "95998",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] GaN RF 반도체를 국산화한 방산 부품기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "방산": 4,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95998"
+  ]
+}

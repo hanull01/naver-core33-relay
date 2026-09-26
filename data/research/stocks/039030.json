@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "039030",
+  "itemName": "이오테크닉스",
+  "reportCount": 4,
+  "latestReportNid": "95679",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95679",
+    "writeDate": "2026-08-18",
+    "brokerName": "신한투자증권",
+    "title": "줄 서는 맛집, 메뉴도 많다!",
+    "goalPrice": 580000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95679",
+    "94581",
+    "93637",
+    "93035"
+  ]
+}

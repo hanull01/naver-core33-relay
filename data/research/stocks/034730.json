@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034730",
+  "itemName": "SK",
+  "reportCount": 16,
+  "latestReportNid": "95929",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95929",
+    "writeDate": "2026-08-31",
+    "brokerName": "SK증권",
+    "title": "실적개선과 주주환원에 대한 재평가",
+    "goalPrice": 800000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95929",
+    "95802",
+    "95740",
+    "95720",
+    "94933",
+    "93795",
+    "93624",
+    "93560",
+    "93279",
+    "93126",
+    "93098",
+    "93087",
+    "93043",
+    "92724",
+    "91194",
+    "91159"
+  ]
+}

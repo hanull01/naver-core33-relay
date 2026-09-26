@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001500",
+  "itemName": "현대차증권",
+  "reportCount": 1,
+  "latestReportNid": "94645",
+  "latestWriteDate": "2026-07-29",
+  "latest": {
+    "nid": "94645",
+    "writeDate": "2026-07-29",
+    "brokerName": "한국IR협의회",
+    "title": "주주환원 정책 의지 강한 증권사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94645"
+  ]
+}

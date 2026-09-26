@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "413300",
+  "itemName": "티엘엔지니어링",
+  "reportCount": 1,
+  "latestReportNid": "93411",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93411",
+    "writeDate": "2026-06-05",
+    "brokerName": "NICE평가정보",
+    "title": "클린룸에서 시작해 에너지를 되살리다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93411"
+  ]
+}

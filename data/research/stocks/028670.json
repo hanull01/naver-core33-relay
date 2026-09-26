@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "028670",
+  "itemName": "팬오션",
+  "reportCount": 19,
+  "latestReportNid": "96201",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96201",
+    "writeDate": "2026-09-17",
+    "brokerName": "유진투자증권",
+    "title": "탐방후기: 에너지 수송 선사로의 전환",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 18,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 2,
+        "미국": 1,
+        "중국": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96201",
+    "96013",
+    "95264",
+    "95069",
+    "94997",
+    "94984",
+    "94976",
+    "94947",
+    "94930",
+    "94198",
+    "94056",
+    "94032",
+    "92492",
+    "92479",
+    "92456",
+    "92446",
+    "91707",
+    "91448",
+    "91365"
+  ]
+}

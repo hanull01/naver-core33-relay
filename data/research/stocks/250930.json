@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "250930",
+  "itemName": "예선테크",
+  "reportCount": 1,
+  "latestReportNid": "94791",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94791",
+    "writeDate": "2026-07-31",
+    "brokerName": "서울평가정보",
+    "title": "기능성 점착소재의 설계·정밀가공 역량 기반 자동차 전장과 이차전지 분야로 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 2,
+        "로봇": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94791"
+  ]
+}

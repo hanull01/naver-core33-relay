@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "078520",
+  "itemName": "에이블씨엔씨",
+  "reportCount": 1,
+  "latestReportNid": "94167",
+  "latestWriteDate": "2026-07-14",
+  "latest": {
+    "nid": "94167",
+    "writeDate": "2026-07-14",
+    "brokerName": "하나증권",
+    "title": "글로벌 모멘텀 본격화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94167"
+  ]
+}

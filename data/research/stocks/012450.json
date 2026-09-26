@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "012450",
+  "itemName": "한화에어로스페이스",
+  "reportCount": 26,
+  "latestReportNid": "95965",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95965",
+    "writeDate": "2026-09-01",
+    "brokerName": "한국투자증권",
+    "title": "스페인 사업까지 수주, 강화되는 현지화 경쟁력",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "수주": 7,
+        "방산": 6,
+        "미국": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95965",
+    "95841",
+    "95379",
+    "95095",
+    "95010",
+    "94989",
+    "94967",
+    "94965",
+    "94961",
+    "94936",
+    "94259",
+    "94016",
+    "93759",
+    "93005",
+    "92923",
+    "92727",
+    "92431",
+    "92404",
+    "92388",
+    "92359",
+    "92330",
+    "92321",
+    "92305",
+    "91978",
+    "91627",
+    "91281"
+  ]
+}

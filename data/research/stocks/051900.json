@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "051900",
+  "itemName": "LG생활건강",
+  "reportCount": 12,
+  "latestReportNid": "95866",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95866",
+    "writeDate": "2026-08-25",
+    "brokerName": "한화투자증권",
+    "title": "Avon 매각 코멘트: 자신감 붙은 북미 사업",
+    "goalPrice": 350000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95866",
+    "95086",
+    "94782",
+    "94774",
+    "94755",
+    "94737",
+    "93816",
+    "93542",
+    "93345",
+    "92429",
+    "92415",
+    "92369"
+  ]
+}

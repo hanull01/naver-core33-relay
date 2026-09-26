@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "331740",
+  "itemName": "아우토크립트",
+  "reportCount": 1,
+  "latestReportNid": "91412",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91412",
+    "writeDate": "2026-04-10",
+    "brokerName": "SK증권",
+    "title": "자율주행·로봇 시대의 핵심 보안 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91412"
+  ]
+}

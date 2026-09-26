@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "237690",
+  "itemName": "에스티팜",
+  "reportCount": 14,
+  "latestReportNid": "96283",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96283",
+    "writeDate": "2026-09-22",
+    "brokerName": "대신증권",
+    "title": "올리고 수주 확대, 2027년 성장 가시성 강화",
+    "goalPrice": 170000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96283",
+    "96254",
+    "94687",
+    "94682",
+    "94677",
+    "94643",
+    "94590",
+    "94194",
+    "94118",
+    "93966",
+    "93163",
+    "92085",
+    "92076",
+    "91763"
+  ]
+}

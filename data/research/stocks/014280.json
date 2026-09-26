@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "014280",
+  "itemName": "금강공업",
+  "reportCount": 1,
+  "latestReportNid": "95588",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95588",
+    "writeDate": "2026-08-14",
+    "brokerName": "NICE평가정보",
+    "title": "강관에서 모듈러까지, 건설·산업 소재의 전 과정을 아우르는 종합 소재·솔루션 메이커",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95588"
+  ]
+}

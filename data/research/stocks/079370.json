@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "079370",
+  "itemName": "제우스",
+  "reportCount": 1,
+  "latestReportNid": "94571",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94571",
+    "writeDate": "2026-07-28",
+    "brokerName": "한국IR협의회",
+    "title": "반도체 수율의 해결사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 7,
+        "로봇": 1,
+        "미국": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94571"
+  ]
+}

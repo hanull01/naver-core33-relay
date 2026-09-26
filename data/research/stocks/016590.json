@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "016590",
+  "itemName": "신대양제지",
+  "reportCount": 1,
+  "latestReportNid": "96005",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96005",
+    "writeDate": "2026-09-04",
+    "brokerName": "NICE평가정보",
+    "title": "원지 전 지종 생산과 수직계열 공급망을 기반으로 한 친환경 골판지 포장재 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96005"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "075130",
+  "itemName": "플랜티넷",
+  "reportCount": 2,
+  "latestReportNid": "94374",
+  "latestWriteDate": "2026-07-23",
+  "latest": {
+    "nid": "94374",
+    "writeDate": "2026-07-23",
+    "brokerName": "교보증권",
+    "title": "안정적인 본업과 기대되는 데이터 산업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94374",
+    "91758"
+  ]
+}

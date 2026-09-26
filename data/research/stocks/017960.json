@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "017960",
+  "itemName": "한국카본",
+  "reportCount": 5,
+  "latestReportNid": "95937",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95937",
+    "writeDate": "2026-08-31",
+    "brokerName": "신한투자증권",
+    "title": "마진은 사상 최고, 밸류 눈높이는 현실화",
+    "goalPrice": 42000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "가격": 1,
+        "조선": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95937",
+    "95312",
+    "94479",
+    "93150",
+    "92171"
+  ]
+}

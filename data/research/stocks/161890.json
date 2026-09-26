@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "161890",
+  "itemName": "한국콜마",
+  "reportCount": 27,
+  "latestReportNid": "96021",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96021",
+    "writeDate": "2026-09-07",
+    "brokerName": "SK증권",
+    "title": "업황 강세에 글로벌 MNC 모멘텀까지",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96021",
+    "95575",
+    "95573",
+    "95560",
+    "95550",
+    "95549",
+    "95532",
+    "95515",
+    "95514",
+    "94151",
+    "94101",
+    "93941",
+    "93898",
+    "93821",
+    "93728",
+    "93657",
+    "93264",
+    "92742",
+    "92725",
+    "92701",
+    "92696",
+    "92683",
+    "92651",
+    "91889",
+    "91529",
+    "91264",
+    "91164"
+  ]
+}

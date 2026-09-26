@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "251280",
+  "itemName": "안지오랩",
+  "reportCount": 1,
+  "latestReportNid": "93518",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93518",
+    "writeDate": "2026-06-12",
+    "brokerName": "서울평가정보",
+    "title": "혈관신생 억제 기반 의약품 및 기능성 식품 개발 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93518"
+  ]
+}

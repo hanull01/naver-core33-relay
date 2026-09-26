@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "024800",
+  "itemName": "유성티엔에스",
+  "reportCount": 1,
+  "latestReportNid": "95196",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95196",
+    "writeDate": "2026-08-07",
+    "brokerName": "NICE평가정보",
+    "title": "철강 물류의 반세기 노하우, 이제 대한민국 화물운송의 중심으로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95196"
+  ]
+}

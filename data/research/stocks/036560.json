@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036560",
+  "itemName": "KZ정밀",
+  "reportCount": 1,
+  "latestReportNid": "94378",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94378",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "고사양 플랜트용 펌프·밸브 제조 기반과 주주환원 기조를 바탕으로 기업가치 제고 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94378"
+  ]
+}

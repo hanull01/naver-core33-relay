@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "093370",
+  "itemName": "후성",
+  "reportCount": 3,
+  "latestReportNid": "95673",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95673",
+    "writeDate": "2026-08-18",
+    "brokerName": "유진투자증권",
+    "title": "본업에 의한 어닝스 서프라이즈 첫 시현",
+    "goalPrice": 20000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "반도체": 8,
+        "원가": 4,
+        "수요": 2,
+        "가격": 1,
+        "미국": 1,
+        "배터리": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95673",
+    "93023",
+    "91812"
+  ]
+}

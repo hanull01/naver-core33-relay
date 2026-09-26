@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "097950",
+  "itemName": "CJ제일제당",
+  "reportCount": 17,
+  "latestReportNid": "95497",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95497",
+    "writeDate": "2026-08-12",
+    "brokerName": "한화투자증권",
+    "title": "예상보다 길어질 식품 수익성 부담",
+    "goalPrice": 260000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "미국": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95497",
+    "95493",
+    "95486",
+    "95461",
+    "95457",
+    "94313",
+    "94060",
+    "93844",
+    "93633",
+    "92858",
+    "92850",
+    "92837",
+    "92813",
+    "92807",
+    "91287",
+    "91207",
+    "91148"
+  ]
+}

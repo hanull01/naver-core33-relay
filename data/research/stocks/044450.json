@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "044450",
+  "itemName": "KSS해운",
+  "reportCount": 1,
+  "latestReportNid": "95942",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95942",
+    "writeDate": "2026-08-31",
+    "brokerName": "하나증권",
+    "title": "VLGC 장기계약에 집중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95942"
+  ]
+}

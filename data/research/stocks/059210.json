@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "059210",
+  "itemName": "메타바이오메드",
+  "reportCount": 2,
+  "latestReportNid": "93649",
+  "latestWriteDate": "2026-06-23",
+  "latest": {
+    "nid": "93649",
+    "writeDate": "2026-06-23",
+    "brokerName": "유진투자증권",
+    "title": "IR후기: 소재혁신센터 기반 신규사업 본격 추진",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 23,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 12,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93649",
+    "91810"
+  ]
+}

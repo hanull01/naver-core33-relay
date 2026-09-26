@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "148250",
+  "itemName": "알엔투테크놀로지",
+  "reportCount": 1,
+  "latestReportNid": "92288",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92288",
+    "writeDate": "2026-05-04",
+    "brokerName": "서울평가정보",
+    "title": "세라믹 소재·부품 기술 기반 고신뢰성 기판과 방열기판으로 확장 시도 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92288"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "033270",
+  "itemName": "유나이티드제약",
+  "reportCount": 1,
+  "latestReportNid": "93352",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93352",
+    "writeDate": "2026-05-29",
+    "brokerName": "유안타증권",
+    "title": "개량신약 중심, 제도 개편 영향 제한적",
+    "goalPrice": 27000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93352"
+  ]
+}

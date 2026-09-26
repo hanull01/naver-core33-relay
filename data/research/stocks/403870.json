@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "403870",
+  "itemName": "HPSP",
+  "reportCount": 3,
+  "latestReportNid": "94605",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94605",
+    "writeDate": "2026-07-28",
+    "brokerName": "한국IR협의회",
+    "title": "로직을 넘어 메모리로, HPA 성장축 다변화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94605",
+    "93038",
+    "91775"
+  ]
+}

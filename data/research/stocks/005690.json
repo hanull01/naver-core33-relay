@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005690",
+  "itemName": "파미셀",
+  "reportCount": 3,
+  "latestReportNid": "92855",
+  "latestWriteDate": "2026-05-13",
+  "latest": {
+    "nid": "92855",
+    "writeDate": "2026-05-13",
+    "brokerName": "DS투자증권",
+    "title": "예상치를 웃도는 수익성",
+    "goalPrice": 26000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92855",
+    "92801",
+    "91633"
+  ]
+}

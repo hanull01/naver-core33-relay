@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "380550",
+  "itemName": "뉴로핏",
+  "reportCount": 1,
+  "latestReportNid": "93297",
+  "latestWriteDate": "2026-05-27",
+  "latest": {
+    "nid": "93297",
+    "writeDate": "2026-05-27",
+    "brokerName": "미래에셋증권",
+    "title": "글로벌 시장 진입에 따른 성장통",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93297"
+  ]
+}

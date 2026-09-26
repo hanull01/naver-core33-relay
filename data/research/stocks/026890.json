@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "026890",
+  "itemName": "스틱인베스트먼트",
+  "reportCount": 1,
+  "latestReportNid": "95927",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95927",
+    "writeDate": "2026-08-31",
+    "brokerName": "한국IR협의회",
+    "title": "자본효율성 극대화 주주환원 정책",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95927"
+  ]
+}

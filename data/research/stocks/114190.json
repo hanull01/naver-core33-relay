@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "114190",
+  "itemName": "강원에너지",
+  "reportCount": 1,
+  "latestReportNid": "96004",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96004",
+    "writeDate": "2026-09-04",
+    "brokerName": "서울평가정보",
+    "title": "2차전지 소재·공정기술과 플랜트 엔지니어링 기반의 종합 산업설비 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "반도체": 1,
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96004"
+  ]
+}

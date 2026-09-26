@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "063080",
+  "itemName": "컴투스홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "91900",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91900",
+    "writeDate": "2026-04-24",
+    "brokerName": "유안타증권",
+    "title": "[탐방노트] 신규게임 & 게임플랫폼 성장 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91900"
+  ]
+}

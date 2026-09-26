@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "024850",
+  "itemName": "HLB이노베이션",
+  "reportCount": 1,
+  "latestReportNid": "92474",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92474",
+    "writeDate": "2026-05-06",
+    "brokerName": "현대차증권",
+    "title": "세상에 없던 CAR-T 세포 치료제가 온다",
+    "goalPrice": 6900,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92474"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "099440",
+  "itemName": "스맥",
+  "reportCount": 1,
+  "latestReportNid": "93703",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93703",
+    "writeDate": "2026-06-26",
+    "brokerName": "키움증권",
+    "title": "반도체 부문이 이끄는 턴어라운드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수요": 2,
+        "수주": 2,
+        "자동차": 2,
+        "로봇": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93703"
+  ]
+}

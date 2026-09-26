@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "333620",
+  "itemName": "엔시스",
+  "reportCount": 1,
+  "latestReportNid": "91389",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91389",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 이차전지 제조 공정 장비 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 8,
+        "자동차": 2,
+        "수요": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91389"
+  ]
+}

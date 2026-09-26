@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "351020",
+  "itemName": "미쥬",
+  "reportCount": 1,
+  "latestReportNid": "92969",
+  "latestWriteDate": "2026-05-15",
+  "latest": {
+    "nid": "92969",
+    "writeDate": "2026-05-15",
+    "brokerName": "서울평가정보",
+    "title": "운영 효율화와 친환경 소재 차별화를 통해 브랜드 확장과 성장 동력 확보 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92969"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0007C0",
+  "itemName": "아크릴",
+  "reportCount": 1,
+  "latestReportNid": "94257",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94257",
+    "writeDate": "2026-07-20",
+    "brokerName": "한국IR협의회",
+    "title": "AI 인프라 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94257"
+  ]
+}

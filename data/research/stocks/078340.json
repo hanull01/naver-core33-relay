@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "078340",
+  "itemName": "컴투스",
+  "reportCount": 7,
+  "latestReportNid": "95972",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95972",
+    "writeDate": "2026-09-02",
+    "brokerName": "키움증권",
+    "title": "신작의 현실적 반영",
+    "goalPrice": 50000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95972",
+    "95839",
+    "95661",
+    "95531",
+    "94326",
+    "94175",
+    "91455"
+  ]
+}

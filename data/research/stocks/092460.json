@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "092460",
+  "itemName": "한라IMS",
+  "reportCount": 1,
+  "latestReportNid": "91506",
+  "latestWriteDate": "2026-04-14",
+  "latest": {
+    "nid": "91506",
+    "writeDate": "2026-04-14",
+    "brokerName": "한국IR협의회",
+    "title": "조선기자재에서 선박 MRO까지, 사업 구조의 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 8,
+        "수주": 2,
+        "중국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91506"
+  ]
+}

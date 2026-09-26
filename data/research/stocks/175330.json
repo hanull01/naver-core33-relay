@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "175330",
+  "itemName": "JB금융지주",
+  "reportCount": 11,
+  "latestReportNid": "94568",
+  "latestWriteDate": "2026-07-27",
+  "latest": {
+    "nid": "94568",
+    "writeDate": "2026-07-27",
+    "brokerName": "한화투자증권",
+    "title": "핵심이익 증가로 영업이익 15% YoY",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94568",
+    "94485",
+    "94471",
+    "94445",
+    "94409",
+    "94393",
+    "92072",
+    "91938",
+    "91921",
+    "91863",
+    "91472"
+  ]
+}

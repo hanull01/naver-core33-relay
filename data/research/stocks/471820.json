@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "471820",
+  "itemName": "셀로맥스사이언스",
+  "reportCount": 1,
+  "latestReportNid": "93692",
+  "latestWriteDate": "2026-06-25",
+  "latest": {
+    "nid": "93692",
+    "writeDate": "2026-06-25",
+    "brokerName": "한화투자증권",
+    "title": "IPO 의무 발간: 약국 채널 중심 사업 구조 유지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93692"
+  ]
+}

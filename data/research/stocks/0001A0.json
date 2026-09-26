@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0001A0",
+  "itemName": "덕양에너젠",
+  "reportCount": 2,
+  "latestReportNid": "95595",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95595",
+    "writeDate": "2026-08-14",
+    "brokerName": "한국IR협의회",
+    "title": "산업용 수소 공급 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95595",
+    "93584"
+  ]
+}

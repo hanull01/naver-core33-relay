@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003850",
+  "itemName": "보령",
+  "reportCount": 1,
+  "latestReportNid": "93138",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93138",
+    "writeDate": "2026-05-19",
+    "brokerName": "SK증권",
+    "title": "1Q26 Re: 약가인하 역풍에도 84.7% 성장",
+    "goalPrice": 14000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93138"
+  ]
+}

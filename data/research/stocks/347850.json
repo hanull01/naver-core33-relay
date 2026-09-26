@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "347850",
+  "itemName": "디앤디파마텍",
+  "reportCount": 6,
+  "latestReportNid": "93532",
+  "latestWriteDate": "2026-06-15",
+  "latest": {
+    "nid": "93532",
+    "writeDate": "2026-06-15",
+    "brokerName": "키움증권",
+    "title": "Best in Class를 향한 GLP/GCG 황금비율",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93532",
+    "93446",
+    "93368",
+    "93325",
+    "93307",
+    "91679"
+  ]
+}

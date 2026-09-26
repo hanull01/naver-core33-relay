@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "090430",
+  "itemName": "아모레퍼시픽",
+  "reportCount": 29,
+  "latestReportNid": "96142",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96142",
+    "writeDate": "2026-09-14",
+    "brokerName": "한화투자증권",
+    "title": "Investor Day Review",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96142",
+    "96140",
+    "96138",
+    "96134",
+    "96123",
+    "96120",
+    "96026",
+    "95926",
+    "94983",
+    "94969",
+    "94918",
+    "94903",
+    "94858",
+    "94853",
+    "94264",
+    "93921",
+    "93901",
+    "93842",
+    "93738",
+    "93349",
+    "92386",
+    "92247",
+    "92219",
+    "92206",
+    "92173",
+    "92170",
+    "91382",
+    "91331",
+    "91300"
+  ]
+}

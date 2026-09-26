@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "303810",
+  "itemName": "동국생명과학",
+  "reportCount": 1,
+  "latestReportNid": "96063",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96063",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 조영제 수직계열화 국내 유일 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96063"
+  ]
+}

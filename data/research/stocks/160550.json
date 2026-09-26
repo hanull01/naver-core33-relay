@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "160550",
+  "itemName": "NEW",
+  "reportCount": 1,
+  "latestReportNid": "94343",
+  "latestWriteDate": "2026-07-22",
+  "latest": {
+    "nid": "94343",
+    "writeDate": "2026-07-22",
+    "brokerName": "DS투자증권",
+    "title": "매력적인 콘텐츠 라인업에 주주가치 제고까지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94343"
+  ]
+}

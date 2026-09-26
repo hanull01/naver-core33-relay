@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "173940",
+  "itemName": "에프엔씨엔터",
+  "reportCount": 2,
+  "latestReportNid": "93120",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93120",
+    "writeDate": "2026-05-19",
+    "brokerName": "키움증권",
+    "title": "실적 턴어라운드에 따른 리레이팅 시점",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 4,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93120",
+    "91441"
+  ]
+}

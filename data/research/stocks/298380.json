@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "298380",
+  "itemName": "에이비엘바이오",
+  "reportCount": 6,
+  "latestReportNid": "95963",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95963",
+    "writeDate": "2026-09-01",
+    "brokerName": "DS투자증권",
+    "title": "Givastomig, 얼마나 효과가 있어야할까?",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95963",
+    "92163",
+    "92099",
+    "92090",
+    "91304",
+    "91088"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "069960",
+  "itemName": "현대백화점",
+  "reportCount": 28,
+  "latestReportNid": "95477",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95477",
+    "writeDate": "2026-08-12",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 과도한 하락 vs. 긍정적 하반기",
+    "goalPrice": 190000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 16,
+        "negative": 10
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "원가": 2,
+        "가격": 1,
+        "미국": 1,
+        "수주": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95477",
+    "95389",
+    "95187",
+    "95173",
+    "95151",
+    "95127",
+    "95120",
+    "95101",
+    "93964",
+    "93793",
+    "93735",
+    "93589",
+    "93566",
+    "93552",
+    "93475",
+    "93431",
+    "92553",
+    "92546",
+    "92539",
+    "92535",
+    "92533",
+    "92530",
+    "92521",
+    "92510",
+    "92508",
+    "91759",
+    "91346",
+    "91260"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "312610",
+  "itemName": "에이에프더블류",
+  "reportCount": 1,
+  "latestReportNid": "91399",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91399",
+    "writeDate": "2026-04-10",
+    "brokerName": "서울평가정보",
+    "title": "자동차 경량화 부품·전장부품으로 확장 중인 공정 통합형 제조기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 2,
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91399"
+  ]
+}

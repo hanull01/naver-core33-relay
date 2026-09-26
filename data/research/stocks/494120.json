@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "494120",
+  "itemName": "큐리오시스",
+  "reportCount": 6,
+  "latestReportNid": "94351",
+  "latestWriteDate": "2026-07-23",
+  "latest": {
+    "nid": "94351",
+    "writeDate": "2026-07-23",
+    "brokerName": "미래에셋증권",
+    "title": "FDA 현대화법 3.0 시대에서 머크 파트너십의 의미",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "AI": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94351",
+    "94203",
+    "93531",
+    "93118",
+    "93074",
+    "92800"
+  ]
+}

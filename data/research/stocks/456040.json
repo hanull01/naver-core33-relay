@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "456040",
+  "itemName": "OCI",
+  "reportCount": 1,
+  "latestReportNid": "93749",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93749",
+    "writeDate": "2026-06-30",
+    "brokerName": "삼성증권",
+    "title": "NDR takeaways - 예상보다 강한 수익성 확인",
+    "goalPrice": 160000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 15,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "반도체": 4,
+        "자동차": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93749"
+  ]
+}

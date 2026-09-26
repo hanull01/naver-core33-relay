@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005300",
+  "itemName": "롯데칠성",
+  "reportCount": 11,
+  "latestReportNid": "95186",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95186",
+    "writeDate": "2026-08-06",
+    "brokerName": "DS투자증권",
+    "title": "위기 속에서 드러나는 제품 경쟁력",
+    "goalPrice": 160000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 10
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 6,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 3,
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95186",
+    "95183",
+    "95182",
+    "95128",
+    "95119",
+    "92498",
+    "92493",
+    "92457",
+    "92450",
+    "92444",
+    "91489"
+  ]
+}

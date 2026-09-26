@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "160190",
+  "itemName": "하이젠알앤엠",
+  "reportCount": 1,
+  "latestReportNid": "91755",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91755",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 산업용 모터 및 감속기 제조 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 3
+      }
+    }
+  },
+  "reportNids": [
+    "91755"
+  ]
+}

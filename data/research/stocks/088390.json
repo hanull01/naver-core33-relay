@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "088390",
+  "itemName": "이녹스",
+  "reportCount": 1,
+  "latestReportNid": "91558",
+  "latestWriteDate": "2026-04-15",
+  "latest": {
+    "nid": "91558",
+    "writeDate": "2026-04-15",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전자재료 및 부품 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91558"
+  ]
+}

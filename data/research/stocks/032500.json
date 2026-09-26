@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "032500",
+  "itemName": "케이엠더블유",
+  "reportCount": 6,
+  "latestReportNid": "96174",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96174",
+    "writeDate": "2026-09-16",
+    "brokerName": "하나증권",
+    "title": "2027년에는 새로운 역사 쓸 가능성이 높다",
+    "goalPrice": 70000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96174",
+    "95805",
+    "93940",
+    "93391",
+    "93145",
+    "91590"
+  ]
+}

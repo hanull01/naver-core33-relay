@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004800",
+  "itemName": "효성",
+  "reportCount": 8,
+  "latestReportNid": "95338",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95338",
+    "writeDate": "2026-08-10",
+    "brokerName": "대신증권",
+    "title": "서프라이즈, 그리고 걷히는 할인 요인",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95338",
+    "95067",
+    "94429",
+    "94337",
+    "94266",
+    "92469",
+    "91979",
+    "91195"
+  ]
+}

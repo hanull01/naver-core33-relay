@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "243840",
+  "itemName": "신흥에스이씨",
+  "reportCount": 2,
+  "latestReportNid": "95757",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95757",
+    "writeDate": "2026-08-19",
+    "brokerName": "유진투자증권",
+    "title": "데이터센터용 BBU가 이익 증가 주원인",
+    "goalPrice": 10000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 17,
+        "negative": 7
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 16,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "미국": 5,
+        "수요": 4,
+        "반도체": 2,
+        "배터리": 2,
+        "자동차": 2,
+        "중국": 2,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95757",
+    "93026"
+  ]
+}

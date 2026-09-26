@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "083650",
+  "itemName": "비에이치아이",
+  "reportCount": 7,
+  "latestReportNid": "95759",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95759",
+    "writeDate": "2026-08-19",
+    "brokerName": "신한투자증권",
+    "title": "성장 가시성에 수익성까지",
+    "goalPrice": 110000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "원전": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95759",
+    "95659",
+    "95327",
+    "93860",
+    "93310",
+    "93245",
+    "93144"
+  ]
+}

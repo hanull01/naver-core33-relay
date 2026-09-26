@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0126Z0",
+  "itemName": "삼성에피스홀딩스",
+  "reportCount": 6,
+  "latestReportNid": "95339",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95339",
+    "writeDate": "2026-08-10",
+    "brokerName": "대신증권",
+    "title": " Next 시밀러와 신약, 구체화되는 성장 스토리",
+    "goalPrice": 560000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95339",
+    "95153",
+    "94547",
+    "94525",
+    "93161",
+    "91906"
+  ]
+}

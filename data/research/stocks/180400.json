@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "180400",
+  "itemName": "DXVX",
+  "reportCount": 1,
+  "latestReportNid": "94382",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94382",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "경구용 비만치료제와 핵산 플랫폼 기반 신약개발 바이오헬스케어 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94382"
+  ]
+}

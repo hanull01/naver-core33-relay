@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "417790",
+  "itemName": "트루엔",
+  "reportCount": 1,
+  "latestReportNid": "93528",
+  "latestWriteDate": "2026-06-15",
+  "latest": {
+    "nid": "93528",
+    "writeDate": "2026-06-15",
+    "brokerName": "미래에셋증권",
+    "title": "해외 진출과 B2C 확장이 이끄는 체질 개선",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4
+      }
+    }
+  },
+  "reportNids": [
+    "93528"
+  ]
+}

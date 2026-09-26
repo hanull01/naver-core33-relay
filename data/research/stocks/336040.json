@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "336040",
+  "itemName": "타스컴",
+  "reportCount": 1,
+  "latestReportNid": "93701",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93701",
+    "writeDate": "2026-06-26",
+    "brokerName": "NICE평가정보",
+    "title": "모세혈액 한 방울로 20여 종 진단 - 세계를 누비는 POCT 혁신기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93701"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "111380",
+  "itemName": "동인기연",
+  "reportCount": 1,
+  "latestReportNid": "93332",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93332",
+    "writeDate": "2026-05-28",
+    "brokerName": "DS투자증권",
+    "title": "믹스 개선으로 비수기에도 두 자릿수 OPM",
+    "goalPrice": 24000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93332"
+  ]
+}

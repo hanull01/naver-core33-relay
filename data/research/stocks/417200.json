@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "417200",
+  "itemName": "LS머트리얼즈",
+  "reportCount": 1,
+  "latestReportNid": "93602",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93602",
+    "writeDate": "2026-06-19",
+    "brokerName": "키움증권",
+    "title": "새로운 도약을 준비하다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 2,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93602"
+  ]
+}

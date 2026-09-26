@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035600",
+  "itemName": "KG이니시스",
+  "reportCount": 3,
+  "latestReportNid": "94421",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94421",
+    "writeDate": "2026-07-24",
+    "brokerName": "신한투자증권",
+    "title": "성장의 반경 확대",
+    "goalPrice": 14000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94421",
+    "93172",
+    "92447"
+  ]
+}

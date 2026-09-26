@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003310",
+  "itemName": "대주산업",
+  "reportCount": 1,
+  "latestReportNid": "91653",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91653",
+    "writeDate": "2026-04-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 건설자재 및 화학제품 제조·판매 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91653"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "084010",
+  "itemName": "대한제강",
+  "reportCount": 1,
+  "latestReportNid": "95756",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95756",
+    "writeDate": "2026-08-19",
+    "brokerName": "iM증권",
+    "title": "업황은 바닥을 확인했으나",
+    "goalPrice": 9600,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 6
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 3,
+        "수요": 2,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95756"
+  ]
+}

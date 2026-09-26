@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "950170",
+  "itemName": "JTC",
+  "reportCount": 1,
+  "latestReportNid": "96170",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96170",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "한 분기 만의 흑자 전환과 자사주 소각 확대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96170"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "339770",
+  "itemName": "교촌에프앤비",
+  "reportCount": 3,
+  "latestReportNid": "95289",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95289",
+    "writeDate": "2026-08-10",
+    "brokerName": "유진투자증권",
+    "title": "2Q26P Review: 해외 사업은 여전히 성장 중",
+    "goalPrice": 6300,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 30,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 24,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "미국": 2,
+        "수요": 2,
+        "자동차": 2,
+        "중국": 2,
+        "AI": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95289",
+    "92863",
+    "91230"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "326030",
+  "itemName": "SK바이오팜",
+  "reportCount": 19,
+  "latestReportNid": "96148",
+  "latestWriteDate": "2026-09-15",
+  "latest": {
+    "nid": "96148",
+    "writeDate": "2026-09-15",
+    "brokerName": "iM증권",
+    "title": "임상 보류에 대한 과도한 우려",
+    "goalPrice": 130000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96148",
+    "96137",
+    "96114",
+    "95905",
+    "95903",
+    "95902",
+    "95897",
+    "95887",
+    "95426",
+    "95250",
+    "95177",
+    "95116",
+    "94364",
+    "94323",
+    "93270",
+    "92631",
+    "92600",
+    "92590",
+    "91628"
+  ]
+}

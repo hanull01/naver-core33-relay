@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "220180",
+  "itemName": "핸디소프트",
+  "reportCount": 1,
+  "latestReportNid": "91089",
+  "latestWriteDate": "2026-03-27",
+  "latest": {
+    "nid": "91089",
+    "writeDate": "2026-03-27",
+    "brokerName": "한국IR협의회",
+    "title": "폴라리스그룹 시너지 효과 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91089"
+  ]
+}

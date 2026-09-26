@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "242040",
+  "itemName": "나무기술",
+  "reportCount": 1,
+  "latestReportNid": "91761",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91761",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "클라우드, AI 사업 성장판이 열린다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "방산": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91761"
+  ]
+}

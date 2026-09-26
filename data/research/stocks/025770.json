@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "025770",
+  "itemName": "한국정보통신",
+  "reportCount": 1,
+  "latestReportNid": "91687",
+  "latestWriteDate": "2026-04-20",
+  "latest": {
+    "nid": "91687",
+    "writeDate": "2026-04-20",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전자결제 및 VAN 서비스 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91687"
+  ]
+}

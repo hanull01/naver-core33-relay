@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "013990",
+  "itemName": "아가방컴퍼니",
+  "reportCount": 1,
+  "latestReportNid": "95779",
+  "latestWriteDate": "2026-08-20",
+  "latest": {
+    "nid": "95779",
+    "writeDate": "2026-08-20",
+    "brokerName": "한국IR협의회",
+    "title": "영업실적 개선과 확대되는 자사주 매입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95779"
+  ]
+}

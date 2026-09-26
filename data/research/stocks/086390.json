@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086390",
+  "itemName": "유니테스트",
+  "reportCount": 4,
+  "latestReportNid": "95684",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95684",
+    "writeDate": "2026-08-18",
+    "brokerName": "신한투자증권",
+    "title": "달라진 이익 체력",
+    "goalPrice": 15000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95684",
+    "94389",
+    "93266",
+    "92578"
+  ]
+}

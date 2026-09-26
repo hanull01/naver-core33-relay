@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "459100",
+  "itemName": "위츠",
+  "reportCount": 2,
+  "latestReportNid": "93626",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93626",
+    "writeDate": "2026-06-22",
+    "brokerName": "신한투자증권",
+    "title": "로봇 충전기 사업 진출",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93626",
+    "93319"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "181710",
+  "itemName": "NHN",
+  "reportCount": 12,
+  "latestReportNid": "96301",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96301",
+    "writeDate": "2026-09-23",
+    "brokerName": "삼성증권",
+    "title": "NHN 클라우드 기업 가치 반영 구간",
+    "goalPrice": 92000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "AI": 9,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96301",
+    "96234",
+    "95506",
+    "95460",
+    "95435",
+    "94000",
+    "93994",
+    "93439",
+    "92862",
+    "92845",
+    "91578",
+    "91209"
+  ]
+}

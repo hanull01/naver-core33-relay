@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "246250",
+  "itemName": "에스엘에스바이오",
+  "reportCount": 1,
+  "latestReportNid": "93715",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93715",
+    "writeDate": "2026-06-26",
+    "brokerName": "하나증권",
+    "title": "IPO 주관사 업데이트",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93715"
+  ]
+}

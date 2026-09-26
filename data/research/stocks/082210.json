@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "082210",
+  "itemName": "옵트론텍",
+  "reportCount": 2,
+  "latestReportNid": "95198",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95198",
+    "writeDate": "2026-08-07",
+    "brokerName": "서울평가정보",
+    "title": "모바일 광학부품 기반 전장·방산·로보틱스용 정밀광학으로 성장영역 확장 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95198",
+    "93890"
+  ]
+}

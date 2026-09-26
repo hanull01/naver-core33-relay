@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "051910",
+  "itemName": "LG화학",
+  "reportCount": 11,
+  "latestReportNid": "94999",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94999",
+    "writeDate": "2026-08-03",
+    "brokerName": "하나증권",
+    "title": "전지 소재의 실적 방향성은 우상향",
+    "goalPrice": 300000,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "수요": 2,
+        "자동차": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94999",
+    "94980",
+    "94950",
+    "94937",
+    "94931",
+    "94365",
+    "92464",
+    "92440",
+    "92398",
+    "92296",
+    "91800"
+  ]
+}

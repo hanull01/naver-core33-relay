@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "361610",
+  "itemName": "SK아이이테크놀로지",
+  "reportCount": 7,
+  "latestReportNid": "95026",
+  "latestWriteDate": "2026-08-04",
+  "latest": {
+    "nid": "95026",
+    "writeDate": "2026-08-04",
+    "brokerName": "SK증권",
+    "title": "거점 일원화, 선택과 집중",
+    "goalPrice": 21500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "재고": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95026",
+    "94938",
+    "94838",
+    "93012",
+    "92989",
+    "92979",
+    "92577"
+  ]
+}

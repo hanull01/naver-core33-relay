@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "077970",
+  "itemName": "STX엔진",
+  "reportCount": 1,
+  "latestReportNid": "93235",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93235",
+    "writeDate": "2026-05-22",
+    "brokerName": "한국투자증권",
+    "title": "유암코 PEF 청산 관련 코멘트: 사업 분리 매각 가능성 제시",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "수요": 3,
+        "수주": 3,
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93235"
+  ]
+}

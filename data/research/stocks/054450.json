@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "054450",
+  "itemName": "텔레칩스",
+  "reportCount": 3,
+  "latestReportNid": "95249",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95249",
+    "writeDate": "2026-08-07",
+    "brokerName": "유진투자증권",
+    "title": "2Q26P Review: 용역 매출 본격화, 실적 성장 지속",
+    "goalPrice": 20000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 28,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 22,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "자동차": 2,
+        "AI": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95249",
+    "92699",
+    "92679"
+  ]
+}

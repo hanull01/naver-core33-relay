@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "251120",
+  "itemName": "바이오에프디엔씨",
+  "reportCount": 1,
+  "latestReportNid": "96198",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96198",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "식물세포 플랫폼, 스킨부스터와 PDRN으로 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96198"
+  ]
+}

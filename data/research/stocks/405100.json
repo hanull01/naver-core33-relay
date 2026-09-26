@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "405100",
+  "itemName": "큐알티",
+  "reportCount": 2,
+  "latestReportNid": "95957",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95957",
+    "writeDate": "2026-09-01",
+    "brokerName": "유안타증권",
+    "title": "[NDR후기] 주요 Q&A",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "방산": 2,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95957",
+    "92946"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "227420",
+  "itemName": "도부",
+  "reportCount": 1,
+  "latestReportNid": "94384",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94384",
+    "writeDate": "2026-07-24",
+    "brokerName": "서울평가정보",
+    "title": "산업안전과 재난대피 수요 기반으로 필터·정화·밀폐 기술과 인증 생산체계 내재화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94384"
+  ]
+}

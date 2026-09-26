@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086710",
+  "itemName": "선진뷰티사이언스",
+  "reportCount": 3,
+  "latestReportNid": "96180",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96180",
+    "writeDate": "2026-09-16",
+    "brokerName": "교보증권",
+    "title": "25년은 준비기, 26년부터 도약기!",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96180",
+    "93298",
+    "93199"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "060560",
+  "itemName": "HC홈센타",
+  "reportCount": 1,
+  "latestReportNid": "91502",
+  "latestWriteDate": "2026-04-14",
+  "latest": {
+    "nid": "91502",
+    "writeDate": "2026-04-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 건축자재 유통 및 판매 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91502"
+  ]
+}

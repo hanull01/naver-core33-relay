@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003620",
+  "itemName": "KG모빌리티",
+  "reportCount": 5,
+  "latestReportNid": "95106",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95106",
+    "writeDate": "2026-08-06",
+    "brokerName": "키움증권",
+    "title": "체리자동차 전략적 파트너십 체결 및 2Q26 실적 리뷰",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "환율": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95106",
+    "94692",
+    "94353",
+    "92096",
+    "92004"
+  ]
+}

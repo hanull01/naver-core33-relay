@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003220",
+  "itemName": "대원제약",
+  "reportCount": 2,
+  "latestReportNid": "93273",
+  "latestWriteDate": "2026-05-26",
+  "latest": {
+    "nid": "93273",
+    "writeDate": "2026-05-26",
+    "brokerName": "DS투자증권",
+    "title": "견조한 성장 흐름 유지",
+    "goalPrice": 16000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93273",
+    "93139"
+  ]
+}

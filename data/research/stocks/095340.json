@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095340",
+  "itemName": "ISC",
+  "reportCount": 10,
+  "latestReportNid": "96118",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96118",
+    "writeDate": "2026-09-14",
+    "brokerName": "iM증권",
+    "title": "ASP 상승하면서 향후 수익성 개선 가속화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 7,
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96118",
+    "95567",
+    "95053",
+    "94631",
+    "94597",
+    "93668",
+    "93265",
+    "92059",
+    "92050",
+    "91111"
+  ]
+}

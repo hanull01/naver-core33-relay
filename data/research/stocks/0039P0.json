@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0039P0",
+  "itemName": "매드업",
+  "reportCount": 1,
+  "latestReportNid": "95951",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95951",
+    "writeDate": "2026-09-01",
+    "brokerName": "SK증권",
+    "title": "돈 버는 AI",
+    "goalPrice": 14500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 4,
+        "자동차": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95951"
+  ]
+}

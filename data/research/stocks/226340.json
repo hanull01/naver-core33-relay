@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "226340",
+  "itemName": "본느",
+  "reportCount": 1,
+  "latestReportNid": "91652",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91652",
+    "writeDate": "2026-04-17",
+    "brokerName": "서울평가정보",
+    "title": "빠른 제품 기획과 외주 생산 기반 글로벌 시장을 공략하는 화장품 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91652"
+  ]
+}

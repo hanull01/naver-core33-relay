@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "140070",
+  "itemName": "서플러스글로벌",
+  "reportCount": 1,
+  "latestReportNid": "93302",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93302",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 중고 반도체 장비 유통 및 재생 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 8,
+        "수요": 2,
+        "원가": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93302"
+  ]
+}

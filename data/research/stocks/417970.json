@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "417970",
+  "itemName": "모델솔루션",
+  "reportCount": 1,
+  "latestReportNid": "92033",
+  "latestWriteDate": "2026-04-28",
+  "latest": {
+    "nid": "92033",
+    "writeDate": "2026-04-28",
+    "brokerName": "한국IR협의회",
+    "title": "수익성 개선 국면 진입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92033"
+  ]
+}

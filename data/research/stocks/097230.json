@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "097230",
+  "itemName": "HJ중공업",
+  "reportCount": 2,
+  "latestReportNid": "95727",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95727",
+    "writeDate": "2026-08-18",
+    "brokerName": "DS투자증권",
+    "title": "성장하는 상선. 다가오는 군함 수출. 저렴한 밸류",
+    "goalPrice": 37000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 3,
+        "수주": 2,
+        "조선": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95727",
+    "93289"
+  ]
+}

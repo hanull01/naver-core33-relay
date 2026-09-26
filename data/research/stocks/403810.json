@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "403810",
+  "itemName": "아이엘로보틱스",
+  "reportCount": 1,
+  "latestReportNid": "96220",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96220",
+    "writeDate": "2026-09-18",
+    "brokerName": "서울평가정보",
+    "title": "센서·무선제어 기반의 인프라 역량 바탕으로 AIoT와 Physical AI 사업으로 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96220"
+  ]
+}

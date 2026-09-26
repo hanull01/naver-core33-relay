@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "194370",
+  "itemName": "제이에스코퍼레이션",
+  "reportCount": 2,
+  "latestReportNid": "93804",
+  "latestWriteDate": "2026-07-01",
+  "latest": {
+    "nid": "93804",
+    "writeDate": "2026-07-01",
+    "brokerName": "신한투자증권",
+    "title": "영구 CB 발행 관련 코멘트",
+    "goalPrice": 22500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93804",
+    "92323"
+  ]
+}

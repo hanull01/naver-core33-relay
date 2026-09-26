@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "241560",
+  "itemName": "두산밥캣",
+  "reportCount": 7,
+  "latestReportNid": "94419",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94419",
+    "writeDate": "2026-07-24",
+    "brokerName": "신한투자증권",
+    "title": "변수는 있으나 성장 방향성 확실",
+    "goalPrice": 90000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 3,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94419",
+    "94395",
+    "94299",
+    "94007",
+    "92124",
+    "92113",
+    "91457"
+  ]
+}

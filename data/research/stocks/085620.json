@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "085620",
+  "itemName": "미래에셋생명",
+  "reportCount": 1,
+  "latestReportNid": "95677",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95677",
+    "writeDate": "2026-08-18",
+    "brokerName": "신한투자증권",
+    "title": "변액, 성장 엔진이자 배당 제약 요인",
+    "goalPrice": null,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95677"
+  ]
+}

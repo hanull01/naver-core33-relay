@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006260",
+  "itemName": "LS",
+  "reportCount": 16,
+  "latestReportNid": "96095",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96095",
+    "writeDate": "2026-09-11",
+    "brokerName": "SK증권",
+    "title": "보수적으로 봐도 주가 상승여력 충분",
+    "goalPrice": 540000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "수요": 2,
+        "수주": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96095",
+    "96030",
+    "95940",
+    "95767",
+    "95750",
+    "95742",
+    "95737",
+    "95685",
+    "94800",
+    "93623",
+    "93396",
+    "93221",
+    "93132",
+    "93040",
+    "92224",
+    "91734"
+  ]
+}

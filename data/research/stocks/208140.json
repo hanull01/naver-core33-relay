@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "208140",
+  "itemName": "정다운",
+  "reportCount": 1,
+  "latestReportNid": "91717",
+  "latestWriteDate": "2026-04-21",
+  "latest": {
+    "nid": "91717",
+    "writeDate": "2026-04-21",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 오리고기 가공 및 유통 수직 계열화 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3
+      }
+    }
+  },
+  "reportNids": [
+    "91717"
+  ]
+}

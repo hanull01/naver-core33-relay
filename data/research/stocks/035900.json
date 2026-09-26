@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035900",
+  "itemName": "JYP Ent.",
+  "reportCount": 26,
+  "latestReportNid": "96281",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96281",
+    "writeDate": "2026-09-22",
+    "brokerName": "SK증권",
+    "title": "“RUN IT” 스트레이키즈 월드투어 출발",
+    "goalPrice": 66000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96281",
+    "95620",
+    "95582",
+    "95572",
+    "95565",
+    "95557",
+    "95540",
+    "95524",
+    "94312",
+    "94296",
+    "94193",
+    "94013",
+    "93879",
+    "93397",
+    "93009",
+    "93007",
+    "92994",
+    "92992",
+    "92990",
+    "92987",
+    "92976",
+    "91854",
+    "91773",
+    "91468",
+    "91224",
+    "91147"
+  ]
+}

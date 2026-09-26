@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "049070",
+  "itemName": "인탑스",
+  "reportCount": 1,
+  "latestReportNid": "95745",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95745",
+    "writeDate": "2026-08-19",
+    "brokerName": "한국IR협의회",
+    "title": "케이스를 넘어 로봇을 조립하다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 3,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95745"
+  ]
+}

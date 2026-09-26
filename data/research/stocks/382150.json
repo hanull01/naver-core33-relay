@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "382150",
+  "itemName": "온코크로스",
+  "reportCount": 1,
+  "latestReportNid": "93509",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93509",
+    "writeDate": "2026-06-11",
+    "brokerName": "미래에셋증권",
+    "title": "임상 데이터 기반 플랫폼 사업화 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 7,
+        "미국": 3
+      }
+    }
+  },
+  "reportNids": [
+    "93509"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "209640",
+  "itemName": "와이제이링크",
+  "reportCount": 1,
+  "latestReportNid": "95999",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "95999",
+    "writeDate": "2026-09-04",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] SMT 공정 스마트화 장비를 제조하는 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95999"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "021240",
+  "itemName": "코웨이",
+  "reportCount": 7,
+  "latestReportNid": "95371",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95371",
+    "writeDate": "2026-08-10",
+    "brokerName": "한화투자증권",
+    "title": "2Q26 Review : 태국, J커브에 올라탔나?",
+    "goalPrice": 160000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95371",
+    "95305",
+    "94216",
+    "94035",
+    "92728",
+    "92675",
+    "91498"
+  ]
+}

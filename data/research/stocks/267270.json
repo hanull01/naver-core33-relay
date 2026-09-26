@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "267270",
+  "itemName": "HD건설기계",
+  "reportCount": 10,
+  "latestReportNid": "94746",
+  "latestWriteDate": "2026-07-30",
+  "latest": {
+    "nid": "94746",
+    "writeDate": "2026-07-30",
+    "brokerName": "신한투자증권",
+    "title": "전지역 성장 확대 확인",
+    "goalPrice": 180000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94746",
+    "94727",
+    "94062",
+    "94006",
+    "93004",
+    "92320",
+    "92057",
+    "92045",
+    "91467",
+    "91461"
+  ]
+}

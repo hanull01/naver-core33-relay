@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "263860",
+  "itemName": "지니언스",
+  "reportCount": 4,
+  "latestReportNid": "95160",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95160",
+    "writeDate": "2026-08-06",
+    "brokerName": "유안타증권",
+    "title": "일시적이 아닌 구조적 변화에 기인한 실적개선",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "수요": 1,
+        "수주": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95160",
+    "95061",
+    "93354",
+    "93059"
+  ]
+}

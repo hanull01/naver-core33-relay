@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "017940",
+  "itemName": "E1",
+  "reportCount": 3,
+  "latestReportNid": "95863",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95863",
+    "writeDate": "2026-08-25",
+    "brokerName": "하나증권",
+    "title": "실적 정상화 확인",
+    "goalPrice": 145000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95863",
+    "93357",
+    "91098"
+  ]
+}

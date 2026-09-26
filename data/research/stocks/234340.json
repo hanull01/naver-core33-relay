@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "234340",
+  "itemName": "헥토파이낸셜",
+  "reportCount": 6,
+  "latestReportNid": "95932",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95932",
+    "writeDate": "2026-08-31",
+    "brokerName": "iM증권",
+    "title": "사상 최대 실적 환경하에서 스테이블코인 수혜 가시화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 3
+      }
+    }
+  },
+  "reportNids": [
+    "95932",
+    "95319",
+    "95291",
+    "93340",
+    "92596",
+    "92335"
+  ]
+}

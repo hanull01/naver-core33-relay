@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "476710",
+  "itemName": "타조이엔터테인먼트",
+  "reportCount": 1,
+  "latestReportNid": "95589",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95589",
+    "writeDate": "2026-08-14",
+    "brokerName": "서울평가정보",
+    "title": "K-POP 공연기획 역량 기반의 숏폼 콘텐츠 사업을 확대하며 종합 엔터테인먼트사로 도약",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95589"
+  ]
+}

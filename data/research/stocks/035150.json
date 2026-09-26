@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035150",
+  "itemName": "백산",
+  "reportCount": 1,
+  "latestReportNid": "95678",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95678",
+    "writeDate": "2026-08-18",
+    "brokerName": "신한투자증권",
+    "title": "실적 개선은 반등의 초석",
+    "goalPrice": 17000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95678"
+  ]
+}

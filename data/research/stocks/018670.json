@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "018670",
+  "itemName": "SK가스",
+  "reportCount": 7,
+  "latestReportNid": "96077",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96077",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "연료 선택권이 만든 이익 체력",
+    "goalPrice": 340000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "가격": 2,
+        "수요": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96077",
+    "95163",
+    "95125",
+    "93204",
+    "93093",
+    "92686",
+    "91143"
+  ]
+}

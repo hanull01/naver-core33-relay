@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "104830",
+  "itemName": "원익머트리얼즈",
+  "reportCount": 4,
+  "latestReportNid": "95797",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95797",
+    "writeDate": "2026-08-21",
+    "brokerName": "신한투자증권",
+    "title": "하반기 수익성 회복 여력 충분",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95797",
+    "95381",
+    "91814",
+    "91446"
+  ]
+}

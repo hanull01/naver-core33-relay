@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "028050",
+  "itemName": "삼성E&A",
+  "reportCount": 39,
+  "latestReportNid": "96260",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96260",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "첨단의 끝판왕",
+    "goalPrice": 73000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96260",
+    "96217",
+    "94468",
+    "94464",
+    "94457",
+    "94441",
+    "94431",
+    "94426",
+    "94414",
+    "94403",
+    "94397",
+    "94388",
+    "94188",
+    "94096",
+    "93911",
+    "93892",
+    "93850",
+    "93836",
+    "93828",
+    "93767",
+    "93724",
+    "93634",
+    "93557",
+    "93474",
+    "93440",
+    "93425",
+    "91920",
+    "91909",
+    "91888",
+    "91879",
+    "91878",
+    "91870",
+    "91864",
+    "91844",
+    "91275",
+    "91251",
+    "91187",
+    "91166",
+    "91130"
+  ]
+}

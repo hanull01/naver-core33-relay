@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "081180",
+  "itemName": "쎄크",
+  "reportCount": 2,
+  "latestReportNid": "93356",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93356",
+    "writeDate": "2026-05-29",
+    "brokerName": "유안타증권",
+    "title": "미세화될수록 내면 검사가 중요해진다!",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 6
+      }
+    }
+  },
+  "reportNids": [
+    "93356",
+    "91737"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "079550",
+  "itemName": "LIG디펜스앤에어로스페이스",
+  "reportCount": 20,
+  "latestReportNid": "95352",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95352",
+    "writeDate": "2026-08-10",
+    "brokerName": "대신증권",
+    "title": "2Q26 Review: 고성장에 변함은 없습니다",
+    "goalPrice": 990000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95352",
+    "95317",
+    "95278",
+    "95263",
+    "95242",
+    "95225",
+    "95220",
+    "95203",
+    "94308",
+    "93570",
+    "92730",
+    "92716",
+    "92634",
+    "92597",
+    "92576",
+    "92573",
+    "92568",
+    "92567",
+    "92180",
+    "91278"
+  ]
+}

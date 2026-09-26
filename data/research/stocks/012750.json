@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "012750",
+  "itemName": "에스원",
+  "reportCount": 3,
+  "latestReportNid": "95328",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95328",
+    "writeDate": "2026-08-10",
+    "brokerName": "iM증권",
+    "title": "자사주 소각 기대 및 AI GOP 본격화 수혜",
+    "goalPrice": 96000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95328",
+    "95072",
+    "92536"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "388610",
+  "itemName": "지에프씨생명과학",
+  "reportCount": 1,
+  "latestReportNid": "93241",
+  "latestWriteDate": "2026-05-26",
+  "latest": {
+    "nid": "93241",
+    "writeDate": "2026-05-26",
+    "brokerName": "한국IR협의회",
+    "title": "화장품 융복합 바이오 소재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93241"
+  ]
+}

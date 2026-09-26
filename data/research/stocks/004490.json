@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004490",
+  "itemName": "세방전지",
+  "reportCount": 2,
+  "latestReportNid": "95753",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95753",
+    "writeDate": "2026-08-19",
+    "brokerName": "iM증권",
+    "title": "ESS 사업 진출로 체급 업그레이드",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 5,
+        "수요": 2,
+        "자동차": 2,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95753",
+    "93553"
+  ]
+}

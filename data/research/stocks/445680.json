@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "445680",
+  "itemName": "큐리옥스바이오시스템즈",
+  "reportCount": 1,
+  "latestReportNid": "93492",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93492",
+    "writeDate": "2026-06-11",
+    "brokerName": "키움증권",
+    "title": "학회에서 보여준 표준화 가능성",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93492"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "214180",
+  "itemName": "헥토이노베이션",
+  "reportCount": 5,
+  "latestReportNid": "95410",
+  "latestWriteDate": "2026-08-11",
+  "latest": {
+    "nid": "95410",
+    "writeDate": "2026-08-11",
+    "brokerName": "신한투자증권",
+    "title": "다음 성장축이 보이기 시작한다",
+    "goalPrice": 23000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95410",
+    "95356",
+    "95290",
+    "92698",
+    "91993"
+  ]
+}

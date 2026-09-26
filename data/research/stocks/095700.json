@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095700",
+  "itemName": "제넥신",
+  "reportCount": 1,
+  "latestReportNid": "94793",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94793",
+    "writeDate": "2026-07-31",
+    "brokerName": "NICE평가정보",
+    "title": "후보물질 발굴부터 상업화까지, bioPROTAC이 여는 차세대 표적 신약의 새 지평",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94793"
+  ]
+}

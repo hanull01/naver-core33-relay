@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "339950",
+  "itemName": "아이비김영",
+  "reportCount": 1,
+  "latestReportNid": "93471",
+  "latestWriteDate": "2026-06-10",
+  "latest": {
+    "nid": "93471",
+    "writeDate": "2026-06-10",
+    "brokerName": "한국IR협의회",
+    "title": "대학편입 1위에서 성인교육 플랫폼으로 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93471"
+  ]
+}

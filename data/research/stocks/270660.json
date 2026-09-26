@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "270660",
+  "itemName": "에브리봇",
+  "reportCount": 1,
+  "latestReportNid": "93318",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93318",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "체질 개선의 시작",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 6,
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93318"
+  ]
+}

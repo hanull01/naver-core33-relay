@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036540",
+  "itemName": "SFA반도체",
+  "reportCount": 2,
+  "latestReportNid": "96243",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96243",
+    "writeDate": "2026-09-21",
+    "brokerName": "iM증권",
+    "title": "반도체 후공정 대이동⇒ 내년 사상 최대 실적",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96243",
+    "95953"
+  ]
+}

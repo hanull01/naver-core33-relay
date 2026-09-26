@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "217880",
+  "itemName": "틸론",
+  "reportCount": 1,
+  "latestReportNid": "93700",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93700",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "가상 데스크톱 운영기술을 기반으로 클라우드·AI 업무환경 전환 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93700"
+  ]
+}

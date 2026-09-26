@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "014940",
+  "itemName": "오리엔탈정공",
+  "reportCount": 1,
+  "latestReportNid": "96162",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96162",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 선박용 크레인과 상부구조물 제조기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 6,
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96162"
+  ]
+}

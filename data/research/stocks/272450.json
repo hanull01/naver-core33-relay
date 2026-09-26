@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "272450",
+  "itemName": "진에어",
+  "reportCount": 3,
+  "latestReportNid": "94926",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94926",
+    "writeDate": "2026-07-31",
+    "brokerName": "미래에셋증권",
+    "title": "LCC의 유일한 선택지",
+    "goalPrice": 7000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 3
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94926",
+    "93257",
+    "92839"
+  ]
+}

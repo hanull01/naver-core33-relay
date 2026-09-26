@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "063440",
+  "itemName": "SM Life Design",
+  "reportCount": 1,
+  "latestReportNid": "91930",
+  "latestWriteDate": "2026-04-27",
+  "latest": {
+    "nid": "91930",
+    "writeDate": "2026-04-27",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] K-POP 콘텐츠 유통 및 MD 사업 영위 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91930"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "394420",
+  "itemName": "리센스메디컬",
+  "reportCount": 2,
+  "latestReportNid": "95680",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95680",
+    "writeDate": "2026-08-18",
+    "brokerName": "SK증권",
+    "title": "안녕하세요리센스입니다잘부탁드립니다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95680",
+    "91846"
+  ]
+}

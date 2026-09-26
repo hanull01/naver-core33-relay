@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "042000",
+  "itemName": "카페24",
+  "reportCount": 1,
+  "latestReportNid": "93218",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93218",
+    "writeDate": "2026-05-22",
+    "brokerName": "미래에셋증권",
+    "title": "기다림의 시기",
+    "goalPrice": 32000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93218"
+  ]
+}

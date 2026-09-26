@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "317870",
+  "itemName": "엔바이오니아",
+  "reportCount": 1,
+  "latestReportNid": "96163",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96163",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 습식 부직포 기술 기반 정수필터 소재기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "AI": 1,
+        "배터리": 1,
+        "자동차": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96163"
+  ]
+}

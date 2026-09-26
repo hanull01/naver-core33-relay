@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "109610",
+  "itemName": "에스와이",
+  "reportCount": 1,
+  "latestReportNid": "93698",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93698",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "샌드위치패널 기반 단열·내화 기술 경쟁력을 보유한 건축자재 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93698"
+  ]
+}

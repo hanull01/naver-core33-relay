@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "017370",
+  "itemName": "우신시스템",
+  "reportCount": 1,
+  "latestReportNid": "91127",
+  "latestWriteDate": "2026-03-31",
+  "latest": {
+    "nid": "91127",
+    "writeDate": "2026-03-31",
+    "brokerName": "키움증권",
+    "title": "안전벨트의 성장은 예정, 자동화 반등 필요",
+    "goalPrice": 9500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 7,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91127"
+  ]
+}

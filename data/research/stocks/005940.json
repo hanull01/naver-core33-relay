@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005940",
+  "itemName": "NH투자증권",
+  "reportCount": 24,
+  "latestReportNid": "96080",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96080",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "하반기 배당 매력도 부각",
+    "goalPrice": 35000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 8
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96080",
+    "95851",
+    "94531",
+    "94475",
+    "94458",
+    "94405",
+    "94399",
+    "94391",
+    "94335",
+    "93866",
+    "93648",
+    "93483",
+    "93443",
+    "93020",
+    "92419",
+    "91986",
+    "91869",
+    "91858",
+    "91857",
+    "91842",
+    "91520",
+    "91254",
+    "91249",
+    "91225"
+  ]
+}

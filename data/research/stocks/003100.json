@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003100",
+  "itemName": "선광",
+  "reportCount": 1,
+  "latestReportNid": "94790",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94790",
+    "writeDate": "2026-07-31",
+    "brokerName": "서울평가정보",
+    "title": "컨테이너·양곡 중심 항만 인프라와 자동화 운영역량 기반으로 물류거점 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94790"
+  ]
+}

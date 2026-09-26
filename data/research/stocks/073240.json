@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "073240",
+  "itemName": "금호타이어",
+  "reportCount": 8,
+  "latestReportNid": "94927",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94927",
+    "writeDate": "2026-07-31",
+    "brokerName": "한화투자증권",
+    "title": "믹스 개선 중심 물량 배분으로 수익성 방어",
+    "goalPrice": 10000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 2,
+        "중국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94927",
+    "94919",
+    "94893",
+    "94196",
+    "92264",
+    "92162",
+    "92148",
+    "92117"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095270",
+  "itemName": "웨이브일렉트로",
+  "reportCount": 1,
+  "latestReportNid": "91804",
+  "latestWriteDate": "2026-04-23",
+  "latest": {
+    "nid": "91804",
+    "writeDate": "2026-04-23",
+    "brokerName": "신한투자증권",
+    "title": "찾았다, 또 다른 방산+통신주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 7
+      }
+    }
+  },
+  "reportNids": [
+    "91804"
+  ]
+}

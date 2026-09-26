@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "042040",
+  "itemName": "케이피엠테크",
+  "reportCount": 1,
+  "latestReportNid": "94387",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94387",
+    "writeDate": "2026-07-24",
+    "brokerName": "NICE평가정보",
+    "title": "첨단표면처리산업을 선도하는 54년 기술 혁신의 글로벌 파트너",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "방산": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94387"
+  ]
+}

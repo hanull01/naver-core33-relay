@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "416180",
+  "itemName": "신성에스티",
+  "reportCount": 1,
+  "latestReportNid": "95144",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95144",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "미국에서 존재감 드러내는 ESS 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "배터리": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95144"
+  ]
+}

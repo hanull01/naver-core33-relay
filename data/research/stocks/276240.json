@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "276240",
+  "itemName": "엘리비젼",
+  "reportCount": 1,
+  "latestReportNid": "93210",
+  "latestWriteDate": "2026-05-22",
+  "latest": {
+    "nid": "93210",
+    "writeDate": "2026-05-22",
+    "brokerName": "서울평가정보",
+    "title": "고객 맞춤형 인터랙티브 키오스크 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93210"
+  ]
+}

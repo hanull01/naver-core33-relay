@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "457550",
+  "itemName": "우진엔텍",
+  "reportCount": 1,
+  "latestReportNid": "91444",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91444",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 원자력 및 화력발전소 정비 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원전": 5,
+        "수요": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91444"
+  ]
+}

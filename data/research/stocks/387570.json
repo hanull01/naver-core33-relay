@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "387570",
+  "itemName": "파인메딕스",
+  "reportCount": 1,
+  "latestReportNid": "94792",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94792",
+    "writeDate": "2026-07-31",
+    "brokerName": "서울평가정보",
+    "title": "소화기 내시경 시술기구 기술 경쟁력을 기반으로 글로벌 의료기기 시장 확대 추진 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94792"
+  ]
+}

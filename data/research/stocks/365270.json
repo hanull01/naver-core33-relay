@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "365270",
+  "itemName": "큐라클",
+  "reportCount": 3,
+  "latestReportNid": "95326",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95326",
+    "writeDate": "2026-08-10",
+    "brokerName": "신한투자증권",
+    "title": "메멘토의 메모: 다음 L/O를 찾아라",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95326",
+    "93521",
+    "91174"
+  ]
+}

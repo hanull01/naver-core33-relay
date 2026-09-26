@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "007340",
+  "itemName": "DN오토모티브",
+  "reportCount": 6,
+  "latestReportNid": "95835",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95835",
+    "writeDate": "2026-08-24",
+    "brokerName": "하나증권",
+    "title": "NDR 후기: 흔들린 건 주가뿐",
+    "goalPrice": 80000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 3
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95835",
+    "95716",
+    "95295",
+    "94210",
+    "93576",
+    "91721"
+  ]
+}

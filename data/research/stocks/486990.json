@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "486990",
+  "itemName": "노타",
+  "reportCount": 1,
+  "latestReportNid": "95248",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95248",
+    "writeDate": "2026-08-07",
+    "brokerName": "한국IR협의회",
+    "title": "AI 경량화·최적화 구현 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5
+      }
+    }
+  },
+  "reportNids": [
+    "95248"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "389650",
+  "itemName": "넥스트바이오메디컬",
+  "reportCount": 4,
+  "latestReportNid": "93601",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93601",
+    "writeDate": "2026-06-19",
+    "brokerName": "미래에셋증권",
+    "title": "좋은 논문 발표된거 맞습니다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93601",
+    "93382",
+    "92795",
+    "91115"
+  ]
+}

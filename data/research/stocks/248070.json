@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "248070",
+  "itemName": "솔루엠",
+  "reportCount": 3,
+  "latestReportNid": "93353",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93353",
+    "writeDate": "2026-05-29",
+    "brokerName": "유안타증권",
+    "title": "솔루엠 시즌2 돌입 준비",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "미국": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93353",
+    "93334",
+    "93236"
+  ]
+}

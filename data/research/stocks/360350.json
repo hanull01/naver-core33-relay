@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "360350",
+  "itemName": "코셈",
+  "reportCount": 1,
+  "latestReportNid": "93618",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93618",
+    "writeDate": "2026-06-22",
+    "brokerName": "키움증권",
+    "title": "신규 장비 개발 성과 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93618"
+  ]
+}

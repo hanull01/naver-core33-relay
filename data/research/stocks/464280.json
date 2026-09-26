@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "464280",
+  "itemName": "티디에스팜",
+  "reportCount": 1,
+  "latestReportNid": "96157",
+  "latestWriteDate": "2026-09-16",
+  "latest": {
+    "nid": "96157",
+    "writeDate": "2026-09-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 경피 약물전달시스템 전문 제약기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96157"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "101680",
+  "itemName": "한국정밀기계",
+  "reportCount": 1,
+  "latestReportNid": "93694",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93694",
+    "writeDate": "2026-06-26",
+    "brokerName": "서울평가정보",
+    "title": "고정밀 대형 부품가공 수요에 대응하며, 해외시장 확대와 사후관리 역량 강화 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93694"
+  ]
+}

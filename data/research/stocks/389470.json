@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "389470",
+  "itemName": "인벤티지랩",
+  "reportCount": 1,
+  "latestReportNid": "91546",
+  "latestWriteDate": "2026-04-14",
+  "latest": {
+    "nid": "91546",
+    "writeDate": "2026-04-14",
+    "brokerName": "하나증권",
+    "title": "NDR 후기: 고농도 SC제형화 플랫폼 및 CDMO 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91546"
+  ]
+}

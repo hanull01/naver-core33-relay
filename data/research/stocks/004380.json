@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004380",
+  "itemName": "삼익THK",
+  "reportCount": 1,
+  "latestReportNid": "95133",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95133",
+    "writeDate": "2026-08-06",
+    "brokerName": "SK증권",
+    "title": "반도체 장비부터 협동 로봇까지, 실체 있는 기대감",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 3,
+        "반도체": 1,
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95133"
+  ]
+}

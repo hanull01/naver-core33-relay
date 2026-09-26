@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "196170",
+  "itemName": "알테오젠",
+  "reportCount": 19,
+  "latestReportNid": "96239",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96239",
+    "writeDate": "2026-09-21",
+    "brokerName": "IBK투자증권",
+    "title": "글로벌 제약사들이 몰려올 수밖에 없다!",
+    "goalPrice": 400000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96239",
+    "96125",
+    "96049",
+    "96042",
+    "95988",
+    "95984",
+    "95825",
+    "95628",
+    "95343",
+    "95170",
+    "95143",
+    "94211",
+    "93395",
+    "93162",
+    "92903",
+    "92838",
+    "92676",
+    "91095",
+    "91082"
+  ]
+}

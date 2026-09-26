@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "253450",
+  "itemName": "스튜디오드래곤",
+  "reportCount": 14,
+  "latestReportNid": "95267",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95267",
+    "writeDate": "2026-08-07",
+    "brokerName": "하나증권",
+    "title": "실적도 좋았고 모회사의 반등은 더 좋았고",
+    "goalPrice": 37000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95267",
+    "95255",
+    "95234",
+    "95217",
+    "94338",
+    "93765",
+    "92963",
+    "92711",
+    "92664",
+    "92633",
+    "92588",
+    "92585",
+    "91643",
+    "91192"
+  ]
+}

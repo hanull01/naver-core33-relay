@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "141080",
+  "itemName": "리가켐바이오",
+  "reportCount": 4,
+  "latestReportNid": "95074",
+  "latestWriteDate": "2026-08-05",
+  "latest": {
+    "nid": "95074",
+    "writeDate": "2026-08-05",
+    "brokerName": "하나증권",
+    "title": "해 뜨기 전의 어두운 새벽을 지나는 중(NDR 후기)",
+    "goalPrice": 220000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95074",
+    "93611",
+    "93186",
+    "91170"
+  ]
+}

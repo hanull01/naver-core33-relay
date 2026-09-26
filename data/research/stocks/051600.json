@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "051600",
+  "itemName": "한전KPS",
+  "reportCount": 10,
+  "latestReportNid": "95428",
+  "latestWriteDate": "2026-08-11",
+  "latest": {
+    "nid": "95428",
+    "writeDate": "2026-08-11",
+    "brokerName": "하나증권",
+    "title": "선행 지표가 없는 실적",
+    "goalPrice": 68000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95428",
+    "95418",
+    "95413",
+    "95408",
+    "94369",
+    "93008",
+    "92810",
+    "92792",
+    "92780",
+    "91291"
+  ]
+}

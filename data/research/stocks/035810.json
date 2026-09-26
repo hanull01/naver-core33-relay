@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035810",
+  "itemName": "이지홀딩스",
+  "reportCount": 1,
+  "latestReportNid": "91886",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91886",
+    "writeDate": "2026-04-24",
+    "brokerName": "한국IR협의회",
+    "title": "농축산 전 밸류체인을 수직계열화한 지주회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91886"
+  ]
+}

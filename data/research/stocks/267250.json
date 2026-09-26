@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "267250",
+  "itemName": "HD현대",
+  "reportCount": 6,
+  "latestReportNid": "95090",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95090",
+    "writeDate": "2026-08-06",
+    "brokerName": "키움증권",
+    "title": "2Q26 Re: 브랜드 뉴 데이",
+    "goalPrice": 400000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "재고": 1,
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95090",
+    "94982",
+    "94798",
+    "93044",
+    "92899",
+    "91198"
+  ]
+}

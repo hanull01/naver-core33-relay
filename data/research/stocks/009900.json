@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "009900",
+  "itemName": "명신산업",
+  "reportCount": 3,
+  "latestReportNid": "95773",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95773",
+    "writeDate": "2026-08-19",
+    "brokerName": "하나증권",
+    "title": "실적은 반등, 밸류에이션은 지배구조에 할인",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 16,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 13,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3,
+        "자동차": 2,
+        "중국": 2,
+        "환율": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95773",
+    "91736",
+    "91623"
+  ]
+}

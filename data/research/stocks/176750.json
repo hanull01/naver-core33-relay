@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "176750",
+  "itemName": "듀켐바이오",
+  "reportCount": 1,
+  "latestReportNid": "92145",
+  "latestWriteDate": "2026-04-29",
+  "latest": {
+    "nid": "92145",
+    "writeDate": "2026-04-29",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 방사성의약품 생산 및 공급 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92145"
+  ]
+}

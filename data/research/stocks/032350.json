@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "032350",
+  "itemName": "롯데관광개발",
+  "reportCount": 10,
+  "latestReportNid": "95815",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95815",
+    "writeDate": "2026-08-24",
+    "brokerName": "키움증권",
+    "title": "극심한 저평가 구간",
+    "goalPrice": 23000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95815",
+    "95644",
+    "95618",
+    "95113",
+    "93183",
+    "93006",
+    "92993",
+    "92977",
+    "91898",
+    "91780"
+  ]
+}

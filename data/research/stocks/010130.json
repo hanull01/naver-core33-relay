@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010130",
+  "itemName": "고려아연",
+  "reportCount": 7,
+  "latestReportNid": "95433",
+  "latestWriteDate": "2026-08-11",
+  "latest": {
+    "nid": "95433",
+    "writeDate": "2026-08-11",
+    "brokerName": "한화투자증권",
+    "title": "NDR 후기: 이익 체력 재차 증명한 분기, 전략광물 프리미엄 지속 확대 전망",
+    "goalPrice": 1593000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "수요": 1,
+        "자동차": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95433",
+    "95233",
+    "95210",
+    "94358",
+    "92582",
+    "92566",
+    "91722"
+  ]
+}

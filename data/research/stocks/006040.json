@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006040",
+  "itemName": "동원산업",
+  "reportCount": 2,
+  "latestReportNid": "94274",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94274",
+    "writeDate": "2026-07-20",
+    "brokerName": "하나증권",
+    "title": "2Q26 Pre: 비식품 선방",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 9
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3,
+        "가격": 2,
+        "미국": 1,
+        "수요": 1,
+        "재고": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94274",
+    "91227"
+  ]
+}

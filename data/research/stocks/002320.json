@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "002320",
+  "itemName": "한진",
+  "reportCount": 1,
+  "latestReportNid": "95828",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95828",
+    "writeDate": "2026-08-24",
+    "brokerName": "iM증권",
+    "title": "K-뷰티 등 수요 확대로 글로벌 부문 확장세 지속될 듯",
+    "goalPrice": 19000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 16,
+        "negative": 10
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 14,
+      "earningsNegativeSignalCount": 10,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수주": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95828"
+  ]
+}

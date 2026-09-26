@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "293490",
+  "itemName": "카카오게임즈",
+  "reportCount": 6,
+  "latestReportNid": "95523",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95523",
+    "writeDate": "2026-08-13",
+    "brokerName": "키움증권",
+    "title": "창의적 신작 게임성 요구",
+    "goalPrice": 10000,
+    "normalizedOpinion": "OUTPERFORM",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95523",
+    "95176",
+    "95147",
+    "95097",
+    "93178",
+    "92293"
+  ]
+}

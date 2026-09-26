@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "055550",
+  "itemName": "신한지주",
+  "reportCount": 19,
+  "latestReportNid": "94478",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94478",
+    "writeDate": "2026-07-24",
+    "brokerName": "한화투자증권",
+    "title": "환원 수익률 7% 내외로 투자매력 확보",
+    "goalPrice": 137000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94478",
+    "94467",
+    "94451",
+    "94447",
+    "94443",
+    "94438",
+    "94434",
+    "94392",
+    "94112",
+    "93929",
+    "93876",
+    "93540",
+    "91935",
+    "91923",
+    "91915",
+    "91896",
+    "91885",
+    "91874",
+    "91836"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "126560",
+  "itemName": "현대퓨처넷",
+  "reportCount": 1,
+  "latestReportNid": "96045",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96045",
+    "writeDate": "2026-09-09",
+    "brokerName": "한국IR협의회",
+    "title": "주주환원 조기 이행, ROE 개선이 다음 단계",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96045"
+  ]
+}

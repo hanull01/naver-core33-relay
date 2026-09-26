@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290740",
+  "itemName": "액트로",
+  "reportCount": 4,
+  "latestReportNid": "95878",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95878",
+    "writeDate": "2026-08-26",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 하반기 신사업 전장부품 양산 돌입",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 19,
+        "negative": 8
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 4,
+        "자동차": 2,
+        "반도체": 1,
+        "수요": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95878",
+    "93922",
+    "93313",
+    "91574"
+  ]
+}

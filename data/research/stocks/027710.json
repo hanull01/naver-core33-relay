@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "027710",
+  "itemName": "팜스토리",
+  "reportCount": 1,
+  "latestReportNid": "95970",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95970",
+    "writeDate": "2026-09-02",
+    "brokerName": "한국IR협의회",
+    "title": "안정적인 영업 실적과 주주환원의 확대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95970"
+  ]
+}

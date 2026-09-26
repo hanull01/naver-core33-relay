@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001750",
+  "itemName": "한양증권",
+  "reportCount": 1,
+  "latestReportNid": "93569",
+  "latestWriteDate": "2026-06-17",
+  "latest": {
+    "nid": "93569",
+    "writeDate": "2026-06-17",
+    "brokerName": "한국IR협의회",
+    "title": "사업 다각화에 대한 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93569"
+  ]
+}

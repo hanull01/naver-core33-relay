@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "316140",
+  "itemName": "우리금융지주",
+  "reportCount": 21,
+  "latestReportNid": "95900",
+  "latestWriteDate": "2026-08-27",
+  "latest": {
+    "nid": "95900",
+    "writeDate": "2026-08-27",
+    "brokerName": "하나증권",
+    "title": "3분기 증익 가능성 높다. CET 1 비율도 14% 상회 예상",
+    "goalPrice": 43000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 9
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "환율": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95900",
+    "94616",
+    "94570",
+    "94552",
+    "94549",
+    "94540",
+    "94523",
+    "94512",
+    "94493",
+    "94491",
+    "93811",
+    "92232",
+    "92026",
+    "92014",
+    "92008",
+    "91996",
+    "91981",
+    "91957",
+    "91948",
+    "91936",
+    "91932"
+  ]
+}

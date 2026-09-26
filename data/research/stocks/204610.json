@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204610",
+  "itemName": "티쓰리",
+  "reportCount": 1,
+  "latestReportNid": "95112",
+  "latestWriteDate": "2026-08-06",
+  "latest": {
+    "nid": "95112",
+    "writeDate": "2026-08-06",
+    "brokerName": "한국IR협의회",
+    "title": "주주환원 GOAT",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95112"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "099320",
+  "itemName": "쎄트렉아이",
+  "reportCount": 1,
+  "latestReportNid": "91398",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91398",
+    "writeDate": "2026-04-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 소형 지구관측 위성 시스템 개발 및 수출 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91398"
+  ]
+}

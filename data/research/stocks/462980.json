@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "462980",
+  "itemName": "아이지넷",
+  "reportCount": 1,
+  "latestReportNid": "91668",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91668",
+    "writeDate": "2026-04-17",
+    "brokerName": "키움증권",
+    "title": "보험에 플랫폼 사업을 입히다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91668"
+  ]
+}

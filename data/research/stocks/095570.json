@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "095570",
+  "itemName": "AJ네트웍스",
+  "reportCount": 3,
+  "latestReportNid": "95695",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95695",
+    "writeDate": "2026-08-18",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 로봇 사업의 본격적인 시장 확대 중",
+    "goalPrice": 7000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 33,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 21,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 10,
+        "AI": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95695",
+    "95687",
+    "93195"
+  ]
+}

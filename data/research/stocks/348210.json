@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "348210",
+  "itemName": "넥스틴",
+  "reportCount": 4,
+  "latestReportNid": "95853",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95853",
+    "writeDate": "2026-08-25",
+    "brokerName": "신한투자증권",
+    "title": "시간이 필요해",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 3,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95853",
+    "93042",
+    "91733",
+    "91261"
+  ]
+}

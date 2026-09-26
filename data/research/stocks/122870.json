@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "122870",
+  "itemName": "와이지엔터테인먼트",
+  "reportCount": 24,
+  "latestReportNid": "96280",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96280",
+    "writeDate": "2026-09-22",
+    "brokerName": "SK증권",
+    "title": "BigBang, BlackPink, BabyMonster 그 다음은",
+    "goalPrice": 63000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96280",
+    "95387",
+    "95382",
+    "95373",
+    "95332",
+    "95330",
+    "95299",
+    "94311",
+    "94297",
+    "94263",
+    "94258",
+    "94199",
+    "94178",
+    "93754",
+    "93365",
+    "92746",
+    "92737",
+    "92694",
+    "92682",
+    "92666",
+    "91779",
+    "91577",
+    "91495",
+    "91471"
+  ]
+}

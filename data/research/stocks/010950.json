@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "010950",
+  "itemName": "S-Oil",
+  "reportCount": 18,
+  "latestReportNid": "95920",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95920",
+    "writeDate": "2026-08-28",
+    "brokerName": "유안타증권",
+    "title": "미국 Valero 마진을 넘어서다!",
+    "goalPrice": 205000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95920",
+    "95036",
+    "95027",
+    "95024",
+    "95018",
+    "95017",
+    "94132",
+    "94091",
+    "93937",
+    "93778",
+    "92788",
+    "92776",
+    "92765",
+    "92762",
+    "92760",
+    "92750",
+    "91682",
+    "91639"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "352090",
+  "itemName": "스톰테크",
+  "reportCount": 1,
+  "latestReportNid": "93605",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93605",
+    "writeDate": "2026-06-19",
+    "brokerName": "한국IR협의회",
+    "title": "본업 성장과 배당 매력을 겸비한 정수기 부품사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93605"
+  ]
+}

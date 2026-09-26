@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "052260",
+  "itemName": "현대바이오랜드",
+  "reportCount": 1,
+  "latestReportNid": "91658",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91658",
+    "writeDate": "2026-04-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 천연물 기반 화장품 및 건강기능식품 원료 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91658"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "064400",
+  "itemName": "LG씨엔에스",
+  "reportCount": 14,
+  "latestReportNid": "96235",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96235",
+    "writeDate": "2026-09-18",
+    "brokerName": "미래에셋증권",
+    "title": "DBO 강자, GPUaaS로 확장",
+    "goalPrice": 100000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5,
+        "수요": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96235",
+    "96152",
+    "95346",
+    "95004",
+    "94966",
+    "94929",
+    "94324",
+    "93685",
+    "93216",
+    "92537",
+    "92413",
+    "92318",
+    "92285",
+    "91730"
+  ]
+}

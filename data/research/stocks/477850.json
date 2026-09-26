@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "477850",
+  "itemName": "마키나락스",
+  "reportCount": 1,
+  "latestReportNid": "95229",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95229",
+    "writeDate": "2026-08-07",
+    "brokerName": "키움증권",
+    "title": "마키극락스, 피지컬 AI 전환의 선두에 서다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 9,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95229"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "159010",
+  "itemName": "아스플로",
+  "reportCount": 1,
+  "latestReportNid": "95911",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95911",
+    "writeDate": "2026-08-28",
+    "brokerName": "한국IR협의회",
+    "title": "시공 부품에서 장비 부품으로, 2026년이 진입 원년",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95911"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "377330",
+  "itemName": "이지트로닉스",
+  "reportCount": 1,
+  "latestReportNid": "91400",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91400",
+    "writeDate": "2026-04-10",
+    "brokerName": "서울평가정보",
+    "title": "친환경 모빌리티 시대를 이끄는 전력변환 기술 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91400"
+  ]
+}

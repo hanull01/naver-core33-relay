@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "122900",
+  "itemName": "아이마켓코리아",
+  "reportCount": 2,
+  "latestReportNid": "95674",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95674",
+    "writeDate": "2026-08-18",
+    "brokerName": "IBK투자증권",
+    "title": "배당률 7%, 은행보다 낫다",
+    "goalPrice": 13000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95674",
+    "93277"
+  ]
+}

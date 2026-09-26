@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0120G0",
+  "itemName": "삼양바이오팜",
+  "reportCount": 1,
+  "latestReportNid": "91292",
+  "latestWriteDate": "2026-04-07",
+  "latest": {
+    "nid": "91292",
+    "writeDate": "2026-04-07",
+    "brokerName": "SK증권",
+    "title": "콥데이 후기: 차세대 딜리버리 플랫폼에 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91292"
+  ]
+}

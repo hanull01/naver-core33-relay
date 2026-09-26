@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "126720",
+  "itemName": "수산인더스트리",
+  "reportCount": 1,
+  "latestReportNid": "93292",
+  "latestWriteDate": "2026-05-27",
+  "latest": {
+    "nid": "93292",
+    "writeDate": "2026-05-27",
+    "brokerName": "DS투자증권",
+    "title": "원전 생태계 확대로 기대되는 수혜",
+    "goalPrice": 41000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원전": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93292"
+  ]
+}

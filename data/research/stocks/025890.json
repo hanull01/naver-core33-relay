@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "025890",
+  "itemName": "한국주강",
+  "reportCount": 1,
+  "latestReportNid": "93514",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93514",
+    "writeDate": "2026-06-12",
+    "brokerName": "NICE평가정보",
+    "title": "조선·산업기계·발전 플랜트를 잇는 대형 주강 전문 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93514"
+  ]
+}

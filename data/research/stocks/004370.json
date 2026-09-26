@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "004370",
+  "itemName": "농심",
+  "reportCount": 14,
+  "latestReportNid": "96041",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96041",
+    "writeDate": "2026-09-08",
+    "brokerName": "하나증권",
+    "title": "연말까지 편안해 보인다",
+    "goalPrice": 540000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3,
+        "자동차": 2,
+        "환율": 2,
+        "가격": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96041",
+    "95730",
+    "95711",
+    "95707",
+    "95690",
+    "95664",
+    "94315",
+    "94120",
+    "93837",
+    "93094",
+    "93083",
+    "93078",
+    "93050",
+    "93028"
+  ]
+}

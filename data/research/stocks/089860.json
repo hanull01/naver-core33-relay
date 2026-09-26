@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "089860",
+  "itemName": "롯데렌탈",
+  "reportCount": 15,
+  "latestReportNid": "95977",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95977",
+    "writeDate": "2026-09-02",
+    "brokerName": "하나증권",
+    "title": "배당을 많이 할 것 같아요",
+    "goalPrice": 57000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95977",
+    "95966",
+    "95792",
+    "95421",
+    "95189",
+    "95169",
+    "94329",
+    "94154",
+    "93845",
+    "93839",
+    "93677",
+    "92740",
+    "92678",
+    "92118",
+    "91335"
+  ]
+}

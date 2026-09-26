@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "317330",
+  "itemName": "덕산테코피아",
+  "reportCount": 3,
+  "latestReportNid": "93184",
+  "latestWriteDate": "2026-05-21",
+  "latest": {
+    "nid": "93184",
+    "writeDate": "2026-05-21",
+    "brokerName": "SK증권",
+    "title": "NDR 후기: 2H26 본격 성장 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93184",
+    "92038",
+    "91617"
+  ]
+}

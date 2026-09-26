@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005440",
+  "itemName": "현대지에프홀딩스",
+  "reportCount": 5,
+  "latestReportNid": "95292",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95292",
+    "writeDate": "2026-08-10",
+    "brokerName": "SK증권",
+    "title": "높은 주주환월과 주주 우호적 지배구조 개편",
+    "goalPrice": 20000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95292",
+    "94218",
+    "93707",
+    "93136",
+    "92652"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "064550",
+  "itemName": "바이오니아",
+  "reportCount": 1,
+  "latestReportNid": "91499",
+  "latestWriteDate": "2026-04-14",
+  "latest": {
+    "nid": "91499",
+    "writeDate": "2026-04-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 핵산 원천기술 기반 생명과학 연구 및 진단 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91499"
+  ]
+}

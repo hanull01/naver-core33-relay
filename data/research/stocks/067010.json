@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "067010",
+  "itemName": "이씨에스",
+  "reportCount": 1,
+  "latestReportNid": "96006",
+  "latestWriteDate": "2026-09-04",
+  "latest": {
+    "nid": "96006",
+    "writeDate": "2026-09-04",
+    "brokerName": "NICE평가정보",
+    "title": "AI·클라우드 전환을 주도하는 엔터프라이즈 커뮤니케이션 및 컨택센터 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96006"
+  ]
+}

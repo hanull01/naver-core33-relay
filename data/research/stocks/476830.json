@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "476830",
+  "itemName": "알지노믹스",
+  "reportCount": 7,
+  "latestReportNid": "92089",
+  "latestWriteDate": "2026-04-28",
+  "latest": {
+    "nid": "92089",
+    "writeDate": "2026-04-28",
+    "brokerName": "DS투자증권",
+    "title": "AACR2026 간담회 후기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92089",
+    "91746",
+    "91742",
+    "91728",
+    "91322",
+    "91172",
+    "91122"
+  ]
+}

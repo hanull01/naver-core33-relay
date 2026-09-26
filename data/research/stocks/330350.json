@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "330350",
+  "itemName": "위더스제약",
+  "reportCount": 1,
+  "latestReportNid": "91084",
+  "latestWriteDate": "2026-03-27",
+  "latest": {
+    "nid": "91084",
+    "writeDate": "2026-03-27",
+    "brokerName": "서울평가정보",
+    "title": "제네릭 기반 안정성과 성장 전략을 갖춘 전문의약품 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91084"
+  ]
+}

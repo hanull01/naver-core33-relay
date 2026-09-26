@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005860",
+  "itemName": "한일사료",
+  "reportCount": 1,
+  "latestReportNid": "91392",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91392",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 배합사료 제조 및 축산물 유통 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91392"
+  ]
+}

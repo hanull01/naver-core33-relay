@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "361390",
+  "itemName": "제노코",
+  "reportCount": 1,
+  "latestReportNid": "92487",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92487",
+    "writeDate": "2026-05-06",
+    "brokerName": "유안타증권",
+    "title": "KAI를 등에 업고 우주로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3,
+        "방산": 2,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "92487"
+  ]
+}

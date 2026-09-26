@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "263750",
+  "itemName": "펄어비스",
+  "reportCount": 9,
+  "latestReportNid": "95530",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95530",
+    "writeDate": "2026-08-13",
+    "brokerName": "신한투자증권",
+    "title": "채널 믹스와 성과급으로 실적 부진",
+    "goalPrice": null,
+    "normalizedOpinion": "HOLD",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95530",
+    "95481",
+    "95469",
+    "93784",
+    "92867",
+    "92866",
+    "92857",
+    "92115",
+    "91121"
+  ]
+}

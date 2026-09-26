@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "009540",
+  "itemName": "HD한국조선해양",
+  "reportCount": 7,
+  "latestReportNid": "95860",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95860",
+    "writeDate": "2026-08-25",
+    "brokerName": "유안타증권",
+    "title": "무적의 손익비, 주주환원 확대의 적기",
+    "goalPrice": 532000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95860",
+    "94735",
+    "94186",
+    "92619",
+    "92589",
+    "91664",
+    "91624"
+  ]
+}

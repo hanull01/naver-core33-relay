@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "003540",
+  "itemName": "대신증권",
+  "reportCount": 3,
+  "latestReportNid": "95474",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95474",
+    "writeDate": "2026-08-12",
+    "brokerName": "SK증권",
+    "title": "2Q26 Review: 평가이익이 견인한 어닝 서프라이즈",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95474",
+    "94578",
+    "93121"
+  ]
+}

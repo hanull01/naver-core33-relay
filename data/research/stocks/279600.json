@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "279600",
+  "itemName": "미디어젠",
+  "reportCount": 1,
+  "latestReportNid": "93857",
+  "latestWriteDate": "2026-07-03",
+  "latest": {
+    "nid": "93857",
+    "writeDate": "2026-07-03",
+    "brokerName": "서울평가정보",
+    "title": "차량용 음성 AI 기반 생성형 AI, 공공·교육·상담, 하드웨어 결합 솔루션으로 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93857"
+  ]
+}

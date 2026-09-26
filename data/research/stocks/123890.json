@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "123890",
+  "itemName": "한국자산신탁",
+  "reportCount": 1,
+  "latestReportNid": "95921",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95921",
+    "writeDate": "2026-08-28",
+    "brokerName": "한화투자증권",
+    "title": "정비 사업으로 체질 개선 기대",
+    "goalPrice": 3700,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95921"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "418620",
+  "itemName": "E8",
+  "reportCount": 1,
+  "latestReportNid": "93743",
+  "latestWriteDate": "2026-06-29",
+  "latest": {
+    "nid": "93743",
+    "writeDate": "2026-06-29",
+    "brokerName": "한화투자증권",
+    "title": "정상화의 시작, 온톨로지로 넓어지는 기회",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93743"
+  ]
+}

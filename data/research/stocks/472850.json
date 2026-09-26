@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "472850",
+  "itemName": "폰드그룹",
+  "reportCount": 2,
+  "latestReportNid": "95034",
+  "latestWriteDate": "2026-08-04",
+  "latest": {
+    "nid": "95034",
+    "writeDate": "2026-08-04",
+    "brokerName": "유안타증권",
+    "title": "M&A 통한 성장 & 사업부간 시너지 효과 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 11,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95034",
+    "92476"
+  ]
+}

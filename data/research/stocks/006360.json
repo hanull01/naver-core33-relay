@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006360",
+  "itemName": "GS건설",
+  "reportCount": 34,
+  "latestReportNid": "96263",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96263",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "데이터센터의 전통 강자",
+    "goalPrice": 45000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96263",
+    "95919",
+    "95552",
+    "94943",
+    "94787",
+    "94778",
+    "94773",
+    "94768",
+    "94763",
+    "94750",
+    "94747",
+    "94742",
+    "94734",
+    "94714",
+    "94197",
+    "94173",
+    "94092",
+    "94082",
+    "94065",
+    "94049",
+    "93961",
+    "93815",
+    "93555",
+    "92393",
+    "92373",
+    "92332",
+    "92313",
+    "92300",
+    "92284",
+    "91535",
+    "91424",
+    "91383",
+    "91354",
+    "91337"
+  ]
+}

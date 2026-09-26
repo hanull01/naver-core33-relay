@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "100840",
+  "itemName": "SNT에너지",
+  "reportCount": 3,
+  "latestReportNid": "95931",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95931",
+    "writeDate": "2026-08-31",
+    "brokerName": "iM증권",
+    "title": "중동 복구·재건 수혜 및 북미 LNG 프로젝트향 수주 확대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 5,
+        "AI": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95931",
+    "91243",
+    "91218"
+  ]
+}

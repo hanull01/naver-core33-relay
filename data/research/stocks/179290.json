@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "179290",
+  "itemName": "엠아이텍",
+  "reportCount": 1,
+  "latestReportNid": "93722",
+  "latestWriteDate": "2026-06-29",
+  "latest": {
+    "nid": "93722",
+    "writeDate": "2026-06-29",
+    "brokerName": "한국IR협의회",
+    "title": "양질의 성장 기반을 다질 2026년",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93722"
+  ]
+}

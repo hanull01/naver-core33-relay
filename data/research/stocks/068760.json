@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "068760",
+  "itemName": "셀트리온제약",
+  "reportCount": 1,
+  "latestReportNid": "95969",
+  "latestWriteDate": "2026-09-02",
+  "latest": {
+    "nid": "95969",
+    "writeDate": "2026-09-02",
+    "brokerName": "IBK투자증권",
+    "title": "모회사가 앞에서 끌고, 한국 정부가 뒤에서 민다",
+    "goalPrice": 61000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95969"
+  ]
+}

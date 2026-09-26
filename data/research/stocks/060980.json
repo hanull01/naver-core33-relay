@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "060980",
+  "itemName": "HL홀딩스",
+  "reportCount": 2,
+  "latestReportNid": "93359",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93359",
+    "writeDate": "2026-05-29",
+    "brokerName": "하나증권",
+    "title": "지분가치 상승을 반영하여 목표주가 상향",
+    "goalPrice": 55000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 14,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93359",
+    "93051"
+  ]
+}

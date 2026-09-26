@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "178920",
+  "itemName": "PI첨단소재",
+  "reportCount": 1,
+  "latestReportNid": "92453",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92453",
+    "writeDate": "2026-05-06",
+    "brokerName": "iM증권",
+    "title": "판가 ↑ 고부가가치 비중 ↑ = 수익성 개선 가속화",
+    "goalPrice": 38000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92453"
+  ]
+}

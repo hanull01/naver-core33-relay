@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204320",
+  "itemName": "HL만도",
+  "reportCount": 22,
+  "latestReportNid": "95009",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "95009",
+    "writeDate": "2026-08-03",
+    "brokerName": "DS투자증권",
+    "title": "전장 믹스로 원가 역풍을 흡수",
+    "goalPrice": 81000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2,
+        "가격": 1,
+        "반도체": 1,
+        "수주": 1,
+        "자동차": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95009",
+    "94913",
+    "94908",
+    "94902",
+    "94861",
+    "94842",
+    "94827",
+    "94209",
+    "94187",
+    "93832",
+    "93747",
+    "92361",
+    "92265",
+    "92257",
+    "92237",
+    "92210",
+    "92203",
+    "92196",
+    "91875",
+    "91711",
+    "91614",
+    "91369"
+  ]
+}

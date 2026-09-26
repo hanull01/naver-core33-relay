@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "078860",
+  "itemName": "아이오케이이엔엠",
+  "reportCount": 1,
+  "latestReportNid": "95197",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95197",
+    "writeDate": "2026-08-07",
+    "brokerName": "NICE평가정보",
+    "title": "아티스트 IP와 영상콘텐츠 사업을 결합한 종합 엔터테인먼트 콘텐츠 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95197"
+  ]
+}

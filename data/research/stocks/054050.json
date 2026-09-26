@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "054050",
+  "itemName": "NH농우바이오",
+  "reportCount": 1,
+  "latestReportNid": "94488",
+  "latestWriteDate": "2026-07-27",
+  "latest": {
+    "nid": "94488",
+    "writeDate": "2026-07-27",
+    "brokerName": "한국IR협의회",
+    "title": "국내 1위 채소종자 기업의 글로벌 확장기",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94488"
+  ]
+}

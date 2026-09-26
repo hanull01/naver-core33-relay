@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "474650",
+  "itemName": "링크솔루션",
+  "reportCount": 1,
+  "latestReportNid": "95877",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95877",
+    "writeDate": "2026-08-26",
+    "brokerName": "신한투자증권",
+    "title": "NDR 후기: 첫 파운드리 수주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 5
+      }
+    }
+  },
+  "reportNids": [
+    "95877"
+  ]
+}

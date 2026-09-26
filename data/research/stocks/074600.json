@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "074600",
+  "itemName": "원익QnC",
+  "reportCount": 4,
+  "latestReportNid": "95544",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95544",
+    "writeDate": "2026-08-13",
+    "brokerName": "신한투자증권",
+    "title": "다시 한번 성장 증명",
+    "goalPrice": 50000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95544",
+    "95091",
+    "93398",
+    "92761"
+  ]
+}

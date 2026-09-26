@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "207490",
+  "itemName": "에이펙스인텍",
+  "reportCount": 1,
+  "latestReportNid": "93409",
+  "latestWriteDate": "2026-06-05",
+  "latest": {
+    "nid": "93409",
+    "writeDate": "2026-06-05",
+    "brokerName": "서울평가정보",
+    "title": "공공 인프라용 LED 조명 기술 기반 사업 영역 확장 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93409"
+  ]
+}

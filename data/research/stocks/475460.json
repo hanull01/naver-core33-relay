@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "475460",
+  "itemName": "미트박스",
+  "reportCount": 1,
+  "latestReportNid": "93299",
+  "latestWriteDate": "2026-05-28",
+  "latest": {
+    "nid": "93299",
+    "writeDate": "2026-05-28",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 축산물 온라인 B2B 유통 플랫폼 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 3,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93299"
+  ]
+}

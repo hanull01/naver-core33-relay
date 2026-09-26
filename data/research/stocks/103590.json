@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "103590",
+  "itemName": "일진전기",
+  "reportCount": 8,
+  "latestReportNid": "95826",
+  "latestWriteDate": "2026-08-24",
+  "latest": {
+    "nid": "95826",
+    "writeDate": "2026-08-24",
+    "brokerName": "SK증권",
+    "title": "투자를 먼저 끝낸 회사의 수확기의 모습",
+    "goalPrice": 124000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95826",
+    "95489",
+    "95479",
+    "94248",
+    "94159",
+    "93500",
+    "93079",
+    "91542"
+  ]
+}

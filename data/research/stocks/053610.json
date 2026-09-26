@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053610",
+  "itemName": "프로텍",
+  "reportCount": 1,
+  "latestReportNid": "93933",
+  "latestWriteDate": "2026-07-07",
+  "latest": {
+    "nid": "93933",
+    "writeDate": "2026-07-07",
+    "brokerName": "대신증권",
+    "title": "자회사 적자 축소 본업도 업사이클",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93933"
+  ]
+}

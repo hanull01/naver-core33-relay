@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "355390",
+  "itemName": "크라우드웍스",
+  "reportCount": 1,
+  "latestReportNid": "95586",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95586",
+    "writeDate": "2026-08-14",
+    "brokerName": "서울평가정보",
+    "title": "AI 데이터 구축 역량 기반 사업영역을 확장하는 통합 AI 데이터 파운드리 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 8,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95586"
+  ]
+}

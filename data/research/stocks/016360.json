@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "016360",
+  "itemName": "삼성증권",
+  "reportCount": 22,
+  "latestReportNid": "96078",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96078",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "코스피 장세 수혜주",
+    "goalPrice": 155000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 8
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "금리": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96078",
+    "95259",
+    "95081",
+    "95076",
+    "95075",
+    "95064",
+    "95057",
+    "95052",
+    "94142",
+    "93867",
+    "93108",
+    "93019",
+    "92790",
+    "92781",
+    "92775",
+    "92771",
+    "92769",
+    "92764",
+    "92763",
+    "91314",
+    "91298",
+    "91257"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "144960",
+  "itemName": "뉴파워프라즈마",
+  "reportCount": 4,
+  "latestReportNid": "95398",
+  "latestWriteDate": "2026-08-11",
+  "latest": {
+    "nid": "95398",
+    "writeDate": "2026-08-11",
+    "brokerName": "한국IR협의회",
+    "title": "국내를 넘어 해외가 이끄는 성장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수요": 2,
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95398",
+    "94360",
+    "94222",
+    "93883"
+  ]
+}

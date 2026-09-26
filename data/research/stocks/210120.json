@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "210120",
+  "itemName": "캔버스엔",
+  "reportCount": 1,
+  "latestReportNid": "91402",
+  "latestWriteDate": "2026-04-10",
+  "latest": {
+    "nid": "91402",
+    "writeDate": "2026-04-10",
+    "brokerName": "서울평가정보",
+    "title": "IP 기반 유통과 콘텐츠 확장을 중심으로 재편 중인 콘텐츠 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91402"
+  ]
+}

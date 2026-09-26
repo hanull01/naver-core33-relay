@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "214150",
+  "itemName": "클래시스",
+  "reportCount": 18,
+  "latestReportNid": "95917",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95917",
+    "writeDate": "2026-08-28",
+    "brokerName": "신한투자증권",
+    "title": "NDR 후기: 눈높이 하향 반영 완료",
+    "goalPrice": 62000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95917",
+    "95705",
+    "95634",
+    "95625",
+    "95583",
+    "95556",
+    "95518",
+    "94849",
+    "94375",
+    "94220",
+    "92954",
+    "92931",
+    "92919",
+    "92908",
+    "92897",
+    "92883",
+    "91581",
+    "91544"
+  ]
+}

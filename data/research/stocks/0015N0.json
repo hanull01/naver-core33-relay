@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0015N0",
+  "itemName": "아로마티카",
+  "reportCount": 3,
+  "latestReportNid": "96040",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96040",
+    "writeDate": "2026-09-08",
+    "brokerName": "하나증권",
+    "title": "K-두피케어를 세계에 알리다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96040",
+    "95050",
+    "93659"
+  ]
+}

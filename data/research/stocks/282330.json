@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "282330",
+  "itemName": "BGF리테일",
+  "reportCount": 23,
+  "latestReportNid": "96132",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96132",
+    "writeDate": "2026-09-14",
+    "brokerName": "대신증권",
+    "title": "소비 쿠폰 기저 부담 불구, 호실적 전망",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96132",
+    "95436",
+    "95414",
+    "95274",
+    "95269",
+    "95257",
+    "95241",
+    "95226",
+    "95208",
+    "94078",
+    "94064",
+    "94023",
+    "93874",
+    "93661",
+    "93614",
+    "93160",
+    "93104",
+    "92708",
+    "92647",
+    "92601",
+    "92570",
+    "92559",
+    "91269"
+  ]
+}

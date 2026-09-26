@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011170",
+  "itemName": "롯데케미칼",
+  "reportCount": 11,
+  "latestReportNid": "95357",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95357",
+    "writeDate": "2026-08-10",
+    "brokerName": "유안타증권",
+    "title": "다시, 2027년까지 인내가 필요하다!",
+    "goalPrice": 134000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95357",
+    "95336",
+    "95321",
+    "95311",
+    "95298",
+    "92809",
+    "92789",
+    "92777",
+    "92770",
+    "92766",
+    "92752"
+  ]
+}

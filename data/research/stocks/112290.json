@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "112290",
+  "itemName": "와이씨켐",
+  "reportCount": 1,
+  "latestReportNid": "94129",
+  "latestWriteDate": "2026-07-14",
+  "latest": {
+    "nid": "94129",
+    "writeDate": "2026-07-14",
+    "brokerName": "키움증권",
+    "title": "턴어라운드를 넘어",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94129"
+  ]
+}

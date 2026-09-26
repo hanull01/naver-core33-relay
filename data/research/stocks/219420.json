@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "219420",
+  "itemName": "링크제니시스",
+  "reportCount": 1,
+  "latestReportNid": "96222",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96222",
+    "writeDate": "2026-09-18",
+    "brokerName": "한국IR협의회",
+    "title": "반도체 업황 개선 수혜 소프트웨어 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96222"
+  ]
+}

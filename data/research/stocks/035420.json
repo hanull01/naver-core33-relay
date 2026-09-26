@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "035420",
+  "itemName": "NAVER",
+  "reportCount": 36,
+  "latestReportNid": "96232",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96232",
+    "writeDate": "2026-09-18",
+    "brokerName": "미래에셋증권",
+    "title": "대형 테넌트 계약이 필요",
+    "goalPrice": 280000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5,
+        "수요": 4
+      }
+    }
+  },
+  "reportNids": [
+    "96232",
+    "96209",
+    "96033",
+    "95787",
+    "95606",
+    "95383",
+    "95378",
+    "95366",
+    "95361",
+    "95347",
+    "95333",
+    "95306",
+    "95283",
+    "95098",
+    "94629",
+    "94059",
+    "93827",
+    "93817",
+    "93578",
+    "93465",
+    "93464",
+    "93459",
+    "93452",
+    "93450",
+    "93449",
+    "93344",
+    "93214",
+    "92428",
+    "92414",
+    "92402",
+    "92382",
+    "92353",
+    "91550",
+    "91517",
+    "91362",
+    "91233"
+  ]
+}

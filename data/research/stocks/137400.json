@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "137400",
+  "itemName": "피엔티",
+  "reportCount": 1,
+  "latestReportNid": "95947",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95947",
+    "writeDate": "2026-09-01",
+    "brokerName": "미래에셋증권",
+    "title": "고객사 다변화. 소재 사업 방향성이 중요",
+    "goalPrice": 40000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 2,
+        "중국": 2,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95947"
+  ]
+}

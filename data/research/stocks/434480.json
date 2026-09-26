@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "434480",
+  "itemName": "모니터랩",
+  "reportCount": 1,
+  "latestReportNid": "93519",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93519",
+    "writeDate": "2026-06-12",
+    "brokerName": "미래에셋증권",
+    "title": "B2B 사이버보안 전문 회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 3
+      }
+    }
+  },
+  "reportNids": [
+    "93519"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "189330",
+  "itemName": "씨이랩",
+  "reportCount": 2,
+  "latestReportNid": "95227",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95227",
+    "writeDate": "2026-08-07",
+    "brokerName": "SK증권",
+    "title": "탐방노트: 숨겨진 데이터센터 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 8,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95227",
+    "94497"
+  ]
+}

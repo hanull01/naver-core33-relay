@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "237880",
+  "itemName": "클리오",
+  "reportCount": 2,
+  "latestReportNid": "96015",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96015",
+    "writeDate": "2026-09-07",
+    "brokerName": "IBK투자증권",
+    "title": "탐방노트: 북미 성장과 비효율 채널 정리 효과 가시화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 7
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 3
+      }
+    }
+  },
+  "reportNids": [
+    "96015",
+    "93926"
+  ]
+}

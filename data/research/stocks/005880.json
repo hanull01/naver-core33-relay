@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005880",
+  "itemName": "대한해운",
+  "reportCount": 3,
+  "latestReportNid": "95783",
+  "latestWriteDate": "2026-08-20",
+  "latest": {
+    "nid": "95783",
+    "writeDate": "2026-08-20",
+    "brokerName": "하나증권",
+    "title": "Next Step을 기대하며",
+    "goalPrice": 2500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 3
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95783",
+    "95686",
+    "93036"
+  ]
+}

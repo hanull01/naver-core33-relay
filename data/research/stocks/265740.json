@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "265740",
+  "itemName": "엔에프씨",
+  "reportCount": 4,
+  "latestReportNid": "96228",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96228",
+    "writeDate": "2026-09-18",
+    "brokerName": "하나증권",
+    "title": "거침없는 ODM 사업 확장",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 1
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96228",
+    "96009",
+    "94720",
+    "93593"
+  ]
+}

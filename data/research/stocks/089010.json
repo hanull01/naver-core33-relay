@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "089010",
+  "itemName": "켐트로닉스",
+  "reportCount": 1,
+  "latestReportNid": "93122",
+  "latestWriteDate": "2026-05-19",
+  "latest": {
+    "nid": "93122",
+    "writeDate": "2026-05-19",
+    "brokerName": "신한투자증권",
+    "title": "반도체 소재 및 유리기판 기대감 유효",
+    "goalPrice": 49000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93122"
+  ]
+}

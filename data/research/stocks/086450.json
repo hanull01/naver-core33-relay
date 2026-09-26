@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086450",
+  "itemName": "동국제약",
+  "reportCount": 2,
+  "latestReportNid": "94239",
+  "latestWriteDate": "2026-07-16",
+  "latest": {
+    "nid": "94239",
+    "writeDate": "2026-07-16",
+    "brokerName": "하나증권",
+    "title": "해외 산업 탄력을 받다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 7,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94239",
+    "92654"
+  ]
+}

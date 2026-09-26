@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "0017J0",
+  "itemName": "세미티에스",
+  "reportCount": 1,
+  "latestReportNid": "96102",
+  "latestWriteDate": "2026-09-11",
+  "latest": {
+    "nid": "96102",
+    "writeDate": "2026-09-11",
+    "brokerName": "DS투자증권",
+    "title": "반도체 생산성 개선의 숨은 조력자",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96102"
+  ]
+}

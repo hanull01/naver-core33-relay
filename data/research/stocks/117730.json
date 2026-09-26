@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "117730",
+  "itemName": "티로보틱스",
+  "reportCount": 1,
+  "latestReportNid": "96292",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96292",
+    "writeDate": "2026-09-23",
+    "brokerName": "SK증권",
+    "title": "실적 턴어라운드 + 휴머노이드 사업 시작",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "로봇": 9,
+        "AI": 1,
+        "반도체": 1,
+        "배터리": 1,
+        "수요": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96292"
+  ]
+}

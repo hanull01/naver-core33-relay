@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "005070",
+  "itemName": "코스모신소재",
+  "reportCount": 2,
+  "latestReportNid": "94362",
+  "latestWriteDate": "2026-07-23",
+  "latest": {
+    "nid": "94362",
+    "writeDate": "2026-07-23",
+    "brokerName": "SK증권",
+    "title": "26년 MLCC 소재, 27년 다시 양극재",
+    "goalPrice": 48000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94362",
+    "93067"
+  ]
+}

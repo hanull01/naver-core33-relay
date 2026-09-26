@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "075580",
+  "itemName": "세진중공업",
+  "reportCount": 2,
+  "latestReportNid": "95952",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95952",
+    "writeDate": "2026-09-01",
+    "brokerName": "신한투자증권",
+    "title": "LPG 호황, 탱크 물량부터 채워진다",
+    "goalPrice": 18500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95952",
+    "91113"
+  ]
+}

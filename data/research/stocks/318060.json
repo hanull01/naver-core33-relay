@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "318060",
+  "itemName": "그래피",
+  "reportCount": 2,
+  "latestReportNid": "95912",
+  "latestWriteDate": "2026-08-28",
+  "latest": {
+    "nid": "95912",
+    "writeDate": "2026-08-28",
+    "brokerName": "한국IR협의회",
+    "title": "형상기억 소재에서 디지털 덴티스트리로 진화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 9,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95912",
+    "94152"
+  ]
+}

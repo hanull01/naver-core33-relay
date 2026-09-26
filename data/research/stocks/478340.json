@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "478340",
+  "itemName": "나라스페이스테크놀로지",
+  "reportCount": 1,
+  "latestReportNid": "92484",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92484",
+    "writeDate": "2026-05-06",
+    "brokerName": "유안타증권",
+    "title": "NASA가 인정한 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92484"
+  ]
+}

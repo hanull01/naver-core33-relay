@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "041020",
+  "itemName": "폴라리스오피스",
+  "reportCount": 1,
+  "latestReportNid": "96267",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96267",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] AI 오피스 소프트웨어 플랫폼 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 7,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96267"
+  ]
+}

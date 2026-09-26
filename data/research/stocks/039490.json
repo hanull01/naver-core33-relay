@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "039490",
+  "itemName": "키움증권",
+  "reportCount": 21,
+  "latestReportNid": "96082",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96082",
+    "writeDate": "2026-09-10",
+    "brokerName": "유안타증권",
+    "title": "개인투자자 회전율 회복에 따라 주가 상승",
+    "goalPrice": 470000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 13
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96082",
+    "94924",
+    "94896",
+    "94885",
+    "94879",
+    "94848",
+    "94824",
+    "94809",
+    "94367",
+    "93865",
+    "93420",
+    "92418",
+    "92411",
+    "92410",
+    "92366",
+    "92337",
+    "92316",
+    "92314",
+    "92283",
+    "91460",
+    "91256"
+  ]
+}

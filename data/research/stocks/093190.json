@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "093190",
+  "itemName": "빅솔론",
+  "reportCount": 1,
+  "latestReportNid": "91757",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91757",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] POS 주변기기 전문 제조 및 글로벌 유통 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "미국": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91757"
+  ]
+}

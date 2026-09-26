@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "186230",
+  "itemName": "그린플러스",
+  "reportCount": 1,
+  "latestReportNid": "93338",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93338",
+    "writeDate": "2026-05-29",
+    "brokerName": "서울평가정보",
+    "title": "첨단온실 인프라 시장에서 경쟁우위를 보유한 통합형 스마트팜 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93338"
+  ]
+}

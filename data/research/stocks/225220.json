@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "225220",
+  "itemName": "제놀루션",
+  "reportCount": 1,
+  "latestReportNid": "94794",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94794",
+    "writeDate": "2026-07-31",
+    "brokerName": "NICE평가정보",
+    "title": "RNA 기술 하나로 진단과 그린바이오를 잇는 분자생명과학 플랫폼 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94794"
+  ]
+}

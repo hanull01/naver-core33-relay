@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290650",
+  "itemName": "엘앤씨바이오",
+  "reportCount": 3,
+  "latestReportNid": "94987",
+  "latestWriteDate": "2026-08-03",
+  "latest": {
+    "nid": "94987",
+    "writeDate": "2026-08-03",
+    "brokerName": "유안타증권",
+    "title": "유상증자, 투자 시점과 규모의 문제",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 3,
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94987",
+    "94141",
+    "93378"
+  ]
+}

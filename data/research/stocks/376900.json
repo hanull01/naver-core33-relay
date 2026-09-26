@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "376900",
+  "itemName": "로킷헬스케어",
+  "reportCount": 1,
+  "latestReportNid": "93709",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93709",
+    "writeDate": "2026-06-26",
+    "brokerName": "SK증권",
+    "title": "[IPO 기업 업데이트] 하반기 모멘텀에 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93709"
+  ]
+}

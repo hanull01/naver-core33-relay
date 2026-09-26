@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "044990",
+  "itemName": "에이치엔에스하이텍",
+  "reportCount": 1,
+  "latestReportNid": "93511",
+  "latestWriteDate": "2026-06-11",
+  "latest": {
+    "nid": "93511",
+    "writeDate": "2026-06-11",
+    "brokerName": "미래에셋증권",
+    "title": "ACF 기반 확장성, 본업으로 받치는 안정성",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93511"
+  ]
+}

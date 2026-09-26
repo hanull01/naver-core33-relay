@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "460940",
+  "itemName": "피앤에스로보틱스",
+  "reportCount": 1,
+  "latestReportNid": "93606",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93606",
+    "writeDate": "2026-06-19",
+    "brokerName": "키움증권",
+    "title": "해외 시장 진출 가속화와 신규 제품 모멘텀까지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 3,
+        "로봇": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93606"
+  ]
+}

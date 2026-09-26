@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034230",
+  "itemName": "파라다이스",
+  "reportCount": 8,
+  "latestReportNid": "95374",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95374",
+    "writeDate": "2026-08-10",
+    "brokerName": "하나증권",
+    "title": "실적 부진과 세율 인상 우려까지 다 반영된 주가",
+    "goalPrice": 18000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 5
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95374",
+    "95335",
+    "95115",
+    "93351",
+    "92663",
+    "92542",
+    "92513",
+    "91786"
+  ]
+}

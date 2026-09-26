@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "079960",
+  "itemName": "동양이엔피",
+  "reportCount": 1,
+  "latestReportNid": "91684",
+  "latestWriteDate": "2026-04-20",
+  "latest": {
+    "nid": "91684",
+    "writeDate": "2026-04-20",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전자부품 제조 및 공급 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 4,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "91684"
+  ]
+}

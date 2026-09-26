@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "122640",
+  "itemName": "예스티",
+  "reportCount": 2,
+  "latestReportNid": "95956",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95956",
+    "writeDate": "2026-09-01",
+    "brokerName": "유안타증권",
+    "title": "하반기부터 본격적 반도체 장비 실적 반영",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 6,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95956",
+    "93423"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "124500",
+  "itemName": "아이티센글로벌",
+  "reportCount": 1,
+  "latestReportNid": "91390",
+  "latestWriteDate": "2026-04-09",
+  "latest": {
+    "nid": "91390",
+    "writeDate": "2026-04-09",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] IT 서비스, 웹3, 투자 아우르는 복합 사업 그룹",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 5
+      }
+    }
+  },
+  "reportNids": [
+    "91390"
+  ]
+}

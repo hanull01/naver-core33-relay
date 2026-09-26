@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "347890",
+  "itemName": "엠엑스온",
+  "reportCount": 1,
+  "latestReportNid": "91760",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91760",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "반도체 팹 증설 사이클의 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 3,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91760"
+  ]
+}

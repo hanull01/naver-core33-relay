@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "462350",
+  "itemName": "이노스페이스",
+  "reportCount": 1,
+  "latestReportNid": "92485",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92485",
+    "writeDate": "2026-05-06",
+    "brokerName": "유안타증권",
+    "title": "나 쏠 수 있어!",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92485"
+  ]
+}

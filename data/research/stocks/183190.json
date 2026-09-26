@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "183190",
+  "itemName": "아세아시멘트",
+  "reportCount": 1,
+  "latestReportNid": "93769",
+  "latestWriteDate": "2026-06-30",
+  "latest": {
+    "nid": "93769",
+    "writeDate": "2026-06-30",
+    "brokerName": "신한투자증권",
+    "title": "아세아시멘트; 착공 현장이 늘어난다",
+    "goalPrice": 16000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93769"
+  ]
+}

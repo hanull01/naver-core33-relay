@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "029780",
+  "itemName": "삼성카드",
+  "reportCount": 2,
+  "latestReportNid": "94624",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94624",
+    "writeDate": "2026-07-28",
+    "brokerName": "하나증권",
+    "title": "만만치 않은 영업환경. 일부 자사주 활용 방안 검토 필요",
+    "goalPrice": 66000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "금리": 6,
+        "원가": 5
+      }
+    }
+  },
+  "reportNids": [
+    "94624",
+    "93682"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "457370",
+  "itemName": "한켐",
+  "reportCount": 1,
+  "latestReportNid": "91083",
+  "latestWriteDate": "2026-03-27",
+  "latest": {
+    "nid": "91083",
+    "writeDate": "2026-03-27",
+    "brokerName": "서울평가정보",
+    "title": "유기화합물 합성·정제 기술 기반의 첨단 기능성 화학소재 플랫폼 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91083"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "394280",
+  "itemName": "오픈엣지테크놀로지",
+  "reportCount": 3,
+  "latestReportNid": "93859",
+  "latestWriteDate": "2026-07-03",
+  "latest": {
+    "nid": "93859",
+    "writeDate": "2026-07-03",
+    "brokerName": "한국IR협의회",
+    "title": "AI SoC 병목을 푸는 인프라 IP 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 4
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 6,
+        "반도체": 4,
+        "수주": 2,
+        "원가": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93859",
+    "91790",
+    "91096"
+  ]
+}

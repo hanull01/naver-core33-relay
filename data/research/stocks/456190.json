@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "456190",
+  "itemName": "큐라켐",
+  "reportCount": 1,
+  "latestReportNid": "93517",
+  "latestWriteDate": "2026-06-12",
+  "latest": {
+    "nid": "93517",
+    "writeDate": "2026-06-12",
+    "brokerName": "서울평가정보",
+    "title": "신약후보물질 체내동태 평가용 방사성동위원소 표지화합물 합성을 선도하는 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93517"
+  ]
+}

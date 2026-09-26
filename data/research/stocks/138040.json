@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "138040",
+  "itemName": "메리츠금융지주",
+  "reportCount": 8,
+  "latestReportNid": "95633",
+  "latestWriteDate": "2026-08-14",
+  "latest": {
+    "nid": "95633",
+    "writeDate": "2026-08-14",
+    "brokerName": "대신증권",
+    "title": "화재가 견인한 2분기 서프",
+    "goalPrice": 140000,
+    "normalizedOpinion": "MARKETPERFORM",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95633",
+    "95592",
+    "95545",
+    "95536",
+    "95522",
+    "93442",
+    "93295",
+    "93018"
+  ]
+}

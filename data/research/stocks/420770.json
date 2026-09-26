@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "420770",
+  "itemName": "기가비스",
+  "reportCount": 5,
+  "latestReportNid": "96119",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96119",
+    "writeDate": "2026-09-14",
+    "brokerName": "iM증권",
+    "title": "기가비스 화성 신사옥(제2공장) 탐방기",
+    "goalPrice": 155000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 11,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96119",
+    "96112",
+    "95699",
+    "94846",
+    "92595"
+  ]
+}

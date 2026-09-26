@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "053620",
+  "itemName": "태양",
+  "reportCount": 1,
+  "latestReportNid": "91752",
+  "latestWriteDate": "2026-04-22",
+  "latest": {
+    "nid": "91752",
+    "writeDate": "2026-04-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 금속 용기 제조 및 판매 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91752"
+  ]
+}

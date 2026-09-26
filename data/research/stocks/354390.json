@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "354390",
+  "itemName": "바스칸바이오제약",
+  "reportCount": 1,
+  "latestReportNid": "94044",
+  "latestWriteDate": "2026-07-10",
+  "latest": {
+    "nid": "94044",
+    "writeDate": "2026-07-10",
+    "brokerName": "NICE평가정보",
+    "title": "수술의 시작과 끝을 함께하는 외과 특화 의약품·의료기기 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "94044"
+  ]
+}

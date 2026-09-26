@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "048910",
+  "itemName": "대원미디어",
+  "reportCount": 2,
+  "latestReportNid": "96192",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96192",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 애니메이션 IP 기반 종합 엔터테인먼트 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96192",
+    "95985"
+  ]
+}

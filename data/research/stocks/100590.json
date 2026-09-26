@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "100590",
+  "itemName": "머큐리",
+  "reportCount": 2,
+  "latestReportNid": "92478",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92478",
+    "writeDate": "2026-05-06",
+    "brokerName": "유안타증권",
+    "title": "#광케이블 #WiFi7",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 2,
+        "가격": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92478",
+    "91509"
+  ]
+}

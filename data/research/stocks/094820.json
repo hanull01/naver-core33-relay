@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "094820",
+  "itemName": "일진파워",
+  "reportCount": 1,
+  "latestReportNid": "94252",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94252",
+    "writeDate": "2026-07-20",
+    "brokerName": "서울평가정보",
+    "title": "발전정비 안정성 기반으로 사업영역을 확장하는 종합 에너지 인프라 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1,
+        "원전": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94252"
+  ]
+}

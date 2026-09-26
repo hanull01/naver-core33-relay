@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "034220",
+  "itemName": "LG디스플레이",
+  "reportCount": 19,
+  "latestReportNid": "96240",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96240",
+    "writeDate": "2026-09-21",
+    "brokerName": "iM증권",
+    "title": "3Q26 실적 개선폭 둔화 예상",
+    "goalPrice": 11500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 6
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 7,
+        "수요": 5,
+        "반도체": 2,
+        "환율": 2,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96240",
+    "96210",
+    "96147",
+    "94865",
+    "94370",
+    "94368",
+    "94363",
+    "94357",
+    "93862",
+    "93748",
+    "93681",
+    "93564",
+    "93536",
+    "93493",
+    "91883",
+    "91876",
+    "91865",
+    "91861",
+    "91523"
+  ]
+}

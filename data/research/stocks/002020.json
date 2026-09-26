@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "002020",
+  "itemName": "코오롱",
+  "reportCount": 1,
+  "latestReportNid": "93088",
+  "latestWriteDate": "2026-05-18",
+  "latest": {
+    "nid": "93088",
+    "writeDate": "2026-05-18",
+    "brokerName": "한화투자증권",
+    "title": "1Q26 Review : Kolon Sport China 전망치 상향",
+    "goalPrice": 100000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 3,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93088"
+  ]
+}

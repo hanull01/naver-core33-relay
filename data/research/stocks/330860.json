@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "330860",
+  "itemName": "네패스아크",
+  "reportCount": 2,
+  "latestReportNid": "94354",
+  "latestWriteDate": "2026-07-23",
+  "latest": {
+    "nid": "94354",
+    "writeDate": "2026-07-23",
+    "brokerName": "키움증권",
+    "title": "하반기 모멘텀 본격화 주목",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 4
+      }
+    }
+  },
+  "reportNids": [
+    "94354",
+    "91841"
+  ]
+}

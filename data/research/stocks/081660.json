@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "081660",
+  "itemName": "미스토홀딩스",
+  "reportCount": 12,
+  "latestReportNid": "96043",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96043",
+    "writeDate": "2026-09-08",
+    "brokerName": "대신증권",
+    "title": "연말 배당 시즌 앞두고 투자하기에 매우 좋은",
+    "goalPrice": 60000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96043",
+    "95735",
+    "95693",
+    "94356",
+    "94346",
+    "93719",
+    "93243",
+    "93089",
+    "93076",
+    "93073",
+    "93060",
+    "91642"
+  ]
+}

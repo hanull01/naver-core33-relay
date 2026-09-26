@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "011200",
+  "itemName": "HMM",
+  "reportCount": 13,
+  "latestReportNid": "95882",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95882",
+    "writeDate": "2026-08-26",
+    "brokerName": "대신증권",
+    "title": "지정학적 수혜는 지속된다",
+    "goalPrice": 29000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "미국": 1,
+        "수요": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95882",
+    "95645",
+    "95617",
+    "95614",
+    "95594",
+    "94330",
+    "93907",
+    "93444",
+    "92939",
+    "92924",
+    "92906",
+    "92885",
+    "91745"
+  ]
+}

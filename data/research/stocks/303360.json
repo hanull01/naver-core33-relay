@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "303360",
+  "itemName": "프로티아",
+  "reportCount": 1,
+  "latestReportNid": "93544",
+  "latestWriteDate": "2026-06-16",
+  "latest": {
+    "nid": "93544",
+    "writeDate": "2026-06-16",
+    "brokerName": "키움증권",
+    "title": "가파른 성장세, 지속성에 대한 의문 타파",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93544"
+  ]
+}

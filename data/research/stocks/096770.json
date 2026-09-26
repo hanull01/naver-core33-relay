@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "096770",
+  "itemName": "SK이노베이션",
+  "reportCount": 18,
+  "latestReportNid": "96150",
+  "latestWriteDate": "2026-09-15",
+  "latest": {
+    "nid": "96150",
+    "writeDate": "2026-09-15",
+    "brokerName": "유안타증권",
+    "title": "영업이익 10조원에 비해 싼 주가!",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96150",
+    "95950",
+    "95901",
+    "95885",
+    "95883",
+    "94901",
+    "94840",
+    "94833",
+    "94814",
+    "94240",
+    "94145",
+    "92955",
+    "92940",
+    "92918",
+    "92911",
+    "92898",
+    "92689",
+    "91203"
+  ]
+}

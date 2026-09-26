@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "413630",
+  "itemName": "씨피시스템",
+  "reportCount": 1,
+  "latestReportNid": "93628",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93628",
+    "writeDate": "2026-06-22",
+    "brokerName": "유진투자증권",
+    "title": "전분기에 이어 2분기에도 실적 성장세 지속 기대",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 26,
+        "negative": 10
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 18,
+      "earningsNegativeSignalCount": 7,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 6,
+        "자동차": 4,
+        "로봇": 2,
+        "미국": 2,
+        "반도체": 2,
+        "조선": 2,
+        "배터리": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93628"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "435570",
+  "itemName": "에르코스",
+  "reportCount": 2,
+  "latestReportNid": "96106",
+  "latestWriteDate": "2026-09-14",
+  "latest": {
+    "nid": "96106",
+    "writeDate": "2026-09-14",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 영상보안·모니터·프린터 지주회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96106",
+    "93619"
+  ]
+}

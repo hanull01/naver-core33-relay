@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "083450",
+  "itemName": "GST",
+  "reportCount": 4,
+  "latestReportNid": "96019",
+  "latestWriteDate": "2026-09-07",
+  "latest": {
+    "nid": "96019",
+    "writeDate": "2026-09-07",
+    "brokerName": "iM증권",
+    "title": "반도체 투자 확대로 사상 최대 실적 및 칠러 성장성 가시화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 5,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 5,
+        "환율": 2,
+        "미국": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96019",
+    "95201",
+    "94233",
+    "91463"
+  ]
+}

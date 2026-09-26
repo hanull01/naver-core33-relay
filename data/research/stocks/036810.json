@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "036810",
+  "itemName": "에프에스티",
+  "reportCount": 2,
+  "latestReportNid": "96248",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96248",
+    "writeDate": "2026-09-21",
+    "brokerName": "SK증권",
+    "title": "스케치는 끝났다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96248",
+    "91252"
+  ]
+}

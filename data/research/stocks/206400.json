@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "206400",
+  "itemName": "베노티앤알",
+  "reportCount": 1,
+  "latestReportNid": "91835",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91835",
+    "writeDate": "2026-04-24",
+    "brokerName": "서울평가정보",
+    "title": "친환경 에너지 절감형 실내건축 기반 통합 건축 솔루션 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91835"
+  ]
+}

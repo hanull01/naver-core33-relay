@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "024110",
+  "itemName": "기업은행",
+  "reportCount": 11,
+  "latestReportNid": "94920",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94920",
+    "writeDate": "2026-07-31",
+    "brokerName": "교보증권",
+    "title": "2Q26 Review: 양호한 실적과 분기배당 최초 실시 기대",
+    "goalPrice": 27000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 17,
+        "negative": 7
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 4,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94920",
+    "94685",
+    "94673",
+    "94588",
+    "94587",
+    "94575",
+    "94029",
+    "92025",
+    "92013",
+    "91955",
+    "91939"
+  ]
+}

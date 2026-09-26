@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "191600",
+  "itemName": "블루탑",
+  "reportCount": 1,
+  "latestReportNid": "93599",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93599",
+    "writeDate": "2026-06-19",
+    "brokerName": "NICE평가정보",
+    "title": "전장과 방산을 연결하는 차세대 PCB 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 2,
+        "자동차": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93599"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "114090",
+  "itemName": "GKL",
+  "reportCount": 6,
+  "latestReportNid": "95495",
+  "latestWriteDate": "2026-08-12",
+  "latest": {
+    "nid": "95495",
+    "writeDate": "2026-08-12",
+    "brokerName": "하나증권",
+    "title": "세율 인상 영향은 상대적으로 제한적일 듯",
+    "goalPrice": 13000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95495",
+    "95470",
+    "93226",
+    "92892",
+    "92836",
+    "92816"
+  ]
+}

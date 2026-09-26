@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "083930",
+  "itemName": "아바코",
+  "reportCount": 1,
+  "latestReportNid": "96190",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96190",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 디스플레이·이차전지 핵심장비 제조기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 8,
+        "수주": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96190"
+  ]
+}

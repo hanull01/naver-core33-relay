@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001040",
+  "itemName": "CJ",
+  "reportCount": 13,
+  "latestReportNid": "95743",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95743",
+    "writeDate": "2026-08-19",
+    "brokerName": "미래에셋증권",
+    "title": "가치의 무게중심, 올리브영으로 한 걸음 더",
+    "goalPrice": 166000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 2
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UP",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95743",
+    "95739",
+    "95725",
+    "95719",
+    "95096",
+    "94801",
+    "93726",
+    "93141",
+    "93134",
+    "93114",
+    "93095",
+    "91196",
+    "91162"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "293780",
+  "itemName": "압타바이오",
+  "reportCount": 1,
+  "latestReportNid": "95870",
+  "latestWriteDate": "2026-08-26",
+  "latest": {
+    "nid": "95870",
+    "writeDate": "2026-08-26",
+    "brokerName": "한국IR협의회",
+    "title": "APX-115, 가치 검증의 시간이 온다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95870"
+  ]
+}

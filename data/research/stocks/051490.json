@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "051490",
+  "itemName": "나라엠앤디",
+  "reportCount": 1,
+  "latestReportNid": "95194",
+  "latestWriteDate": "2026-08-07",
+  "latest": {
+    "nid": "95194",
+    "writeDate": "2026-08-07",
+    "brokerName": "NICE평가정보",
+    "title": "금형 기술의 뿌리로, ESS 미래를 성형하다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "95194"
+  ]
+}

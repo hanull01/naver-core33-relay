@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "032620",
+  "itemName": "GC메디아이",
+  "reportCount": 1,
+  "latestReportNid": "95517",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95517",
+    "writeDate": "2026-08-13",
+    "brokerName": "한국IR협의회",
+    "title": "Medical OS를 통한 플랫폼 기업으로의 도약",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1,
+        "방산": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95517"
+  ]
+}

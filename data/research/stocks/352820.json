@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "352820",
+  "itemName": "하이브",
+  "reportCount": 30,
+  "latestReportNid": "96278",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96278",
+    "writeDate": "2026-09-22",
+    "brokerName": "SK증권",
+    "title": "BTS로 만든 외형 성장, 앞으로 핵심은 의존도 완화",
+    "goalPrice": 290000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96278",
+    "94701",
+    "94699",
+    "94694",
+    "94664",
+    "94659",
+    "94657",
+    "94656",
+    "94655",
+    "94261",
+    "94150",
+    "94097",
+    "93979",
+    "92273",
+    "92263",
+    "92249",
+    "92248",
+    "92227",
+    "92217",
+    "92202",
+    "92200",
+    "92199",
+    "92181",
+    "91729",
+    "91645",
+    "91469",
+    "91434",
+    "91357",
+    "91320",
+    "91285"
+  ]
+}

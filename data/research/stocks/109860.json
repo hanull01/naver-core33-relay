@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "109860",
+  "itemName": "동일금속",
+  "reportCount": 1,
+  "latestReportNid": "93855",
+  "latestWriteDate": "2026-07-03",
+  "latest": {
+    "nid": "93855",
+    "writeDate": "2026-07-03",
+    "brokerName": "서울평가정보",
+    "title": "고중량 건설기계용 주강 부품의 축적된 제조기술과 글로벌 고객사 공급 이력 보유",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93855"
+  ]
+}

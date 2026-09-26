@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "071280",
+  "itemName": "로체시스템즈",
+  "reportCount": 2,
+  "latestReportNid": "95981",
+  "latestWriteDate": "2026-09-03",
+  "latest": {
+    "nid": "95981",
+    "writeDate": "2026-09-03",
+    "brokerName": "키움증권",
+    "title": "저평가된 반도체 투자 확대 수혜주",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 7,
+        "수주": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95981",
+    "94084"
+  ]
+}

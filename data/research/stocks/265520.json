@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "265520",
+  "itemName": "AP시스템",
+  "reportCount": 2,
+  "latestReportNid": "95355",
+  "latestWriteDate": "2026-08-10",
+  "latest": {
+    "nid": "95355",
+    "writeDate": "2026-08-10",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 디스플레이에서 반도체 장비회사로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 7,
+        "수요": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95355",
+    "91560"
+  ]
+}

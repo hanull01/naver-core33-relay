@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "419530",
+  "itemName": "SAMG엔터",
+  "reportCount": 5,
+  "latestReportNid": "95755",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95755",
+    "writeDate": "2026-08-19",
+    "brokerName": "유진투자증권",
+    "title": "상반기에 씨 뿌렸으니 하반기에 수확하자",
+    "goalPrice": 35000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 13,
+        "negative": 7
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 4,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "원가": 6,
+        "중국": 3,
+        "미국": 1,
+        "재고": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95755",
+    "95417",
+    "93124",
+    "91731",
+    "91536"
+  ]
+}

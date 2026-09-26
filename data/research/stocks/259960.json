@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "259960",
+  "itemName": "크래프톤",
+  "reportCount": 22,
+  "latestReportNid": "94780",
+  "latestWriteDate": "2026-07-30",
+  "latest": {
+    "nid": "94780",
+    "writeDate": "2026-07-30",
+    "brokerName": "교보증권",
+    "title": "8월 게임스컴과 4Q26 모바일 PUBG 매출이 관건",
+    "goalPrice": 390000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 1
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94780",
+    "94771",
+    "94765",
+    "94749",
+    "94733",
+    "94730",
+    "94713",
+    "94003",
+    "93791",
+    "93787",
+    "93781",
+    "92606",
+    "92454",
+    "92437",
+    "92412",
+    "92403",
+    "92354",
+    "91708",
+    "91612",
+    "91208",
+    "91180",
+    "91144"
+  ]
+}

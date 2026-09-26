@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "290560",
+  "itemName": "파라택시스이더리움",
+  "reportCount": 1,
+  "latestReportNid": "93607",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93607",
+    "writeDate": "2026-06-19",
+    "brokerName": "IBK투자증권",
+    "title": "DB 보안으로 번 돈, 이더리움에 쌓는다",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93607"
+  ]
+}

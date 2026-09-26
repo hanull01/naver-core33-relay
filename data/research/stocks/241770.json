@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "241770",
+  "itemName": "메카로",
+  "reportCount": 1,
+  "latestReportNid": "96046",
+  "latestWriteDate": "2026-09-09",
+  "latest": {
+    "nid": "96046",
+    "writeDate": "2026-09-09",
+    "brokerName": "한국IR협의회",
+    "title": "Control the Heat, Lead the Chip",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 3,
+        "가격": 1,
+        "반도체": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96046"
+  ]
+}

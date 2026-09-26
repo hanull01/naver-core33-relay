@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "394800",
+  "itemName": "쓰리빌리언",
+  "reportCount": 1,
+  "latestReportNid": "93343",
+  "latestWriteDate": "2026-05-29",
+  "latest": {
+    "nid": "93343",
+    "writeDate": "2026-05-29",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] AI 기반 희귀질환 유전체 분석 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "93343"
+  ]
+}

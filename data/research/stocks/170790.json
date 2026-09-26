@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "170790",
+  "itemName": "파이오링크",
+  "reportCount": 2,
+  "latestReportNid": "96034",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96034",
+    "writeDate": "2026-09-08",
+    "brokerName": "한국IR협의회",
+    "title": "데이터센터용 네트워크 장비 및 보안 관제 관련 강소기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96034",
+    "91611"
+  ]
+}

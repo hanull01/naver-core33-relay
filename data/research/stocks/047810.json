@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "047810",
+  "itemName": "한국항공우주",
+  "reportCount": 15,
+  "latestReportNid": "94912",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94912",
+    "writeDate": "2026-07-31",
+    "brokerName": "DS투자증권",
+    "title": "실적도 수주도 하반기에 달려있다",
+    "goalPrice": 186000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수주": 1,
+        "원가": 1,
+        "자동차": 1,
+        "재고": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94912",
+    "94761",
+    "94756",
+    "94740",
+    "94738",
+    "94725",
+    "94287",
+    "93896",
+    "92714",
+    "92635",
+    "92617",
+    "92614",
+    "92010",
+    "91484",
+    "91286"
+  ]
+}

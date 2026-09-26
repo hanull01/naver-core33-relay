@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "013310",
+  "itemName": "아진산업",
+  "reportCount": 1,
+  "latestReportNid": "91660",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91660",
+    "writeDate": "2026-04-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 자동차 차체 부품 전문 제조 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 6
+      }
+    }
+  },
+  "reportNids": [
+    "91660"
+  ]
+}

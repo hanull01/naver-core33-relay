@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "100130",
+  "itemName": "동국S&C",
+  "reportCount": 1,
+  "latestReportNid": "91445",
+  "latestWriteDate": "2026-04-13",
+  "latest": {
+    "nid": "91445",
+    "writeDate": "2026-04-13",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 풍력발전 타워 제조 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91445"
+  ]
+}

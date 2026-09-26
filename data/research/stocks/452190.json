@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "452190",
+  "itemName": "한빛레이저",
+  "reportCount": 1,
+  "latestReportNid": "91834",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91834",
+    "writeDate": "2026-04-24",
+    "brokerName": "서울평가정보",
+    "title": "레이저 정밀가공 기술 기반 첨단 제조공정용 응용장비 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91834"
+  ]
+}

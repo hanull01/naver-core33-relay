@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "217590",
+  "itemName": "티엠씨",
+  "reportCount": 2,
+  "latestReportNid": "93627",
+  "latestWriteDate": "2026-06-22",
+  "latest": {
+    "nid": "93627",
+    "writeDate": "2026-06-22",
+    "brokerName": "SK증권",
+    "title": "광케이블+특수 케이블 쌍끌이 수혜",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "조선": 5,
+        "원전": 3,
+        "미국": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93627",
+    "93324"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "042940",
+  "itemName": "상지건설",
+  "reportCount": 1,
+  "latestReportNid": "93696",
+  "latestWriteDate": "2026-06-26",
+  "latest": {
+    "nid": "93696",
+    "writeDate": "2026-06-26",
+    "brokerName": "NICE평가정보",
+    "title": "강남 하이엔드 주거의 30년 시공 명가",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93696"
+  ]
+}

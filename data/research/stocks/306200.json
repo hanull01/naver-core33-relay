@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "306200",
+  "itemName": "세아제강",
+  "reportCount": 6,
+  "latestReportNid": "95717",
+  "latestWriteDate": "2026-08-18",
+  "latest": {
+    "nid": "95717",
+    "writeDate": "2026-08-18",
+    "brokerName": "하나증권",
+    "title": "반가운 내수 강관 수익성 개선",
+    "goalPrice": 200000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 3,
+        "환율": 2,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95717",
+    "94208",
+    "93097",
+    "93085",
+    "91376",
+    "91273"
+  ]
+}

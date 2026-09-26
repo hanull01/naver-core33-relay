@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "001520",
+  "itemName": "동양",
+  "reportCount": 1,
+  "latestReportNid": "96225",
+  "latestWriteDate": "2026-09-18",
+  "latest": {
+    "nid": "96225",
+    "writeDate": "2026-09-18",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 레미콘실적개선, 데이터센터, 저PBR",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96225"
+  ]
+}

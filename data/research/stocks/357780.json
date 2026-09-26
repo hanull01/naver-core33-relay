@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "357780",
+  "itemName": "솔브레인",
+  "reportCount": 9,
+  "latestReportNid": "95955",
+  "latestWriteDate": "2026-09-01",
+  "latest": {
+    "nid": "95955",
+    "writeDate": "2026-09-01",
+    "brokerName": "신한투자증권",
+    "title": "하반기 실적 상향",
+    "goalPrice": 554000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 8,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2,
+        "원가": 2,
+        "가격": 1,
+        "미국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95955",
+    "94723",
+    "94298",
+    "93567",
+    "93320",
+    "93255",
+    "93230",
+    "92164",
+    "91368"
+  ]
+}

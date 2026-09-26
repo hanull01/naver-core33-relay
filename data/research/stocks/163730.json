@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "163730",
+  "itemName": "핑거",
+  "reportCount": 2,
+  "latestReportNid": "96084",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96084",
+    "writeDate": "2026-09-10",
+    "brokerName": "교보증권",
+    "title": "Physical AI 기업으로의 화려한 변신",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96084",
+    "95399"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "173130",
+  "itemName": "오파스넷",
+  "reportCount": 1,
+  "latestReportNid": "91659",
+  "latestWriteDate": "2026-04-17",
+  "latest": {
+    "nid": "91659",
+    "writeDate": "2026-04-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] IT 인프라 유통 및 서비스 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91659"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "023600",
+  "itemName": "삼보판지",
+  "reportCount": 1,
+  "latestReportNid": "91833",
+  "latestWriteDate": "2026-04-24",
+  "latest": {
+    "nid": "91833",
+    "writeDate": "2026-04-24",
+    "brokerName": "NICE평가정보",
+    "title": "골판지 및 골판지용 원지 수직계열화를 기반으로 한 친환경 종합 포장재 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91833"
+  ]
+}

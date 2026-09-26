@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "353810",
+  "itemName": "이지바이오",
+  "reportCount": 1,
+  "latestReportNid": "91179",
+  "latestWriteDate": "2026-04-02",
+  "latest": {
+    "nid": "91179",
+    "writeDate": "2026-04-02",
+    "brokerName": "유진투자증권",
+    "title": "이 회사는 그냥 경영을 잘함",
+    "goalPrice": 10000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 10,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 8,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {
+        "가격": 4,
+        "미국": 4,
+        "원가": 4,
+        "수요": 2,
+        "재고": 2,
+        "자동차": 1,
+        "환율": 1
+      }
+    }
+  },
+  "reportNids": [
+    "91179"
+  ]
+}

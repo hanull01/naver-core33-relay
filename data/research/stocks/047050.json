@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "047050",
+  "itemName": "포스코인터내셔널",
+  "reportCount": 19,
+  "latestReportNid": "96305",
+  "latestWriteDate": "2026-09-23",
+  "latest": {
+    "nid": "96305",
+    "writeDate": "2026-09-23",
+    "brokerName": "삼성증권",
+    "title": "미국 가스전 인수, LNG 사업 역량 강화 목적",
+    "goalPrice": 80000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2,
+        "미국": 2,
+        "환율": 2,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96305",
+    "96244",
+    "96237",
+    "96213",
+    "96199",
+    "94906",
+    "94884",
+    "94835",
+    "94825",
+    "94808",
+    "94802",
+    "94352",
+    "94238",
+    "92400",
+    "92385",
+    "92341",
+    "92304",
+    "92295",
+    "91680"
+  ]
+}

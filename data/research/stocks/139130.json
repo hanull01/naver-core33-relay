@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "139130",
+  "itemName": "iM금융지주",
+  "reportCount": 17,
+  "latestReportNid": "94922",
+  "latestWriteDate": "2026-07-31",
+  "latest": {
+    "nid": "94922",
+    "writeDate": "2026-07-31",
+    "brokerName": "교보증권",
+    "title": "2Q26 Reivew: 자사주 매입소각 확대와 비과세 배당 기대",
+    "goalPrice": 24000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 15,
+        "negative": 3
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94922",
+    "94683",
+    "94637",
+    "94625",
+    "94610",
+    "94593",
+    "94586",
+    "94574",
+    "94117",
+    "92222",
+    "92157",
+    "92151",
+    "92149",
+    "92128",
+    "92102",
+    "92095",
+    "91427"
+  ]
+}

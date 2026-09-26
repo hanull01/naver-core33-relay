@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "006110",
+  "itemName": "삼아알미늄",
+  "reportCount": 2,
+  "latestReportNid": "94436",
+  "latestWriteDate": "2026-07-24",
+  "latest": {
+    "nid": "94436",
+    "writeDate": "2026-07-24",
+    "brokerName": "SK증권",
+    "title": "Corp Day: \"하반기 캐파 부족\" 알박 쇼티지",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 2
+      },
+      "earningsTextDirection": "MIXED",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "배터리": 1,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94436",
+    "91410"
+  ]
+}

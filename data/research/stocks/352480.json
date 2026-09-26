@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "352480",
+  "itemName": "씨앤씨인터내셔널",
+  "reportCount": 1,
+  "latestReportNid": "95980",
+  "latestWriteDate": "2026-09-03",
+  "latest": {
+    "nid": "95980",
+    "writeDate": "2026-09-03",
+    "brokerName": "IBK투자증권",
+    "title": "탐방노트: 수익성 정상화 진행 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95980"
+  ]
+}

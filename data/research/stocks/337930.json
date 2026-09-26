@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "337930",
+  "itemName": "젝시믹스",
+  "reportCount": 1,
+  "latestReportNid": "93612",
+  "latestWriteDate": "2026-06-19",
+  "latest": {
+    "nid": "93612",
+    "writeDate": "2026-06-19",
+    "brokerName": "유안타증권",
+    "title": "광고모델 고윤정",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93612"
+  ]
+}

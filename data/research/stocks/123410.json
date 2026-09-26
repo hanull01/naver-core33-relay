@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "123410",
+  "itemName": "코리아에프티",
+  "reportCount": 2,
+  "latestReportNid": "95862",
+  "latestWriteDate": "2026-08-25",
+  "latest": {
+    "nid": "95862",
+    "writeDate": "2026-08-25",
+    "brokerName": "하나증권",
+    "title": "P/E 3.7배에 불과. 자기주식 취득까지 진행 중",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 7
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 5,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 3,
+        "가격": 1,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95862",
+    "91438"
+  ]
+}

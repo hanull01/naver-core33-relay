@@ -1,0 +1,2546 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-03",
+  "count": 75,
+  "reports": [
+    {
+      "nid": "91145",
+      "writeDate": "2026-03-31",
+      "itemCode": "286940",
+      "itemName": "롯데이노베이트",
+      "title": "분기마다 확인될 자회사 손익 개선세",
+      "brokerCode": "16",
+      "brokerName": "한화투자증권",
+      "goalPrice": 27000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9100,
+      "contentLength": 331,
+      "contentSha256": "6271c5f1dc1d79293d65d74c4e06af59b7e59722887ae0664b193d9ccdb44f02",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 3
+        },
+        "earningsTextDirection": "MIXED",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 2,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91144",
+      "writeDate": "2026-03-31",
+      "itemCode": "259960",
+      "itemName": "크래프톤",
+      "title": "AGAIN 2024, 지금이 매수 적기",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 420000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 10227,
+      "contentLength": 583,
+      "contentSha256": "28f480b8e1f4bea40a5fbe8821a8c1907191eca63a77a28c7f19d5b1b29a35a0",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91143",
+      "writeDate": "2026-03-31",
+      "itemCode": "018670",
+      "itemName": "SK가스",
+      "title": "LNG-LPG 옵셔널리티 수익 당분간 제한적일 전망",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 330000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 8978,
+      "contentLength": 442,
+      "contentSha256": "a5a4621eb563cba715ebd3c47d5fce9651e190f42b4ec4b99a58c7e2d082a136",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNCHANGED",
+        "topics": {
+          "가격": 5
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91142",
+      "writeDate": "2026-03-31",
+      "itemCode": "218410",
+      "itemName": "RFHIC",
+      "title": "내년엔 쇼티지 가능성이 높습니다",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 150000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 19518,
+      "contentLength": 540,
+      "contentSha256": "7c5165994fa801177b55719ec1e2ba06bc5501947f8de0172bb5a0726fe304f9",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 5,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 4,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "미국": 1,
+          "방산": 1,
+          "수주": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91141",
+      "writeDate": "2026-03-31",
+      "itemCode": "017670",
+      "itemName": "SK텔레콤",
+      "title": "4월 전략 - DPS 정상화 기대감으로 탄력적 반등 예상",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 100000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9983,
+      "contentLength": 427,
+      "contentSha256": "c3ae908d496122068b767e71505f4023115e0119fbcb19acaa6baa3439a90931",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNCHANGED",
+        "topics": {
+          "AI": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91140",
+      "writeDate": "2026-03-31",
+      "itemCode": "030200",
+      "itemName": "KT",
+      "title": "4월 전략 - 자사주를 배당처럼 인식하진 않을 것",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 76000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9052,
+      "contentLength": 285,
+      "contentSha256": "6c8828d9b5f4dffe00de3d2d883ec8d848e11f1d4776d72f35eb9b470acc4ca9",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNCHANGED",
+        "topics": {
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91139",
+      "writeDate": "2026-03-31",
+      "itemCode": "032640",
+      "itemName": "LG유플러스",
+      "title": "4월 전략 - 1분기 실적 호전으로 주가 반등 예상",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 20000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 7228,
+      "contentLength": 345,
+      "contentSha256": "5a96ba1803c2e2984059cee9f38f34e0412b1c3f487e7458191ba91931d87144",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 4,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UNCHANGED",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91138",
+      "writeDate": "2026-03-31",
+      "itemCode": "185750",
+      "itemName": "종근당",
+      "title": "CKD-510, 심방세동 가치 반영",
+      "brokerCode": "18",
+      "brokerName": "유안타증권",
+      "goalPrice": 130000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 7781,
+      "contentLength": 434,
+      "contentSha256": "2f4cde570e9b08cc83a8c22ef60bacebe2f77b4ad8d3d6de4203bab0d09f5c7f",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "AI": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91137",
+      "writeDate": "2026-03-31",
+      "itemCode": "439260",
+      "itemName": "대한조선",
+      "title": "시간차 공격: 2Q26F 신조선가 기록 경신 예상",
+      "brokerCode": "18",
+      "brokerName": "유안타증권",
+      "goalPrice": 156000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11430,
+      "contentLength": 213,
+      "contentSha256": "bed67fcdfcde91a8153ca14c5ec8d4f6c2e0edeba63e60cdea17fd5e0f36dde6",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "조선": 3,
+          "미국": 1,
+          "수주": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91136",
+      "writeDate": "2026-03-31",
+      "itemCode": "241840",
+      "itemName": "에이스토리",
+      "title": "편성이 돌아왔다, 이제는 IP가 증명할 차례",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 6722,
+      "contentLength": 189,
+      "contentSha256": "ec1b6a97c9ad303c29cc827e642dc1c20a03682d5b48fa70adfe2ca86aa38c63",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91135",
+      "writeDate": "2026-03-31",
+      "itemCode": "046390",
+      "itemName": "삼화네트웍스",
+      "title": "실적 공백기, 현금이 버티고 편성이 기다린다",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 6705,
+      "contentLength": 189,
+      "contentSha256": "ec1b6a97c9ad303c29cc827e642dc1c20a03682d5b48fa70adfe2ca86aa38c63",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91134",
+      "writeDate": "2026-03-31",
+      "itemCode": "009150",
+      "itemName": "삼성전기",
+      "title": "기판 완판 다음은 판가 점프",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": 530000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 10121,
+      "contentLength": 437,
+      "contentSha256": "e62837fa296ef292a8390eb0548e813a0c26ea519de0c8035aa124a303447ae4",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 9,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 4,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "가격": 7,
+          "AI": 4,
+          "수요": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91133",
+      "writeDate": "2026-03-31",
+      "itemCode": "033500",
+      "itemName": "동성화인텍",
+      "title": "LNG 밸류체인, 일시적 저평가 구간",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 33000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 10896,
+      "contentLength": 144,
+      "contentSha256": "05eef9725c27bbe1c5ca86f343721f416ffcd1d4b2760aa8c9aa5ad34f0751e5",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91132",
+      "writeDate": "2026-03-31",
+      "itemCode": "043610",
+      "itemName": "KT지니뮤직",
+      "title": "본업 부진에도 지속되는 최대 이익",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 2500,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 6199,
+      "contentLength": 68,
+      "contentSha256": "6c5762a65e93f5399f96a28fb0187e61e5dcf3f4815669781859a14af472f559",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91131",
+      "writeDate": "2026-03-31",
+      "itemCode": "082740",
+      "itemName": "한화엔진",
+      "title": "업황 혼조에도 구조적 성장",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 53000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 14093,
+      "contentLength": 139,
+      "contentSha256": "df5fab0a84cba349648cdf38699fe6710df64a246336b607a03c2e48f9c7d931",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 5,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 2,
+          "수요": 1,
+          "조선": 1,
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91130",
+      "writeDate": "2026-03-31",
+      "itemCode": "028050",
+      "itemName": "삼성E&A",
+      "title": "나에겐 삼성전자가 있다",
+      "brokerCode": "63",
+      "brokerName": "유진투자증권",
+      "goalPrice": 49000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11707,
+      "contentLength": 1482,
+      "contentSha256": "3e4feb381ad47f14163b4026e28f4cca8e613948a0d409e2cf76287f5326cf7b",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 8,
+          "negative": 7
+        },
+        "earningsTextDirection": "MIXED",
+        "earningsPositiveSignalCount": 3,
+        "earningsNegativeSignalCount": 3,
+        "targetPriceMentionDirection": "DOWN",
+        "topics": {
+          "반도체": 5,
+          "수주": 3,
+          "자동차": 2,
+          "AI": 1,
+          "미국": 1,
+          "원가": 1,
+          "환율": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91129",
+      "writeDate": "2026-03-31",
+      "itemCode": "042510",
+      "itemName": "라온시큐어",
+      "title": "에이전틱 AI 보안 자동화 플랫폼 성장 전략 추진",
+      "brokerCode": "63",
+      "brokerName": "유진투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 7578,
+      "contentLength": 1554,
+      "contentSha256": "c8d6d51a011ce2d8f89415a1d21c34980a655f969de54cc84984c24c174d433f",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 29,
+          "negative": 5
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 18,
+        "earningsNegativeSignalCount": 3,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "자동차": 4,
+          "AI": 2,
+          "수요": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91128",
+      "writeDate": "2026-03-31",
+      "itemCode": "003230",
+      "itemName": "삼양식품",
+      "title": "가격 전가력을 겸비한 성장주",
+      "brokerCode": "39",
+      "brokerName": "키움증권",
+      "goalPrice": 1850000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 8031,
+      "contentLength": 317,
+      "contentSha256": "1a7fa17c68ae96d4ac5229569df8b5d8e1e6e4f7c62e1da69e72f56196c55c5a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 2
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "환율": 2,
+          "가격": 1,
+          "수요": 1,
+          "원가": 1,
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91127",
+      "writeDate": "2026-03-31",
+      "itemCode": "017370",
+      "itemName": "우신시스템",
+      "title": "안전벨트의 성장은 예정, 자동화 반등 필요",
+      "brokerCode": "39",
+      "brokerName": "키움증권",
+      "goalPrice": 9500,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 6356,
+      "contentLength": 410,
+      "contentSha256": "7bd08362bcf9716c9e03a69f9ebfa7b49ac82cec2fc97b775bf5cc9c5ce0087b",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 7
+        },
+        "earningsTextDirection": "DOWN",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 7,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 2,
+          "배터리": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91126",
+      "writeDate": "2026-03-31",
+      "itemCode": "053690",
+      "itemName": "한미글로벌",
+      "title": "원전 발주처는 PM이 필요하다",
+      "brokerCode": "40",
+      "brokerName": "IBK투자증권",
+      "goalPrice": 32000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 8612,
+      "contentLength": 494,
+      "contentSha256": "90fdb9eb7202f92d46c0a663114acfcb4863dd8788fc5a86ef0690c48b826722",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 3
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "원전": 5,
+          "수요": 1,
+          "수주": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91125",
+      "writeDate": "2026-03-31",
+      "itemCode": "058470",
+      "itemName": "리노공업",
+      "title": "기술적 해자가 만드는 수익성",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 21281,
+      "contentLength": 549,
+      "contentSha256": "c9c3fa9de83791abcf5cdaf4fb25b4c51845346594790460a87fea38e208b453",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 9,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 3,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 3,
+          "AI": 1,
+          "반도체": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91124",
+      "writeDate": "2026-03-30",
+      "itemCode": "035760",
+      "itemName": "CJ ENM",
+      "title": "분기 이익 변동성은 아쉽지만 플랫폼 시너지 확대 중",
+      "brokerCode": "16",
+      "brokerName": "한화투자증권",
+      "goalPrice": 85000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 7934,
+      "contentLength": 360,
+      "contentSha256": "ca2f1007f468aabd39fa426cfffb64c9b2b5adb0c639474c52e10d8f071573a3",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 3
+        },
+        "earningsTextDirection": "DOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 2,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91123",
+      "writeDate": "2026-03-30",
+      "itemCode": "053690",
+      "itemName": "한미글로벌",
+      "title": "놓쳐선 안 될 격변의 시기",
+      "brokerCode": "16",
+      "brokerName": "한화투자증권",
+      "goalPrice": 46000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9776,
+      "contentLength": 371,
+      "contentSha256": "4b88b5e48da757ff68b0acae204a0df780dee024bce7bd7389dd6d8ed723ab8d",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 8,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 5,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 2,
+          "미국": 1,
+          "원가": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91122",
+      "writeDate": "2026-03-30",
+      "itemCode": "476830",
+      "itemName": "알지노믹스",
+      "title": "세 가지 길 - 알츠하이머, in vivo CAR-T, 간암",
+      "brokerCode": "66",
+      "brokerName": "DS투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 11626,
+      "contentLength": 446,
+      "contentSha256": "b8195dd9dacee17d04ed8fc3a981b83c257c5ce75af9d322165bd52f4873051a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91121",
+      "writeDate": "2026-03-30",
+      "itemCode": "263750",
+      "itemName": "펄어비스",
+      "title": "조롱을 환호로 바꿨다+ 붉은사막 플레이 후기",
+      "brokerCode": "66",
+      "brokerName": "DS투자증권",
+      "goalPrice": 90000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 22688,
+      "contentLength": 354,
+      "contentSha256": "972e1dce73506eef4828927f451aafa4779e0332f138f653f9d1948a5ab07c4e",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 3
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91120",
+      "writeDate": "2026-03-30",
+      "itemCode": "388210",
+      "itemName": "씨엠티엑스",
+      "title": "선단공정 수율 개선을 지원하는 핵심 파트너",
+      "brokerCode": "66",
+      "brokerName": "DS투자증권",
+      "goalPrice": 200000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11385,
+      "contentLength": 274,
+      "contentSha256": "7aa8d2a39f6405fbecf9fbee2162f21835bcf9e8f854ed3017ee915fe1d21fa6",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 4,
+          "반도체": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91119",
+      "writeDate": "2026-03-30",
+      "itemCode": "373220",
+      "itemName": "LG에너지솔루션",
+      "title": "1Q26 Preview: 컨센서스 소폭 하회",
+      "brokerCode": "62",
+      "brokerName": "교보증권",
+      "goalPrice": 570000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 8443,
+      "contentLength": 536,
+      "contentSha256": "aa2f4479d1f1be3c02cb355d22573bdebb7460049d8db048bbb1b6fd4e918957",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 8,
+          "negative": 2
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 4,
+          "자동차": 2,
+          "AI": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91118",
+      "writeDate": "2026-03-30",
+      "itemCode": "006400",
+      "itemName": "삼성SDI",
+      "title": "1Q26 Preview 컨센서스 소폭 상회",
+      "brokerCode": "62",
+      "brokerName": "교보증권",
+      "goalPrice": 580000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 16657,
+      "contentLength": 503,
+      "contentSha256": "a82ffe9210a4700849e202e945740289174bce5d5d279b84c677ddd9c931e0ad",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 2
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 5,
+          "자동차": 3,
+          "수주": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91117",
+      "writeDate": "2026-03-30",
+      "itemCode": "009420",
+      "itemName": "한올바이오파마",
+      "title": "2026년 나는 다시 태어난다",
+      "brokerCode": "38",
+      "brokerName": "현대차증권",
+      "goalPrice": 83000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 7877,
+      "contentLength": 484,
+      "contentSha256": "86289ebafeaf434e568976cadff66590e34fa405ac159eed59de1ce331479983",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "미국": 2,
+          "환율": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91116",
+      "writeDate": "2026-03-30",
+      "itemCode": "033160",
+      "itemName": "엠케이전자",
+      "title": "Memory Super-Cycle 내 숨은 주인공(SOCAMM, LPDDR)",
+      "brokerCode": "38",
+      "brokerName": "현대차증권",
+      "goalPrice": 21500,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 12646,
+      "contentLength": 411,
+      "contentSha256": "d4a42ce6ee24e814a6174fef0b290268cd3a16d6da19162b23622ceaed322152",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "AI": 2,
+          "수요": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91115",
+      "writeDate": "2026-03-30",
+      "itemCode": "389650",
+      "itemName": "넥스트바이오메디컬",
+      "title": "영업파트너 발표로 부각될 넥스피어F 가치",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9103,
+      "contentLength": 378,
+      "contentSha256": "e23fc04eab5fb3f64a36018168bbffd31b4460e048691805550cf196e6ba6c74",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 2
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "자동차": 2,
+          "원가": 1,
+          "재고": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91114",
+      "writeDate": "2026-03-30",
+      "itemCode": "183300",
+      "itemName": "코미코",
+      "title": "파운드리 모멘텀",
+      "brokerCode": "64",
+      "brokerName": "SK증권",
+      "goalPrice": 150000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 10497,
+      "contentLength": 327,
+      "contentSha256": "78015ccebf087ac1ff8059f0d1b2c95b554172a0afb8bce922f1ad5aec55fc6a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 6,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "미국": 1,
+          "수요": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91113",
+      "writeDate": "2026-03-30",
+      "itemCode": "075580",
+      "itemName": "세진중공업",
+      "title": "선박 화물탱크, 편안한 2026년의 선택지",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 22000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11145,
+      "contentLength": 176,
+      "contentSha256": "d3a9febbfda0b8c00e8061f7080664ce40b47712766b132fe6380dcea364d6d4",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 2,
+          "조선": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91112",
+      "writeDate": "2026-03-30",
+      "itemCode": "012630",
+      "itemName": "HDC",
+      "title": "자사주 소각 기대 및 통영에코파워 실적 개선 가속화",
+      "brokerCode": "61",
+      "brokerName": "iM증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9115,
+      "contentLength": 839,
+      "contentSha256": "acf2c8e760311bee33fbeb321a218904f6ecd6446c9fedf218c2a2de0628dfd3",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91111",
+      "writeDate": "2026-03-30",
+      "itemCode": "095340",
+      "itemName": "ISC",
+      "title": "AI 반도체 수혜 지속과 매출 안정성 강화",
+      "brokerCode": "61",
+      "brokerName": "iM증권",
+      "goalPrice": 290000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 16326,
+      "contentLength": 496,
+      "contentSha256": "8b6d2b309d630ad0d845b9b6449bd2d8040263b2795217202aeadbf6b9555003",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 8,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 8,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "반도체": 2,
+          "AI": 1,
+          "수요": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91110",
+      "writeDate": "2026-03-30",
+      "itemCode": "365340",
+      "itemName": "성일하이텍",
+      "title": "흑자전환 가능성이 보인다",
+      "brokerCode": "40",
+      "brokerName": "IBK투자증권",
+      "goalPrice": 60000,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9015,
+      "contentLength": 412,
+      "contentSha256": "78bd7004fccfb9b7c47851cc11f58af58f5ebe5f5210620d772e9ba140dec7fc",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 5
+        },
+        "earningsTextDirection": "DOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 3,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "가격": 2,
+          "배터리": 1,
+          "수요": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91109",
+      "writeDate": "2026-03-30",
+      "itemCode": "122450",
+      "itemName": "KX",
+      "title": "4Q25 Review: 글로벌 레저 사업 확대 가속화",
+      "brokerCode": "63",
+      "brokerName": "유진투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 6682,
+      "contentLength": 1541,
+      "contentSha256": "ccf0e2e07eabc609dccde85d1d29ae1af479f681b0abc01a7a4ac4284f451138",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 24,
+          "negative": 11
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 15,
+        "earningsNegativeSignalCount": 6,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "자동차": 4,
+          "AI": 1,
+          "반도체": 1,
+          "방산": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91108",
+      "writeDate": "2026-03-30",
+      "itemCode": "068270",
+      "itemName": "셀트리온",
+      "title": "신규 바이오시밀러 확장과 증설에 집중",
+      "brokerCode": "40",
+      "brokerName": "IBK투자증권",
+      "goalPrice": 250000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9758,
+      "contentLength": 554,
+      "contentSha256": "03d26ad867cba0918938da7779f84885b727749ee58ae7720e6e44e9aa1456de",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 5,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "미국": 3,
+          "원가": 3
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91107",
+      "writeDate": "2026-03-30",
+      "itemCode": "005930",
+      "itemName": "삼성전자",
+      "title": "1Q26 영업이익 43조원, 서프라이즈 예상",
+      "brokerCode": "39",
+      "brokerName": "키움증권",
+      "goalPrice": 260000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 39775,
+      "contentLength": 459,
+      "contentSha256": "39ce276e2bc8000f6479d1bb6039411e8ac825a169df5c607bc677aaca500cd5",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 4
+        },
+        "earningsTextDirection": "DOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 2,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "가격": 2,
+          "반도체": 2,
+          "수주": 2,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91106",
+      "writeDate": "2026-03-30",
+      "itemCode": "214390",
+      "itemName": "경보제약",
+      "title": "ADC CDMO를 통한 미래성장동력 장착",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 7132,
+      "contentLength": 317,
+      "contentSha256": "1a064236efe19ab8c5ce4c0bb35ce074ddf33ff76820177934ff7d77b22f509a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91105",
+      "writeDate": "2026-03-30",
+      "itemCode": "358570",
+      "itemName": "지아이이노베이션",
+      "title": "임상 데이터로 입증하는 파이프라인 경쟁력",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9886,
+      "contentLength": 243,
+      "contentSha256": "6b99707c401f1ac0521c7161ebacc5f9b778da98fe65ff4ab8983e20b9c2d81e",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91104",
+      "writeDate": "2026-03-30",
+      "itemCode": "000640",
+      "itemName": "동아쏘시오홀딩스",
+      "title": "자회사의 성장 기대",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 8486,
+      "contentLength": 422,
+      "contentSha256": "732e28f1726bed4badded8c6473a7afc858dec5fea05ff2c3dd8d2ad2fcec8cf",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91103",
+      "writeDate": "2026-03-27",
+      "itemCode": "033500",
+      "itemName": "동성화인텍",
+      "title": "LNGC 호황에 먼저 웃을 보냉재",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 14618,
+      "contentLength": 356,
+      "contentSha256": "4d738d6a0e4e640a0ecebf75c6fa9ac3846c9d8017452f37fd5ccb156731617c",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 4,
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91102",
+      "writeDate": "2026-03-27",
+      "itemCode": "009830",
+      "itemName": "한화솔루션",
+      "title": "유상증자 Comment: 필요했던 자금조달, 업황 회복 및 기술 확보가 관건",
+      "brokerCode": "16",
+      "brokerName": "한화투자증권",
+      "goalPrice": 45000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 23091,
+      "contentLength": 848,
+      "contentSha256": "fd2da2f0847d4c340a05a63d6b5e2e92423590e63992a533ab75585491a068df",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 5
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "금리": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91101",
+      "writeDate": "2026-03-27",
+      "itemCode": "003490",
+      "itemName": "대한항공",
+      "title": "1Q26 Preview: 국제선 여객 호조",
+      "brokerCode": "18",
+      "brokerName": "유안타증권",
+      "goalPrice": 32000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 14405,
+      "contentLength": 760,
+      "contentSha256": "285c8223771b2925b5801421f463a5695a7fa00e0aede6e88d59068a9bd1fe84",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 12,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 5,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 5,
+          "미국": 2,
+          "반도체": 2,
+          "방산": 1,
+          "수주": 1,
+          "원가": 1,
+          "중국": 1,
+          "환율": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91100",
+      "writeDate": "2026-03-27",
+      "itemCode": "009830",
+      "itemName": "한화솔루션",
+      "title": "기대효과 없는 유상증자",
+      "brokerCode": "66",
+      "brokerName": "DS투자증권",
+      "goalPrice": 25000,
+      "opinionText": "매도",
+      "opinionType": "sell",
+      "normalizedOpinion": "SELL",
+      "readCount": 17380,
+      "contentLength": 505,
+      "contentSha256": "a161a935a21a5859ee3ba133e6e8bee419cfe62206bad2178c379e009cedc892",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91099",
+      "writeDate": "2026-03-27",
+      "itemCode": "011070",
+      "itemName": "LG이노텍",
+      "title": "저도 기판 멀티플 주세요",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 480000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11390,
+      "contentLength": 360,
+      "contentSha256": "cadc54d378272d7caaa3ffa624c4a206fc8ff579b578dcfb00090875ca1d1f84",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "가격": 1,
+          "수요": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91098",
+      "writeDate": "2026-03-27",
+      "itemCode": "017940",
+      "itemName": "E1",
+      "title": "양호한 실적 전망과 경계심의 공존",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 145000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9091,
+      "contentLength": 453,
+      "contentSha256": "76ee865878d3b76244d2193e9f8d6313f73d5b3efcc296b1493700feee746c9b",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91097",
+      "writeDate": "2026-03-27",
+      "itemCode": "009830",
+      "itemName": "한화솔루션",
+      "title": "단기 수익화 가시성이 제한적인 탠덤셀",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": 38000,
+      "opinionText": "중립",
+      "opinionType": "neutral",
+      "normalizedOpinion": "HOLD",
+      "readCount": 12344,
+      "contentLength": 369,
+      "contentSha256": "4257e19b8c386bc64cce74fbbbed8c6d69fcc807ab74e66853b8bd982ab3b901",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 3
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "DOWN",
+        "topics": {
+          "가격": 2,
+          "미국": 1,
+          "원가": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91096",
+      "writeDate": "2026-03-27",
+      "itemCode": "394280",
+      "itemName": "오픈엣지테크놀로지",
+      "title": "NDR후기: 이기는 편 우리 편",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 12114,
+      "contentLength": 242,
+      "contentSha256": "7540cb7968c7713f8e13255d2a1af8c6d2065b86f6950bb8e71660c76c4ba1c4",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 2,
+          "수주": 2,
+          "환율": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91095",
+      "writeDate": "2026-03-27",
+      "itemCode": "196170",
+      "itemName": "알테오젠",
+      "title": "한 분기에 2건 L/O 체결, 간담회 내용 정리",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 570000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 25491,
+      "contentLength": 202,
+      "contentSha256": "008af1e3203de2abe0aeacb25f4ca4ed273839189ac83146068f85b968855221",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 2
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91094",
+      "writeDate": "2026-03-27",
+      "itemCode": "0008Z0",
+      "itemName": "에스엔시스",
+      "title": "NDR 후기: 사이클 걱정 없이 쭉 성장한다",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9456,
+      "contentLength": 262,
+      "contentSha256": "481faa86c6259340d774be30d73a813924f71e74838f8083fe27facc8bd3366a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "조선": 5,
+          "중국": 3,
+          "수주": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91093",
+      "writeDate": "2026-03-27",
+      "itemCode": "062040",
+      "itemName": "산일전기",
+      "title": "전방산업이 바뀐다",
+      "brokerCode": "64",
+      "brokerName": "SK증권",
+      "goalPrice": 220000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 18668,
+      "contentLength": 338,
+      "contentSha256": "115de7154059f318b2cb6428415fb1fa71e169d164066f9753c87adb3939f941",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "AI": 3,
+          "수주": 2,
+          "가격": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91092",
+      "writeDate": "2026-03-27",
+      "itemCode": "005180",
+      "itemName": "빙그레",
+      "title": "단기 실적 기대감은 제한적이지만",
+      "brokerCode": "40",
+      "brokerName": "IBK투자증권",
+      "goalPrice": 95000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 12833,
+      "contentLength": 339,
+      "contentSha256": "9b31cea68700c92dbbc8a7746061690051bf6ceb14cb6ba955ecdd31ef65a16f",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 3
+        },
+        "earningsTextDirection": "DOWN",
+        "earningsPositiveSignalCount": 1,
+        "earningsNegativeSignalCount": 2,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "미국": 1,
+          "원가": 1,
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91091",
+      "writeDate": "2026-03-27",
+      "itemCode": "009830",
+      "itemName": "한화솔루션",
+      "title": "재무구조 개선 및 미래성장투자를 위한 유상증자 발표",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 44000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 12441,
+      "contentLength": 423,
+      "contentSha256": "58e63806f57cceea99c049c24d7506f40f0531f58a098e39582c8b24b714a5c2",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91090",
+      "writeDate": "2026-03-27",
+      "itemCode": "382480",
+      "itemName": "지아이텍",
+      "title": "2차전지 코팅 공정 부품 슬롯다이 제조업체",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 8955,
+      "contentLength": 364,
+      "contentSha256": "c9f9c3552ad921cbb73791c2400060227c52255a57d62849a56cf25f2d1f6a0a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수요": 2,
+          "배터리": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91089",
+      "writeDate": "2026-03-27",
+      "itemCode": "220180",
+      "itemName": "핸디소프트",
+      "title": "폴라리스그룹 시너지 효과 기대",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 8010,
+      "contentLength": 272,
+      "contentSha256": "a6452b83b617c0a640aa8659f7ead4901cc84dd5d948ba84d30ed4a8f5804b97",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "AI": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91088",
+      "writeDate": "2026-03-27",
+      "itemCode": "298380",
+      "itemName": "에이비엘바이오",
+      "title": "BBB 셔틀 상업화와 4월 담도암 2차 주목",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 18582,
+      "contentLength": 323,
+      "contentSha256": "4bd93c9e25fb5d7373f33a38f21d0954e0e8157009726b3344b4f1794f5e364b",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91087",
+      "writeDate": "2026-03-27",
+      "itemCode": "000720",
+      "itemName": "현대건설",
+      "title": "2026년, 미국 원전 진출과 가시적 성과 기대",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": 195000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 13046,
+      "contentLength": 349,
+      "contentSha256": "c871469163570323b4e93895ad6c1ad6cc7d5704bb4b7487e064900e943f65cf",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "수주": 5,
+          "원전": 4,
+          "미국": 3
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91086",
+      "writeDate": "2026-03-27",
+      "itemCode": "375500",
+      "itemName": "DL이앤씨",
+      "title": "원전 밸류체인의 성과와 기대감",
+      "brokerCode": "56",
+      "brokerName": "미래에셋증권",
+      "goalPrice": 102000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 12775,
+      "contentLength": 447,
+      "contentSha256": "d3535974037a38d007d4cda5b4a0755db0306f66617a94036b93cb03a3d90456",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "원전": 3,
+          "미국": 1,
+          "환율": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91085",
+      "writeDate": "2026-03-27",
+      "itemCode": "148930",
+      "itemName": "에이치와이티씨",
+      "title": "2차전지 공정의 수율과 품질을 좌우하는 초정밀 주요 부품 기술 기업",
+      "brokerCode": "75",
+      "brokerName": "서울평가정보",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 8640,
+      "contentLength": 126,
+      "contentSha256": "a37e0616be6aa920c3b12a7c478327775b887704a5c7fc25598de10a1f299653",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "배터리": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91084",
+      "writeDate": "2026-03-27",
+      "itemCode": "330350",
+      "itemName": "위더스제약",
+      "title": "제네릭 기반 안정성과 성장 전략을 갖춘 전문의약품 기업",
+      "brokerCode": "75",
+      "brokerName": "서울평가정보",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 10020,
+      "contentLength": 82,
+      "contentSha256": "e8ff9a082f0790ae2f87c736b60c6603be02e5b70c084af706b2f63374bb481a",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91083",
+      "writeDate": "2026-03-27",
+      "itemCode": "457370",
+      "itemName": "한켐",
+      "title": "유기화합물 합성·정제 기술 기반의 첨단 기능성 화학소재 플랫폼 기업",
+      "brokerCode": "75",
+      "brokerName": "서울평가정보",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 10950,
+      "contentLength": 124,
+      "contentSha256": "67e61f62ab8ebf0542854d6e5cc877bbb2c293a6ff24d29f14eab913a18c0100",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 4,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91082",
+      "writeDate": "2026-03-26",
+      "itemCode": "196170",
+      "itemName": "알테오젠",
+      "title": "진짜가 돌아온다, 아직 더 남은 호재 이벤트",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 580000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 24667,
+      "contentLength": 469,
+      "contentSha256": "663c4ff4a4ef20237bb4cc21d1fe10de70a746df4459bc0ac256572f9eaa9299",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91081",
+      "writeDate": "2026-03-26",
+      "itemCode": "138080",
+      "itemName": "오이솔루션",
+      "title": "아직 본 게임은 시작도 안했다",
+      "brokerCode": "57",
+      "brokerName": "하나증권",
+      "goalPrice": 60000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 20802,
+      "contentLength": 327,
+      "contentSha256": "440a185063253d80b8eb85db285a34463035262bbfa913fabd8a148ef20dc2f1",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UP",
+        "topics": {
+          "미국": 1,
+          "수요": 1,
+          "환율": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91080",
+      "writeDate": "2026-03-26",
+      "itemCode": "005490",
+      "itemName": "POSCO홀딩스",
+      "title": "1Q26 Preview: 철강의 아쉬움, 인프라의 견조한 방어",
+      "brokerCode": "16",
+      "brokerName": "한화투자증권",
+      "goalPrice": 490000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 19308,
+      "contentLength": 746,
+      "contentSha256": "d1ae5ceb48d08cbd379ee9bac43a4b617fe6cd4910d8836112f627088cc175fe",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 6
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "가격": 6,
+          "원가": 2,
+          "배터리": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91079",
+      "writeDate": "2026-03-26",
+      "itemCode": "170920",
+      "itemName": "엘티씨",
+      "title": "[탐방노트] 순풍만범(順風滿帆)",
+      "brokerCode": "18",
+      "brokerName": "유안타증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9629,
+      "contentLength": 186,
+      "contentSha256": "2d42b7fda3dbeb254fe2374bca44dfce8f611e0681d6b5cdadc137bb454d29c3",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 2,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91078",
+      "writeDate": "2026-03-26",
+      "itemCode": "064760",
+      "itemName": "티씨케이",
+      "title": "성장 엔진 가속",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": 320000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 12537,
+      "contentLength": 254,
+      "contentSha256": "02dc50a0734f38c6588d6140d15b98fa8bc347e90771e8164919b6e82cde7621",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 7,
+          "negative": 0
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 2,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "반도체": 3,
+          "재고": 1,
+          "중국": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91077",
+      "writeDate": "2026-03-26",
+      "itemCode": "005090",
+      "itemName": "SGC에너지",
+      "title": "데이터센터 신사업이 여는 성장의 문",
+      "brokerCode": "64",
+      "brokerName": "SK증권",
+      "goalPrice": 86000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 9806,
+      "contentLength": 381,
+      "contentSha256": "514be555975658f8f0052ac3266e94015bd609d228cdf4d0f623d768b31b5083",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "AI": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91076",
+      "writeDate": "2026-03-26",
+      "itemCode": "014680",
+      "itemName": "한솔케미칼",
+      "title": "2026년 뚜렷한 성장세, 여전히 저평가 국면",
+      "brokerCode": "61",
+      "brokerName": "iM증권",
+      "goalPrice": 350000,
+      "opinionText": "Buy",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 11009,
+      "contentLength": 900,
+      "contentSha256": "be6d0251c685e26294cd525f1b7609058ca6c30d4a326e2f0a3ec4bb76d552d6",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 14,
+          "negative": 2
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 9,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "가격": 6,
+          "수요": 4,
+          "반도체": 3,
+          "배터리": 3,
+          "중국": 3,
+          "AI": 1,
+          "미국": 1,
+          "원가": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91075",
+      "writeDate": "2026-03-26",
+      "itemCode": "0004V0",
+      "itemName": "엔비알모션",
+      "title": "설명할 시간 없어, 빨리 타(feat. 로봇)",
+      "brokerCode": "21",
+      "brokerName": "신한투자증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 9998,
+      "contentLength": 149,
+      "contentSha256": "1b4b6d245fcddef2ec1d67f511b1c1ab9ff4f983a68f3e3bb9507403692a7309",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "로봇": 2,
+          "자동차": 2
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91074",
+      "writeDate": "2026-03-26",
+      "itemCode": "402340",
+      "itemName": "SK스퀘어",
+      "title": "시동걸린 주주환원",
+      "brokerCode": "64",
+      "brokerName": "SK증권",
+      "goalPrice": 740000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 19552,
+      "contentLength": 462,
+      "contentSha256": "b3762500ecb0319d921c6656555f4c3fee213a5b62b3c96ad2b0df13e2bd9c34",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 0,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91073",
+      "writeDate": "2026-03-26",
+      "itemCode": "246960",
+      "itemName": "SCL사이언스",
+      "title": "기존 사업 받고, AI 암 백신 개발 더",
+      "brokerCode": "39",
+      "brokerName": "키움증권",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 8743,
+      "contentLength": 463,
+      "contentSha256": "8652cf160225663f787eb4945eec6158c7d45a3a318a9b1bb6d1a87accc709ba",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 1,
+          "negative": 0
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {}
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91072",
+      "writeDate": "2026-03-26",
+      "itemCode": "259630",
+      "itemName": "엠플러스",
+      "title": "사업 영역 확대를 모색하는 이차전지 강소기업",
+      "brokerCode": "74",
+      "brokerName": "한국IR협의회",
+      "goalPrice": null,
+      "opinionText": "없음",
+      "opinionType": "neutral",
+      "normalizedOpinion": "NONE",
+      "readCount": 11071,
+      "contentLength": 117,
+      "contentSha256": "4d45a70c526e02e3c49775cfd0ae00cd9e859974c70c13c088f25e0cae94ea66",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 3,
+          "negative": 1
+        },
+        "earningsTextDirection": "UNKNOWN",
+        "earningsPositiveSignalCount": 0,
+        "earningsNegativeSignalCount": 0,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "배터리": 1,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    },
+    {
+      "nid": "91071",
+      "writeDate": "2026-03-26",
+      "itemCode": "007070",
+      "itemName": "GS리테일",
+      "title": "1분기에도 안정적 실적 달성",
+      "brokerCode": "40",
+      "brokerName": "IBK투자증권",
+      "goalPrice": 27000,
+      "opinionText": "매수",
+      "opinionType": "buy",
+      "normalizedOpinion": "BUY",
+      "readCount": 7760,
+      "contentLength": 466,
+      "contentSha256": "6c0fc490c8351b6711eb5a7c00d7c5295d19357b99cd4deba1fcefb3000dfadf",
+      "analysis": {
+        "textSignalBalance": {
+          "positive": 11,
+          "negative": 1
+        },
+        "earningsTextDirection": "UP",
+        "earningsPositiveSignalCount": 7,
+        "earningsNegativeSignalCount": 1,
+        "targetPriceMentionDirection": "UNKNOWN",
+        "topics": {
+          "원가": 2,
+          "자동차": 1
+        }
+      },
+      "previousSameBrokerNid": null,
+      "goalPriceChange": null,
+      "opinionChange": null,
+      "goalPriceChangeLarge": false
+    }
+  ]
+}

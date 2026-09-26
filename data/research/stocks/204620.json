@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "204620",
+  "itemName": "글로벌텍스프리",
+  "reportCount": 2,
+  "latestReportNid": "96036",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96036",
+    "writeDate": "2026-09-08",
+    "brokerName": "SK증권",
+    "title": "국내 성장 지속, 이제는 해외 사업에 주목할 시점",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 1
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96036",
+    "93033"
+  ]
+}

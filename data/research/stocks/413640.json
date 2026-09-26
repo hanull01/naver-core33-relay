@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "413640",
+  "itemName": "비아이매트릭스",
+  "reportCount": 1,
+  "latestReportNid": "93586",
+  "latestWriteDate": "2026-06-18",
+  "latest": {
+    "nid": "93586",
+    "writeDate": "2026-06-18",
+    "brokerName": "IBK투자증권",
+    "title": "AI는 똑똑하게, 데이터는 안전하게",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 7,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93586"
+  ]
+}

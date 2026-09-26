@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "018120",
+  "itemName": "진로발효",
+  "reportCount": 1,
+  "latestReportNid": "96268",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96268",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 소주 원료 주정 시장점유율 2위 기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96268"
+  ]
+}

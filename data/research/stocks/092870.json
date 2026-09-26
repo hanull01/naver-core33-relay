@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "092870",
+  "itemName": "엑시콘",
+  "reportCount": 4,
+  "latestReportNid": "96072",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96072",
+    "writeDate": "2026-09-10",
+    "brokerName": "신한투자증권",
+    "title": "CLT 장비를 넘어 부품 공급 업체로",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 5,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96072",
+    "95323",
+    "93587",
+    "91964"
+  ]
+}

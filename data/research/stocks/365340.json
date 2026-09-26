@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "365340",
+  "itemName": "성일하이텍",
+  "reportCount": 5,
+  "latestReportNid": "95808",
+  "latestWriteDate": "2026-08-21",
+  "latest": {
+    "nid": "95808",
+    "writeDate": "2026-08-21",
+    "brokerName": "유진투자증권",
+    "title": "2Q26 Review: 12분기 만에 영업이익 흑자 전환",
+    "goalPrice": 51000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 23,
+        "negative": 5
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 16,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "DOWN",
+      "topics": {
+        "자동차": 3,
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "95808",
+    "93753",
+    "93251",
+    "91689",
+    "91110"
+  ]
+}

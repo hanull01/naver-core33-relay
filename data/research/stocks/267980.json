@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "267980",
+  "itemName": "매일유업",
+  "reportCount": 1,
+  "latestReportNid": "91606",
+  "latestWriteDate": "2026-04-16",
+  "latest": {
+    "nid": "91606",
+    "writeDate": "2026-04-16",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 유제품 기반 종합 식품기업으로 사업 다각화",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "91606"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "125210",
+  "itemName": "아모그린텍",
+  "reportCount": 3,
+  "latestReportNid": "96265",
+  "latestWriteDate": "2026-09-21",
+  "latest": {
+    "nid": "96265",
+    "writeDate": "2026-09-21",
+    "brokerName": "유안타증권",
+    "title": "[다시봐] 27년 매출성장 기대 요인",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 3,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 1,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96265",
+    "96218",
+    "91809"
+  ]
+}

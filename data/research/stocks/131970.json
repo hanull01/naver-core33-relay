@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "131970",
+  "itemName": "두산테스나",
+  "reportCount": 6,
+  "latestReportNid": "95790",
+  "latestWriteDate": "2026-08-20",
+  "latest": {
+    "nid": "95790",
+    "writeDate": "2026-08-20",
+    "brokerName": "교보증권",
+    "title": "가시적인 성장성에도 불구하고",
+    "goalPrice": 135000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "수요": 2,
+        "AI": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95790",
+    "93169",
+    "93010",
+    "92973",
+    "92234",
+    "92132"
+  ]
+}

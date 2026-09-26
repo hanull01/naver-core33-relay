@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "420570",
+  "itemName": "제이투케이바이오",
+  "reportCount": 2,
+  "latestReportNid": "94580",
+  "latestWriteDate": "2026-07-28",
+  "latest": {
+    "nid": "94580",
+    "writeDate": "2026-07-28",
+    "brokerName": "SK증권",
+    "title": "탐방노트: 실적 반등 전망",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 3
+      },
+      "earningsTextDirection": "DOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 3,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 1
+      }
+    }
+  },
+  "reportNids": [
+    "94580",
+    "93615"
+  ]
+}

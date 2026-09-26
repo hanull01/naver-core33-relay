@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "086520",
+  "itemName": "에코프로",
+  "reportCount": 1,
+  "latestReportNid": "95744",
+  "latestWriteDate": "2026-08-19",
+  "latest": {
+    "nid": "95744",
+    "writeDate": "2026-08-19",
+    "brokerName": "한국IR협의회",
+    "title": "2차전지 글로벌 밸류체인을 구축한 사업지주회사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 9,
+        "negative": 2
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 2,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 3,
+        "배터리": 2,
+        "원가": 1,
+        "중국": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95744"
+  ]
+}

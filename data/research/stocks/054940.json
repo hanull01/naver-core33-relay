@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "054940",
+  "itemName": "엑사이엔씨",
+  "reportCount": 1,
+  "latestReportNid": "92290",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92290",
+    "writeDate": "2026-05-04",
+    "brokerName": "NICE평가정보",
+    "title": "반도체·데이터센터의 내부 클린룸·시스템실링 등을 시공하는 실내건축 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 2,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 1,
+        "수주": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92290"
+  ]
+}

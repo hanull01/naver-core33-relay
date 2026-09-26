@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "058860",
+  "itemName": "KTis",
+  "reportCount": 1,
+  "latestReportNid": "94253",
+  "latestWriteDate": "2026-07-20",
+  "latest": {
+    "nid": "94253",
+    "writeDate": "2026-07-20",
+    "brokerName": "NICE평가정보",
+    "title": "KT그룹 기반 AICC·고객서비스 DX 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 2
+      }
+    }
+  },
+  "reportNids": [
+    "94253"
+  ]
+}

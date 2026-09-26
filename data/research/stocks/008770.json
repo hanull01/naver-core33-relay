@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "008770",
+  "itemName": "호텔신라",
+  "reportCount": 18,
+  "latestReportNid": "95925",
+  "latestWriteDate": "2026-08-31",
+  "latest": {
+    "nid": "95925",
+    "writeDate": "2026-08-31",
+    "brokerName": "IBK투자증권",
+    "title": "거위가 될 상(像)",
+    "goalPrice": 81000,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 13,
+        "negative": 3
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "중국": 4,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95925",
+    "95015",
+    "95007",
+    "94944",
+    "94939",
+    "94079",
+    "93951",
+    "92331",
+    "92022",
+    "92018",
+    "91990",
+    "91977",
+    "91953",
+    "91933",
+    "91783",
+    "91602",
+    "91299",
+    "91271"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "037560",
+  "itemName": "LG헬로비전",
+  "reportCount": 1,
+  "latestReportNid": "92709",
+  "latestWriteDate": "2026-05-11",
+  "latest": {
+    "nid": "92709",
+    "writeDate": "2026-05-11",
+    "brokerName": "대신증권",
+    "title": "돌파구가 필요합니다",
+    "goalPrice": 2800,
+    "normalizedOpinion": "MARKETPERFORM",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNCHANGED",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "92709"
+  ]
+}

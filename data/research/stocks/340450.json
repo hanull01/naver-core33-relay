@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "340450",
+  "itemName": "지씨지놈",
+  "reportCount": 1,
+  "latestReportNid": "93287",
+  "latestWriteDate": "2026-05-27",
+  "latest": {
+    "nid": "93287",
+    "writeDate": "2026-05-27",
+    "brokerName": "한국IR협의회",
+    "title": "여기 임상유전체와 액체생검은 공상과학이 아니네?",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 4,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 1,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "미국": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "93287"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "013030",
+  "itemName": "하이록코리아",
+  "reportCount": 3,
+  "latestReportNid": "96185",
+  "latestWriteDate": "2026-09-17",
+  "latest": {
+    "nid": "96185",
+    "writeDate": "2026-09-17",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 계장용 관이음쇠·밸브 제조 전문기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "반도체": 2,
+        "조선": 2,
+        "방산": 1,
+        "수요": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96185",
+    "93296",
+    "93239"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "111710",
+  "itemName": "남화산업",
+  "reportCount": 1,
+  "latestReportNid": "96271",
+  "latestWriteDate": "2026-09-22",
+  "latest": {
+    "nid": "96271",
+    "writeDate": "2026-09-22",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 광주 전남권 54홀 대중형 골프장 운영기업",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "96271"
+  ]
+}

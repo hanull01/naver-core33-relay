@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "475400",
+  "itemName": "씨메스로보틱스",
+  "reportCount": 2,
+  "latestReportNid": "92299",
+  "latestWriteDate": "2026-05-04",
+  "latest": {
+    "nid": "92299",
+    "writeDate": "2026-05-04",
+    "brokerName": "키움증권",
+    "title": "휴머노이드 시대, 피지컬 AI 애플리케이션 강자",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 0,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "AI": 7,
+        "로봇": 5,
+        "배터리": 1,
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "92299",
+    "91654"
+  ]
+}

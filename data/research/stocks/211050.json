@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "211050",
+  "itemName": "인카금융서비스",
+  "reportCount": 1,
+  "latestReportNid": "96070",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96070",
+    "writeDate": "2026-09-10",
+    "brokerName": "iM증권",
+    "title": "다수 설계사와 영업력에 기반한 높은 경쟁력",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 7,
+        "negative": 4
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 4,
+      "earningsNegativeSignalCount": 2,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "원가": 2
+      }
+    }
+  },
+  "reportNids": [
+    "96070"
+  ]
+}

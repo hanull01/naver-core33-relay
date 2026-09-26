@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "228340",
+  "itemName": "동양파일",
+  "reportCount": 1,
+  "latestReportNid": "96062",
+  "latestWriteDate": "2026-09-10",
+  "latest": {
+    "nid": "96062",
+    "writeDate": "2026-09-10",
+    "brokerName": "한국IR협의회",
+    "title": "[AI] 전국 3개 공장 기반 PHC파일 제조사",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "가격": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96062"
+  ]
+}

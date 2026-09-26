@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "094480",
+  "itemName": "갤럭시아머니트리",
+  "reportCount": 1,
+  "latestReportNid": "96039",
+  "latestWriteDate": "2026-09-08",
+  "latest": {
+    "nid": "96039",
+    "writeDate": "2026-09-08",
+    "brokerName": "유안타증권",
+    "title": "준비된 자에게 찾아올 기회",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 12,
+        "negative": 0
+      },
+      "earningsTextDirection": "UP",
+      "earningsPositiveSignalCount": 3,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 1
+      }
+    }
+  },
+  "reportNids": [
+    "96039"
+  ]
+}

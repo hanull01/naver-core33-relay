@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "000370",
+  "itemName": "한화손해보험",
+  "reportCount": 9,
+  "latestReportNid": "95581",
+  "latestWriteDate": "2026-08-13",
+  "latest": {
+    "nid": "95581",
+    "writeDate": "2026-08-13",
+    "brokerName": "하나증권",
+    "title": "2Q26 Re - 계리가정 반영에도 견조한 CSM",
+    "goalPrice": 10500,
+    "normalizedOpinion": "BUY",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 6,
+        "negative": 6
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "자동차": 3,
+        "원가": 1
+      }
+    }
+  },
+  "reportNids": [
+    "95581",
+    "95578",
+    "95546",
+    "95535",
+    "95521",
+    "93113",
+    "92861",
+    "92829",
+    "92825"
+  ]
+}

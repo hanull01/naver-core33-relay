@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "493280",
+  "itemName": "아이엠바이오로직스",
+  "reportCount": 1,
+  "latestReportNid": "93482",
+  "latestWriteDate": "2026-06-10",
+  "latest": {
+    "nid": "93482",
+    "writeDate": "2026-06-10",
+    "brokerName": "신한투자증권",
+    "title": "아이엠 신뢰에요",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {}
+    }
+  },
+  "reportNids": [
+    "93482"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "itemCode": "295310",
+  "itemName": "에이치브이엠",
+  "reportCount": 2,
+  "latestReportNid": "92482",
+  "latestWriteDate": "2026-05-06",
+  "latest": {
+    "nid": "92482",
+    "writeDate": "2026-05-06",
+    "brokerName": "유안타증권",
+    "title": "증설에는 이유가 있겠죠?",
+    "goalPrice": null,
+    "normalizedOpinion": "NONE",
+    "analysis": {
+      "textSignalBalance": {
+        "positive": 1,
+        "negative": 0
+      },
+      "earningsTextDirection": "UNKNOWN",
+      "earningsPositiveSignalCount": 0,
+      "earningsNegativeSignalCount": 0,
+      "targetPriceMentionDirection": "UNKNOWN",
+      "topics": {
+        "방산": 3,
+        "반도체": 2
+      }
+    }
+  },
+  "reportNids": [
+    "92482",
+    "91756"
+  ]
+}
