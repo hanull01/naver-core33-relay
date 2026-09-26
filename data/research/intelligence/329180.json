@@ -1,0 +1,536 @@
+{
+  "status": "OK",
+  "rankingEligible": true,
+  "itemCode": "329180",
+  "itemName": "HD현대중공업",
+  "asOf": "2026-09-26",
+  "dateRange": {
+    "from": "2026-04-01",
+    "to": "2026-09-23"
+  },
+  "reportCount": 23,
+  "brokerCount": 12,
+  "recentVsPrevious": {
+    "recent": {
+      "from": "2026-08-27",
+      "to": "2026-09-26",
+      "reportCount": 5,
+      "brokerCount": 5,
+      "targetPrice": {
+        "count": 5,
+        "min": 650000,
+        "max": 970000,
+        "mean": 825200,
+        "median": 840000,
+        "stdev": 103403,
+        "range": 320000
+      },
+      "earningsDirection": {
+        "UNKNOWN": 4,
+        "UP": 1
+      },
+      "textSignal": {
+        "positive": 14,
+        "negative": 1,
+        "net": 13,
+        "netPerReport": 2.6
+      },
+      "topics": {
+        "수요": {
+          "count": 5,
+          "perReport": 1.0
+        },
+        "CAPEX/생산능력": {
+          "count": 2,
+          "perReport": 0.4
+        },
+        "중국": {
+          "count": 1,
+          "perReport": 0.2
+        },
+        "AI": {
+          "count": 1,
+          "perReport": 0.2
+        }
+      }
+    },
+    "previous": {
+      "from": "2026-07-28",
+      "to": "2026-08-26",
+      "reportCount": 5,
+      "brokerCount": 5,
+      "targetPrice": {
+        "count": 5,
+        "min": 842000,
+        "max": 1000000,
+        "mean": 896400,
+        "median": 880000,
+        "stdev": 55316,
+        "range": 158000
+      },
+      "earningsDirection": {
+        "UP": 4,
+        "UNKNOWN": 1
+      },
+      "textSignal": {
+        "positive": 38,
+        "negative": 5,
+        "net": 33,
+        "netPerReport": 6.6
+      },
+      "topics": {
+        "환율": {
+          "count": 3,
+          "perReport": 0.6
+        },
+        "AI": {
+          "count": 1,
+          "perReport": 0.2
+        }
+      }
+    },
+    "topicAcceleration": [
+      {
+        "topic": "수요",
+        "currentCount": 5,
+        "currentPerReport": 1.0,
+        "previousCount": 0,
+        "previousPerReport": 0,
+        "perReportDelta": 1.0,
+        "ratio": null
+      },
+      {
+        "topic": "CAPEX/생산능력",
+        "currentCount": 2,
+        "currentPerReport": 0.4,
+        "previousCount": 0,
+        "previousPerReport": 0,
+        "perReportDelta": 0.4,
+        "ratio": null
+      },
+      {
+        "topic": "중국",
+        "currentCount": 1,
+        "currentPerReport": 0.2,
+        "previousCount": 0,
+        "previousPerReport": 0,
+        "perReportDelta": 0.2,
+        "ratio": null
+      },
+      {
+        "topic": "AI",
+        "currentCount": 1,
+        "currentPerReport": 0.2,
+        "previousCount": 1,
+        "previousPerReport": 0.2,
+        "perReportDelta": 0.0,
+        "ratio": 1.0
+      },
+      {
+        "topic": "환율",
+        "currentCount": 0,
+        "currentPerReport": 0,
+        "previousCount": 3,
+        "previousPerReport": 0.6,
+        "perReportDelta": -0.6,
+        "ratio": 0.0
+      }
+    ]
+  },
+  "comparison": {
+    "reportCountChange": 0,
+    "targetMeanChangePct": -7.94,
+    "targetMedianChangePct": -4.55,
+    "targetDispersionChangePct": 86.93
+  },
+  "goalPriceRevisions": {
+    "total": 3,
+    "up": 2,
+    "down": 1,
+    "flat": 0
+  },
+  "monthly": {
+    "2026-04": {
+      "reportCount": 4,
+      "brokerCount": 4,
+      "targetPrice": {
+        "count": 3,
+        "min": 781000,
+        "max": 860000,
+        "mean": 817000,
+        "median": 810000,
+        "stdev": 32629,
+        "range": 79000
+      },
+      "earningsDirection": {
+        "UNKNOWN": 2,
+        "UP": 1,
+        "MIXED": 1
+      },
+      "textSignal": {
+        "positive": 11,
+        "negative": 1,
+        "net": 10,
+        "netPerReport": 2.5
+      },
+      "topics": {
+        "환율": {
+          "count": 2,
+          "perReport": 0.5
+        },
+        "CAPEX/생산능력": {
+          "count": 1,
+          "perReport": 0.25
+        },
+        "수요": {
+          "count": 1,
+          "perReport": 0.25
+        }
+      }
+    },
+    "2026-05": {
+      "reportCount": 6,
+      "brokerCount": 6,
+      "targetPrice": {
+        "count": 6,
+        "min": 842000,
+        "max": 970000,
+        "mean": 905333,
+        "median": 900000,
+        "stdev": 43767,
+        "range": 128000
+      },
+      "earningsDirection": {
+        "UP": 5,
+        "MIXED": 1
+      },
+      "textSignal": {
+        "positive": 23,
+        "negative": 3,
+        "net": 20,
+        "netPerReport": 3.333
+      },
+      "topics": {
+        "환율": {
+          "count": 3,
+          "perReport": 0.5
+        },
+        "원가": {
+          "count": 1,
+          "perReport": 0.167
+        }
+      }
+    },
+    "2026-07": {
+      "reportCount": 8,
+      "brokerCount": 6,
+      "targetPrice": {
+        "count": 8,
+        "min": 842000,
+        "max": 1000000,
+        "mean": 899000,
+        "median": 880000,
+        "stdev": 52745,
+        "range": 158000
+      },
+      "earningsDirection": {
+        "UNKNOWN": 2,
+        "UP": 6
+      },
+      "textSignal": {
+        "positive": 49,
+        "negative": 5,
+        "net": 44,
+        "netPerReport": 5.5
+      },
+      "topics": {
+        "환율": {
+          "count": 4,
+          "perReport": 0.5
+        },
+        "원가": {
+          "count": 1,
+          "perReport": 0.125
+        },
+        "CAPEX/생산능력": {
+          "count": 1,
+          "perReport": 0.125
+        },
+        "AI": {
+          "count": 1,
+          "perReport": 0.125
+        }
+      }
+    },
+    "2026-09": {
+      "reportCount": 5,
+      "brokerCount": 5,
+      "targetPrice": {
+        "count": 5,
+        "min": 650000,
+        "max": 970000,
+        "mean": 825200,
+        "median": 840000,
+        "stdev": 103403,
+        "range": 320000
+      },
+      "earningsDirection": {
+        "UNKNOWN": 4,
+        "UP": 1
+      },
+      "textSignal": {
+        "positive": 14,
+        "negative": 1,
+        "net": 13,
+        "netPerReport": 2.6
+      },
+      "topics": {
+        "수요": {
+          "count": 5,
+          "perReport": 1.0
+        },
+        "CAPEX/생산능력": {
+          "count": 2,
+          "perReport": 0.4
+        },
+        "중국": {
+          "count": 1,
+          "perReport": 0.2
+        },
+        "AI": {
+          "count": 1,
+          "perReport": 0.2
+        }
+      }
+    }
+  },
+  "brokerTrajectory": {
+    "DS투자증권": {
+      "reportCount": 2,
+      "targetPricePointCount": 2,
+      "firstGoalPrice": 900000,
+      "latestGoalPrice": 900000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-05-08",
+          "goalPrice": 900000,
+          "title": "본업도 잘하는데 새로운 기회까지 선점"
+        },
+        {
+          "date": "2026-07-30",
+          "goalPrice": 900000,
+          "title": "압도적인 모멘텀. 전사적인 수익성도 확대 중"
+        }
+      ]
+    },
+    "IBK투자증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 840000,
+      "latestGoalPrice": 840000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-09-15",
+          "goalPrice": 840000,
+          "title": "수주가 다 감당이 안 될 지경"
+        }
+      ]
+    },
+    "SK증권": {
+      "reportCount": 3,
+      "targetPricePointCount": 3,
+      "firstGoalPrice": 970000,
+      "latestGoalPrice": 970000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-05-08",
+          "goalPrice": 970000,
+          "title": "안 좋은 사업부문 없고, 더 좋아질 가능성 높다"
+        },
+        {
+          "date": "2026-07-14",
+          "goalPrice": 970000,
+          "title": "엔진 캐파 증설해 주실 거죠?"
+        },
+        {
+          "date": "2026-09-17",
+          "goalPrice": 970000,
+          "title": "발전 엔진으로 또 성장한다"
+        }
+      ]
+    },
+    "iM증권": {
+      "reportCount": 4,
+      "targetPricePointCount": 4,
+      "firstGoalPrice": 860000,
+      "latestGoalPrice": 860000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-04-01",
+          "goalPrice": 860000,
+          "title": "3 조원 교환사채 발행 코멘트"
+        },
+        {
+          "date": "2026-07-10",
+          "goalPrice": 860000,
+          "title": "2Q26 Pre: 본업 좀 봐주세요 좋아요"
+        },
+        {
+          "date": "2026-07-30",
+          "goalPrice": 860000,
+          "title": "2Q26: 역시 최고의 조선사"
+        },
+        {
+          "date": "2026-09-11",
+          "goalPrice": 860000,
+          "title": "드디어 엔진 증설, 저평가된 주가"
+        }
+      ]
+    },
+    "삼성증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 806000,
+      "latestGoalPrice": 806000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-09-23",
+          "goalPrice": 806000,
+          "title": "기다려왔던 증설, 드디어 발표"
+        }
+      ]
+    },
+    "신한투자증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 650000,
+      "latestGoalPrice": 650000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-09-11",
+          "goalPrice": 650000,
+          "title": "발전엔진 4GW, 조선 다음의 성장축"
+        }
+      ]
+    },
+    "유안타증권": {
+      "reportCount": 3,
+      "targetPricePointCount": 3,
+      "firstGoalPrice": 781000,
+      "latestGoalPrice": 842000,
+      "changeAmount": 61000,
+      "changePct": 7.81,
+      "trajectory": [
+        {
+          "date": "2026-04-20",
+          "goalPrice": 781000,
+          "title": "1Q26 Pre: 실적은 좋은데"
+        },
+        {
+          "date": "2026-05-08",
+          "goalPrice": 842000,
+          "title": "1Q26 Re: 1H25 이익을 한 분기에 달성"
+        },
+        {
+          "date": "2026-07-30",
+          "goalPrice": 842000,
+          "title": "2Q26 Re: 가던 길, 마저 갑니다"
+        }
+      ]
+    },
+    "유진투자증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 1000000,
+      "latestGoalPrice": 1000000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-07-30",
+          "goalPrice": 1000000,
+          "title": "이제는 그냥 조선사가 아니다"
+        }
+      ]
+    },
+    "키움증권": {
+      "reportCount": 4,
+      "targetPricePointCount": 4,
+      "firstGoalPrice": 810000,
+      "latestGoalPrice": 880000,
+      "changeAmount": 70000,
+      "changePct": 8.64,
+      "trajectory": [
+        {
+          "date": "2026-04-17",
+          "goalPrice": 810000,
+          "title": "우호적인 상선 업황과 군함 사업 확대 기대감"
+        },
+        {
+          "date": "2026-05-08",
+          "goalPrice": 950000,
+          "title": "상선, 군함, 엔진을 다 갖춘 만능 조선사"
+        },
+        {
+          "date": "2026-07-15",
+          "goalPrice": 880000,
+          "title": "여전히 강한 성장 동력을 보유"
+        },
+        {
+          "date": "2026-07-30",
+          "goalPrice": 880000,
+          "title": "견고한 본업과 차근차근 준비하는 미래 사업"
+        }
+      ]
+    },
+    "하나증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 900000,
+      "latestGoalPrice": 900000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-05-08",
+          "goalPrice": 900000,
+          "title": "일회성 요인 없이 실적 서프라이즈"
+        }
+      ]
+    },
+    "한화투자증권": {
+      "reportCount": 1,
+      "targetPricePointCount": 1,
+      "firstGoalPrice": 870000,
+      "latestGoalPrice": 870000,
+      "changeAmount": 0,
+      "changePct": 0.0,
+      "trajectory": [
+        {
+          "date": "2026-05-08",
+          "goalPrice": 870000,
+          "title": "[1Q26 Review] 견조한 상선에 더해지는 DC 엔진 스토리"
+        }
+      ]
+    }
+  },
+  "methodology": {
+    "rawContentStored": false,
+    "topicSource": "report title + stored rule-based topic keys only",
+    "topicCountsAreFullTextCounts": false,
+    "buySellUsedAsRecommendationScore": false,
+    "minimumRecentReportsForRanking": 3
+  }
+}

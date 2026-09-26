@@ -61,26 +61,70 @@ jobs:
           print("validation: OK")
           PY
 
+      - name: Build research intelligence
+        run: |
+          python3 research_intelligence_batch.py \
+            --as-of "$(date -u +%F)" \
+            --recent-days 30 \
+            --min-recent-reports 3 \
+            --output-dir data/research/intelligence
+
+      - name: Validate research intelligence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("data/research/intelligence")
+          latest = json.loads(
+              (root / "latest.json").read_text(encoding="utf-8")
+          )
+
+          enabled = latest["enabledStockCount"]
+
+          assert latest["status"] == "OK"
+          assert len(latest["stocks"]) == enabled
+          assert len(list(root.glob("*.json"))) == enabled + 1
+
+          assert all(
+              not row["rankingEligible"]
+              for row in latest["stocks"]
+              if row["status"] in {
+                  "NO_RESEARCH",
+                  "NO_RECENT_RESEARCH",
+                  "LOW_SAMPLE",
+              }
+          )
+
+          print("enabled stocks:", enabled)
+          print("status counts:", latest["statusCounts"])
+          print(
+              "ranking eligible:",
+              latest["rankingEligibleCount"],
+          )
+          print("intelligence validation: OK")
+          PY
+
       - name: Run tests
         run: python3 -m unittest discover -s . -p 'test_*.py'
 
       - name: Commit updates
         shell: bash
         run: |
-          if git diff --quiet -- data/research; then
-            echo "No research changes."
+          git add data/research
+
+          if git diff --cached --quiet -- data/research; then
+            echo "No research or intelligence changes."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/research
-
           if git grep --cached -n '"content"[[:space:]]*:' -- data/research; then
             echo "Raw report content detected."
             exit 1
           fi
 
-          git commit -m "Update NAVER research"
+          git commit -m "Update NAVER research intelligence"
           git push origin HEAD:main
