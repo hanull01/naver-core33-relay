@@ -177,6 +177,51 @@ class NaverResearchTest(unittest.TestCase):
             60.0,
         )
 
+    def test_no_new_nid_is_true_noop(self):
+        raw = [{
+            "nid": "10",
+            "writeDate": "2026-09-20",
+            "itemCode": "005930",
+            "itemName": "Samsung",
+            "title": "Test",
+            "brokerCode": "1",
+            "brokerName": "Broker",
+            "goalPrice": "100000",
+            "opinionText": "Buy",
+            "opinionType": "buy",
+            "readCount": "10",
+            "content": "<p>test body</p>",
+        }]
+
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+
+            nr.build_outputs(
+                raw, root,
+                "2026-09-20",
+                "2026-09-20",
+            )
+
+            before = {
+                p.relative_to(root): p.read_bytes()
+                for p in root.rglob("*.json")
+            }
+
+            result = nr.build_outputs(
+                raw, root,
+                "2026-09-20",
+                "2026-09-20",
+            )
+
+            after = {
+                p.relative_to(root): p.read_bytes()
+                for p in root.rglob("*.json")
+            }
+
+            self.assertEqual(result["newReportCount"], 0)
+            self.assertTrue(result["unchanged"])
+            self.assertEqual(before, after)
+
     def test_build_outputs_does_not_store_content(self):
         raw = [{
             "nid": "10",

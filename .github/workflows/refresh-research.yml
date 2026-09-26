@@ -1,0 +1,86 @@
+name: Refresh NAVER Research
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 20:20 KST, Monday-Friday
+    - cron: "20 11 * * 1-5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: research-data-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh recent research
+        run: |
+          python3 naver_research.py update \
+            --lookback-days 14 \
+            --sleep 0.30 \
+            --output-dir data/research
+
+      - name: Validate research data
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path("data/research")
+          rows = []
+
+          for p in sorted((root / "reports").glob("*.json")):
+              rows.extend(
+                  json.loads(p.read_text(encoding="utf-8"))["reports"]
+              )
+
+          nids = [str(x["nid"]) for x in rows]
+
+          assert len(nids) == len(set(nids))
+          assert all(
+              isinstance(x.get("analysis"), dict)
+              for x in rows
+          )
+          assert all("content" not in x for x in rows)
+
+          print("reports:", len(rows))
+          print("validation: OK")
+          PY
+
+      - name: Run tests
+        run: python3 -m unittest discover -s . -p 'test_*.py'
+
+      - name: Commit updates
+        shell: bash
+        run: |
+          if git diff --quiet -- data/research; then
+            echo "No research changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/research
+
+          if git grep --cached -n '"content"[[:space:]]*:' -- data/research; then
+            echo "Raw report content detected."
+            exit 1
+          fi
+
+          git commit -m "Update NAVER research"
+          git push origin HEAD:main

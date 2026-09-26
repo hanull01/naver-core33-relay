@@ -502,6 +502,27 @@ def build_outputs(
         set(str(x["nid"]) for x in fresh) - set(existing_by_nid)
     )
 
+    # True no-op for scheduled incremental runs with no new reports.
+    if existing_by_nid and not new_nids:
+        return {
+            "schemaVersion": SCHEMA_VERSION,
+            "source": "NAVER_STOCK_RESEARCH",
+            "endpoint": ENDPOINT,
+            "generatedAt": datetime.now(KST).isoformat(),
+            "requestedStartDate": start_date,
+            "requestedEndDate": end_date,
+            "fetchedCount": len(raw_items),
+            "newReportCount": 0,
+            "storedReportCount": len(existing_by_nid),
+            "stockCount": len({
+                str(x.get("itemCode"))
+                for x in existing_by_nid.values()
+                if x.get("itemCode")
+            }),
+            "newNids": [],
+            "unchanged": True,
+        }
+
     by_month: dict[str, list[dict[str, Any]]] = defaultdict(list)
     by_stock: dict[str, list[dict[str, Any]]] = defaultdict(list)
 
