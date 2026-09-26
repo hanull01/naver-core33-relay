@@ -1,0 +1,134 @@
+name: Build daily market report
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 20:40 KST Mon-Fri = 11:40 UTC Mon-Fri
+    - cron: '40 11 * * 1-5'
+
+permissions:
+  contents: write
+
+# Share the same group as market-data workflows.
+# If the 20:35 market refresh is still running, this report waits.
+concurrency:
+  group: market-data-write-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check KRX trading day
+        id: market_day
+        shell: bash
+        run: |
+          # Manual runs are allowed for validation even on non-trading days.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Manual dispatch: trading-day gate bypassed."
+            exit 0
+          fi
+
+          set +e
+          python krx_market_day.py
+          code=$?
+          set -e
+
+          if [ "$code" -eq 0 ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping daily report: closed or unverifiable KRX trading day."
+          fi
+
+      - name: Sync latest main
+        if: steps.market_day.outputs.run == 'true'
+        run: |
+          git pull --ff-only origin main
+
+      - name: Run report tests
+        if: steps.market_day.outputs.run == 'true'
+        run: |
+          python3 -m py_compile daily_report.py test_daily_report.py
+          python3 -m unittest test_daily_report.py -v
+
+      - name: Build daily report
+        if: steps.market_day.outputs.run == 'true'
+        run: |
+          python3 daily_report.py \
+            --as-of "$(TZ=Asia/Seoul date +%F)" \
+            --output-dir data/reports
+
+      - name: Validate daily report
+        if: steps.market_day.outputs.run == 'true'
+        id: validate
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path("data/reports/latest.json")
+          x = json.loads(p.read_text(encoding="utf-8"))
+
+          enabled = x["coverage"]["enabledStockCount"]
+          quotes = x["coverage"]["quoteCount"]
+          technicals = x["coverage"]["technicalCount"]
+          states = x["coverage"]["stateCount"]
+          research = x["coverage"]["researchStockCount"]
+          missing = x["coverage"]["missingMarketStocks"]
+
+          print("status:", x["status"])
+          print("coverageStatus:", x["coverageStatus"])
+          print("enabledStockCount:", enabled)
+          print("quoteCount:", quotes)
+          print("technicalCount:", technicals)
+          print("stateCount:", states)
+          print("researchStockCount:", research)
+          print("missingMarketCount:", len(missing))
+
+          if research != enabled:
+              raise SystemExit(
+                  f"Research coverage mismatch: {research}/{enabled}"
+              )
+
+          if x["coverageStatus"] == "OK":
+              if not (
+                  quotes >= enabled
+                  and technicals >= enabled
+                  and states >= enabled
+              ):
+                  raise SystemExit("Invalid OK coverage status")
+          else:
+              print("Market coverage incomplete; report will be published as DEGRADED.")
+          PY
+
+      - name: Commit daily report
+        if: steps.market_day.outputs.run == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/reports
+
+          if git diff --cached --quiet; then
+            echo "No daily report changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update daily market report"
+          git push origin HEAD:main

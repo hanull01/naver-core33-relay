@@ -1,0 +1,3502 @@
+{
+  "status": "DEGRADED",
+  "coverageStatus": "INCOMPLETE_MARKET_COVERAGE",
+  "version": "daily-market-research-report-v1",
+  "asOf": "2026-09-26",
+  "generatedAt": "2026-09-26T16:38:17.714713+09:00",
+  "sources": {
+    "quotes": {
+      "path": "data/quotes.json",
+      "generatedAt": "2026-09-24T01:44:33.560388+09:00",
+      "sourceTime": "2026-09-23T20:00:00+09:00",
+      "status": "ok"
+    },
+    "technicals": {
+      "path": "data/technicals.json",
+      "generatedAt": "2026-09-24T01:44:33.597793+09:00",
+      "status": "ok"
+    },
+    "states": {
+      "path": "data/states.json",
+      "generatedAt": "2026-09-24T01:44:33.621342+09:00",
+      "status": "ok"
+    },
+    "researchIntelligence": {
+      "path": "data/research/intelligence/latest.json",
+      "asOf": "2026-09-26",
+      "status": "OK"
+    }
+  },
+  "coverage": {
+    "enabledStockCount": 41,
+    "quoteCount": 36,
+    "technicalCount": 36,
+    "stateCount": 36,
+    "researchStockCount": 41,
+    "missingMarketCount": 5,
+    "missingMarketStocks": [
+      {
+        "itemCode": "344820",
+        "itemName": "KCC글라스"
+      },
+      {
+        "itemCode": "277810",
+        "itemName": "레인보우로보틱스"
+      },
+      {
+        "itemCode": "454910",
+        "itemName": "두산로보틱스"
+      },
+      {
+        "itemCode": "108490",
+        "itemName": "로보티즈"
+      },
+      {
+        "itemCode": "058610",
+        "itemName": "에스피지"
+      }
+    ]
+  },
+  "marketSummary": {
+    "topGainers": [
+      {
+        "itemCode": "353200",
+        "itemName": "대덕전자",
+        "changeRate": 6.14,
+        "price": 119200
+      },
+      {
+        "itemCode": "007660",
+        "itemName": "이수페타시스",
+        "changeRate": 5.58,
+        "price": 119200
+      },
+      {
+        "itemCode": "096770",
+        "itemName": "SK이노베이션",
+        "changeRate": 5.46,
+        "price": 148700
+      },
+      {
+        "itemCode": "005930",
+        "itemName": "삼성전자",
+        "changeRate": 3.62,
+        "price": 286500
+      },
+      {
+        "itemCode": "036930",
+        "itemName": "주성엔지니어링",
+        "changeRate": 2.95,
+        "price": 209500
+      },
+      {
+        "itemCode": "240810",
+        "itemName": "원익IPS",
+        "changeRate": 1.61,
+        "price": 132400
+      },
+      {
+        "itemCode": "000660",
+        "itemName": "SK하이닉스",
+        "changeRate": 1.25,
+        "price": 1863000
+      },
+      {
+        "itemCode": "042700",
+        "itemName": "한미반도체",
+        "changeRate": 1.25,
+        "price": 243000
+      },
+      {
+        "itemCode": "009150",
+        "itemName": "삼성전기",
+        "changeRate": 1.01,
+        "price": 1501000
+      },
+      {
+        "itemCode": "196170",
+        "itemName": "알테오젠",
+        "changeRate": 0.8,
+        "price": 251500
+      }
+    ],
+    "topDecliners": [
+      {
+        "itemCode": "052690",
+        "itemName": "한전기술",
+        "changeRate": -5.14,
+        "price": 131000
+      },
+      {
+        "itemCode": "034020",
+        "itemName": "두산에너빌리티",
+        "changeRate": -4.39,
+        "price": 82700
+      },
+      {
+        "itemCode": "272210",
+        "itemName": "한화시스템",
+        "changeRate": -3.88,
+        "price": 74400
+      },
+      {
+        "itemCode": "055550",
+        "itemName": "신한지주",
+        "changeRate": -2.74,
+        "price": 110100
+      },
+      {
+        "itemCode": "329180",
+        "itemName": "HD현대중공업",
+        "changeRate": -2.52,
+        "price": 444000
+      },
+      {
+        "itemCode": "012450",
+        "itemName": "한화에어로스페이스",
+        "changeRate": -2.46,
+        "price": 1031000
+      },
+      {
+        "itemCode": "010120",
+        "itemName": "LS ELECTRIC",
+        "changeRate": -2.36,
+        "price": 207000
+      },
+      {
+        "itemCode": "000270",
+        "itemName": "기아",
+        "changeRate": -1.94,
+        "price": 116200
+      },
+      {
+        "itemCode": "086790",
+        "itemName": "하나금융지주",
+        "changeRate": -1.69,
+        "price": 133700
+      },
+      {
+        "itemCode": "051600",
+        "itemName": "한전KPS",
+        "changeRate": -1.6,
+        "price": 46100
+      }
+    ]
+  },
+  "researchSummary": {
+    "statusCounts": {
+      "OK": 7,
+      "LOW_SAMPLE": 12,
+      "NO_RESEARCH": 4,
+      "NO_RECENT_RESEARCH": 18
+    },
+    "rankingEligibleCount": 7,
+    "activeStocks": [
+      {
+        "itemCode": "005380",
+        "itemName": "현대차",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 8,
+        "previousReportCount": 1,
+        "recentTargetMean": 681429,
+        "targetMeanChangePct": -18.88,
+        "targetDispersionChangePct": null,
+        "revisionUp": 7,
+        "revisionDown": 5,
+        "risingTopics": [
+          {
+            "topic": "중국",
+            "delta": 0.625,
+            "ratio": null
+          },
+          {
+            "topic": "AI",
+            "delta": 0.375,
+            "ratio": null
+          },
+          {
+            "topic": "수요",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "itemCode": "196170",
+        "itemName": "알테오젠",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 6,
+        "previousReportCount": 5,
+        "recentTargetMean": 468333,
+        "targetMeanChangePct": -0.78,
+        "targetDispersionChangePct": -24.05,
+        "revisionUp": 3,
+        "revisionDown": 4,
+        "risingTopics": []
+      },
+      {
+        "itemCode": "329180",
+        "itemName": "HD현대중공업",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 5,
+        "previousReportCount": 5,
+        "recentTargetMean": 825200,
+        "targetMeanChangePct": -7.94,
+        "targetDispersionChangePct": 86.93,
+        "revisionUp": 2,
+        "revisionDown": 1,
+        "risingTopics": [
+          {
+            "topic": "수요",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "CAPEX/생산능력",
+            "delta": 0.4,
+            "ratio": null
+          },
+          {
+            "topic": "중국",
+            "delta": 0.2,
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "itemCode": "096770",
+        "itemName": "SK이노베이션",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 5,
+        "previousReportCount": 4,
+        "recentTargetMean": 194000,
+        "targetMeanChangePct": 3.33,
+        "targetDispersionChangePct": -53.33,
+        "revisionUp": 4,
+        "revisionDown": 0,
+        "risingTopics": [
+          {
+            "topic": "AI",
+            "delta": 0.2,
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "itemCode": "009150",
+        "itemName": "삼성전기",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 13,
+        "recentTargetMean": 2162500,
+        "targetMeanChangePct": -10.9,
+        "targetDispersionChangePct": -18.82,
+        "revisionUp": 24,
+        "revisionDown": 3,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 0.519,
+            "ratio": 3.25
+          },
+          {
+            "topic": "AI",
+            "delta": 0.385,
+            "ratio": 1.63
+          },
+          {
+            "topic": "수요",
+            "delta": 0.288,
+            "ratio": 1.62
+          },
+          {
+            "topic": "원가",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "itemCode": "005930",
+        "itemName": "삼성전자",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 14,
+        "recentTargetMean": 485000,
+        "targetMeanChangePct": 5.6,
+        "targetDispersionChangePct": 51.84,
+        "revisionUp": 22,
+        "revisionDown": 4,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 0.75,
+            "ratio": null
+          },
+          {
+            "topic": "사이클",
+            "delta": 0.5,
+            "ratio": null
+          },
+          {
+            "topic": "HBM",
+            "delta": 0.429,
+            "ratio": 7.04
+          },
+          {
+            "topic": "메모리 가격",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "파운드리",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      },
+      {
+        "itemCode": "207940",
+        "itemName": "삼성바이오로직스",
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 0,
+        "recentTargetMean": 1975000,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 5,
+        "risingTopics": [
+          {
+            "topic": "CAPEX/생산능력",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "수요",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "원가",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      }
+    ]
+  },
+  "groupStates": {
+    "generatedAt": "2026-09-24T01:44:33.623082+09:00",
+    "groupCount": 14,
+    "status": "ok",
+    "groups": [
+      {
+        "groupType": "sector",
+        "groupName": "반도체",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 3,
+        "downCount": 0,
+        "flatCount": 0,
+        "upRatio": 1.0,
+        "downRatio": 0.0,
+        "aboveMA20Count": 3,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 2,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 1,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": 2.04,
+        "medianChangePct": 1.25,
+        "maxChangePct": 3.62,
+        "minChangePct": 1.25,
+        "aboveMA20CountRatio": 1.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 0.67,
+        "changeSpreadPct": 2.37,
+        "diffusionState": "broad",
+        "evidence": {
+          "upRatio": 1.0,
+          "aboveMA20Ratio": 1.0,
+          "breakout20Count": 1,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "반도체 소부장",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 2,
+        "downCount": 1,
+        "flatCount": 0,
+        "upRatio": 0.67,
+        "downRatio": 0.33,
+        "aboveMA20Count": 3,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 2,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 2,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 2,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": 1.34,
+        "medianChangePct": 1.61,
+        "maxChangePct": 2.95,
+        "minChangePct": -0.53,
+        "aboveMA20CountRatio": 1.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 0.67,
+        "changeSpreadPct": 3.48,
+        "diffusionState": "broad",
+        "evidence": {
+          "upRatio": 0.67,
+          "aboveMA20Ratio": 1.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 2,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "AI·IT하드웨어",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 3,
+        "downCount": 0,
+        "flatCount": 0,
+        "upRatio": 1.0,
+        "downRatio": 0.0,
+        "aboveMA20Count": 3,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 1,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 1,
+        "volumeSurgeCount": 1,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": 4.24,
+        "medianChangePct": 5.58,
+        "maxChangePct": 6.14,
+        "minChangePct": 1.01,
+        "aboveMA20CountRatio": 1.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 0.33,
+        "changeSpreadPct": 5.13,
+        "diffusionState": "broad",
+        "evidence": {
+          "upRatio": 1.0,
+          "aboveMA20Ratio": 1.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 1,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "전력기기",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 2,
+        "aboveMA60Count": 2,
+        "ma20AboveMa60Count": 2,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -0.94,
+        "medianChangePct": -0.31,
+        "maxChangePct": -0.14,
+        "minChangePct": -2.36,
+        "aboveMA20CountRatio": 0.67,
+        "aboveMA60CountRatio": 0.67,
+        "ma20AboveMa60CountRatio": 0.67,
+        "changeSpreadPct": 2.22,
+        "diffusionState": "mixed",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.67,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "조선",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 0,
+        "aboveMA60Count": 0,
+        "ma20AboveMa60Count": 0,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 1,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -1.45,
+        "medianChangePct": -1.1,
+        "maxChangePct": -0.73,
+        "minChangePct": -2.52,
+        "aboveMA20CountRatio": 0.0,
+        "aboveMA60CountRatio": 0.0,
+        "ma20AboveMa60CountRatio": 0.0,
+        "changeSpreadPct": 1.79,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "방산",
+        "members": 4,
+        "enabledMembers": 4,
+        "upCount": 0,
+        "downCount": 4,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 2,
+        "aboveMA60Count": 1,
+        "ma20AboveMa60Count": 2,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 1,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -1.85,
+        "medianChangePct": -1.58,
+        "maxChangePct": -0.34,
+        "minChangePct": -3.88,
+        "aboveMA20CountRatio": 0.5,
+        "aboveMA60CountRatio": 0.25,
+        "ma20AboveMa60CountRatio": 0.5,
+        "changeSpreadPct": 3.54,
+        "diffusionState": "narrow",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.5,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 1,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "자동차",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 0,
+        "aboveMA60Count": 0,
+        "ma20AboveMa60Count": 0,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -1.28,
+        "medianChangePct": -0.97,
+        "maxChangePct": -0.94,
+        "minChangePct": -1.94,
+        "aboveMA20CountRatio": 0.0,
+        "aboveMA60CountRatio": 0.0,
+        "ma20AboveMa60CountRatio": 0.0,
+        "changeSpreadPct": 1.0,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "금융",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 0,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 3,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -1.78,
+        "medianChangePct": -1.69,
+        "maxChangePct": -0.91,
+        "minChangePct": -2.74,
+        "aboveMA20CountRatio": 0.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 1.0,
+        "changeSpreadPct": 1.83,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "바이오",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 1,
+        "downCount": 2,
+        "flatCount": 0,
+        "upRatio": 0.33,
+        "downRatio": 0.67,
+        "aboveMA20Count": 0,
+        "aboveMA60Count": 0,
+        "ma20AboveMa60Count": 1,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -0.24,
+        "medianChangePct": -0.22,
+        "maxChangePct": 0.8,
+        "minChangePct": -1.29,
+        "aboveMA20CountRatio": 0.0,
+        "aboveMA60CountRatio": 0.0,
+        "ma20AboveMa60CountRatio": 0.33,
+        "changeSpreadPct": 2.09,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.33,
+          "aboveMA20Ratio": 0.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "2차전지",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 2,
+        "downCount": 1,
+        "flatCount": 0,
+        "upRatio": 0.67,
+        "downRatio": 0.33,
+        "aboveMA20Count": 1,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 3,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 0,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": 1.46,
+        "medianChangePct": 0.43,
+        "maxChangePct": 5.46,
+        "minChangePct": -1.51,
+        "aboveMA20CountRatio": 0.33,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 1.0,
+        "changeSpreadPct": 6.97,
+        "diffusionState": "mixed",
+        "evidence": {
+          "upRatio": 0.67,
+          "aboveMA20Ratio": 0.33,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 0,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "sector",
+        "groupName": "원전",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 1,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 3,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 1,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -3.71,
+        "medianChangePct": -4.39,
+        "maxChangePct": -1.6,
+        "minChangePct": -5.14,
+        "aboveMA20CountRatio": 0.33,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 1.0,
+        "changeSpreadPct": 3.54,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 0.33,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 1,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "theme",
+        "groupName": "우주항공",
+        "members": 1,
+        "enabledMembers": 1,
+        "upCount": 0,
+        "downCount": 1,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 1,
+        "aboveMA60Count": 1,
+        "ma20AboveMa60Count": 1,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 1,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -3.88,
+        "medianChangePct": -3.88,
+        "maxChangePct": -3.88,
+        "minChangePct": -3.88,
+        "aboveMA20CountRatio": 1.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 1.0,
+        "changeSpreadPct": 0.0,
+        "diffusionState": "narrow",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 1.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 1,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "watchlist",
+        "groupName": "legacy33",
+        "members": 33,
+        "enabledMembers": 33,
+        "upCount": 11,
+        "downCount": 22,
+        "flatCount": 0,
+        "upRatio": 0.33,
+        "downRatio": 0.67,
+        "aboveMA20Count": 14,
+        "aboveMA60Count": 20,
+        "ma20AboveMa60Count": 18,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 1,
+        "breakout20FailedCount": 2,
+        "volumeElevatedCount": 2,
+        "volumeSurgeCount": 4,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -0.13,
+        "medianChangePct": -0.71,
+        "maxChangePct": 6.14,
+        "minChangePct": -5.14,
+        "aboveMA20CountRatio": 0.42,
+        "aboveMA60CountRatio": 0.61,
+        "ma20AboveMa60CountRatio": 0.55,
+        "changeSpreadPct": 11.28,
+        "diffusionState": "weak",
+        "evidence": {
+          "upRatio": 0.33,
+          "aboveMA20Ratio": 0.42,
+          "breakout20Count": 1,
+          "volumeSurgeCount": 4,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      },
+      {
+        "groupType": "watchlist",
+        "groupName": "관심종목",
+        "members": 3,
+        "enabledMembers": 3,
+        "upCount": 0,
+        "downCount": 3,
+        "flatCount": 0,
+        "upRatio": 0.0,
+        "downRatio": 1.0,
+        "aboveMA20Count": 3,
+        "aboveMA60Count": 3,
+        "ma20AboveMa60Count": 3,
+        "breakout20AttemptCount": 0,
+        "breakout20ConfirmedCount": 0,
+        "breakout20FailedCount": 0,
+        "volumeElevatedCount": 0,
+        "volumeSurgeCount": 2,
+        "unknownCount": 0,
+        "leaderCount": 0,
+        "leaderUpCount": 0,
+        "leaderAboveMA20Count": 0,
+        "leaderBreakoutCount": 0,
+        "averageChangePct": -2.11,
+        "medianChangePct": -1.34,
+        "maxChangePct": -1.1,
+        "minChangePct": -3.88,
+        "aboveMA20CountRatio": 1.0,
+        "aboveMA60CountRatio": 1.0,
+        "ma20AboveMa60CountRatio": 1.0,
+        "changeSpreadPct": 2.78,
+        "diffusionState": "narrow",
+        "evidence": {
+          "upRatio": 0.0,
+          "aboveMA20Ratio": 1.0,
+          "breakout20Count": 0,
+          "volumeSurgeCount": 2,
+          "leaderUpCount": 0
+        },
+        "status": "ok"
+      }
+    ]
+  },
+  "stocks": [
+    {
+      "itemCode": "005930",
+      "itemName": "삼성전자",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 대형주"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 286500,
+        "changeRate": 3.62,
+        "volume": 19385053,
+        "tradingValue": 5504265000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 271000.0,
+        "ma20": 262250.0,
+        "ma60": 262150.0,
+        "high20": 286500,
+        "high52w": 374500,
+        "high60": 343000,
+        "avgVolume20": 16621947.6,
+        "volumeRatio20": 1.17
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 9.25,
+        "distanceMA60Pct": 9.29,
+        "priorHigh20": 283500,
+        "priorHigh60": 343000,
+        "distancePriorHigh20Pct": 1.06,
+        "distancePriorHigh60Pct": -16.47,
+        "breakout20": "confirmed",
+        "breakout60": "none",
+        "volumeRatio20": 1.17,
+        "volumeState": "normal",
+        "pullbackState": "near_breakout20"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 14,
+        "recentTargetMean": 485000,
+        "targetMeanChangePct": 5.6,
+        "targetDispersionChangePct": 51.84,
+        "revisionUp": 22,
+        "revisionDown": 4,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 0.75,
+            "ratio": null
+          },
+          {
+            "topic": "사이클",
+            "delta": 0.5,
+            "ratio": null
+          },
+          {
+            "topic": "HBM",
+            "delta": 0.429,
+            "ratio": 7.04
+          },
+          {
+            "topic": "메모리 가격",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "파운드리",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "000660",
+      "itemName": "SK하이닉스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 대형주"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 1863000,
+        "changeRate": 1.25,
+        "volume": 2886116,
+        "tradingValue": 5365203000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 1839600.0,
+        "ma20": 1752650.0,
+        "ma60": 1789900.0,
+        "high20": 1935000,
+        "high52w": 2987000,
+        "high60": 2742000,
+        "avgVolume20": 3294273.25,
+        "volumeRatio20": 0.88
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": 6.3,
+        "distanceMA60Pct": 4.08,
+        "priorHigh20": 1935000,
+        "priorHigh60": 2742000,
+        "distancePriorHigh20Pct": -3.72,
+        "distancePriorHigh60Pct": -32.06,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.88,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 19,
+        "recentTargetMean": 3100000,
+        "targetMeanChangePct": -5.26,
+        "targetDispersionChangePct": -100.0,
+        "revisionUp": 21,
+        "revisionDown": 4,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "HBM",
+            "delta": 0.895,
+            "ratio": 9.52
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "042700",
+      "itemName": "한미반도체",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 장비·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 243000,
+        "changeRate": 1.25,
+        "volume": 369301,
+        "tradingValue": 89109000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 237100.0,
+        "ma20": 230675.0,
+        "ma60": 220186.67,
+        "high20": 266000,
+        "high52w": 426000,
+        "high60": 275000,
+        "avgVolume20": 645836.55,
+        "volumeRatio20": 0.57
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 5.34,
+        "distanceMA60Pct": 10.36,
+        "priorHigh20": 266000,
+        "priorHigh60": 275000,
+        "distancePriorHigh20Pct": -8.65,
+        "distancePriorHigh60Pct": -11.64,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.57,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "240810",
+      "itemName": "원익IPS",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 장비·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 132400,
+        "changeRate": 1.61,
+        "volume": 2584001,
+        "tradingValue": 353054000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 126920.0,
+        "ma20": 116485.0,
+        "ma60": 113900.0,
+        "high20": 144100,
+        "high52w": 187800,
+        "high60": 187800,
+        "avgVolume20": 941409.85,
+        "volumeRatio20": 2.74
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 13.66,
+        "distanceMA60Pct": 16.24,
+        "priorHigh20": 134900,
+        "priorHigh60": 187800,
+        "distancePriorHigh20Pct": -1.85,
+        "distancePriorHigh60Pct": -29.5,
+        "breakout20": "failed",
+        "breakout60": "none",
+        "volumeRatio20": 2.74,
+        "volumeState": "surge",
+        "pullbackState": "near_breakout20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 1,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 1,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "036930",
+      "itemName": "주성엔지니어링",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 장비·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 209500,
+        "changeRate": 2.95,
+        "volume": 873557,
+        "tradingValue": 180623000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 206300.0,
+        "ma20": 193790.0,
+        "ma60": 175696.67,
+        "high20": 239500,
+        "high52w": 283000,
+        "high60": 256500,
+        "avgVolume20": 1243743.3,
+        "volumeRatio20": 0.7
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 8.11,
+        "distanceMA60Pct": 19.24,
+        "priorHigh20": 239500,
+        "priorHigh60": 256500,
+        "distancePriorHigh20Pct": -12.53,
+        "distancePriorHigh60Pct": -18.32,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.7,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "058470",
+      "itemName": "리노공업",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "반도체 장비·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 74600,
+        "changeRate": -0.53,
+        "volume": 1493192,
+        "tradingValue": 110177000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 71540.0,
+        "ma20": 67860.0,
+        "ma60": 69076.67,
+        "high20": 77500,
+        "high52w": 129000,
+        "high60": 89100,
+        "avgVolume20": 700965.85,
+        "volumeRatio20": 2.13
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": 9.93,
+        "distanceMA60Pct": 8.0,
+        "priorHigh20": 76900,
+        "priorHigh60": 89100,
+        "distancePriorHigh20Pct": -2.99,
+        "distancePriorHigh60Pct": -16.27,
+        "breakout20": "failed",
+        "breakout60": "none",
+        "volumeRatio20": 2.13,
+        "volumeState": "surge",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "009150",
+      "itemName": "삼성전기",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전자부품·PCB"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 1501000,
+        "changeRate": 1.01,
+        "volume": 496091,
+        "tradingValue": 743457000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 1432200.0,
+        "ma20": 1402800.0,
+        "ma60": 1408900.0,
+        "high20": 1548000,
+        "high52w": 2417000,
+        "high60": 2292000,
+        "avgVolume20": 602351.5,
+        "volumeRatio20": 0.82
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": 7.0,
+        "distanceMA60Pct": 6.54,
+        "priorHigh20": 1548000,
+        "priorHigh60": 2292000,
+        "distancePriorHigh20Pct": -3.04,
+        "distancePriorHigh60Pct": -34.51,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.82,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 13,
+        "recentTargetMean": 2162500,
+        "targetMeanChangePct": -10.9,
+        "targetDispersionChangePct": -18.82,
+        "revisionUp": 24,
+        "revisionDown": 3,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 0.519,
+            "ratio": 3.25
+          },
+          {
+            "topic": "AI",
+            "delta": 0.385,
+            "ratio": 1.63
+          },
+          {
+            "topic": "수요",
+            "delta": 0.288,
+            "ratio": 1.62
+          },
+          {
+            "topic": "원가",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "007660",
+      "itemName": "이수페타시스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전자부품·PCB"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 119200,
+        "changeRate": 5.58,
+        "volume": 929301,
+        "tradingValue": 109461000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 110500.0,
+        "ma20": 110420.0,
+        "ma60": 99303.33,
+        "high20": 119800,
+        "high52w": 164400,
+        "high60": 135200,
+        "avgVolume20": 642685.35,
+        "volumeRatio20": 1.45
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 7.95,
+        "distanceMA60Pct": 20.04,
+        "priorHigh20": 119800,
+        "priorHigh60": 135200,
+        "distancePriorHigh20Pct": -0.5,
+        "distancePriorHigh60Pct": -11.83,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.45,
+        "volumeState": "elevated",
+        "pullbackState": "near_breakout20"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 3,
+        "recentTargetMean": 170000,
+        "targetMeanChangePct": -7.27,
+        "targetDispersionChangePct": -100.0,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": [
+          {
+            "topic": "수요",
+            "delta": 0.333,
+            "ratio": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "353200",
+      "itemName": "대덕전자",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전자부품·PCB"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 119200,
+        "changeRate": 6.14,
+        "volume": 1578412,
+        "tradingValue": 184015000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 107760.0,
+        "ma20": 104950.0,
+        "ma60": 110545.0,
+        "high20": 120700,
+        "high52w": 198000,
+        "high60": 159800,
+        "avgVolume20": 907952.25,
+        "volumeRatio20": 1.74
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": 13.58,
+        "distanceMA60Pct": 7.83,
+        "priorHigh20": 120700,
+        "priorHigh60": 159800,
+        "distancePriorHigh20Pct": -1.24,
+        "distancePriorHigh60Pct": -25.41,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.74,
+        "volumeState": "surge",
+        "pullbackState": "near_breakout20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 6,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 6,
+        "revisionDown": 2,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "267260",
+      "itemName": "HD현대일렉트릭",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전력기기·전력인프라"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 713000,
+        "changeRate": -0.14,
+        "volume": 70829,
+        "tradingValue": 50124000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 718600.0,
+        "ma20": 739600.0,
+        "ma60": 771533.33,
+        "high20": 854000,
+        "high52w": 1430000,
+        "high60": 1084000,
+        "avgVolume20": 117590.1,
+        "volumeRatio20": 0.6
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -3.6,
+        "distanceMA60Pct": -7.59,
+        "priorHigh20": 854000,
+        "priorHigh60": 1084000,
+        "distancePriorHigh20Pct": -16.51,
+        "distancePriorHigh60Pct": -34.23,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.6,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 9,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 3,
+        "revisionDown": 7,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "010120",
+      "itemName": "LS ELECTRIC",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전력기기·전력인프라"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 207000,
+        "changeRate": -2.36,
+        "volume": 332290,
+        "tradingValue": 68660000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 208100.0,
+        "ma20": 204615.0,
+        "ma60": 201835.0,
+        "high20": 224000,
+        "high52w": 335000,
+        "high60": 270000,
+        "avgVolume20": 457736.6,
+        "volumeRatio20": 0.73
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 1.17,
+        "distanceMA60Pct": 2.56,
+        "priorHigh20": 224000,
+        "priorHigh60": 270000,
+        "distancePriorHigh20Pct": -7.59,
+        "distancePriorHigh60Pct": -23.33,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.73,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 1,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 8,
+        "revisionDown": 1,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "298040",
+      "itemName": "효성중공업",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "전력기기·전력인프라"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 2892000,
+        "changeRate": -0.31,
+        "volume": 27462,
+        "tradingValue": 78971000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 2896800.0,
+        "ma20": 2880250.0,
+        "ma60": 2827400.0,
+        "high20": 3265000,
+        "high52w": 4742000,
+        "high60": 3873000,
+        "avgVolume20": 38592.1,
+        "volumeRatio20": 0.71
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 0.41,
+        "distanceMA60Pct": 2.28,
+        "priorHigh20": 3265000,
+        "priorHigh60": 3873000,
+        "distancePriorHigh20Pct": -11.42,
+        "distancePriorHigh60Pct": -25.33,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.71,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 10,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 5,
+        "revisionDown": 5,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "329180",
+      "itemName": "HD현대중공업",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "조선"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 444000,
+        "changeRate": -2.52,
+        "volume": 190465,
+        "tradingValue": 84247000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 456400.0,
+        "ma20": 452975.0,
+        "ma60": 482375.0,
+        "high20": 491000,
+        "high52w": 765000,
+        "high60": 623000,
+        "avgVolume20": 277412.3,
+        "volumeRatio20": 0.69
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -1.98,
+        "distanceMA60Pct": -7.96,
+        "priorHigh20": 491000,
+        "priorHigh60": 623000,
+        "distancePriorHigh20Pct": -9.57,
+        "distancePriorHigh60Pct": -28.73,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.69,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 5,
+        "previousReportCount": 5,
+        "recentTargetMean": 825200,
+        "targetMeanChangePct": -7.94,
+        "targetDispersionChangePct": 86.93,
+        "revisionUp": 2,
+        "revisionDown": 1,
+        "risingTopics": [
+          {
+            "topic": "수요",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "CAPEX/생산능력",
+            "delta": 0.4,
+            "ratio": null
+          },
+          {
+            "topic": "중국",
+            "delta": 0.2,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "042660",
+      "itemName": "한화오션",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "조선"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 80700,
+        "changeRate": -1.1,
+        "volume": 887793,
+        "tradingValue": 71064000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 82600.0,
+        "ma20": 85255.0,
+        "ma60": 87323.33,
+        "high20": 90900,
+        "high52w": 154800,
+        "high60": 123000,
+        "avgVolume20": 651260.75,
+        "volumeRatio20": 1.36
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -5.34,
+        "distanceMA60Pct": -7.58,
+        "priorHigh20": 90900,
+        "priorHigh60": 123000,
+        "distancePriorHigh20Pct": -11.22,
+        "distancePriorHigh60Pct": -34.39,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.36,
+        "volumeState": "elevated",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 9,
+        "recentTargetMean": 120000,
+        "targetMeanChangePct": -18.0,
+        "targetDispersionChangePct": -100.0,
+        "revisionUp": 0,
+        "revisionDown": 6,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "010140",
+      "itemName": "삼성중공업",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "조선"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 20450,
+        "changeRate": -0.73,
+        "volume": 2284205,
+        "tradingValue": 46385000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 20900.0,
+        "ma20": 21102.0,
+        "ma60": 21533.17,
+        "high20": 22500,
+        "high52w": 35350,
+        "high60": 24800,
+        "avgVolume20": 2953787.5,
+        "volumeRatio20": 0.77
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -3.09,
+        "distanceMA60Pct": -5.03,
+        "priorHigh20": 22500,
+        "priorHigh60": 24800,
+        "distancePriorHigh20Pct": -9.11,
+        "distancePriorHigh60Pct": -17.54,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.77,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 2,
+        "previousReportCount": 0,
+        "recentTargetMean": 38500,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 2,
+        "revisionDown": 1,
+        "risingTopics": [
+          {
+            "topic": "AI",
+            "delta": 0.5,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "012450",
+      "itemName": "한화에어로스페이스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "방산"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 1031000,
+        "changeRate": -2.46,
+        "volume": 129794,
+        "tradingValue": 133310000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 1071400.0,
+        "ma20": 1073400.0,
+        "ma60": 1040600.0,
+        "high20": 1169000,
+        "high52w": 1655000,
+        "high60": 1255000,
+        "avgVolume20": 132212.15,
+        "volumeRatio20": 0.98
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -3.95,
+        "distanceMA60Pct": -0.92,
+        "priorHigh20": 1169000,
+        "priorHigh60": 1255000,
+        "distancePriorHigh20Pct": -11.8,
+        "distancePriorHigh60Pct": -17.85,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.98,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 9,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 2,
+        "revisionDown": 8,
+        "risingTopics": [
+          {
+            "topic": "원가",
+            "delta": 1.0,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "064350",
+      "itemName": "현대로템",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "방산"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 116700,
+        "changeRate": -0.34,
+        "volume": 219444,
+        "tradingValue": 25460000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 120340.0,
+        "ma20": 125720.0,
+        "ma60": 143838.33,
+        "high20": 141300,
+        "high52w": 282000,
+        "high60": 209000,
+        "avgVolume20": 304393.0,
+        "volumeRatio20": 0.72
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -7.17,
+        "distanceMA60Pct": -18.87,
+        "priorHigh20": 141300,
+        "priorHigh60": 209000,
+        "distancePriorHigh20Pct": -17.41,
+        "distancePriorHigh60Pct": -44.16,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.72,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 1,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 4,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "079550",
+      "itemName": "LIG디펜스앤에어로스페이스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "방산"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 699000,
+        "changeRate": -0.71,
+        "volume": 65278,
+        "tradingValue": 45349000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 717600.0,
+        "ma20": 690350.0,
+        "ma60": 723200.0,
+        "high20": 780000,
+        "high52w": 1118000,
+        "high60": 853000,
+        "avgVolume20": 87238.0,
+        "volumeRatio20": 0.75
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": 1.25,
+        "distanceMA60Pct": -3.35,
+        "priorHigh20": 780000,
+        "priorHigh60": 853000,
+        "distancePriorHigh20Pct": -10.38,
+        "distancePriorHigh60Pct": -18.05,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.75,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 8,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 3,
+        "revisionDown": 1,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "005380",
+      "itemName": "현대차",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "자동차·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 357000,
+        "changeRate": -0.97,
+        "volume": 550575,
+        "tradingValue": 195710000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 362300.0,
+        "ma20": 379750.0,
+        "ma60": 408941.67,
+        "high20": 414000,
+        "high52w": 783000,
+        "high60": 514000,
+        "avgVolume20": 513247.0,
+        "volumeRatio20": 1.07
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -5.99,
+        "distanceMA60Pct": -12.7,
+        "priorHigh20": 434000,
+        "priorHigh60": 514000,
+        "distancePriorHigh20Pct": -17.74,
+        "distancePriorHigh60Pct": -30.54,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.07,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 8,
+        "previousReportCount": 1,
+        "recentTargetMean": 681429,
+        "targetMeanChangePct": -18.88,
+        "targetDispersionChangePct": null,
+        "revisionUp": 7,
+        "revisionDown": 5,
+        "risingTopics": [
+          {
+            "topic": "중국",
+            "delta": 0.625,
+            "ratio": null
+          },
+          {
+            "topic": "AI",
+            "delta": 0.375,
+            "ratio": null
+          },
+          {
+            "topic": "수요",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "000270",
+      "itemName": "기아",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "자동차·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 116200,
+        "changeRate": -1.94,
+        "volume": 798446,
+        "tradingValue": 92692000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 119720.0,
+        "ma20": 124705.0,
+        "ma60": 133738.33,
+        "high20": 134600,
+        "high52w": 212500,
+        "high60": 162900,
+        "avgVolume20": 782508.7,
+        "volumeRatio20": 1.02
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -6.82,
+        "distanceMA60Pct": -13.11,
+        "priorHigh20": 135800,
+        "priorHigh60": 162900,
+        "distancePriorHigh20Pct": -14.43,
+        "distancePriorHigh60Pct": -28.67,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.02,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 0,
+        "recentTargetMean": 170000,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 6,
+        "revisionDown": 4,
+        "risingTopics": [
+          {
+            "topic": "주주환원",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "중국",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "환율",
+            "delta": 1.0,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "012330",
+      "itemName": "현대모비스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "자동차·부품"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 369000,
+        "changeRate": -0.94,
+        "volume": 187168,
+        "tradingValue": 69163000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 376200.0,
+        "ma20": 410750.0,
+        "ma60": 464033.33,
+        "high20": 468500,
+        "high52w": 822000,
+        "high60": 556000,
+        "avgVolume20": 308540.55,
+        "volumeRatio20": 0.61
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -10.16,
+        "distanceMA60Pct": -20.48,
+        "priorHigh20": 505000,
+        "priorHigh60": 556000,
+        "distancePriorHigh20Pct": -26.93,
+        "distancePriorHigh60Pct": -33.63,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.61,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 10,
+        "revisionDown": 3,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "105560",
+      "itemName": "KB금융",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "금융"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 174100,
+        "changeRate": -0.91,
+        "volume": 679189,
+        "tradingValue": 118050000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 176720.0,
+        "ma20": 174715.0,
+        "ma60": 171645.0,
+        "high20": 181700,
+        "high52w": 194500,
+        "high60": 194500,
+        "avgVolume20": 1144726.15,
+        "volumeRatio20": 0.59
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -0.35,
+        "distanceMA60Pct": 1.43,
+        "priorHigh20": 181700,
+        "priorHigh60": 194500,
+        "distancePriorHigh20Pct": -4.18,
+        "distancePriorHigh60Pct": -10.49,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.59,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 0,
+        "recentTargetMean": 235000,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 10,
+        "revisionDown": 0,
+        "risingTopics": [
+          {
+            "topic": "원가",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "환율",
+            "delta": 1.0,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "086790",
+      "itemName": "하나금융지주",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "금융"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 133700,
+        "changeRate": -1.69,
+        "volume": 633745,
+        "tradingValue": 84458000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 135480.0,
+        "ma20": 136365.0,
+        "ma60": 130978.33,
+        "high20": 142000,
+        "high52w": 142500,
+        "high60": 142500,
+        "avgVolume20": 751933.8,
+        "volumeRatio20": 0.84
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -1.95,
+        "distanceMA60Pct": 2.08,
+        "priorHigh20": 142000,
+        "priorHigh60": 142500,
+        "distancePriorHigh20Pct": -5.85,
+        "distancePriorHigh60Pct": -6.18,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.84,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 1,
+        "previousReportCount": 0,
+        "recentTargetMean": 160000,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 8,
+        "revisionDown": 0,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 1.0,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "055550",
+      "itemName": "신한지주",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "금융"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 110100,
+        "changeRate": -2.74,
+        "volume": 895919,
+        "tradingValue": 98782000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 112260.0,
+        "ma20": 111775.0,
+        "ma60": 106980.0,
+        "high20": 116500,
+        "high52w": 116500,
+        "high60": 116500,
+        "avgVolume20": 1107704.9,
+        "volumeRatio20": 0.81
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -1.5,
+        "distanceMA60Pct": 2.92,
+        "priorHigh20": 116500,
+        "priorHigh60": 116500,
+        "distancePriorHigh20Pct": -5.49,
+        "distancePriorHigh60Pct": -5.49,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.81,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 7,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "207940",
+      "itemName": "삼성바이오로직스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "바이오 대형주"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 1373000,
+        "changeRate": -1.29,
+        "volume": 37490,
+        "tradingValue": 51409000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 1394200.0,
+        "ma20": 1446300.0,
+        "ma60": 1464116.67,
+        "high20": 1611000,
+        "high52w": 1987000,
+        "high60": 1645000,
+        "avgVolume20": 40132.8,
+        "volumeRatio20": 0.93
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -5.07,
+        "distanceMA60Pct": -6.22,
+        "priorHigh20": 1611000,
+        "priorHigh60": 1645000,
+        "distancePriorHigh20Pct": -14.77,
+        "distancePriorHigh60Pct": -16.53,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.93,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 4,
+        "previousReportCount": 0,
+        "recentTargetMean": 1975000,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 5,
+        "risingTopics": [
+          {
+            "topic": "CAPEX/생산능력",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "수요",
+            "delta": 0.25,
+            "ratio": null
+          },
+          {
+            "topic": "원가",
+            "delta": 0.25,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "068270",
+      "itemName": "셀트리온",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "바이오 대형주"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 178100,
+        "changeRate": -0.22,
+        "volume": 294934,
+        "tradingValue": 52420000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 179900.0,
+        "ma20": 183190.0,
+        "ma60": 184156.67,
+        "high20": 195400,
+        "high52w": 239244,
+        "high60": 212000,
+        "avgVolume20": 395124.5,
+        "volumeRatio20": 0.75
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_below_ma60",
+        "distanceMA20Pct": -2.78,
+        "distanceMA60Pct": -3.29,
+        "priorHigh20": 195500,
+        "priorHigh60": 212000,
+        "distancePriorHigh20Pct": -8.9,
+        "distancePriorHigh60Pct": -15.99,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.75,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 2,
+        "previousReportCount": 7,
+        "recentTargetMean": 300000,
+        "targetMeanChangePct": 7.26,
+        "targetDispersionChangePct": -5.49,
+        "revisionUp": 1,
+        "revisionDown": 1,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "196170",
+      "itemName": "알테오젠",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "바이오 대형주"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 251500,
+        "changeRate": 0.8,
+        "volume": 222524,
+        "tradingValue": 55852000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 253100.0,
+        "ma20": 276950.0,
+        "ma60": 269884.18,
+        "high20": 329000,
+        "high52w": 437818,
+        "high60": 356000,
+        "avgVolume20": 545468.95,
+        "volumeRatio20": 0.41
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "below",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -9.19,
+        "distanceMA60Pct": -6.81,
+        "priorHigh20": 329000,
+        "priorHigh60": 356000,
+        "distancePriorHigh20Pct": -23.56,
+        "distancePriorHigh60Pct": -29.35,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.41,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 6,
+        "previousReportCount": 5,
+        "recentTargetMean": 468333,
+        "targetMeanChangePct": -0.78,
+        "targetDispersionChangePct": -24.05,
+        "revisionUp": 3,
+        "revisionDown": 4,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "373220",
+      "itemName": "LG에너지솔루션",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "2차전지·에너지"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 352000,
+        "changeRate": 0.43,
+        "volume": 222728,
+        "tradingValue": 78686000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 358000.0,
+        "ma20": 361750.0,
+        "ma60": 347066.67,
+        "high20": 387000,
+        "high52w": 527000,
+        "high60": 392000,
+        "avgVolume20": 315525.15,
+        "volumeRatio20": 0.71
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -2.7,
+        "distanceMA60Pct": 1.42,
+        "priorHigh20": 387000,
+        "priorHigh60": 400500,
+        "distancePriorHigh20Pct": -9.04,
+        "distancePriorHigh60Pct": -12.11,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.71,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 2,
+        "previousReportCount": 9,
+        "recentTargetMean": 530000,
+        "targetMeanChangePct": 1.06,
+        "targetDispersionChangePct": -50.38,
+        "revisionUp": 4,
+        "revisionDown": 6,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 1.0,
+            "ratio": null
+          },
+          {
+            "topic": "원가",
+            "delta": 0.389,
+            "ratio": 4.5
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "006400",
+      "itemName": "삼성SDI",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "2차전지·에너지"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 521000,
+        "changeRate": -1.51,
+        "volume": 376430,
+        "tradingValue": 195422000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 535000.0,
+        "ma20": 548250.0,
+        "ma60": 481683.33,
+        "high20": 600000,
+        "high52w": 723000,
+        "high60": 600000,
+        "avgVolume20": 425708.8,
+        "volumeRatio20": 0.88
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -4.97,
+        "distanceMA60Pct": 8.16,
+        "priorHigh20": 600000,
+        "priorHigh60": 600000,
+        "distancePriorHigh20Pct": -13.17,
+        "distancePriorHigh60Pct": -13.17,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.88,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 2,
+        "previousReportCount": 10,
+        "recentTargetMean": 900000,
+        "targetMeanChangePct": 19.3,
+        "targetDispersionChangePct": -29.59,
+        "revisionUp": 4,
+        "revisionDown": 6,
+        "risingTopics": [
+          {
+            "topic": "재고",
+            "delta": 0.5,
+            "ratio": null
+          },
+          {
+            "topic": "AI",
+            "delta": 0.4,
+            "ratio": 5.0
+          },
+          {
+            "topic": "환율",
+            "delta": 0.4,
+            "ratio": 5.0
+          },
+          {
+            "topic": "중국",
+            "delta": 0.3,
+            "ratio": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "096770",
+      "itemName": "SK이노베이션",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "2차전지·에너지"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 148700,
+        "changeRate": 5.46,
+        "volume": 999300,
+        "tradingValue": 148676000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 141240.0,
+        "ma20": 136830.0,
+        "ma60": 121836.67,
+        "high20": 164700,
+        "high52w": 164700,
+        "high60": 164700,
+        "avgVolume20": 1172691.7,
+        "volumeRatio20": 0.85
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 8.67,
+        "distanceMA60Pct": 22.05,
+        "priorHigh20": 164700,
+        "priorHigh60": 164700,
+        "distancePriorHigh20Pct": -9.71,
+        "distancePriorHigh60Pct": -9.71,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.85,
+        "volumeState": "normal",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "OK",
+        "rankingEligible": true,
+        "recentReportCount": 5,
+        "previousReportCount": 4,
+        "recentTargetMean": 194000,
+        "targetMeanChangePct": 3.33,
+        "targetDispersionChangePct": -53.33,
+        "revisionUp": 4,
+        "revisionDown": 0,
+        "risingTopics": [
+          {
+            "topic": "AI",
+            "delta": 0.2,
+            "ratio": null
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "034020",
+      "itemName": "두산에너빌리티",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "원전·발전설비"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 82700,
+        "changeRate": -4.39,
+        "volume": 4585876,
+        "tradingValue": 377610000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 85580.0,
+        "ma20": 85360.0,
+        "ma60": 78655.0,
+        "high20": 94400,
+        "high52w": 139200,
+        "high60": 94400,
+        "avgVolume20": 3052524.25,
+        "volumeRatio20": 1.5
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -3.12,
+        "distanceMA60Pct": 5.14,
+        "priorHigh20": 94400,
+        "priorHigh60": 94400,
+        "distancePriorHigh20Pct": -12.39,
+        "distancePriorHigh60Pct": -12.39,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.5,
+        "volumeState": "surge",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 10,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 1,
+        "revisionDown": 6,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "052690",
+      "itemName": "한전기술",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "원전·발전설비"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 131000,
+        "changeRate": -5.14,
+        "volume": 486579,
+        "tradingValue": 64058000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 134500.0,
+        "ma20": 129540.0,
+        "ma60": 108336.67,
+        "high20": 154100,
+        "high52w": 198000,
+        "high60": 154100,
+        "avgVolume20": 771364.5,
+        "volumeRatio20": 0.63
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 1.13,
+        "distanceMA60Pct": 20.92,
+        "priorHigh20": 154100,
+        "priorHigh60": 154100,
+        "distancePriorHigh20Pct": -14.99,
+        "distancePriorHigh60Pct": -14.99,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.63,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "LOW_SAMPLE",
+        "rankingEligible": false,
+        "recentReportCount": 2,
+        "previousReportCount": 3,
+        "recentTargetMean": 160000,
+        "targetMeanChangePct": -17.24,
+        "targetDispersionChangePct": -100.0,
+        "revisionUp": 0,
+        "revisionDown": 1,
+        "risingTopics": [
+          {
+            "topic": "환율",
+            "delta": 0.167,
+            "ratio": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "itemCode": "051600",
+      "itemName": "한전KPS",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "원전·발전설비"
+        },
+        {
+          "type": "watchlists",
+          "name": "legacy33"
+        }
+      ],
+      "market": {
+        "price": 46100,
+        "changeRate": -1.6,
+        "volume": 70447,
+        "tradingValue": 3237000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 46800.0,
+        "ma20": 46905.0,
+        "ma60": 45680.0,
+        "high20": 49700,
+        "high52w": 69000,
+        "high60": 50900,
+        "avgVolume20": 131614.2,
+        "volumeRatio20": 0.54
+      },
+      "state": {
+        "priceVsMA20": "below",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": -1.72,
+        "distanceMA60Pct": 0.92,
+        "priorHigh20": 50900,
+        "priorHigh60": 50900,
+        "distancePriorHigh20Pct": -9.43,
+        "distancePriorHigh60Pct": -9.43,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.54,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 4,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 2,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "272210",
+      "itemName": "한화시스템",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "방산"
+        },
+        {
+          "type": "themes",
+          "name": "우주항공"
+        },
+        {
+          "type": "watchlists",
+          "name": "관심종목"
+        }
+      ],
+      "market": {
+        "price": 74400,
+        "changeRate": -3.88,
+        "volume": 954059,
+        "tradingValue": 71106000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 77740.0,
+        "ma20": 72850.0,
+        "ma60": 70596.67,
+        "high20": 83000,
+        "high52w": 184000,
+        "high60": 87900,
+        "avgVolume20": 536089.7,
+        "volumeRatio20": 1.78
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 2.13,
+        "distanceMA60Pct": 5.39,
+        "priorHigh20": 83000,
+        "priorHigh60": 87900,
+        "distancePriorHigh20Pct": -10.36,
+        "distancePriorHigh60Pct": -15.36,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 1.78,
+        "volumeState": "surge",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 7,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 6,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "201490",
+      "itemName": "미투온",
+      "groups": [
+        {
+          "type": "watchlists",
+          "name": "관심종목"
+        }
+      ],
+      "market": {
+        "price": 3675,
+        "changeRate": -1.34,
+        "volume": 18096681,
+        "tradingValue": 71386000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 4046.0,
+        "ma20": 3115.25,
+        "ma60": 2454.73,
+        "high20": 4800,
+        "high52w": 6900,
+        "high60": 4800,
+        "avgVolume20": 8092777.0,
+        "volumeRatio20": 2.24
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 17.97,
+        "distanceMA60Pct": 49.71,
+        "priorHigh20": 4800,
+        "priorHigh60": 4800,
+        "distancePriorHigh20Pct": -23.44,
+        "distancePriorHigh60Pct": -23.44,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 2.24,
+        "volumeState": "surge",
+        "pullbackState": "none"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "039200",
+      "itemName": "오스코텍",
+      "groups": [
+        {
+          "type": "watchlists",
+          "name": "관심종목"
+        }
+      ],
+      "market": {
+        "price": 35800,
+        "changeRate": -1.1,
+        "volume": 74922,
+        "tradingValue": 2676000000,
+        "sourceTime": "2026-09-23T20:00:00+09:00",
+        "fresh": true
+      },
+      "technical": {
+        "ma5": 36460.0,
+        "ma20": 35687.5,
+        "ma60": 34297.5,
+        "high20": 37700,
+        "high52w": 66000,
+        "high60": 40100,
+        "avgVolume20": 111960.15,
+        "volumeRatio20": 0.67
+      },
+      "state": {
+        "priceVsMA20": "above",
+        "priceVsMA60": "above",
+        "maAlignment": "ma20_above_ma60",
+        "distanceMA20Pct": 0.32,
+        "distanceMA60Pct": 4.38,
+        "priorHigh20": 38150,
+        "priorHigh60": 40100,
+        "distancePriorHigh20Pct": -6.16,
+        "distancePriorHigh60Pct": -10.72,
+        "breakout20": "none",
+        "breakout60": "none",
+        "volumeRatio20": 0.67,
+        "volumeState": "normal",
+        "pullbackState": "near_ma20"
+      },
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 1,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "344820",
+      "itemName": "KCC글라스",
+      "groups": [
+        {
+          "type": "watchlists",
+          "name": "관심종목"
+        }
+      ],
+      "market": {
+        "price": null,
+        "changeRate": null,
+        "volume": null,
+        "tradingValue": null,
+        "sourceTime": null,
+        "fresh": null
+      },
+      "technical": {},
+      "state": {},
+      "research": {
+        "status": "NO_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "277810",
+      "itemName": "레인보우로보틱스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "로봇"
+        }
+      ],
+      "market": {
+        "price": null,
+        "changeRate": null,
+        "volume": null,
+        "tradingValue": null,
+        "sourceTime": null,
+        "fresh": null
+      },
+      "technical": {},
+      "state": {},
+      "research": {
+        "status": "NO_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "454910",
+      "itemName": "두산로보틱스",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "로봇"
+        }
+      ],
+      "market": {
+        "price": null,
+        "changeRate": null,
+        "volume": null,
+        "tradingValue": null,
+        "sourceTime": null,
+        "fresh": null
+      },
+      "technical": {},
+      "state": {},
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 0,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "108490",
+      "itemName": "로보티즈",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "로봇"
+        }
+      ],
+      "market": {
+        "price": null,
+        "changeRate": null,
+        "volume": null,
+        "tradingValue": null,
+        "sourceTime": null,
+        "fresh": null
+      },
+      "technical": {},
+      "state": {},
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 2,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    },
+    {
+      "itemCode": "058610",
+      "itemName": "에스피지",
+      "groups": [
+        {
+          "type": "sectors",
+          "name": "로봇"
+        }
+      ],
+      "market": {
+        "price": null,
+        "changeRate": null,
+        "volume": null,
+        "tradingValue": null,
+        "sourceTime": null,
+        "fresh": null
+      },
+      "technical": {},
+      "state": {},
+      "research": {
+        "status": "NO_RECENT_RESEARCH",
+        "rankingEligible": false,
+        "recentReportCount": 0,
+        "previousReportCount": 1,
+        "recentTargetMean": null,
+        "targetMeanChangePct": null,
+        "targetDispersionChangePct": null,
+        "revisionUp": 0,
+        "revisionDown": 0,
+        "risingTopics": []
+      }
+    }
+  ],
+  "methodology": {
+    "investmentRecommendation": false,
+    "buySellScoreUsed": false,
+    "researchRankingRequiresEligibleStatus": true,
+    "description": "Descriptive daily market and research intelligence report. Market, technical, state, group and research signals are kept separate; no automatic buy/sell recommendation is made."
+  }
+}
