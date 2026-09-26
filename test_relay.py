@@ -162,7 +162,7 @@ class RelayTests(unittest.TestCase):
         self.assertGreaterEqual(len(relay.universe_codes(universe)), 33)
         self.assertEqual(universe['watchlists']['legacy33'][-1], '051600')
         broken = json.loads(json.dumps(universe))
-        broken['leaders']['sector']['원전'] = ['999999']
+        broken['leaders']['sector']['원전·발전설비'] = ['999999']
         with self.assertRaises(ValueError):
             relay.validate_universe(broken)
 
@@ -250,7 +250,7 @@ class RelayTests(unittest.TestCase):
         self.assertEqual(set(written['data/core33-lite.json']['datas'][0]), set(relay.LITE_FIELDS))
         self.assertIn('data/quotes.json', written)
         self.assertIn('data/quotes-lite.json', written)
-        self.assertIn('data/groups/원전.json', written)
+        self.assertIn('data/groups/원전·발전설비.json', written)
 
     def test_failure_replaces_old_data_with_error(self):
         with patch.object(relay, 'fetch', side_effect=ValueError('upstream unavailable')), patch.object(relay, 'save') as save:
