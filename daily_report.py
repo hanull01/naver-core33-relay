@@ -184,13 +184,27 @@ def memberships(universe):
     return result
 
 
-def coverage_status(enabled_count, quote_count, technical_count, state_count):
+def coverage_status(
+    enabled_count,
+    quote_count,
+    technical_count,
+    state_count,
+    quote_status=None,
+    quote_fresh=None,
+):
     complete = (
         quote_count >= enabled_count
         and technical_count >= enabled_count
         and state_count >= enabled_count
     )
-    return "OK" if complete else "INCOMPLETE_MARKET_COVERAGE"
+
+    if not complete:
+        return "INCOMPLETE_MARKET_COVERAGE"
+
+    if quote_status != "ok" or quote_fresh is not True:
+        return "STALE_MARKET_DATA"
+
+    return "OK"
 
 
 def build_report(as_of=None):
@@ -320,6 +334,8 @@ def build_report(as_of=None):
         len(quote_idx),
         len(tech_idx),
         len(state_idx),
+        quotes.get("status"),
+        quotes.get("fresh"),
     )
 
     return {

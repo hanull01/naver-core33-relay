@@ -49,7 +49,9 @@ class DailyReportTests(unittest.TestCase):
 
     def test_coverage_status_complete(self):
         self.assertEqual(
-            daily_report.coverage_status(41, 41, 41, 41),
+            daily_report.coverage_status(
+                41, 41, 41, 41, "ok", True
+            ),
             "OK",
         )
 
@@ -57,6 +59,22 @@ class DailyReportTests(unittest.TestCase):
         self.assertEqual(
             daily_report.coverage_status(41, 36, 36, 36),
             "INCOMPLETE_MARKET_COVERAGE",
+        )
+
+    def test_coverage_status_stale(self):
+        self.assertEqual(
+            daily_report.coverage_status(
+                41, 41, 41, 41, "stale", False
+            ),
+            "STALE_MARKET_DATA",
+        )
+
+    def test_coverage_status_fresh(self):
+        self.assertEqual(
+            daily_report.coverage_status(
+                41, 41, 41, 41, "ok", True
+            ),
+            "OK",
         )
 
     def test_research_index(self):
